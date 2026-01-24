@@ -10513,7 +10513,8 @@
         "mangledName": "$s17DeenCoreFramework6ColorsO",
         "moduleName": "DeenCoreFramework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -14904,7 +14905,8 @@
         "mangledName": "$s17DeenCoreFramework5SizesO",
         "moduleName": "DeenCoreFramework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -15036,7 +15038,8 @@
         "mangledName": "$s17DeenCoreFramework12FontProviderO",
         "moduleName": "DeenCoreFramework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -15425,7 +15428,8 @@
         "mangledName": "$s17DeenCoreFramework9FontSizesO",
         "moduleName": "DeenCoreFramework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -17104,504 +17108,504 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 195,
+      "offset": 408,
       "length": 9,
       "value": "\"#141414\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 244,
-      "length": 9,
-      "value": "\"#FFFFFF\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 290,
-      "length": 9,
-      "value": "\"#1E8787\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 301,
-      "length": 9,
-      "value": "\"#28A4A2\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 349,
-      "length": 9,
-      "value": "\"#2FB68E\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 360,
-      "length": 9,
-      "value": "\"#4CBB97\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 446,
-      "length": 9,
-      "value": "\"#F8F8F8\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 457,
       "length": 9,
-      "value": "\"#141414\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 505,
-      "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 516,
+      "offset": 503,
       "length": 9,
-      "value": "\"#222326\""
+      "value": "\"#1E8787\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 563,
+      "offset": 514,
       "length": 9,
-      "value": "\"#B0B0B0\""
+      "value": "\"#28A4A2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 574,
-      "length": 9,
-      "value": "\"#454545\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 626,
-      "length": 9,
-      "value": "\"#F3F3F3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 677,
-      "length": 9,
-      "value": "\"#F2FBFA\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 729,
-      "length": 9,
-      "value": "\"#D2F5F1\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 785,
-      "length": 9,
-      "value": "\"#D7F4E6\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 838,
-      "length": 9,
-      "value": "\"#FFEAC6\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 888,
-      "length": 9,
-      "value": "\"#FFDDDD\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 941,
-      "length": 9,
-      "value": "\"#051719\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 993,
-      "length": 9,
-      "value": "\"#1A4647\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1049,
-      "length": 9,
-      "value": "\"#1A4647\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1102,
-      "length": 9,
-      "value": "\"#7A210D\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1152,
-      "length": 9,
-      "value": "\"#920A0A\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1232,
-      "length": 9,
-      "value": "\"#141414\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1243,
-      "length": 9,
-      "value": "\"#FFFFFF\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1291,
-      "length": 9,
-      "value": "\"#5D5D5D\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1302,
-      "length": 11,
-      "value": "\"#FFFFFF70\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1351,
-      "length": 9,
-      "value": "\"#D1D1D1\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1362,
-      "length": 11,
-      "value": "\"#FFFFFF30\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1408,
-      "length": 9,
-      "value": "\"#D2F5F1\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1419,
-      "length": 9,
-      "value": "\"#1A4647\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1501,
-      "length": 9,
-      "value": "\"#E7E7E7\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1512,
-      "length": 9,
-      "value": "\"#4F4F4F\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1560,
-      "length": 9,
-      "value": "\"#D1D1D1\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1571,
-      "length": 11,
-      "value": "\"#FFFFFF1A\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1653,
-      "length": 9,
-      "value": "\"#141414\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1664,
-      "length": 9,
-      "value": "\"#FFFFFF\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1712,
-      "length": 9,
-      "value": "\"#6D6D6D\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1723,
-      "length": 11,
-      "value": "\"#FFFFFF70\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1772,
-      "length": 9,
-      "value": "\"#888888\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1783,
-      "length": 11,
-      "value": "\"#FFFFFF30\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
-      "kind": "StringLiteral",
-      "offset": 1871,
+      "offset": 562,
       "length": 9,
       "value": "\"#2FB68E\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 1922,
+      "offset": 573,
+      "length": 9,
+      "value": "\"#4CBB97\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 659,
+      "length": 9,
+      "value": "\"#F8F8F8\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 670,
+      "length": 9,
+      "value": "\"#141414\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 729,
+      "length": 9,
+      "value": "\"#222326\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 776,
+      "length": 9,
+      "value": "\"#B0B0B0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 787,
+      "length": 9,
+      "value": "\"#454545\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 839,
+      "length": 9,
+      "value": "\"#F3F3F3\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 890,
+      "length": 9,
+      "value": "\"#F2FBFA\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 942,
+      "length": 9,
+      "value": "\"#D2F5F1\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 998,
+      "length": 9,
+      "value": "\"#D7F4E6\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1051,
+      "length": 9,
+      "value": "\"#FFEAC6\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1101,
+      "length": 9,
+      "value": "\"#FFDDDD\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1154,
+      "length": 9,
+      "value": "\"#051719\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1206,
+      "length": 9,
+      "value": "\"#1A4647\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1262,
+      "length": 9,
+      "value": "\"#1A4647\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1315,
+      "length": 9,
+      "value": "\"#7A210D\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1365,
+      "length": 9,
+      "value": "\"#920A0A\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1445,
+      "length": 9,
+      "value": "\"#141414\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1456,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1504,
+      "length": 9,
+      "value": "\"#5D5D5D\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1515,
+      "length": 11,
+      "value": "\"#FFFFFF70\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1564,
+      "length": 9,
+      "value": "\"#D1D1D1\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1575,
+      "length": 11,
+      "value": "\"#FFFFFF30\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1621,
+      "length": 9,
+      "value": "\"#D2F5F1\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1632,
+      "length": 9,
+      "value": "\"#1A4647\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1714,
+      "length": 9,
+      "value": "\"#E7E7E7\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1725,
+      "length": 9,
+      "value": "\"#4F4F4F\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1773,
+      "length": 9,
+      "value": "\"#D1D1D1\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1784,
+      "length": 11,
+      "value": "\"#FFFFFF1A\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1866,
+      "length": 9,
+      "value": "\"#141414\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1877,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1925,
+      "length": 9,
+      "value": "\"#6D6D6D\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1936,
+      "length": 11,
+      "value": "\"#FFFFFF70\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1985,
+      "length": 9,
+      "value": "\"#888888\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1996,
+      "length": 11,
+      "value": "\"#FFFFFF30\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 2084,
+      "length": 9,
+      "value": "\"#2FB68E\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 2135,
       "length": 9,
       "value": "\"#FF9A1F\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 1971,
+      "offset": 2184,
       "length": 9,
       "value": "\"#FF2323\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2051,
+      "offset": 2264,
       "length": 9,
       "value": "\"#EBCA28\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2095,
+      "offset": 2308,
       "length": 9,
       "value": "\"#C9FC5A\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2139,
+      "offset": 2352,
       "length": 9,
       "value": "\"#3BCCD5\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2183,
+      "offset": 2396,
       "length": 9,
       "value": "\"#79E2E7\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2227,
+      "offset": 2440,
       "length": 9,
       "value": "\"#ABEEF6\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2271,
+      "offset": 2484,
       "length": 9,
       "value": "\"#4BBC97\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2315,
+      "offset": 2528,
       "length": 9,
       "value": "\"#73B578\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2359,
+      "offset": 2572,
       "length": 9,
       "value": "\"#71D7B7\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2403,
+      "offset": 2616,
       "length": 9,
       "value": "\"#A6E9D2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2448,
+      "offset": 2661,
       "length": 9,
       "value": "\"#A08CF9\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2493,
+      "offset": 2706,
       "length": 9,
       "value": "\"#DF83EF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2538,
+      "offset": 2751,
       "length": 9,
       "value": "\"#C49ED4\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2583,
+      "offset": 2796,
       "length": 9,
       "value": "\"#50A4FF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2628,
+      "offset": 2841,
       "length": 9,
       "value": "\"#FAA282\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2685,
+      "offset": 2898,
       "length": 9,
       "value": "\"#EBCA28\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2720,
+      "offset": 2933,
       "length": 9,
       "value": "\"#C9FC5A\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2755,
+      "offset": 2968,
       "length": 9,
       "value": "\"#3BCCD5\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2790,
+      "offset": 3003,
       "length": 9,
       "value": "\"#79E2E7\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2825,
+      "offset": 3038,
       "length": 9,
       "value": "\"#ABEEF6\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2860,
+      "offset": 3073,
       "length": 9,
       "value": "\"#4BBC97\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2895,
+      "offset": 3108,
       "length": 9,
       "value": "\"#73B578\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2930,
+      "offset": 3143,
       "length": 9,
       "value": "\"#71D7B7\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2965,
+      "offset": 3178,
       "length": 9,
       "value": "\"#A6E9D2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3000,
+      "offset": 3213,
       "length": 9,
       "value": "\"#A08CF9\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3035,
+      "offset": 3248,
       "length": 9,
       "value": "\"#DF83EF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3070,
+      "offset": 3283,
       "length": 9,
       "value": "\"#C49ED4\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3105,
+      "offset": 3318,
       "length": 9,
       "value": "\"#50A4FF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3140,
+      "offset": 3353,
       "length": 9,
       "value": "\"#FAA282\""
     },
@@ -18343,413 +18347,413 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+DesignImage.swift",
       "kind": "StringLiteral",
-      "offset": 413,
+      "offset": 513,
       "length": 15,
       "value": "\"core_chevBack\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+DesignImage.swift",
       "kind": "StringLiteral",
-      "offset": 455,
+      "offset": 555,
       "length": 17,
       "value": "\"core_gradientBG\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+DesignImage.swift",
       "kind": "StringLiteral",
-      "offset": 494,
+      "offset": 594,
       "length": 12,
       "value": "\"core_share\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+FMImage.swift",
       "kind": "StringLiteral",
-      "offset": 401,
+      "offset": 496,
       "length": 17,
       "value": "\"fm_Chevron-down\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+FMImage.swift",
       "kind": "StringLiteral",
-      "offset": 440,
+      "offset": 535,
       "length": 9,
       "value": "\"fm_icon\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+FMImage.swift",
       "kind": "StringLiteral",
-      "offset": 473,
+      "offset": 568,
       "length": 13,
       "value": "\"fm_link-out\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+FMImage.swift",
       "kind": "StringLiteral",
-      "offset": 511,
+      "offset": 606,
       "length": 16,
       "value": "\"fm_location to\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+FMImage.swift",
       "kind": "StringLiteral",
-      "offset": 549,
+      "offset": 644,
       "length": 10,
       "value": "\"fm_share\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+FMImage.swift",
       "kind": "StringLiteral",
-      "offset": 580,
+      "offset": 675,
       "length": 10,
       "value": "\"fm_Users\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+QLImage.swift",
       "kind": "StringLiteral",
-      "offset": 435,
+      "offset": 526,
       "length": 19,
       "value": "\"ql_ProfilePicture\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+QLImage.swift",
       "kind": "StringLiteral",
-      "offset": 476,
+      "offset": 567,
       "length": 10,
       "value": "\"ql_quran\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+QLImage.swift",
       "kind": "StringLiteral",
-      "offset": 512,
+      "offset": 603,
       "length": 15,
       "value": "\"ql_quran_quiz\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+QLImage.swift",
       "kind": "StringLiteral",
-      "offset": 552,
+      "offset": 643,
       "length": 14,
       "value": "\"ql_fire-fill\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+QLImage.swift",
       "kind": "StringLiteral",
-      "offset": 591,
+      "offset": 682,
       "length": 9,
       "value": "\"ql_Edit\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+QLImage.swift",
       "kind": "StringLiteral",
-      "offset": 629,
+      "offset": 720,
       "length": 17,
       "value": "\"ql_stepsEnabled\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+QLImage.swift",
       "kind": "StringLiteral",
-      "offset": 676,
+      "offset": 767,
       "length": 18,
       "value": "\"ql_stepsDisabled\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+QLImage.swift",
       "kind": "StringLiteral",
-      "offset": 716,
+      "offset": 807,
       "length": 24,
       "value": "\"ql_QuranLearningQuizBG\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+QLImage.swift",
       "kind": "StringLiteral",
-      "offset": 761,
+      "offset": 852,
       "length": 9,
       "value": "\"ql_play\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+QLImage.swift",
       "kind": "StringLiteral",
-      "offset": 791,
+      "offset": 882,
       "length": 9,
       "value": "\"ql_next\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+QLImage.swift",
       "kind": "StringLiteral",
-      "offset": 825,
+      "offset": 916,
       "length": 9,
       "value": "\"ql_prev\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+QLImage.swift",
       "kind": "StringLiteral",
-      "offset": 855,
+      "offset": 946,
       "length": 9,
       "value": "\"ql_star\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+QLImage.swift",
       "kind": "StringLiteral",
-      "offset": 887,
+      "offset": 978,
       "length": 11,
       "value": "\"ql_Rating\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+QLImage.swift",
       "kind": "StringLiteral",
-      "offset": 920,
+      "offset": 1011,
       "length": 10,
       "value": "\"ql_check\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+QLImage.swift",
       "kind": "StringLiteral",
-      "offset": 952,
+      "offset": 1043,
       "length": 10,
       "value": "\"ql_error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+QLImage.swift",
       "kind": "StringLiteral",
-      "offset": 983,
+      "offset": 1074,
       "length": 9,
       "value": "\"ql_Time\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+QLImage.swift",
       "kind": "StringLiteral",
-      "offset": 1031,
+      "offset": 1122,
       "length": 27,
       "value": "\"ql_QLQHomePatchBackground\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+RHCImage.swift",
       "kind": "StringLiteral",
-      "offset": 407,
+      "offset": 503,
       "length": 11,
       "value": "\"rhc_share\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+RHCImage.swift",
       "kind": "StringLiteral",
-      "offset": 441,
+      "offset": 537,
       "length": 17,
       "value": "\"rhc_seheri_icon\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+RHCImage.swift",
       "kind": "StringLiteral",
-      "offset": 480,
+      "offset": 576,
       "length": 16,
       "value": "\"rhc_iftar_icon\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+RHCImage.swift",
       "kind": "StringLiteral",
-      "offset": 520,
+      "offset": 616,
       "length": 18,
       "value": "\"rhc_fasting_icon\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+RHCImage.swift",
       "kind": "StringLiteral",
-      "offset": 567,
+      "offset": 663,
       "length": 19,
       "value": "\"rhc_notifications\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+RHCImage.swift",
       "kind": "StringLiteral",
-      "offset": 609,
+      "offset": 705,
       "length": 16,
       "value": "\"rhc_background\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/DSResources\/DSResources+RHCImage.swift",
       "kind": "StringLiteral",
-      "offset": 648,
+      "offset": 744,
       "length": 13,
       "value": "\"rhc_home_bg\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 194,
+      "offset": 386,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 231,
+      "offset": 423,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 268,
+      "offset": 460,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 306,
+      "offset": 498,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 344,
+      "offset": 536,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 382,
+      "offset": 574,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 420,
+      "offset": 612,
       "length": 4,
       "value": "9999"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 496,
+      "offset": 688,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 538,
+      "offset": 730,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 608,
+      "offset": 800,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 648,
+      "offset": 840,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 687,
+      "offset": 879,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 757,
+      "offset": 949,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 794,
+      "offset": 986,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 831,
+      "offset": 1023,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 868,
+      "offset": 1060,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 905,
+      "offset": 1097,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 943,
+      "offset": 1135,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 981,
+      "offset": 1173,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 1019,
+      "offset": 1211,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 1058,
+      "offset": 1250,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 1103,
+      "offset": 1295,
       "length": 2,
       "value": "-4"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 1148,
+      "offset": 1340,
       "length": 2,
       "value": "-8"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 1193,
+      "offset": 1385,
       "length": 3,
       "value": "-12"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 1239,
+      "offset": 1431,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DeenCoreFramework\/Sizes\/Sizes.swift",
       "kind": "IntegerLiteral",
-      "offset": 1285,
+      "offset": 1477,
       "length": 3,
       "value": "-24"
     },

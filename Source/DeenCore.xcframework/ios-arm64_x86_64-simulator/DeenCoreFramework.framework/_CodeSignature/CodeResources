@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/DeenCoreFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Wm3G4kWG8y8xLzyQzEZBc7Z3KZc=
+		JuydaE58OA8sWOu8LyOSLAwWKAk=
 		</data>
 		<key>Modules/DeenCoreFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/DeenCoreFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		CXU8ddcnKhUC/i4OKJmv8lDbbAY=
+		9NQobZR9EKo/wVsgSHNjEk3WZkc=
 		</data>
 		<key>Modules/DeenCoreFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/DeenCoreFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Wm3G4kWG8y8xLzyQzEZBc7Z3KZc=
+		JuydaE58OA8sWOu8LyOSLAwWKAk=
 		</data>
 		<key>Modules/DeenCoreFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/DeenCoreFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Xr3w4PaidYCsgQeDyoteqy/Iukk=
+		IRTy4Q0HRovb0hqcX24ab9nCcMU=
 		</data>
 		<key>Modules/DeenCoreFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -135,7 +135,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z1Rr56rPvnpjkN5YG03GpWWbbvCKDLaPqGEq8jPLThg=
+			eCsa1w0/wU6G6JqR5H+Vt9ZCda7z7vP3ExAkX4QhnnI=
 			</data>
 		</dict>
 		<key>Modules/DeenCoreFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N9/j2z5yxHPpcXZQ3vdbjICyLzIc5877MjY0LyOxZkc=
+			UcXXuc7gjMxQTe09kOuV9V5PmOGlbz6quWSHj2siV8c=
 			</data>
 		</dict>
 		<key>Modules/DeenCoreFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -170,7 +170,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z1Rr56rPvnpjkN5YG03GpWWbbvCKDLaPqGEq8jPLThg=
+			eCsa1w0/wU6G6JqR5H+Vt9ZCda7z7vP3ExAkX4QhnnI=
 			</data>
 		</dict>
 		<key>Modules/DeenCoreFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IA0vZqBaQxdqf1LNpDTQfp9T668Za5sfJ5L/mUoD1SU=
+			9kmi/CB87jZZa9bL8Q0NaB6ByGIFmdGrcF6pEyexajg=
 			</data>
 		</dict>
 		<key>Modules/DeenCoreFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
