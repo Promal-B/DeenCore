@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "DeenCore",
-            path: "Sources/DeenCore.xcframework"
+            path: "Source/DeenCore.xcframework"
         )
     ]
 )
