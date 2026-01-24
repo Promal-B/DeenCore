@@ -1,12 +1,10 @@
-// swift-tools-version: 6.2
-// The swift-tools-version declares the minimum version of Swift required to build this package.
-
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
     name: "DeenCore",
     platforms: [
-        .iOS(.v15)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -17,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "DeenCore",
-            path: "./Sources/DeenCore.xcframework"
-        ),
+            path: "Sources/DeenCore.xcframework"
+        )
     ]
 )
