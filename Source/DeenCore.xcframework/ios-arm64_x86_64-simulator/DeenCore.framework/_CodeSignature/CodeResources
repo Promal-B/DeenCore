@@ -10,11 +10,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		DQxyqB0SJkeOTe1N1pSiaX+vvt0=
+		6VfgBXzRU2zMxDEMmcDFRwUxw+4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		M/GL2laFyydgVgU5GJDhpBjYyvQ=
+		2qYj14eMEx5h/bsubzBem129mdg=
 		</data>
 		<key>Inter-Italic-VariableFont_opsz,wght.ttf</key>
 		<data>
@@ -24,45 +24,45 @@
 		<data>
 		7lwuIv/t3vxDPJqkx2d5u3OlxoI=
 		</data>
-		<key>Modules/DeenCoreFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/DeenCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		JuydaE58OA8sWOu8LyOSLAwWKAk=
+		O5lcq+tGSKp1JpllblWko/Bfj5Y=
 		</data>
-		<key>Modules/DeenCoreFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/DeenCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ENA3ma8WY1QtBPgy4PemEMaUM8U=
+		br1TRSl4PfPTaU+vE1w+yRH5PRg=
 		</data>
-		<key>Modules/DeenCoreFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/DeenCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		9NQobZR9EKo/wVsgSHNjEk3WZkc=
+		xcwH9mfuHfn9R9Pa4UxWhayMKbA=
 		</data>
-		<key>Modules/DeenCoreFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/DeenCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ENA3ma8WY1QtBPgy4PemEMaUM8U=
+		br1TRSl4PfPTaU+vE1w+yRH5PRg=
 		</data>
-		<key>Modules/DeenCoreFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/DeenCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		L1W28A2H6az0HQlV+5mzSFVmXo4=
+		PxyWh6ibZ1QLMnSo4CoGzA3ol3Q=
 		</data>
-		<key>Modules/DeenCoreFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>Modules/DeenCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		JuydaE58OA8sWOu8LyOSLAwWKAk=
+		O5lcq+tGSKp1JpllblWko/Bfj5Y=
 		</data>
-		<key>Modules/DeenCoreFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/DeenCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6FU3KAL3CneHsQg8N+6dHuKmpA8=
+		lPUYk0o/H+gUuhCjOb2I6asmo2c=
 		</data>
-		<key>Modules/DeenCoreFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/DeenCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		IRTy4Q0HRovb0hqcX24ab9nCcMU=
+		yCbR/v7g49ZaixyhmJxk0U+QTRo=
 		</data>
-		<key>Modules/DeenCoreFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/DeenCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6FU3KAL3CneHsQg8N+6dHuKmpA8=
+		lPUYk0o/H+gUuhCjOb2I6asmo2c=
 		</data>
-		<key>Modules/DeenCoreFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/DeenCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aj1CIPN4czHZQwBaV8chYFplbms=
+		XaCalGf4RKZe1XUzEmt8UaXGIhM=
 		</data>
 		<key>NotoSerifBengali-VariableFont_wdth,wght.ttf</key>
 		<data>
@@ -114,7 +114,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UadUQLW+wtGy6Nmsb8XlpSyJqUjCY518RnrdbiAF884=
+			oGAtzD8R0a2tyE+KopjM3TY7zeLzE5QIdP/JTYUFRI4=
 			</data>
 		</dict>
 		<key>Inter-Italic-VariableFont_opsz,wght.ttf</key>
@@ -131,74 +131,74 @@
 			C+I5nqkl8fg/+XR2R2HamGDsUHQu0ppdTB/9DFx6w6g=
 			</data>
 		</dict>
-		<key>Modules/DeenCoreFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/DeenCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eCsa1w0/wU6G6JqR5H+Vt9ZCda7z7vP3ExAkX4QhnnI=
+			Rw0KZCGZoFojZKIius8DGSQ/d2kp6xSsOV1MmgBYdtk=
 			</data>
 		</dict>
-		<key>Modules/DeenCoreFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/DeenCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eHtMLUtgkdGnne9e+yuKKB0MBB1ajs1IIutVIkYK9Vo=
+			cAlYw9/5ojFIl7UUhN3G6dgLAG1KI1JlZaVpfRbVX+o=
 			</data>
 		</dict>
-		<key>Modules/DeenCoreFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/DeenCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UcXXuc7gjMxQTe09kOuV9V5PmOGlbz6quWSHj2siV8c=
+			kXS0HyLtYouYF+0kZXecbCoKSgZwJK7SognZt14PDCs=
 			</data>
 		</dict>
-		<key>Modules/DeenCoreFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/DeenCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eHtMLUtgkdGnne9e+yuKKB0MBB1ajs1IIutVIkYK9Vo=
+			cAlYw9/5ojFIl7UUhN3G6dgLAG1KI1JlZaVpfRbVX+o=
 			</data>
 		</dict>
-		<key>Modules/DeenCoreFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/DeenCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dfqSOPCvTa6mwPFHpLeytDNnVw6kMsyBgE6RX2ZTcoU=
+			1/G+qaSJ49k0JoI6ZpMfwrq8bbs6I2YAoY9GC0F3zx4=
 			</data>
 		</dict>
-		<key>Modules/DeenCoreFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>Modules/DeenCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eCsa1w0/wU6G6JqR5H+Vt9ZCda7z7vP3ExAkX4QhnnI=
+			Rw0KZCGZoFojZKIius8DGSQ/d2kp6xSsOV1MmgBYdtk=
 			</data>
 		</dict>
-		<key>Modules/DeenCoreFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/DeenCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ajLu4RM80qNFApO3ilVVqPGte3tuqQkqL2SDm7MW0hk=
+			us+odO+IYa5qL8DEPB71tFSE5GhoQOoq//bDR3dV35A=
 			</data>
 		</dict>
-		<key>Modules/DeenCoreFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/DeenCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9kmi/CB87jZZa9bL8Q0NaB6ByGIFmdGrcF6pEyexajg=
+			ErMdQzTx9mKcJlW77vajAhkRTDBZOpcxZrn5hIizZpk=
 			</data>
 		</dict>
-		<key>Modules/DeenCoreFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/DeenCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ajLu4RM80qNFApO3ilVVqPGte3tuqQkqL2SDm7MW0hk=
+			us+odO+IYa5qL8DEPB71tFSE5GhoQOoq//bDR3dV35A=
 			</data>
 		</dict>
-		<key>Modules/DeenCoreFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/DeenCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X5RgJ4Sl4Q7pkZYRyM3JwsDsZuv0lRmCOmtV/EOD+yo=
+			XE+Swo6CK+esA+Ku9nQy+VI97Uimb55AyvUip5jrrIw=
 			</data>
 		</dict>
 		<key>NotoSerifBengali-VariableFont_wdth,wght.ttf</key>

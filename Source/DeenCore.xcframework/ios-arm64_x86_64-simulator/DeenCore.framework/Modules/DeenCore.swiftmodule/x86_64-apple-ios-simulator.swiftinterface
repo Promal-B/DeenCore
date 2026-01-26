@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DeenCoreFramework
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DeenCore
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import CoreGraphics
 import CoreText
@@ -14,7 +14,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public enum Colors {
 }
-extension DeenCoreFramework.Colors {
+extension DeenCore.Colors {
   public struct Base {
     public var black: SwiftUICore.Color
     public var white: SwiftUICore.Color
@@ -61,7 +61,7 @@ extension DeenCoreFramework.Colors {
     public func staticColor(using index: Swift.Int) -> SwiftUICore.Color
   }
 }
-extension DeenCoreFramework.Colors {
+extension DeenCore.Colors {
   public struct Brand {
     public var brand50: SwiftUICore.Color
     public var brand100: SwiftUICore.Color
@@ -172,11 +172,11 @@ public protocol ImageAsset {
   var rawValue: Swift.String { get }
 }
 extension SwiftUICore.Image {
-  public init<T>(ds asset: T) where T : DeenCoreFramework.ImageAsset
+  public init<T>(ds asset: T) where T : DeenCore.ImageAsset
 }
-public typealias DesignImage = DeenCoreFramework.DSResources.DesignImage
-extension DeenCoreFramework.DSResources {
-  public enum DesignImage : Swift.String, DeenCoreFramework.ImageAsset {
+public typealias DesignImage = DeenCore.DSResources.DesignImage
+extension DeenCore.DSResources {
+  public enum DesignImage : Swift.String, DeenCore.ImageAsset {
     case chevBack
     case bgGradient
     case share
@@ -189,9 +189,9 @@ extension DeenCoreFramework.DSResources {
     }
   }
 }
-public typealias FMImage = DeenCoreFramework.DSResources.FMImage
-extension DeenCoreFramework.DSResources {
-  public enum FMImage : Swift.String, DeenCoreFramework.ImageAsset {
+public typealias FMImage = DeenCore.DSResources.FMImage
+extension DeenCore.DSResources {
+  public enum FMImage : Swift.String, DeenCore.ImageAsset {
     case chevDown
     case globe
     case linkOut
@@ -207,9 +207,9 @@ extension DeenCoreFramework.DSResources {
     }
   }
 }
-public typealias QLImage = DeenCoreFramework.DSResources.QLImage
-extension DeenCoreFramework.DSResources {
-  public enum QLImage : Swift.String, DeenCoreFramework.ImageAsset {
+public typealias QLImage = DeenCore.DSResources.QLImage
+extension DeenCore.DSResources {
+  public enum QLImage : Swift.String, DeenCore.ImageAsset {
     case profilePicture
     case quran
     case quranQuiz
@@ -236,9 +236,9 @@ extension DeenCoreFramework.DSResources {
     }
   }
 }
-public typealias RHCImage = DeenCoreFramework.DSResources.RHCImage
-extension DeenCoreFramework.DSResources {
-  public enum RHCImage : Swift.String, DeenCoreFramework.ImageAsset {
+public typealias RHCImage = DeenCore.DSResources.RHCImage
+extension DeenCore.DSResources {
+  public enum RHCImage : Swift.String, DeenCore.ImageAsset {
     case share
     case seheri
     case iftar
@@ -257,7 +257,7 @@ extension DeenCoreFramework.DSResources {
 }
 public enum Sizes {
 }
-extension DeenCoreFramework.Sizes {
+extension DeenCore.Sizes {
   public struct Radius {
     public var r100: CoreFoundation.CGFloat
     public var r200: CoreFoundation.CGFloat
@@ -294,12 +294,12 @@ extension DeenCoreFramework.Sizes {
   }
 }
 extension SwiftUICore.Font {
-  public static func alQalamQuranMajeed(size: DeenCoreFramework.FontSizes = .bodyDefault) -> SwiftUICore.Font
-  public static func surahNameEjazah(size: DeenCoreFramework.FontSizes = .bodyDefault) -> SwiftUICore.Font
-  public static func notoSerifBengali(size: DeenCoreFramework.FontSizes = .bodyDefault, weight: SwiftUICore.Font.Weight = .regular) -> SwiftUICore.Font
-  public static func inter(size: DeenCoreFramework.FontSizes = .bodyDefault, weight: SwiftUICore.Font.Weight = .regular, italic: Swift.Bool = false) -> SwiftUICore.Font
-  public static func unBangla(size: DeenCoreFramework.FontSizes = .bodyDefault, weight: SwiftUICore.Font.Weight = .regular, italic: Swift.Bool = false) -> SwiftUICore.Font
-  public static func unBanglaOutline(size: DeenCoreFramework.FontSizes = .bodyDefault) -> SwiftUICore.Font
+  public static func alQalamQuranMajeed(size: DeenCore.FontSizes = .bodyDefault) -> SwiftUICore.Font
+  public static func surahNameEjazah(size: DeenCore.FontSizes = .bodyDefault) -> SwiftUICore.Font
+  public static func notoSerifBengali(size: DeenCore.FontSizes = .bodyDefault, weight: SwiftUICore.Font.Weight = .regular) -> SwiftUICore.Font
+  public static func inter(size: DeenCore.FontSizes = .bodyDefault, weight: SwiftUICore.Font.Weight = .regular, italic: Swift.Bool = false) -> SwiftUICore.Font
+  public static func unBangla(size: DeenCore.FontSizes = .bodyDefault, weight: SwiftUICore.Font.Weight = .regular, italic: Swift.Bool = false) -> SwiftUICore.Font
+  public static func unBanglaOutline(size: DeenCore.FontSizes = .bodyDefault) -> SwiftUICore.Font
 }
 public enum FontProvider {
   public static func registerFonts()
@@ -320,36 +320,36 @@ public enum FontSizes {
 }
 public enum DesignSystem {
 }
-extension DeenCoreFramework.DesignSystem {
+extension DeenCore.DesignSystem {
   public struct Configuration {
-    public var base: DeenCoreFramework.Colors.Base
-    public var background: DeenCoreFramework.Colors.Background
-    public var text: DeenCoreFramework.Colors.Text
-    public var border: DeenCoreFramework.Colors.Border
-    public var icon: DeenCoreFramework.Colors.Icon
-    public var action: DeenCoreFramework.Colors.Action
-    public var uiColor: DeenCoreFramework.Colors.UIColors
-    public var radiusSize: DeenCoreFramework.Sizes.Radius
-    public var borderSize: DeenCoreFramework.Sizes.Border
-    public var iconSize: DeenCoreFramework.Sizes.Icon
-    public var spaceSize: DeenCoreFramework.Sizes.Space
+    public var base: DeenCore.Colors.Base
+    public var background: DeenCore.Colors.Background
+    public var text: DeenCore.Colors.Text
+    public var border: DeenCore.Colors.Border
+    public var icon: DeenCore.Colors.Icon
+    public var action: DeenCore.Colors.Action
+    public var uiColor: DeenCore.Colors.UIColors
+    public var radiusSize: DeenCore.Sizes.Radius
+    public var borderSize: DeenCore.Sizes.Border
+    public var iconSize: DeenCore.Sizes.Icon
+    public var spaceSize: DeenCore.Sizes.Space
   }
 }
 extension SwiftUICore.EnvironmentValues {
-  public var configuration: DeenCoreFramework.DesignSystem.Configuration {
+  public var configuration: DeenCore.DesignSystem.Configuration {
     get
     set
   }
 }
-extension DeenCoreFramework.DSResources.DesignImage : Swift.Equatable {}
-extension DeenCoreFramework.DSResources.DesignImage : Swift.Hashable {}
-extension DeenCoreFramework.DSResources.DesignImage : Swift.RawRepresentable {}
-extension DeenCoreFramework.DSResources.FMImage : Swift.Equatable {}
-extension DeenCoreFramework.DSResources.FMImage : Swift.Hashable {}
-extension DeenCoreFramework.DSResources.FMImage : Swift.RawRepresentable {}
-extension DeenCoreFramework.DSResources.QLImage : Swift.Equatable {}
-extension DeenCoreFramework.DSResources.QLImage : Swift.Hashable {}
-extension DeenCoreFramework.DSResources.QLImage : Swift.RawRepresentable {}
-extension DeenCoreFramework.DSResources.RHCImage : Swift.Equatable {}
-extension DeenCoreFramework.DSResources.RHCImage : Swift.Hashable {}
-extension DeenCoreFramework.DSResources.RHCImage : Swift.RawRepresentable {}
+extension DeenCore.DSResources.DesignImage : Swift.Equatable {}
+extension DeenCore.DSResources.DesignImage : Swift.Hashable {}
+extension DeenCore.DSResources.DesignImage : Swift.RawRepresentable {}
+extension DeenCore.DSResources.FMImage : Swift.Equatable {}
+extension DeenCore.DSResources.FMImage : Swift.Hashable {}
+extension DeenCore.DSResources.FMImage : Swift.RawRepresentable {}
+extension DeenCore.DSResources.QLImage : Swift.Equatable {}
+extension DeenCore.DSResources.QLImage : Swift.Hashable {}
+extension DeenCore.DSResources.QLImage : Swift.RawRepresentable {}
+extension DeenCore.DSResources.RHCImage : Swift.Equatable {}
+extension DeenCore.DSResources.RHCImage : Swift.Hashable {}
+extension DeenCore.DSResources.RHCImage : Swift.RawRepresentable {}
