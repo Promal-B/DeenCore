@@ -1,0 +1,390 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DomainModels
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import Foundation
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum AppError : Foundation.LocalizedError {
+  case invalidInput
+  case validationFailed
+  case featureUnavailable
+  case stateMismatch
+  case unknown
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+  public static func == (a: DomainModels.AppError, b: DomainModels.AppError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum AuthError : Foundation.LocalizedError {
+  case invalidCredentials
+  case tokenExpired
+  case accountLocked
+  case notLoggedIn
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+  public static func == (a: DomainModels.AuthError, b: DomainModels.AuthError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum FileError : Foundation.LocalizedError {
+  case notFound
+  case accessDenied
+  case corrupted
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+  public static func == (a: DomainModels.FileError, b: DomainModels.FileError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum NetworkError : Foundation.LocalizedError {
+  case invalidURL
+  case noInternet
+  case timeout
+  case cancelled
+  case badRequest
+  case unauthorized
+  case forbidden
+  case notFound
+  case serverError
+  case decodingFailed
+  case invalidResponse
+  case unknown
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+  public static func == (a: DomainModels.NetworkError, b: DomainModels.NetworkError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum PermissionError : Foundation.LocalizedError {
+  case cameraDenied
+  case locationDenied
+  case notificationDenied
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+  public static func == (a: DomainModels.PermissionError, b: DomainModels.PermissionError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum PersistenceError : Foundation.LocalizedError {
+  case readFailed
+  case writeFailed
+  case deleteFailed
+  case migrationFailed
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+  public static func == (a: DomainModels.PersistenceError, b: DomainModels.PersistenceError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ThirdPartyError : Foundation.LocalizedError {
+  case notInitialized
+  case failure
+  case incompatibleVersion
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+  public static func == (a: DomainModels.ThirdPartyError, b: DomainModels.ThirdPartyError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ValidationError : Foundation.LocalizedError {
+  case emptyField(Swift.String)
+  case invalidEmail
+  case invalidPassword
+  case outOfRange
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+}
+public struct PopularMosque : Swift.Identifiable {
+  public var id: Swift.Int
+  public var featureID: Swift.Int?
+  public var categoryId: Swift.Int?
+  public var title: Swift.String
+  public var location: Swift.String
+  public var imageURL: Foundation.URL?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(id: Swift.Int, featureID: Swift.Int? = nil, categoryId: Swift.Int? = nil, title: Swift.String, location: Swift.String, imageURL: Foundation.URL? = nil)
+  #endif
+  public typealias ID = Swift.Int
+}
+extension DomainModels.PopularMosque {
+  public static let preview: DomainModels.PopularMosque
+  public static let previews: [DomainModels.PopularMosque]
+}
+public struct QuizOption : Swift.Codable, Swift.Hashable {
+  public let optionID: Swift.Int?
+  public let description: Swift.String?
+  public let isCorrect: Swift.Bool?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(optionID: Swift.Int?, description: Swift.String?, isCorrect: Swift.Bool?)
+  #endif
+  public static func == (a: DomainModels.QuizOption, b: DomainModels.QuizOption) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct QuizQuestion : Swift.Codable, Swift.Identifiable, Swift.Hashable {
+  public let id: Foundation.UUID
+  public let questionID: Swift.Int?
+  public let questionTitle: Swift.String?
+  public let categoryID: Swift.Int?
+  public let levelID: Swift.Int?
+  public let quizType: Swift.Int?
+  public let onTime: Swift.String?
+  public let questionScore: Swift.Int?
+  public let questionPlaytime: Swift.Int?
+  public let questionImage: Swift.String?
+  public let isActive: Swift.Bool?
+  public let options: [DomainModels.QuizOption]?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(questionID: Swift.Int?, questionTitle: Swift.String?, categoryID: Swift.Int?, levelID: Swift.Int?, quizType: Swift.Int?, onTime: Swift.String?, questionScore: Swift.Int?, questionPlaytime: Swift.Int?, questionImage: Swift.String?, isActive: Swift.Bool?, options: [DomainModels.QuizOption]?)
+  #endif
+  public static func == (a: DomainModels.QuizQuestion, b: DomainModels.QuizQuestion) -> Swift.Bool
+  public typealias ID = Foundation.UUID
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension DomainModels.QuizQuestion {
+  public static let preview: DomainModels.QuizQuestion
+  public static let previewList: [DomainModels.QuizQuestion]
+}
+public struct QuizQuestionsResponse : Swift.Codable {
+  public let success: Swift.Bool?
+  public let message: Swift.String?
+  public let data: [DomainModels.QuizQuestion]?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(success: Swift.Bool?, message: Swift.String?, data: [DomainModels.QuizQuestion]?)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CommonCardModel : Swift.Identifiable {
+  public var id: Foundation.UUID
+  public var featureTitle: Swift.String
+  public var text: Swift.String
+  public var imageURL: Swift.String
+  public var coloredText: [Swift.String]
+  public init(id: Foundation.UUID = UUID(), featureTitle: Swift.String, text: Swift.String, imageURL: Swift.String, coloredText: [Swift.String])
+  public typealias ID = Foundation.UUID
+}
+extension DomainModels.CommonCardModel {
+  public static let previewData: DomainModels.CommonCardModel
+}
+public enum ContentDesign : Swift.String, Swift.Codable {
+  case alphabetSlide
+  case fullPageAyat
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct ContentItem : Swift.Codable, Swift.Identifiable {
+  public let title: Swift.String
+  public let text: Swift.String
+  public let textInArabic: Swift.String
+  public let imageURL1: Swift.String
+  public let imageURL2: Swift.String
+  public let imageURL3: Swift.String
+  public let contentURL: Swift.String
+  public let serial: Swift.Int
+  public let reference: Swift.String
+  public let design: Swift.String
+  public var id: Swift.String {
+    get
+  }
+  public init(title: Swift.String, text: Swift.String, textInArabic: Swift.String, imageURL1: Swift.String, imageURL2: Swift.String, imageURL3: Swift.String, contentURL: Swift.String, serial: Swift.Int, reference: Swift.String, design: Swift.String)
+  public typealias ID = Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension DomainModels.ContentItem {
+  public static let alphabetPreview: DomainModels.ContentItem
+  public static let harakatLearningIntroPreview: DomainModels.ContentItem
+  public static let fullPageAyathIntroPreview: DomainModels.ContentItem
+  public static let ayathPreview: DomainModels.ContentItem
+  public static let fullPageAyath: [DomainModels.ContentItem]
+}
+public struct LessonData : Swift.Codable {
+  public let design: DomainModels.ContentDesign
+  public let menu: [DomainModels.MenuItem]
+  public let intro: [DomainModels.ContentItem]
+  public let alphabet: [DomainModels.ContentItem]
+  public let ayath: [DomainModels.ContentItem]
+  public init(design: DomainModels.ContentDesign, menu: [DomainModels.MenuItem], intro: [DomainModels.ContentItem], alphabet: [DomainModels.ContentItem], ayath: [DomainModels.ContentItem])
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension DomainModels.LessonData {
+  public static let HarakatLearningPreview: DomainModels.LessonData
+  public static let FullPageAyath: DomainModels.LessonData
+}
+extension DomainModels.LessonData {
+  public func mapIntroToRichText() -> [DomainModels.RichTextContent]
+}
+public struct LessonResponse : Swift.Codable {
+  public let success: Swift.Bool
+  public let message: Swift.String
+  public let data: DomainModels.LessonData?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(success: Swift.Bool, message: Swift.String, data: DomainModels.LessonData?)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct MenuItem : Swift.Codable, Swift.Identifiable, Swift.Hashable {
+  public let id: Swift.Int
+  public let text: Swift.String
+  public let imageURL: Swift.String
+  public let contentType: DomainModels.ResponseContentType
+  public init(id: Swift.Int, text: Swift.String, imageURL: Swift.String, contentType: DomainModels.ResponseContentType)
+  public static func == (a: DomainModels.MenuItem, b: DomainModels.MenuItem) -> Swift.Bool
+  public typealias ID = Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension DomainModels.MenuItem {
+  public static let previewData: DomainModels.MenuItem
+  public static let previewDatas: [DomainModels.MenuItem]
+}
+public struct Module : Swift.Identifiable, Swift.Hashable {
+  public var id: Swift.Int
+  public var title: Swift.String
+  public var subTitle: Swift.String?
+  public var icon: Swift.String
+  public var contentType: DomainModels.ResponseContentType
+  public var categoryID: Swift.Int?
+  public var buttonTextColor: SwiftUICore.Color
+  public var buttonBackground: SwiftUICore.Color
+  public var gradientColor: SwiftUICore.Color
+  public var shapeColor: SwiftUICore.Color
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(id: Swift.Int, title: Swift.String, subTitle: Swift.String? = nil, icon: Swift.String, contentType: DomainModels.ResponseContentType, categoryID: Swift.Int? = nil, buttonTextColor: SwiftUICore.Color, buttonBackground: SwiftUICore.Color, gradientColor: SwiftUICore.Color, shapeColor: SwiftUICore.Color)
+  #endif
+  public static func == (a: DomainModels.Module, b: DomainModels.Module) -> Swift.Bool
+  public typealias ID = Swift.Int
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension DomainModels.Module {
+  public static let previewModules: [DomainModels.Module]
+  public static let previewModule: DomainModels.Module
+}
+public struct QuizCategory : Swift.Identifiable, Swift.Hashable {
+  public let id: Swift.String
+  public var title: Swift.String
+  public var symbolPath: Swift.String
+  public var totalQuestions: Swift.Int
+  public var categoryID: Swift.Int
+  public var subCategoryId: Swift.Int
+  public init(title: Swift.String, symbolPath: Swift.String, totalQuestions: Swift.Int, categoryID: Swift.Int, subCategoryId: Swift.Int)
+  public static func == (a: DomainModels.QuizCategory, b: DomainModels.QuizCategory) -> Swift.Bool
+  public typealias ID = Swift.String
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension DomainModels.QuizCategory {
+  public static let previewQuizCategory: DomainModels.QuizCategory
+  public static let previewQuizCategories: [DomainModels.QuizCategory]
+}
+public enum ResponseContentType : Swift.String, Swift.Hashable, Swift.Codable {
+  case gtm
+  case gtd
+  case gtdrt
+  case unknown
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension DomainModels.ResponseContentType {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct RichTextContent : Swift.Identifiable {
+  public var id: Swift.Int
+  public var title: Swift.String
+  public var text: Swift.String
+  public init(id: Swift.Int, title: Swift.String, text: Swift.String)
+  public typealias ID = Swift.Int
+}
+extension DomainModels.AppError : Swift.Equatable {}
+extension DomainModels.AppError : Swift.Hashable {}
+extension DomainModels.AuthError : Swift.Equatable {}
+extension DomainModels.AuthError : Swift.Hashable {}
+extension DomainModels.FileError : Swift.Equatable {}
+extension DomainModels.FileError : Swift.Hashable {}
+extension DomainModels.NetworkError : Swift.Equatable {}
+extension DomainModels.NetworkError : Swift.Hashable {}
+extension DomainModels.PermissionError : Swift.Equatable {}
+extension DomainModels.PermissionError : Swift.Hashable {}
+extension DomainModels.PersistenceError : Swift.Equatable {}
+extension DomainModels.PersistenceError : Swift.Hashable {}
+extension DomainModels.ThirdPartyError : Swift.Equatable {}
+extension DomainModels.ThirdPartyError : Swift.Hashable {}
+extension DomainModels.ContentDesign : Swift.Equatable {}
+extension DomainModels.ContentDesign : Swift.Hashable {}
+extension DomainModels.ContentDesign : Swift.RawRepresentable {}
+extension DomainModels.ResponseContentType : Swift.RawRepresentable {}

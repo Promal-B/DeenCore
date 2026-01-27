@@ -1,0 +1,322 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "UIComponents",
+    "printedName": "UIComponents",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HorizontalUncontainedCarousel",
+        "printedName": "HorizontalUncontainedCarousel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(items:largeItemWidth:smallItemWidth:itemSpacing:horizontalPadding:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HorizontalUncontainedCarousel",
+                "printedName": "UIComponents.HorizontalUncontainedCarousel<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:12UIComponents29HorizontalUncontainedCarouselV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) -> τ_0_1",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12UIComponents29HorizontalUncontainedCarouselV5items14largeItemWidth05smallgH011itemSpacing17horizontalPadding7contentACyxq_GSayxG_14CoreFoundation7CGFloatVA3Nq_xctcfc",
+            "mangledName": "$s12UIComponents29HorizontalUncontainedCarouselV5items14largeItemWidth05smallgH011itemSpacing17horizontalPadding7contentACyxq_GSayxG_12CoreGraphics7CGFloatVA3Nq_xctcfc",
+            "moduleName": "UIComponents",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Identifiable, τ_0_1 : SwiftUI.View>",
+            "sugared_genericSig": "<Item, Content where Item : Swift.Identifiable, Content : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents29HorizontalUncontainedCarouselV4bodyQrvp",
+            "mangledName": "$s12UIComponents29HorizontalUncontainedCarouselV4bodyQrvp",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents29HorizontalUncontainedCarouselV4bodyQrvg",
+                "mangledName": "$s12UIComponents29HorizontalUncontainedCarouselV4bodyQrvg",
+                "moduleName": "UIComponents",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Identifiable, τ_0_1 : SwiftUI.View>",
+                "sugared_genericSig": "<Item, Content where Item : Swift.Identifiable, Content : SwiftUI.View>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12UIComponents29HorizontalUncontainedCarouselV",
+        "mangledName": "$s12UIComponents29HorizontalUncontainedCarouselV",
+        "moduleName": "UIComponents",
+        "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Identifiable, τ_0_1 : SwiftUI.View>",
+        "sugared_genericSig": "<Item, Content where Item : Swift.Identifiable, Content : SwiftUI.View>",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 285,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 330,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
+      "kind": "Dictionary",
+      "offset": 622,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 701,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 740,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 775,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 815,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/HorizontalUncontainedCarousel\/ItemPositionPreference.swift",
+      "kind": "Array",
+      "offset": 344,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}
