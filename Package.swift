@@ -9,13 +9,25 @@ let package = Package(
     products: [
         .library(
             name: "DeenCore",
-            targets: ["DeenCore"]
-        ),
+            targets: ["DesignSystem", "DomainModels", "Networking", "UIComponents"]
+        )
     ],
     targets: [
         .binaryTarget(
-            name: "DeenCore",
-            path: "Source/DeenCore.xcframework"
+            name: "DesignSystem",
+            path: "Source/DesignSystem.xcframework"
+        ),
+        .binaryTarget(
+            name: "DomainModels",
+            path: "Source/DomainModels.xcframework"
+        ),
+        .binaryTarget(
+            name: "Networking",
+            path: "Source/Networking.xcframework"
+        ),
+        .binaryTarget(
+            name: "UIComponents",
+            path: "Source/UIComponents.xcframework"
         )
     ]
 )
