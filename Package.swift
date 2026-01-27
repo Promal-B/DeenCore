@@ -7,26 +7,48 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
-        .library(
-            name: "DeenCore",
-            targets: ["DesignSystem", "DomainModels", "Networking", "UIComponents"]
-        )
+        .library(name: "DesignSystem", targets: ["DesignSystem"]),
+        .library(name: "DomainModels", targets: ["DomainModels"]),
+        .library(name: "Networking", targets: ["Networking"]),
+        .library(name: "UIComponents", targets: ["UIComponents"])
     ],
     targets: [
-        .binaryTarget(
+        // Wrapper targets that expose the binary targets
+        .target(
             name: "DesignSystem",
+            dependencies: ["DesignSystemBinary"]
+        ),
+        .target(
+            name: "DomainModels",
+            dependencies: ["DomainModelsBinary"]
+        ),
+        .target(
+            name: "Networking",
+            dependencies: [
+                "NetworkingBinary",
+                "DomainModels"  // Declare the dependency here
+            ]
+        ),
+        .target(
+            name: "UIComponents",
+            dependencies: ["UIComponentsBinary"]
+        ),
+        
+        // Binary targets
+        .binaryTarget(
+            name: "DesignSystemBinary",
             path: "Source/DesignSystem.xcframework"
         ),
         .binaryTarget(
-            name: "DomainModels",
+            name: "DomainModelsBinary",
             path: "Source/DomainModels.xcframework"
         ),
         .binaryTarget(
-            name: "Networking",
+            name: "NetworkingBinary",
             path: "Source/Networking.xcframework"
         ),
         .binaryTarget(
-            name: "UIComponents",
+            name: "UIComponentsBinary",
             path: "Source/UIComponents.xcframework"
         )
     ]
