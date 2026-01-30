@@ -192,6 +192,8 @@ extension DomainModels.MosqueSection {
   public static let previewPopular: DomainModels.MosqueSection
   public static let previewFamous: DomainModels.MosqueSection
 }
+public let defaultImageURL: Foundation.URL?
+public let defaultAudioURL: Foundation.URL?
 public struct QuizOption : Swift.Codable, Swift.Hashable {
   public let optionID: Swift.Int?
   public let description: Swift.String?

@@ -5328,6 +5328,139 @@
         ]
       },
       {
+        "kind": "Var",
+        "name": "defaultImageURL",
+        "printedName": "defaultImageURL",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Foundation.URL?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12DomainModels15defaultImageURL10Foundation0E0VSgvp",
+        "mangledName": "$s12DomainModels15defaultImageURL10Foundation0E0VSgvp",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12DomainModels15defaultImageURL10Foundation0E0VSgvg",
+            "mangledName": "$s12DomainModels15defaultImageURL10Foundation0E0VSgvg",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "defaultAudioURL",
+        "printedName": "defaultAudioURL",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Foundation.URL?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12DomainModels15defaultAudioURL10Foundation0E0VSgvp",
+        "mangledName": "$s12DomainModels15defaultAudioURL10Foundation0E0VSgvp",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12DomainModels15defaultAudioURL10Foundation0E0VSgvg",
+            "mangledName": "$s12DomainModels15defaultAudioURL10Foundation0E0VSgvg",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "QuizOption",
         "printedName": "QuizOption",
@@ -13249,406 +13382,406 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 554,
+      "offset": 550,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 565,
+      "offset": 561,
       "length": 23,
       "value": "\"বাহরাইন\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 611,
+      "offset": 607,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 621,
+      "offset": 617,
       "length": 24,
       "value": "\"সৌদি আরব\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 668,
+      "offset": 664,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 679,
+      "offset": 675,
       "length": 14,
       "value": "\"ভারত\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 716,
+      "offset": 712,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 726,
+      "offset": 722,
       "length": 23,
       "value": "\"ইয়েমেন\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 772,
+      "offset": 768,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 782,
+      "offset": 778,
       "length": 29,
       "value": "\"আলজেরিয়া\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 834,
+      "offset": 830,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 844,
+      "offset": 840,
       "length": 23,
       "value": "\"সিরিয়া\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 890,
+      "offset": 886,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 901,
+      "offset": 897,
       "length": 29,
       "value": "\"পাকিস্তান\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 953,
+      "offset": 949,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 964,
+      "offset": 960,
       "length": 20,
       "value": "\"কুয়েত\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 1007,
+      "offset": 1003,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 1017,
+      "offset": 1013,
       "length": 52,
       "value": "\"সংযুক্ত আরব আমিরাত\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 1092,
+      "offset": 1088,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 1103,
+      "offset": 1099,
       "length": 14,
       "value": "\"ইরান\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 1140,
+      "offset": 1136,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 1150,
+      "offset": 1146,
       "length": 35,
       "value": "\"মালয়েশিয়া\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 1208,
+      "offset": 1204,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 1219,
+      "offset": 1215,
       "length": 35,
       "value": "\"কিরগিজস্তান\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 1277,
+      "offset": 1273,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 1288,
+      "offset": 1284,
       "length": 17,
       "value": "\"কাতার\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 1328,
+      "offset": 1324,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 1339,
+      "offset": 1335,
       "length": 35,
       "value": "\"আফগানিস্তান\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 1397,
+      "offset": 1393,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 1407,
+      "offset": 1403,
       "length": 26,
       "value": "\"বাংলাদেশ\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 1456,
+      "offset": 1452,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 1467,
+      "offset": 1463,
       "length": 20,
       "value": "\"জর্ডান\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 1510,
+      "offset": 1506,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 1521,
+      "offset": 1517,
       "length": 20,
       "value": "\"তুরস্ক\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 1564,
+      "offset": 1560,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 1575,
+      "offset": 1571,
       "length": 14,
       "value": "\"ইরাক\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 1612,
+      "offset": 1608,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 1623,
+      "offset": 1619,
       "length": 29,
       "value": "\"ফিলিস্তিন\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 1675,
+      "offset": 1671,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 1685,
+      "offset": 1681,
       "length": 20,
       "value": "\"মরক্কো\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 1728,
+      "offset": 1724,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 1738,
+      "offset": 1734,
       "length": 38,
       "value": "\"ইন্দোনেশিয়া\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
       "kind": "IntegerLiteral",
-      "offset": 1131,
+      "offset": 1127,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
       "kind": "StringLiteral",
-      "offset": 1162,
+      "offset": 1158,
       "length": 62,
       "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
       "kind": "StringLiteral",
-      "offset": 1241,
+      "offset": 1237,
       "length": 45,
       "value": "\"ইস্তিকলাল মসজিদ\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
       "kind": "StringLiteral",
-      "offset": 1302,
+      "offset": 1298,
       "length": 67,
       "value": "\"জাকার্তা • ইন্দোনেশিয়া\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
       "kind": "StringLiteral",
-      "offset": 1389,
+      "offset": 1385,
       "length": 22,
       "value": "\"১,২০,০০০\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
       "kind": "StringLiteral",
-      "offset": 1430,
+      "offset": 1426,
       "length": 38,
       "value": "\"ইন্দোনেশিয়া\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
       "kind": "StringLiteral",
-      "offset": 1491,
+      "offset": 1487,
       "length": 665,
       "value": "\"ইস্তিকলাল মসজিদ ইন্দোনেশিয়ার জাকার্তায় অবস্থিত দক্ষিণ-পূর্ব এশিয়ার সবচেয়ে বড় মসজিদ।\nএটি ১৯৭৮ সালে উদ্বোধন করা হয় এবং জাতীয় স্বাধীনতার প্রতীক হিসেবে নির্মিত হয়েছে।\nএখানে প্রায় ১,২০,০০০ মুসল্লি একসাথে নামাজ আদায় করতে পারেন।\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
       "kind": "FloatLiteral",
-      "offset": 2176,
+      "offset": 2172,
       "length": 18,
       "value": "-6.170126722012642"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
       "kind": "FloatLiteral",
-      "offset": 2215,
+      "offset": 2211,
       "length": 18,
       "value": "106.83100367166882"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
       "kind": "StringLiteral",
-      "offset": 2278,
+      "offset": 2274,
       "length": 62,
       "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
       "kind": "StringLiteral",
-      "offset": 2367,
+      "offset": 2363,
       "length": 62,
       "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
       "kind": "StringLiteral",
-      "offset": 2456,
+      "offset": 2452,
       "length": 62,
       "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
       "kind": "StringLiteral",
-      "offset": 2545,
+      "offset": 2541,
       "length": 62,
       "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
       "kind": "StringLiteral",
-      "offset": 2634,
+      "offset": 2630,
       "length": 62,
       "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
       "kind": "StringLiteral",
-      "offset": 2723,
+      "offset": 2719,
       "length": 62,
       "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
       "kind": "StringLiteral",
-      "offset": 2812,
+      "offset": 2808,
       "length": 62,
       "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
     },
@@ -13968,6 +14101,20 @@
       "value": "\"বিখ্যাত সব মসজিদ\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Preview Content\/defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 172,
+      "length": 63,
+      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Preview Content\/defaults.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 88,
+      "value": "\"https:\/\/www.orangefreesounds.com\/wp-content\/uploads\/2021\/07\/Beep-tone-sound-effect.mp3\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOption.swift",
       "kind": "StringLiteral",
       "offset": 529,
@@ -14202,281 +14349,155 @@
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Lesson.swift",
       "kind": "StringLiteral",
       "offset": 602,
-      "length": 293,
+      "length": 325,
       "value": "\"Recite Alif and Hamzah without any elongation. Stretch two-component letters for the length of one Alif. Stretch three-component letters for the length of three Alifs (such as Ayn, Nun, Waw). These letters form the foundation of Qur'an learning, so it is essential to recognize them clearly.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Lesson.swift",
       "kind": "IntegerLiteral",
-      "offset": 1039,
+      "offset": 1075,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 869,
+      "offset": 1280,
       "length": 4,
       "value": "\"ث\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 1309,
       "length": 6,
       "value": "\"Thaa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 928,
-      "length": 127,
+      "offset": 1338,
+      "length": 159,
       "value": "\"Sounds like sa. Put the tongue in the middle of your front teeth (upper and lower). The teeth will touch the tongue slightly.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1087,
-      "length": 63,
-      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 1183,
-      "length": 88,
-      "value": "\"https:\/\/www.orangefreesounds.com\/wp-content\/uploads\/2021\/07\/Beep-tone-sound-effect.mp3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 1405,
+      "offset": 1614,
       "length": 4,
       "value": "\"ا\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1439,
+      "offset": 1635,
       "length": 6,
       "value": "\"Alif\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1481,
-      "length": 63,
-      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 1581,
-      "length": 88,
-      "value": "\"https:\/\/www.orangefreesounds.com\/wp-content\/uploads\/2021\/07\/Beep-tone-sound-effect.mp3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 1725,
+      "offset": 1671,
       "length": 4,
       "value": "\"ب\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1759,
+      "offset": 1692,
       "length": 5,
       "value": "\"Baa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1800,
-      "length": 63,
-      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 1900,
-      "length": 88,
-      "value": "\"https:\/\/www.orangefreesounds.com\/wp-content\/uploads\/2021\/07\/Beep-tone-sound-effect.mp3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 2044,
+      "offset": 1727,
       "length": 4,
       "value": "\"ت\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2078,
+      "offset": 1748,
       "length": 5,
       "value": "\"Taa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2119,
-      "length": 63,
-      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 2219,
-      "length": 88,
-      "value": "\"https:\/\/www.orangefreesounds.com\/wp-content\/uploads\/2021\/07\/Beep-tone-sound-effect.mp3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 2363,
+      "offset": 1796,
       "length": 4,
       "value": "\"ث\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2397,
-      "length": 8,
-      "value": "\"ছা\""
+      "offset": 1829,
+      "length": 6,
+      "value": "\"Thaa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2432,
-      "length": 127,
+      "offset": 1862,
+      "length": 171,
       "value": "\"Sounds like sa. Put the tongue in the middle of your front teeth (upper and lower). The teeth will touch the tongue slightly.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2595,
-      "length": 63,
-      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 2695,
-      "length": 88,
-      "value": "\"https:\/\/www.orangefreesounds.com\/wp-content\/uploads\/2021\/07\/Beep-tone-sound-effect.mp3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 2839,
+      "offset": 2072,
       "length": 4,
       "value": "\"ج\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2873,
+      "offset": 2093,
       "length": 6,
       "value": "\"Jeem\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2915,
-      "length": 63,
-      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 3015,
-      "length": 88,
-      "value": "\"https:\/\/www.orangefreesounds.com\/wp-content\/uploads\/2021\/07\/Beep-tone-sound-effect.mp3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 3159,
+      "offset": 2129,
       "length": 4,
       "value": "\"ح\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 3193,
+      "offset": 2150,
       "length": 5,
       "value": "\"Haa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 3234,
-      "length": 63,
-      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 3334,
-      "length": 88,
-      "value": "\"https:\/\/www.orangefreesounds.com\/wp-content\/uploads\/2021\/07\/Beep-tone-sound-effect.mp3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 3478,
+      "offset": 2185,
       "length": 4,
       "value": "\"خ\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 3512,
+      "offset": 2206,
       "length": 6,
       "value": "\"Khaa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 3554,
-      "length": 63,
-      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 3654,
-      "length": 88,
-      "value": "\"https:\/\/www.orangefreesounds.com\/wp-content\/uploads\/2021\/07\/Beep-tone-sound-effect.mp3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 3798,
+      "offset": 2242,
       "length": 4,
       "value": "\"د\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 3832,
+      "offset": 2263,
       "length": 5,
       "value": "\"Dal\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 3873,
-      "length": 63,
-      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 3973,
-      "length": 88,
-      "value": "\"https:\/\/www.orangefreesounds.com\/wp-content\/uploads\/2021\/07\/Beep-tone-sound-effect.mp3\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
