@@ -41,7 +41,8 @@ public protocol QLService {
   #endif
 }
 public enum NetworkEnvironment {
-  case production, staging
+  case production
+  case staging
   public static func == (a: Networking.NetworkEnvironment, b: Networking.NetworkEnvironment) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
