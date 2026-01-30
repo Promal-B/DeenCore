@@ -12,157 +12,179 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+extension SwiftUICore.Color {
+  public var inverse: SwiftUICore.Color {
+    get
+  }
+  public func resolved(in scheme: SwiftUICore.ColorScheme) -> SwiftUICore.Color
+}
 public enum Colors {
 }
 extension DesignSystem.Colors {
   public struct Base {
-    public var black: SwiftUICore.Color
-    public var white: SwiftUICore.Color
-    public var primary: SwiftUICore.Color
-    public var secondary: SwiftUICore.Color
+    public let black: SwiftUICore.Color
+    public let white: SwiftUICore.Color
+    public let primary: SwiftUICore.Color
+    public let secondary: SwiftUICore.Color
+    public let contentPrimary: SwiftUICore.Color
+    public init()
   }
   public struct Background {
-    public var `default`: SwiftUICore.Color
-    public var secondary: SwiftUICore.Color
-    public var tertiary: SwiftUICore.Color
-    public var slate100: SwiftUICore.Color
-    public var brand50: SwiftUICore.Color
-    public var brand100: SwiftUICore.Color
-    public var secondary100: SwiftUICore.Color
-    public var orange100: SwiftUICore.Color
-    public var red100: SwiftUICore.Color
-    public var brand1000: SwiftUICore.Color
-    public var brand900: SwiftUICore.Color
-    public var secondary900: SwiftUICore.Color
-    public var orange900: SwiftUICore.Color
-    public var red900: SwiftUICore.Color
+    public let `default`: SwiftUICore.Color
+    public let secondary: SwiftUICore.Color
+    public let tertiary: SwiftUICore.Color
+    public let slate100: SwiftUICore.Color
+    public let brand50: SwiftUICore.Color
+    public let brand100: SwiftUICore.Color
+    public let secondary100: SwiftUICore.Color
+    public let orange100: SwiftUICore.Color
+    public let red100: SwiftUICore.Color
+    public let brand1000: SwiftUICore.Color
+    public let brand900: SwiftUICore.Color
+    public let secondary900: SwiftUICore.Color
+    public let orange900: SwiftUICore.Color
+    public let red900: SwiftUICore.Color
+    public init()
   }
   public struct Text {
-    public var `default`: SwiftUICore.Color
-    public var secondary: SwiftUICore.Color
-    public var tertiary: SwiftUICore.Color
-    public var brand: SwiftUICore.Color
+    public let `default`: SwiftUICore.Color
+    public let secondary: SwiftUICore.Color
+    public let tertiary: SwiftUICore.Color
+    public let brand: SwiftUICore.Color
+    public init()
   }
   public struct Border {
-    public var `default`: SwiftUICore.Color
-    public var secondary: SwiftUICore.Color
+    public let `default`: SwiftUICore.Color
+    public let secondary: SwiftUICore.Color
+    public init()
   }
   public struct Icon {
-    public var `default`: SwiftUICore.Color
-    public var secondary: SwiftUICore.Color
-    public var tertiary: SwiftUICore.Color
+    public let `default`: SwiftUICore.Color
+    public let secondary: SwiftUICore.Color
+    public let tertiary: SwiftUICore.Color
+    public init()
   }
   public struct Action {
-    public var positive: SwiftUICore.Color
-    public var warning: SwiftUICore.Color
-    public var error: SwiftUICore.Color
+    public let positive: SwiftUICore.Color
+    public let warning: SwiftUICore.Color
+    public let error: SwiftUICore.Color
+    public init()
   }
   public struct UIColors {
     public func staticColor(using index: Swift.Int) -> SwiftUICore.Color
+    public init()
   }
 }
 extension DesignSystem.Colors {
   public struct Brand {
-    public var brand50: SwiftUICore.Color
-    public var brand100: SwiftUICore.Color
-    public var brand200: SwiftUICore.Color
-    public var brand300: SwiftUICore.Color
-    public var brand400: SwiftUICore.Color
-    public var brand500: SwiftUICore.Color
-    public var brand600: SwiftUICore.Color
-    public var brand700: SwiftUICore.Color
-    public var brand800: SwiftUICore.Color
-    public var brand900: SwiftUICore.Color
-    public var brand1000: SwiftUICore.Color
+    public static let brand50: SwiftUICore.Color
+    public static let brand100: SwiftUICore.Color
+    public static let brand200: SwiftUICore.Color
+    public static let brand300: SwiftUICore.Color
+    public static let brand400: SwiftUICore.Color
+    public static let brand500: SwiftUICore.Color
+    public static let brand600: SwiftUICore.Color
+    public static let brand700: SwiftUICore.Color
+    public static let brand800: SwiftUICore.Color
+    public static let brand900: SwiftUICore.Color
+    public static let brand1000: SwiftUICore.Color
+    public init()
   }
   public struct BrandSecondary {
-    public var secondary50: SwiftUICore.Color
-    public var secondary100: SwiftUICore.Color
-    public var secondary200: SwiftUICore.Color
-    public var secondary300: SwiftUICore.Color
-    public var secondary400: SwiftUICore.Color
-    public var secondary500: SwiftUICore.Color
-    public var secondary600: SwiftUICore.Color
-    public var secondary700: SwiftUICore.Color
-    public var secondary800: SwiftUICore.Color
-    public var secondary900: SwiftUICore.Color
-    public var secondary1000: SwiftUICore.Color
+    public static let secondary50: SwiftUICore.Color
+    public static let secondary100: SwiftUICore.Color
+    public static let secondary200: SwiftUICore.Color
+    public static let secondary300: SwiftUICore.Color
+    public static let secondary400: SwiftUICore.Color
+    public static let secondary500: SwiftUICore.Color
+    public static let secondary600: SwiftUICore.Color
+    public static let secondary700: SwiftUICore.Color
+    public static let secondary800: SwiftUICore.Color
+    public static let secondary900: SwiftUICore.Color
+    public static let secondary1000: SwiftUICore.Color
+    public init()
   }
   public struct Black {
-    public var black100: SwiftUICore.Color
-    public var black200: SwiftUICore.Color
-    public var black300: SwiftUICore.Color
-    public var black400: SwiftUICore.Color
-    public var black500: SwiftUICore.Color
-    public var black600: SwiftUICore.Color
-    public var black700: SwiftUICore.Color
-    public var black800: SwiftUICore.Color
-    public var black900: SwiftUICore.Color
-    public var black1000: SwiftUICore.Color
+    public static let black100: SwiftUICore.Color
+    public static let black200: SwiftUICore.Color
+    public static let black300: SwiftUICore.Color
+    public static let black400: SwiftUICore.Color
+    public static let black500: SwiftUICore.Color
+    public static let black600: SwiftUICore.Color
+    public static let black700: SwiftUICore.Color
+    public static let black800: SwiftUICore.Color
+    public static let black900: SwiftUICore.Color
+    public static let black1000: SwiftUICore.Color
+    public init()
   }
   public struct White {
-    public var white50: SwiftUICore.Color
-    public var white100: SwiftUICore.Color
-    public var white200: SwiftUICore.Color
-    public var white300: SwiftUICore.Color
-    public var white400: SwiftUICore.Color
-    public var white500: SwiftUICore.Color
-    public var white600: SwiftUICore.Color
-    public var white700: SwiftUICore.Color
-    public var white800: SwiftUICore.Color
-    public var white900: SwiftUICore.Color
-    public var white1000: SwiftUICore.Color
+    public static let white50: SwiftUICore.Color
+    public static let white100: SwiftUICore.Color
+    public static let white200: SwiftUICore.Color
+    public static let white300: SwiftUICore.Color
+    public static let white400: SwiftUICore.Color
+    public static let white500: SwiftUICore.Color
+    public static let white600: SwiftUICore.Color
+    public static let white700: SwiftUICore.Color
+    public static let white800: SwiftUICore.Color
+    public static let white900: SwiftUICore.Color
+    public static let white1000: SwiftUICore.Color
+    public init()
   }
   public struct Gray {
-    public var gray50: SwiftUICore.Color
-    public var gray100: SwiftUICore.Color
-    public var gray200: SwiftUICore.Color
-    public var gray300: SwiftUICore.Color
-    public var gray400: SwiftUICore.Color
-    public var gray500: SwiftUICore.Color
-    public var gray600: SwiftUICore.Color
-    public var gray700: SwiftUICore.Color
-    public var gray800: SwiftUICore.Color
-    public var gray900: SwiftUICore.Color
-    public var gray1000: SwiftUICore.Color
+    public static let gray50: SwiftUICore.Color
+    public static let gray100: SwiftUICore.Color
+    public static let gray200: SwiftUICore.Color
+    public static let gray300: SwiftUICore.Color
+    public static let gray400: SwiftUICore.Color
+    public static let gray500: SwiftUICore.Color
+    public static let gray600: SwiftUICore.Color
+    public static let gray700: SwiftUICore.Color
+    public static let gray800: SwiftUICore.Color
+    public static let gray900: SwiftUICore.Color
+    public static let gray1000: SwiftUICore.Color
+    public init()
   }
   public struct Slate {
-    public var slate100: SwiftUICore.Color
-    public var slate200: SwiftUICore.Color
-    public var slate300: SwiftUICore.Color
-    public var slate400: SwiftUICore.Color
-    public var slate500: SwiftUICore.Color
-    public var slate600: SwiftUICore.Color
-    public var slate700: SwiftUICore.Color
-    public var slate800: SwiftUICore.Color
-    public var slate900: SwiftUICore.Color
-    public var slate1000: SwiftUICore.Color
+    public static let slate100: SwiftUICore.Color
+    public static let slate200: SwiftUICore.Color
+    public static let slate300: SwiftUICore.Color
+    public static let slate400: SwiftUICore.Color
+    public static let slate500: SwiftUICore.Color
+    public static let slate600: SwiftUICore.Color
+    public static let slate700: SwiftUICore.Color
+    public static let slate800: SwiftUICore.Color
+    public static let slate900: SwiftUICore.Color
+    public static let slate1000: SwiftUICore.Color
+    public init()
   }
   public struct Red {
-    public var red50: SwiftUICore.Color
-    public var red100: SwiftUICore.Color
-    public var red200: SwiftUICore.Color
-    public var red300: SwiftUICore.Color
-    public var red400: SwiftUICore.Color
-    public var red500: SwiftUICore.Color
-    public var red600: SwiftUICore.Color
-    public var red700: SwiftUICore.Color
-    public var red800: SwiftUICore.Color
-    public var red900: SwiftUICore.Color
-    public var red1000: SwiftUICore.Color
+    public static let red50: SwiftUICore.Color
+    public static let red100: SwiftUICore.Color
+    public static let red200: SwiftUICore.Color
+    public static let red300: SwiftUICore.Color
+    public static let red400: SwiftUICore.Color
+    public static let red500: SwiftUICore.Color
+    public static let red600: SwiftUICore.Color
+    public static let red700: SwiftUICore.Color
+    public static let red800: SwiftUICore.Color
+    public static let red900: SwiftUICore.Color
+    public static let red1000: SwiftUICore.Color
+    public init()
   }
   public struct Orange {
-    public var orange50: SwiftUICore.Color
-    public var orange100: SwiftUICore.Color
-    public var orange200: SwiftUICore.Color
-    public var orange300: SwiftUICore.Color
-    public var orange400: SwiftUICore.Color
-    public var orange500: SwiftUICore.Color
-    public var orange600: SwiftUICore.Color
-    public var orange700: SwiftUICore.Color
-    public var orange800: SwiftUICore.Color
-    public var orange900: SwiftUICore.Color
-    public var orange1000: SwiftUICore.Color
+    public static let orange50: SwiftUICore.Color
+    public static let orange100: SwiftUICore.Color
+    public static let orange200: SwiftUICore.Color
+    public static let orange300: SwiftUICore.Color
+    public static let orange400: SwiftUICore.Color
+    public static let orange500: SwiftUICore.Color
+    public static let orange600: SwiftUICore.Color
+    public static let orange700: SwiftUICore.Color
+    public static let orange800: SwiftUICore.Color
+    public static let orange900: SwiftUICore.Color
+    public static let orange1000: SwiftUICore.Color
+    public init()
   }
 }
 public enum DSResources {
@@ -174,12 +196,13 @@ public protocol ImageAsset {
 extension SwiftUICore.Image {
   public init<T>(ds asset: T) where T : DesignSystem.ImageAsset
 }
-public typealias DesignImage = DesignSystem.DSResources.DesignImage
+public typealias DSImage = DesignSystem.DSResources.DSImage
 extension DesignSystem.DSResources {
-  public enum DesignImage : Swift.String, DesignSystem.ImageAsset {
+  public enum DSImage : Swift.String, DesignSystem.ImageAsset {
     case chevBack
     case bgGradient
     case share
+    case xmark
     #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
     #endif
@@ -198,6 +221,7 @@ extension DesignSystem.DSResources {
     case location
     case share
     case user
+    case checkmark
     #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
     #endif
@@ -243,9 +267,12 @@ extension DesignSystem.DSResources {
     case seheri
     case iftar
     case fasting
-    case notification
+    case notificationOff
+    case notificationOn
     case cardBG
     case homeBG
+    case checkedDone
+    case checkmark
     #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
     #endif
@@ -258,39 +285,49 @@ extension DesignSystem.DSResources {
 public enum Sizes {
 }
 extension DesignSystem.Sizes {
-  public struct Radius {
-    public var r100: CoreFoundation.CGFloat
-    public var r200: CoreFoundation.CGFloat
-    public var r300: CoreFoundation.CGFloat
-    public var r400: CoreFoundation.CGFloat
-    public var r500: CoreFoundation.CGFloat
-    public var r600: CoreFoundation.CGFloat
-    public var full: CoreFoundation.CGFloat
-  }
   public struct Border {
-    public var border: CoreFoundation.CGFloat
-    public var focusRing: CoreFoundation.CGFloat
+    public let border: CoreFoundation.CGFloat
+    public let focusRing: CoreFoundation.CGFloat
+    public init()
   }
+}
+extension DesignSystem.Sizes {
   public struct Icon {
-    public var small: CoreFoundation.CGFloat
-    public var medium: CoreFoundation.CGFloat
-    public var large: CoreFoundation.CGFloat
+    public let small: CoreFoundation.CGFloat
+    public let medium: CoreFoundation.CGFloat
+    public let large: CoreFoundation.CGFloat
+    public init()
   }
+}
+extension DesignSystem.Sizes {
+  public struct Radius {
+    public let r100: CoreFoundation.CGFloat
+    public let r200: CoreFoundation.CGFloat
+    public let r300: CoreFoundation.CGFloat
+    public let r400: CoreFoundation.CGFloat
+    public let r500: CoreFoundation.CGFloat
+    public let r600: CoreFoundation.CGFloat
+    public let full: CoreFoundation.CGFloat
+    public init()
+  }
+}
+extension DesignSystem.Sizes {
   public struct Space {
-    public var s50: CoreFoundation.CGFloat
-    public var s100: CoreFoundation.CGFloat
-    public var s150: CoreFoundation.CGFloat
-    public var s200: CoreFoundation.CGFloat
-    public var s300: CoreFoundation.CGFloat
-    public var s400: CoreFoundation.CGFloat
-    public var s600: CoreFoundation.CGFloat
-    public var s800: CoreFoundation.CGFloat
-    public var s1200: CoreFoundation.CGFloat
-    public var negative100: CoreFoundation.CGFloat
-    public var negative200: CoreFoundation.CGFloat
-    public var negative300: CoreFoundation.CGFloat
-    public var negative400: CoreFoundation.CGFloat
-    public var negative600: CoreFoundation.CGFloat
+    public let s50: CoreFoundation.CGFloat
+    public let s100: CoreFoundation.CGFloat
+    public let s150: CoreFoundation.CGFloat
+    public let s200: CoreFoundation.CGFloat
+    public let s300: CoreFoundation.CGFloat
+    public let s400: CoreFoundation.CGFloat
+    public let s600: CoreFoundation.CGFloat
+    public let s800: CoreFoundation.CGFloat
+    public let s1200: CoreFoundation.CGFloat
+    public let negative100: CoreFoundation.CGFloat
+    public let negative200: CoreFoundation.CGFloat
+    public let negative300: CoreFoundation.CGFloat
+    public let negative400: CoreFoundation.CGFloat
+    public let negative600: CoreFoundation.CGFloat
+    public init()
   }
 }
 extension SwiftUICore.Font {
@@ -328,22 +365,23 @@ public enum Theme {
 }
 extension DesignSystem.Theme {
   public struct Configuration {
-    public var base: DesignSystem.Colors.Base
-    public var background: DesignSystem.Colors.Background
-    public var text: DesignSystem.Colors.Text
-    public var border: DesignSystem.Colors.Border
-    public var icon: DesignSystem.Colors.Icon
-    public var action: DesignSystem.Colors.Action
-    public var uiColor: DesignSystem.Colors.UIColors
-    public var radiusSize: DesignSystem.Sizes.Radius
-    public var borderSize: DesignSystem.Sizes.Border
-    public var iconSize: DesignSystem.Sizes.Icon
-    public var spaceSize: DesignSystem.Sizes.Space
+    public let base: DesignSystem.Colors.Base
+    public let background: DesignSystem.Colors.Background
+    public let text: DesignSystem.Colors.Text
+    public let border: DesignSystem.Colors.Border
+    public let icon: DesignSystem.Colors.Icon
+    public let action: DesignSystem.Colors.Action
+    public let uiColor: DesignSystem.Colors.UIColors
+    public let radiusSize: DesignSystem.Sizes.Radius
+    public let borderSize: DesignSystem.Sizes.Border
+    public let iconSize: DesignSystem.Sizes.Icon
+    public let spaceSize: DesignSystem.Sizes.Space
+    public init(base: DesignSystem.Colors.Base = Colors.Base(), background: DesignSystem.Colors.Background = Colors.Background(), text: DesignSystem.Colors.Text = Colors.Text(), border: DesignSystem.Colors.Border = Colors.Border(), icon: DesignSystem.Colors.Icon = Colors.Icon(), action: DesignSystem.Colors.Action = Colors.Action(), uiColor: DesignSystem.Colors.UIColors = Colors.UIColors(), radiusSize: DesignSystem.Sizes.Radius = Sizes.Radius(), borderSize: DesignSystem.Sizes.Border = Sizes.Border(), iconSize: DesignSystem.Sizes.Icon = Sizes.Icon(), spaceSize: DesignSystem.Sizes.Space = Sizes.Space())
   }
 }
-extension DesignSystem.DSResources.DesignImage : Swift.Equatable {}
-extension DesignSystem.DSResources.DesignImage : Swift.Hashable {}
-extension DesignSystem.DSResources.DesignImage : Swift.RawRepresentable {}
+extension DesignSystem.DSResources.DSImage : Swift.Equatable {}
+extension DesignSystem.DSResources.DSImage : Swift.Hashable {}
+extension DesignSystem.DSResources.DSImage : Swift.RawRepresentable {}
 extension DesignSystem.DSResources.FMImage : Swift.Equatable {}
 extension DesignSystem.DSResources.FMImage : Swift.Hashable {}
 extension DesignSystem.DSResources.FMImage : Swift.RawRepresentable {}

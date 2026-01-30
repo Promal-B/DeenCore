@@ -14,4 +14,8 @@ import _SwiftConcurrencyShims
   }
   public typealias Body = @_opaqueReturnTypeOf("$s12UIComponents29HorizontalUncontainedCarouselV4bodyQrvp", 0) __<Item, Content>
 }
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func anchoredPopup<Content>(_ isPresented: SwiftUICore.Binding<Swift.Bool>, color: SwiftUICore.Color, radius: CoreFoundation.CGFloat = 0, @SwiftUICore.ViewBuilder content: @escaping () -> Content) -> some SwiftUICore.View where Content : SwiftUICore.View
+  
+}
 extension UIComponents.HorizontalUncontainedCarousel : Swift.Sendable {}

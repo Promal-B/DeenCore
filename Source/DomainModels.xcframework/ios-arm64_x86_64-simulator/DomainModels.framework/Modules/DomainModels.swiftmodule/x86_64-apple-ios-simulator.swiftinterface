@@ -64,21 +64,16 @@ public enum NetworkError : Foundation.LocalizedError {
   case badRequest
   case unauthorized
   case forbidden
-  case notFound
-  case serverError
+  case dataNotAvailable
+  case serverError(Swift.String)
   case decodingFailed
   case invalidResponse
-  case unknown
+  case unknown(Swift.String)
   #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
   #endif
-  public static func == (a: DomainModels.NetworkError, b: DomainModels.NetworkError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
 }
 public enum PermissionError : Foundation.LocalizedError {
   case cameraDenied
@@ -137,21 +132,65 @@ public enum ValidationError : Foundation.LocalizedError {
   }
   #endif
 }
-public struct PopularMosque : Swift.Identifiable {
+public struct Country : Swift.Identifiable, Swift.Codable, Swift.Equatable {
+  public let id: Swift.Int
+  public let title: Swift.String
+  public init(id: Swift.Int, title: Swift.String)
+  public static func == (a: DomainModels.Country, b: DomainModels.Country) -> Swift.Bool
+  public typealias ID = Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension DomainModels.Country {
+  public static let preview: DomainModels.Country
+  public static let previews: [DomainModels.Country]
+}
+public struct MosqueDetails : Swift.Codable, Swift.Identifiable {
+  public let id: Swift.Int
+  public let banner: Foundation.URL?
+  public let name: Swift.String
+  public let city: Swift.String
+  public let capacity: Swift.String
+  public let country: Swift.String
+  public let description: Swift.String
+  public let latitude: Swift.Double
+  public let longitude: Swift.Double
+  public let gallery: [Foundation.URL?]
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(id: Swift.Int, banner: Foundation.URL?, name: Swift.String, city: Swift.String, capacity: Swift.String, country: Swift.String, description: Swift.String, latitude: Swift.Double, longitude: Swift.Double, gallery: [Foundation.URL?])
+  #endif
+  public typealias ID = Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension DomainModels.MosqueDetails {
+  public static let preview: DomainModels.MosqueDetails
+}
+public struct MosqueOverview : Swift.Identifiable, Swift.Equatable {
   public var id: Swift.Int
-  public var featureID: Swift.Int?
-  public var categoryId: Swift.Int?
   public var title: Swift.String
   public var location: Swift.String
   public var imageURL: Foundation.URL?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(id: Swift.Int, featureID: Swift.Int? = nil, categoryId: Swift.Int? = nil, title: Swift.String, location: Swift.String, imageURL: Foundation.URL? = nil)
+  public init(id: Swift.Int, title: Swift.String, location: Swift.String, imageURL: Foundation.URL? = nil)
   #endif
+  public static func == (a: DomainModels.MosqueOverview, b: DomainModels.MosqueOverview) -> Swift.Bool
   public typealias ID = Swift.Int
 }
-extension DomainModels.PopularMosque {
-  public static let preview: DomainModels.PopularMosque
-  public static let previews: [DomainModels.PopularMosque]
+extension DomainModels.MosqueOverview {
+  public static let preview: DomainModels.MosqueOverview
+  public static let previews: [DomainModels.MosqueOverview]
+}
+public struct MosqueSection : Swift.Identifiable {
+  public let id: Swift.Int
+  public let title: Swift.String
+  public var items: [DomainModels.MosqueOverview]
+  public init(id: Swift.Int, title: Swift.String, items: [DomainModels.MosqueOverview])
+  public typealias ID = Swift.Int
+}
+extension DomainModels.MosqueSection {
+  public static let previewPopular: DomainModels.MosqueSection
+  public static let previewFamous: DomainModels.MosqueSection
 }
 public struct QuizOption : Swift.Codable, Swift.Hashable {
   public let optionID: Swift.Int?
@@ -273,16 +312,6 @@ extension DomainModels.LessonData {
 extension DomainModels.LessonData {
   public func mapIntroToRichText() -> [DomainModels.RichTextContent]
 }
-public struct LessonResponse : Swift.Codable {
-  public let success: Swift.Bool
-  public let message: Swift.String
-  public let data: DomainModels.LessonData?
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(success: Swift.Bool, message: Swift.String, data: DomainModels.LessonData?)
-  #endif
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
 public struct MenuItem : Swift.Codable, Swift.Identifiable, Swift.Hashable {
   public let id: Swift.Int
   public let text: Swift.String
@@ -363,6 +392,14 @@ extension DomainModels.ResponseContentType {
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
+public struct Pagination : Swift.Codable {
+  public let hasPrevious: Swift.Bool
+  public let hasNext: Swift.Bool
+  public let totalPage: Swift.Int
+  public init(hasPrevious: Swift.Bool, hasNext: Swift.Bool, totalPage: Swift.Int)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct RichTextContent : Swift.Identifiable {
   public var id: Swift.Int
   public var title: Swift.String
@@ -376,8 +413,6 @@ extension DomainModels.AuthError : Swift.Equatable {}
 extension DomainModels.AuthError : Swift.Hashable {}
 extension DomainModels.FileError : Swift.Equatable {}
 extension DomainModels.FileError : Swift.Hashable {}
-extension DomainModels.NetworkError : Swift.Equatable {}
-extension DomainModels.NetworkError : Swift.Hashable {}
 extension DomainModels.PermissionError : Swift.Equatable {}
 extension DomainModels.PermissionError : Swift.Hashable {}
 extension DomainModels.PersistenceError : Swift.Equatable {}

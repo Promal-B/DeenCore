@@ -1429,8 +1429,8 @@
           },
           {
             "kind": "Var",
-            "name": "notFound",
-            "printedName": "notFound",
+            "name": "dataNotAvailable",
+            "printedName": "dataNotAvailable",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -1460,8 +1460,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12DomainModels12NetworkErrorO8notFoundyA2CmF",
-            "mangledName": "$s12DomainModels12NetworkErrorO8notFoundyA2CmF",
+            "usr": "s:12DomainModels12NetworkErrorO16dataNotAvailableyA2CmF",
+            "mangledName": "$s12DomainModels12NetworkErrorO16dataNotAvailableyA2CmF",
             "moduleName": "DomainModels"
           },
           {
@@ -1472,13 +1472,26 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(DomainModels.NetworkError.Type) -> DomainModels.NetworkError",
+                "printedName": "(DomainModels.NetworkError.Type) -> (Swift.String) -> DomainModels.NetworkError",
                 "children": [
                   {
-                    "kind": "TypeNominal",
-                    "name": "NetworkError",
-                    "printedName": "DomainModels.NetworkError",
-                    "usr": "s:12DomainModels12NetworkErrorO"
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> DomainModels.NetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "DomainModels.NetworkError",
+                        "usr": "s:12DomainModels12NetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
                   },
                   {
                     "kind": "TypeNominal",
@@ -1497,8 +1510,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12DomainModels12NetworkErrorO06serverD0yA2CmF",
-            "mangledName": "$s12DomainModels12NetworkErrorO06serverD0yA2CmF",
+            "usr": "s:12DomainModels12NetworkErrorO06serverD0yACSScACmF",
+            "mangledName": "$s12DomainModels12NetworkErrorO06serverD0yACSScACmF",
             "moduleName": "DomainModels"
           },
           {
@@ -1583,13 +1596,26 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(DomainModels.NetworkError.Type) -> DomainModels.NetworkError",
+                "printedName": "(DomainModels.NetworkError.Type) -> (Swift.String) -> DomainModels.NetworkError",
                 "children": [
                   {
-                    "kind": "TypeNominal",
-                    "name": "NetworkError",
-                    "printedName": "DomainModels.NetworkError",
-                    "usr": "s:12DomainModels12NetworkErrorO"
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> DomainModels.NetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "DomainModels.NetworkError",
+                        "usr": "s:12DomainModels12NetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
                   },
                   {
                     "kind": "TypeNominal",
@@ -1608,8 +1634,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12DomainModels12NetworkErrorO7unknownyA2CmF",
-            "mangledName": "$s12DomainModels12NetworkErrorO7unknownyA2CmF",
+            "usr": "s:12DomainModels12NetworkErrorO7unknownyACSScACmF",
+            "mangledName": "$s12DomainModels12NetworkErrorO7unknownyACSScACmF",
             "moduleName": "DomainModels"
           },
           {
@@ -1667,102 +1693,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetworkError",
-                "printedName": "DomainModels.NetworkError",
-                "usr": "s:12DomainModels12NetworkErrorO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetworkError",
-                "printedName": "DomainModels.NetworkError",
-                "usr": "s:12DomainModels12NetworkErrorO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12DomainModels12NetworkErrorO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s12DomainModels12NetworkErrorO2eeoiySbAC_ACtFZ",
-            "moduleName": "DomainModels",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12DomainModels12NetworkErrorO9hashValueSivp",
-            "mangledName": "$s12DomainModels12NetworkErrorO9hashValueSivp",
-            "moduleName": "DomainModels",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12DomainModels12NetworkErrorO9hashValueSivg",
-                "mangledName": "$s12DomainModels12NetworkErrorO9hashValueSivg",
-                "moduleName": "DomainModels",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12DomainModels12NetworkErrorO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s12DomainModels12NetworkErrorO4hash4intoys6HasherVz_tF",
-            "moduleName": "DomainModels",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -1787,20 +1717,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -3205,8 +3121,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PopularMosque",
-        "printedName": "PopularMosque",
+        "name": "Country",
+        "printedName": "Country",
         "children": [
           {
             "kind": "Var",
@@ -3221,13 +3137,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels13PopularMosqueV2idSivp",
-            "mangledName": "$s12DomainModels13PopularMosqueV2idSivp",
+            "usr": "s:12DomainModels7CountryV2idSivp",
+            "mangledName": "$s12DomainModels7CountryV2idSivp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -3243,85 +3160,444 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV2idSivg",
-                "mangledName": "$s12DomainModels13PopularMosqueV2idSivg",
+                "usr": "s:12DomainModels7CountryV2idSivg",
+                "mangledName": "$s12DomainModels7CountryV2idSivg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV2idSivs",
-                "mangledName": "$s12DomainModels13PopularMosqueV2idSivs",
-                "moduleName": "DomainModels",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV2idSivM",
-                "mangledName": "$s12DomainModels13PopularMosqueV2idSivM",
-                "moduleName": "DomainModels",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
           {
             "kind": "Var",
-            "name": "featureID",
-            "printedName": "featureID",
+            "name": "title",
+            "printedName": "title",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels7CountryV5titleSSvp",
+            "mangledName": "$s12DomainModels7CountryV5titleSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels7CountryV5titleSSvg",
+                "mangledName": "$s12DomainModels7CountryV5titleSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:title:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Country",
+                "printedName": "DomainModels.Country",
+                "usr": "s:12DomainModels7CountryV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DomainModels7CountryV2id5titleACSi_SStcfc",
+            "mangledName": "$s12DomainModels7CountryV2id5titleACSi_SStcfc",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Country",
+                "printedName": "DomainModels.Country",
+                "usr": "s:12DomainModels7CountryV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DomainModels7CountryV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12DomainModels7CountryV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DomainModels7CountryV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12DomainModels7CountryV6encode2toys7Encoder_p_tKF",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Country",
+                "printedName": "DomainModels.Country",
+                "usr": "s:12DomainModels7CountryV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Country",
+                "printedName": "DomainModels.Country",
+                "usr": "s:12DomainModels7CountryV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DomainModels7CountryV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12DomainModels7CountryV2eeoiySbAC_ACtFZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "preview",
+            "printedName": "preview",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Country",
+                "printedName": "DomainModels.Country",
+                "usr": "s:12DomainModels7CountryV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels7CountryV7previewACvpZ",
+            "mangledName": "$s12DomainModels7CountryV7previewACvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "DomainModels.Country",
+                    "usr": "s:12DomainModels7CountryV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels7CountryV7previewACvgZ",
+                "mangledName": "$s12DomainModels7CountryV7previewACvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previews",
+            "printedName": "previews",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.Country]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "DomainModels.Country",
+                    "usr": "s:12DomainModels7CountryV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels7CountryV8previewsSayACGvpZ",
+            "mangledName": "$s12DomainModels7CountryV8previewsSayACGvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DomainModels.Country]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "DomainModels.Country",
+                        "usr": "s:12DomainModels7CountryV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels7CountryV8previewsSayACGvgZ",
+                "mangledName": "$s12DomainModels7CountryV8previewsSayACGvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12DomainModels7CountryV",
+        "mangledName": "$s12DomainModels7CountryV",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Int",
                     "printedName": "Swift.Int",
                     "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MosqueDetails",
+        "printedName": "MosqueDetails",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13MosqueDetailsV2idSivp",
+            "mangledName": "$s12DomainModels13MosqueDetailsV2idSivp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueDetailsV2idSivg",
+                "mangledName": "$s12DomainModels13MosqueDetailsV2idSivg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "banner",
+            "printedName": "banner",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels13PopularMosqueV9featureIDSiSgvp",
-            "mangledName": "$s12DomainModels13PopularMosqueV9featureIDSiSgvp",
+            "usr": "s:12DomainModels13MosqueDetailsV6banner10Foundation3URLVSgvp",
+            "mangledName": "$s12DomainModels13MosqueDetailsV6banner10Foundation3URLVSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -3332,86 +3608,718 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Int?",
+                    "printedName": "Foundation.URL?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV9featureIDSiSgvg",
-                "mangledName": "$s12DomainModels13PopularMosqueV9featureIDSiSgvg",
+                "usr": "s:12DomainModels13MosqueDetailsV6banner10Foundation3URLVSgvg",
+                "mangledName": "$s12DomainModels13MosqueDetailsV6banner10Foundation3URLVSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV9featureIDSiSgvs",
-                "mangledName": "$s12DomainModels13PopularMosqueV9featureIDSiSgvs",
-                "moduleName": "DomainModels",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV9featureIDSiSgvM",
-                "mangledName": "$s12DomainModels13PopularMosqueV9featureIDSiSgvM",
-                "moduleName": "DomainModels",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
           {
             "kind": "Var",
-            "name": "categoryId",
-            "printedName": "categoryId",
+            "name": "name",
+            "printedName": "name",
             "children": [
               {
                 "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13MosqueDetailsV4nameSSvp",
+            "mangledName": "$s12DomainModels13MosqueDetailsV4nameSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueDetailsV4nameSSvg",
+                "mangledName": "$s12DomainModels13MosqueDetailsV4nameSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "city",
+            "printedName": "city",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13MosqueDetailsV4citySSvp",
+            "mangledName": "$s12DomainModels13MosqueDetailsV4citySSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueDetailsV4citySSvg",
+                "mangledName": "$s12DomainModels13MosqueDetailsV4citySSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "capacity",
+            "printedName": "capacity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13MosqueDetailsV8capacitySSvp",
+            "mangledName": "$s12DomainModels13MosqueDetailsV8capacitySSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueDetailsV8capacitySSvg",
+                "mangledName": "$s12DomainModels13MosqueDetailsV8capacitySSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "country",
+            "printedName": "country",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13MosqueDetailsV7countrySSvp",
+            "mangledName": "$s12DomainModels13MosqueDetailsV7countrySSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueDetailsV7countrySSvg",
+                "mangledName": "$s12DomainModels13MosqueDetailsV7countrySSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13MosqueDetailsV11descriptionSSvp",
+            "mangledName": "$s12DomainModels13MosqueDetailsV11descriptionSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueDetailsV11descriptionSSvg",
+                "mangledName": "$s12DomainModels13MosqueDetailsV11descriptionSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "latitude",
+            "printedName": "latitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13MosqueDetailsV8latitudeSdvp",
+            "mangledName": "$s12DomainModels13MosqueDetailsV8latitudeSdvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueDetailsV8latitudeSdvg",
+                "mangledName": "$s12DomainModels13MosqueDetailsV8latitudeSdvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "longitude",
+            "printedName": "longitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13MosqueDetailsV9longitudeSdvp",
+            "mangledName": "$s12DomainModels13MosqueDetailsV9longitudeSdvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueDetailsV9longitudeSdvg",
+                "mangledName": "$s12DomainModels13MosqueDetailsV9longitudeSdvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gallery",
+            "printedName": "gallery",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.URL?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13MosqueDetailsV7gallerySay10Foundation3URLVSgGvp",
+            "mangledName": "$s12DomainModels13MosqueDetailsV7gallerySay10Foundation3URLVSgGvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Foundation.URL?]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URL?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueDetailsV7gallerySay10Foundation3URLVSgGvg",
+                "mangledName": "$s12DomainModels13MosqueDetailsV7gallerySay10Foundation3URLVSgGvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:banner:name:city:capacity:country:description:latitude:longitude:gallery:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MosqueDetails",
+                "printedName": "DomainModels.MosqueDetails",
+                "usr": "s:12DomainModels13MosqueDetailsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Int?",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.URL?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DomainModels13MosqueDetailsV2id6banner4name4city8capacity7country11description8latitude9longitude7galleryACSi_10Foundation3URLVSgS5SS2dSayAQGtcfc",
+            "mangledName": "$s12DomainModels13MosqueDetailsV2id6banner4name4city8capacity7country11description8latitude9longitude7galleryACSi_10Foundation3URLVSgS5SS2dSayAQGtcfc",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MosqueDetails",
+                "printedName": "DomainModels.MosqueDetails",
+                "usr": "s:12DomainModels13MosqueDetailsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DomainModels13MosqueDetailsV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12DomainModels13MosqueDetailsV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DomainModels13MosqueDetailsV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12DomainModels13MosqueDetailsV6encode2toys7Encoder_p_tKF",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "preview",
+            "printedName": "preview",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MosqueDetails",
+                "printedName": "DomainModels.MosqueDetails",
+                "usr": "s:12DomainModels13MosqueDetailsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13MosqueDetailsV7previewACvpZ",
+            "mangledName": "$s12DomainModels13MosqueDetailsV7previewACvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MosqueDetails",
+                    "printedName": "DomainModels.MosqueDetails",
+                    "usr": "s:12DomainModels13MosqueDetailsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueDetailsV7previewACvgZ",
+                "mangledName": "$s12DomainModels13MosqueDetailsV7previewACvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12DomainModels13MosqueDetailsV",
+        "mangledName": "$s12DomainModels13MosqueDetailsV",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MosqueOverview",
+        "printedName": "MosqueOverview",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels14MosqueOverviewV2idSivp",
+            "mangledName": "$s12DomainModels14MosqueOverviewV2idSivp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3420,43 +4328,9 @@
                     "usr": "s:Si"
                   }
                 ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12DomainModels13PopularMosqueV10categoryIdSiSgvp",
-            "mangledName": "$s12DomainModels13PopularMosqueV10categoryIdSiSgvp",
-            "moduleName": "DomainModels",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV10categoryIdSiSgvg",
-                "mangledName": "$s12DomainModels13PopularMosqueV10categoryIdSiSgvg",
+                "usr": "s:12DomainModels14MosqueOverviewV2idSivg",
+                "mangledName": "$s12DomainModels14MosqueOverviewV2idSivg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3473,22 +4347,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV10categoryIdSiSgvs",
-                "mangledName": "$s12DomainModels13PopularMosqueV10categoryIdSiSgvs",
+                "usr": "s:12DomainModels14MosqueOverviewV2idSivs",
+                "mangledName": "$s12DomainModels14MosqueOverviewV2idSivs",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3505,8 +4371,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV10categoryIdSiSgvM",
-                "mangledName": "$s12DomainModels13PopularMosqueV10categoryIdSiSgvM",
+                "usr": "s:12DomainModels14MosqueOverviewV2idSivM",
+                "mangledName": "$s12DomainModels14MosqueOverviewV2idSivM",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3526,8 +4392,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels13PopularMosqueV5titleSSvp",
-            "mangledName": "$s12DomainModels13PopularMosqueV5titleSSvp",
+            "usr": "s:12DomainModels14MosqueOverviewV5titleSSvp",
+            "mangledName": "$s12DomainModels14MosqueOverviewV5titleSSvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -3548,8 +4414,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV5titleSSvg",
-                "mangledName": "$s12DomainModels13PopularMosqueV5titleSSvg",
+                "usr": "s:12DomainModels14MosqueOverviewV5titleSSvg",
+                "mangledName": "$s12DomainModels14MosqueOverviewV5titleSSvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3572,8 +4438,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV5titleSSvs",
-                "mangledName": "$s12DomainModels13PopularMosqueV5titleSSvs",
+                "usr": "s:12DomainModels14MosqueOverviewV5titleSSvs",
+                "mangledName": "$s12DomainModels14MosqueOverviewV5titleSSvs",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3590,8 +4456,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV5titleSSvM",
-                "mangledName": "$s12DomainModels13PopularMosqueV5titleSSvM",
+                "usr": "s:12DomainModels14MosqueOverviewV5titleSSvM",
+                "mangledName": "$s12DomainModels14MosqueOverviewV5titleSSvM",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3611,8 +4477,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels13PopularMosqueV8locationSSvp",
-            "mangledName": "$s12DomainModels13PopularMosqueV8locationSSvp",
+            "usr": "s:12DomainModels14MosqueOverviewV8locationSSvp",
+            "mangledName": "$s12DomainModels14MosqueOverviewV8locationSSvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -3633,8 +4499,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV8locationSSvg",
-                "mangledName": "$s12DomainModels13PopularMosqueV8locationSSvg",
+                "usr": "s:12DomainModels14MosqueOverviewV8locationSSvg",
+                "mangledName": "$s12DomainModels14MosqueOverviewV8locationSSvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3657,8 +4523,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV8locationSSvs",
-                "mangledName": "$s12DomainModels13PopularMosqueV8locationSSvs",
+                "usr": "s:12DomainModels14MosqueOverviewV8locationSSvs",
+                "mangledName": "$s12DomainModels14MosqueOverviewV8locationSSvs",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3675,8 +4541,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV8locationSSvM",
-                "mangledName": "$s12DomainModels13PopularMosqueV8locationSSvM",
+                "usr": "s:12DomainModels14MosqueOverviewV8locationSSvM",
+                "mangledName": "$s12DomainModels14MosqueOverviewV8locationSSvM",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3704,8 +4570,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels13PopularMosqueV8imageURL10Foundation0F0VSgvp",
-            "mangledName": "$s12DomainModels13PopularMosqueV8imageURL10Foundation0F0VSgvp",
+            "usr": "s:12DomainModels14MosqueOverviewV8imageURL10Foundation0F0VSgvp",
+            "mangledName": "$s12DomainModels14MosqueOverviewV8imageURL10Foundation0F0VSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasInitialValue",
@@ -3735,8 +4601,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV8imageURL10Foundation0F0VSgvg",
-                "mangledName": "$s12DomainModels13PopularMosqueV8imageURL10Foundation0F0VSgvg",
+                "usr": "s:12DomainModels14MosqueOverviewV8imageURL10Foundation0F0VSgvg",
+                "mangledName": "$s12DomainModels14MosqueOverviewV8imageURL10Foundation0F0VSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3767,8 +4633,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV8imageURL10Foundation0F0VSgvs",
-                "mangledName": "$s12DomainModels13PopularMosqueV8imageURL10Foundation0F0VSgvs",
+                "usr": "s:12DomainModels14MosqueOverviewV8imageURL10Foundation0F0VSgvs",
+                "mangledName": "$s12DomainModels14MosqueOverviewV8imageURL10Foundation0F0VSgvs",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3785,8 +4651,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV8imageURL10Foundation0F0VSgvM",
-                "mangledName": "$s12DomainModels13PopularMosqueV8imageURL10Foundation0F0VSgvM",
+                "usr": "s:12DomainModels14MosqueOverviewV8imageURL10Foundation0F0VSgvM",
+                "mangledName": "$s12DomainModels14MosqueOverviewV8imageURL10Foundation0F0VSgvM",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3796,49 +4662,19 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(id:featureID:categoryId:title:location:imageURL:)",
+            "printedName": "init(id:title:location:imageURL:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "PopularMosque",
-                "printedName": "DomainModels.PopularMosque",
-                "usr": "s:12DomainModels13PopularMosqueV"
+                "name": "MosqueOverview",
+                "printedName": "DomainModels.MosqueOverview",
+                "usr": "s:12DomainModels14MosqueOverviewV"
               },
               {
                 "kind": "TypeNominal",
                 "name": "Int",
                 "printedName": "Swift.Int",
                 "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -3869,13 +4705,45 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12DomainModels13PopularMosqueV2id9featureID10categoryId5title8location8imageURLACSi_SiSgAJS2S10Foundation0M0VSgtcfc",
-            "mangledName": "$s12DomainModels13PopularMosqueV2id9featureID10categoryId5title8location8imageURLACSi_SiSgAJS2S10Foundation0M0VSgtcfc",
+            "usr": "s:12DomainModels14MosqueOverviewV2id5title8location8imageURLACSi_S2S10Foundation0I0VSgtcfc",
+            "mangledName": "$s12DomainModels14MosqueOverviewV2id5title8location8imageURLACSi_S2S10Foundation0I0VSgtcfc",
             "moduleName": "DomainModels",
             "declAttributes": [
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MosqueOverview",
+                "printedName": "DomainModels.MosqueOverview",
+                "usr": "s:12DomainModels14MosqueOverviewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MosqueOverview",
+                "printedName": "DomainModels.MosqueOverview",
+                "usr": "s:12DomainModels14MosqueOverviewV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DomainModels14MosqueOverviewV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12DomainModels14MosqueOverviewV2eeoiySbAC_ACtFZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Var",
@@ -3884,14 +4752,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "PopularMosque",
-                "printedName": "DomainModels.PopularMosque",
-                "usr": "s:12DomainModels13PopularMosqueV"
+                "name": "MosqueOverview",
+                "printedName": "DomainModels.MosqueOverview",
+                "usr": "s:12DomainModels14MosqueOverviewV"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels13PopularMosqueV7previewACvpZ",
-            "mangledName": "$s12DomainModels13PopularMosqueV7previewACvpZ",
+            "usr": "s:12DomainModels14MosqueOverviewV7previewACvpZ",
+            "mangledName": "$s12DomainModels14MosqueOverviewV7previewACvpZ",
             "moduleName": "DomainModels",
             "static": true,
             "declAttributes": [
@@ -3910,14 +4778,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PopularMosque",
-                    "printedName": "DomainModels.PopularMosque",
-                    "usr": "s:12DomainModels13PopularMosqueV"
+                    "name": "MosqueOverview",
+                    "printedName": "DomainModels.MosqueOverview",
+                    "usr": "s:12DomainModels14MosqueOverviewV"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV7previewACvgZ",
-                "mangledName": "$s12DomainModels13PopularMosqueV7previewACvgZ",
+                "usr": "s:12DomainModels14MosqueOverviewV7previewACvgZ",
+                "mangledName": "$s12DomainModels14MosqueOverviewV7previewACvgZ",
                 "moduleName": "DomainModels",
                 "static": true,
                 "implicit": true,
@@ -3934,21 +4802,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[DomainModels.PopularMosque]",
+                "printedName": "[DomainModels.MosqueOverview]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PopularMosque",
-                    "printedName": "DomainModels.PopularMosque",
-                    "usr": "s:12DomainModels13PopularMosqueV"
+                    "name": "MosqueOverview",
+                    "printedName": "DomainModels.MosqueOverview",
+                    "usr": "s:12DomainModels14MosqueOverviewV"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels13PopularMosqueV8previewsSayACGvpZ",
-            "mangledName": "$s12DomainModels13PopularMosqueV8previewsSayACGvpZ",
+            "usr": "s:12DomainModels14MosqueOverviewV8previewsSayACGvpZ",
+            "mangledName": "$s12DomainModels14MosqueOverviewV8previewsSayACGvpZ",
             "moduleName": "DomainModels",
             "static": true,
             "declAttributes": [
@@ -3968,21 +4836,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[DomainModels.PopularMosque]",
+                    "printedName": "[DomainModels.MosqueOverview]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "PopularMosque",
-                        "printedName": "DomainModels.PopularMosque",
-                        "usr": "s:12DomainModels13PopularMosqueV"
+                        "name": "MosqueOverview",
+                        "printedName": "DomainModels.MosqueOverview",
+                        "usr": "s:12DomainModels14MosqueOverviewV"
                       }
                     ],
                     "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13PopularMosqueV8previewsSayACGvgZ",
-                "mangledName": "$s12DomainModels13PopularMosqueV8previewsSayACGvgZ",
+                "usr": "s:12DomainModels14MosqueOverviewV8previewsSayACGvgZ",
+                "mangledName": "$s12DomainModels14MosqueOverviewV8previewsSayACGvgZ",
                 "moduleName": "DomainModels",
                 "static": true,
                 "implicit": true,
@@ -3993,8 +4861,419 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:12DomainModels13PopularMosqueV",
-        "mangledName": "$s12DomainModels13PopularMosqueV",
+        "usr": "s:12DomainModels14MosqueOverviewV",
+        "mangledName": "$s12DomainModels14MosqueOverviewV",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MosqueSection",
+        "printedName": "MosqueSection",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13MosqueSectionV2idSivp",
+            "mangledName": "$s12DomainModels13MosqueSectionV2idSivp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueSectionV2idSivg",
+                "mangledName": "$s12DomainModels13MosqueSectionV2idSivg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13MosqueSectionV5titleSSvp",
+            "mangledName": "$s12DomainModels13MosqueSectionV5titleSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueSectionV5titleSSvg",
+                "mangledName": "$s12DomainModels13MosqueSectionV5titleSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "items",
+            "printedName": "items",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.MosqueOverview]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MosqueOverview",
+                    "printedName": "DomainModels.MosqueOverview",
+                    "usr": "s:12DomainModels14MosqueOverviewV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13MosqueSectionV5itemsSayAA0C8OverviewVGvp",
+            "mangledName": "$s12DomainModels13MosqueSectionV5itemsSayAA0C8OverviewVGvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DomainModels.MosqueOverview]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MosqueOverview",
+                        "printedName": "DomainModels.MosqueOverview",
+                        "usr": "s:12DomainModels14MosqueOverviewV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueSectionV5itemsSayAA0C8OverviewVGvg",
+                "mangledName": "$s12DomainModels13MosqueSectionV5itemsSayAA0C8OverviewVGvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DomainModels.MosqueOverview]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MosqueOverview",
+                        "printedName": "DomainModels.MosqueOverview",
+                        "usr": "s:12DomainModels14MosqueOverviewV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueSectionV5itemsSayAA0C8OverviewVGvs",
+                "mangledName": "$s12DomainModels13MosqueSectionV5itemsSayAA0C8OverviewVGvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueSectionV5itemsSayAA0C8OverviewVGvM",
+                "mangledName": "$s12DomainModels13MosqueSectionV5itemsSayAA0C8OverviewVGvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:title:items:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MosqueSection",
+                "printedName": "DomainModels.MosqueSection",
+                "usr": "s:12DomainModels13MosqueSectionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.MosqueOverview]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MosqueOverview",
+                    "printedName": "DomainModels.MosqueOverview",
+                    "usr": "s:12DomainModels14MosqueOverviewV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DomainModels13MosqueSectionV2id5title5itemsACSi_SSSayAA0C8OverviewVGtcfc",
+            "mangledName": "$s12DomainModels13MosqueSectionV2id5title5itemsACSi_SSSayAA0C8OverviewVGtcfc",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "previewPopular",
+            "printedName": "previewPopular",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MosqueSection",
+                "printedName": "DomainModels.MosqueSection",
+                "usr": "s:12DomainModels13MosqueSectionV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13MosqueSectionV14previewPopularACvpZ",
+            "mangledName": "$s12DomainModels13MosqueSectionV14previewPopularACvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MosqueSection",
+                    "printedName": "DomainModels.MosqueSection",
+                    "usr": "s:12DomainModels13MosqueSectionV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueSectionV14previewPopularACvgZ",
+                "mangledName": "$s12DomainModels13MosqueSectionV14previewPopularACvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previewFamous",
+            "printedName": "previewFamous",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MosqueSection",
+                "printedName": "DomainModels.MosqueSection",
+                "usr": "s:12DomainModels13MosqueSectionV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13MosqueSectionV13previewFamousACvpZ",
+            "mangledName": "$s12DomainModels13MosqueSectionV13previewFamousACvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MosqueSection",
+                    "printedName": "DomainModels.MosqueSection",
+                    "usr": "s:12DomainModels13MosqueSectionV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueSectionV13previewFamousACvgZ",
+                "mangledName": "$s12DomainModels13MosqueSectionV13previewFamousACvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12DomainModels13MosqueSectionV",
+        "mangledName": "$s12DomainModels13MosqueSectionV",
         "moduleName": "DomainModels",
         "declAttributes": [
           "AccessControl"
@@ -8543,306 +9822,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "LessonResponse",
-        "printedName": "LessonResponse",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "success",
-            "printedName": "success",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12DomainModels14LessonResponseV7successSbvp",
-            "mangledName": "$s12DomainModels14LessonResponseV7successSbvp",
-            "moduleName": "DomainModels",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12DomainModels14LessonResponseV7successSbvg",
-                "mangledName": "$s12DomainModels14LessonResponseV7successSbvg",
-                "moduleName": "DomainModels",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "message",
-            "printedName": "message",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12DomainModels14LessonResponseV7messageSSvp",
-            "mangledName": "$s12DomainModels14LessonResponseV7messageSSvp",
-            "moduleName": "DomainModels",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12DomainModels14LessonResponseV7messageSSvg",
-                "mangledName": "$s12DomainModels14LessonResponseV7messageSSvg",
-                "moduleName": "DomainModels",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "data",
-            "printedName": "data",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "DomainModels.LessonData?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LessonData",
-                    "printedName": "DomainModels.LessonData",
-                    "usr": "s:12DomainModels10LessonDataV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12DomainModels14LessonResponseV4dataAA0C4DataVSgvp",
-            "mangledName": "$s12DomainModels14LessonResponseV4dataAA0C4DataVSgvp",
-            "moduleName": "DomainModels",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "DomainModels.LessonData?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LessonData",
-                        "printedName": "DomainModels.LessonData",
-                        "usr": "s:12DomainModels10LessonDataV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12DomainModels14LessonResponseV4dataAA0C4DataVSgvg",
-                "mangledName": "$s12DomainModels14LessonResponseV4dataAA0C4DataVSgvg",
-                "moduleName": "DomainModels",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(success:message:data:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "LessonResponse",
-                "printedName": "DomainModels.LessonResponse",
-                "usr": "s:12DomainModels14LessonResponseV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "DomainModels.LessonData?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LessonData",
-                    "printedName": "DomainModels.LessonData",
-                    "usr": "s:12DomainModels10LessonDataV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:12DomainModels14LessonResponseV7success7message4dataACSb_SSAA0C4DataVSgtcfc",
-            "mangledName": "$s12DomainModels14LessonResponseV7success7message4dataACSb_SSAA0C4DataVSgtcfc",
-            "moduleName": "DomainModels",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "LessonResponse",
-                "printedName": "DomainModels.LessonResponse",
-                "usr": "s:12DomainModels14LessonResponseV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:12DomainModels14LessonResponseV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s12DomainModels14LessonResponseV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "DomainModels",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12DomainModels14LessonResponseV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s12DomainModels14LessonResponseV6encode2toys7Encoder_p_tKF",
-            "moduleName": "DomainModels",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:12DomainModels14LessonResponseV",
-        "mangledName": "$s12DomainModels14LessonResponseV",
-        "moduleName": "DomainModels",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DomainModels",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "MenuItem",
         "printedName": "MenuItem",
         "children": [
@@ -11885,6 +12864,282 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "Pagination",
+        "printedName": "Pagination",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "hasPrevious",
+            "printedName": "hasPrevious",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels10PaginationV11hasPreviousSbvp",
+            "mangledName": "$s12DomainModels10PaginationV11hasPreviousSbvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels10PaginationV11hasPreviousSbvg",
+                "mangledName": "$s12DomainModels10PaginationV11hasPreviousSbvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasNext",
+            "printedName": "hasNext",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels10PaginationV7hasNextSbvp",
+            "mangledName": "$s12DomainModels10PaginationV7hasNextSbvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels10PaginationV7hasNextSbvg",
+                "mangledName": "$s12DomainModels10PaginationV7hasNextSbvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalPage",
+            "printedName": "totalPage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels10PaginationV9totalPageSivp",
+            "mangledName": "$s12DomainModels10PaginationV9totalPageSivp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels10PaginationV9totalPageSivg",
+                "mangledName": "$s12DomainModels10PaginationV9totalPageSivg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hasPrevious:hasNext:totalPage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Pagination",
+                "printedName": "DomainModels.Pagination",
+                "usr": "s:12DomainModels10PaginationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DomainModels10PaginationV11hasPrevious0D4Next9totalPageACSb_SbSitcfc",
+            "mangledName": "$s12DomainModels10PaginationV11hasPrevious0D4Next9totalPageACSb_SbSitcfc",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Pagination",
+                "printedName": "DomainModels.Pagination",
+                "usr": "s:12DomainModels10PaginationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DomainModels10PaginationV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12DomainModels10PaginationV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DomainModels10PaginationV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12DomainModels10PaginationV6encode2toys7Encoder_p_tKF",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12DomainModels10PaginationV",
+        "mangledName": "$s12DomainModels10PaginationV",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "RichTextContent",
         "printedName": "RichTextContent",
         "children": [
@@ -12234,431 +13489,746 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 368,
+      "length": 4,
+      "value": "\"Id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 6,
+      "value": "\"Text\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 776,
+      "offset": 480,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 871,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 897,
-      "length": 3,
-      "value": "201"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 926,
+      "offset": 554,
       "length": 2,
-      "value": "21"
+      "value": "13"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 949,
-      "length": 39,
-      "value": "\"উমাইয়া মসজিদ\""
+      "offset": 565,
+      "length": 23,
+      "value": "\"বাহরাইন\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 1012,
-      "length": 49,
-      "value": "\"দামেস্ক • সিরিয়া\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 1097,
-      "length": 75,
-      "value": "\"https:\/\/cdn.pixabay.com\/photo\/2023\/06\/16\/21\/13\/landscape-8068793_1280.jpg\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 1224,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1250,
-      "length": 3,
-      "value": "202"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1279,
-      "length": 2,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 1302,
-      "length": 37,
-      "value": "\"আল-আকসা মসজিদ\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 1363,
-      "length": 61,
-      "value": "\"জেরুজালেম • ফিলিস্তিন\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 1460,
-      "length": 75,
-      "value": "\"https:\/\/cdn.pixabay.com\/photo\/2023\/06\/16\/21\/13\/landscape-8068793_1280.jpg\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1587,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1613,
-      "length": 3,
-      "value": "203"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1642,
-      "length": 2,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 1665,
-      "length": 30,
-      "value": "\"নববী মসজিদ\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 1719,
-      "length": 44,
-      "value": "\"মদিনা • সৌদি আরব\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 1799,
-      "length": 75,
-      "value": "\"https:\/\/cdn.pixabay.com\/photo\/2023\/06\/16\/21\/13\/landscape-8068793_1280.jpg\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1926,
+      "offset": 611,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1952,
-      "length": 3,
-      "value": "204"
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 621,
+      "length": 24,
+      "value": "\"সৌদি আরব\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 1981,
+      "offset": 668,
       "length": 2,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 2004,
-      "length": 40,
-      "value": "\"মসজিদ আল হারাম\""
+      "offset": 679,
+      "length": 14,
+      "value": "\"ভারত\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 2068,
-      "length": 44,
-      "value": "\"মক্কা • সৌদি আরব\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 2148,
-      "length": 75,
-      "value": "\"https:\/\/cdn.pixabay.com\/photo\/2023\/06\/16\/21\/13\/landscape-8068793_1280.jpg\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 2275,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2301,
-      "length": 3,
-      "value": "205"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2330,
-      "length": 2,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 2353,
-      "length": 39,
-      "value": "\"বাদশাহী মসজিদ\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 2416,
-      "length": 49,
-      "value": "\"লাহোর • পাকিস্তান\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 2501,
-      "length": 75,
-      "value": "\"https:\/\/cdn.pixabay.com\/photo\/2023\/06\/16\/21\/13\/landscape-8068793_1280.jpg\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2628,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2654,
-      "length": 3,
-      "value": "206"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2683,
-      "length": 2,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 2706,
-      "length": 58,
-      "value": "\"হাসান দ্বিতীয় মসজিদ\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 2788,
-      "length": 61,
-      "value": "\"কাসাব্লাঙ্কা • মরক্কো\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 2885,
-      "length": 75,
-      "value": "\"https:\/\/cdn.pixabay.com\/photo\/2023\/06\/16\/21\/13\/landscape-8068793_1280.jpg\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3012,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3038,
-      "length": 3,
-      "value": "207"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3067,
-      "length": 2,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 3090,
-      "length": 52,
-      "value": "\"সুলতান আহমেদ মসজিদ\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 3166,
-      "length": 55,
-      "value": "\"ইস্তাম্বুল • তুরস্ক\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 3257,
-      "length": 75,
-      "value": "\"https:\/\/cdn.pixabay.com\/photo\/2023\/06\/16\/21\/13\/landscape-8068793_1280.jpg\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3384,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3410,
-      "length": 3,
-      "value": "208"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3439,
-      "length": 2,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 3462,
-      "length": 74,
-      "value": "\"শেখ জায়েদ গ্র্যান্ড মসজিদ\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 3560,
-      "length": 78,
-      "value": "\"আবুধাবি • সংযুক্ত আরব আমিরাত\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 3674,
-      "length": 75,
-      "value": "\"https:\/\/cdn.pixabay.com\/photo\/2023\/06\/16\/21\/13\/landscape-8068793_1280.jpg\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3801,
+      "offset": 716,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3827,
-      "length": 3,
-      "value": "209"
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 726,
+      "length": 23,
+      "value": "\"ইয়েমেন\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 3856,
+      "offset": 772,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 782,
+      "length": 29,
+      "value": "\"আলজেরিয়া\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "IntegerLiteral",
+      "offset": 834,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 844,
+      "length": 23,
+      "value": "\"সিরিয়া\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "IntegerLiteral",
+      "offset": 890,
       "length": 2,
-      "value": "21"
+      "value": "19"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 3879,
-      "length": 45,
-      "value": "\"কুতুবিয়া মসজিদ\""
+      "offset": 901,
+      "length": 29,
+      "value": "\"পাকিস্তান\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 3948,
-      "length": 46,
-      "value": "\"মারাকেশ • মরক্কো\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "StringLiteral",
-      "offset": 4030,
-      "length": 75,
-      "value": "\"https:\/\/cdn.pixabay.com\/photo\/2023\/06\/16\/21\/13\/landscape-8068793_1280.jpg\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "IntegerLiteral",
-      "offset": 4157,
+      "offset": 953,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 964,
+      "length": 20,
+      "value": "\"কুয়েত\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1007,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 1017,
+      "length": 52,
+      "value": "\"সংযুক্ত আরব আমিরাত\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1092,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 1103,
+      "length": 14,
+      "value": "\"ইরান\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1140,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 1150,
+      "length": 35,
+      "value": "\"মালয়েশিয়া\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1208,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 1219,
+      "length": 35,
+      "value": "\"কিরগিজস্তান\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1277,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 1288,
+      "length": 17,
+      "value": "\"কাতার\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1328,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4184,
-      "length": 3,
-      "value": "210"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4213,
-      "length": 2,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 4236,
+      "offset": 1339,
+      "length": 35,
+      "value": "\"আফগানিস্তান\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1397,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 1407,
+      "length": 26,
+      "value": "\"বাংলাদেশ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1456,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 1467,
+      "length": 20,
+      "value": "\"জর্ডান\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1510,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 1521,
+      "length": 20,
+      "value": "\"তুরস্ক\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1564,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 1575,
+      "length": 14,
+      "value": "\"ইরাক\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1612,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 1623,
+      "length": 29,
+      "value": "\"ফিলিস্তিন\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1675,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 1685,
+      "length": 20,
+      "value": "\"মরক্কো\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1728,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
+      "kind": "StringLiteral",
+      "offset": 1738,
+      "length": 38,
+      "value": "\"ইন্দোনেশিয়া\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1131,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1162,
+      "length": 62,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1241,
+      "length": 45,
+      "value": "\"ইস্তিকলাল মসজিদ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1302,
+      "length": 67,
+      "value": "\"জাকার্তা • ইন্দোনেশিয়া\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1389,
+      "length": 22,
+      "value": "\"১,২০,০০০\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1430,
+      "length": 38,
+      "value": "\"ইন্দোনেশিয়া\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1491,
+      "length": 665,
+      "value": "\"ইস্তিকলাল মসজিদ ইন্দোনেশিয়ার জাকার্তায় অবস্থিত দক্ষিণ-পূর্ব এশিয়ার সবচেয়ে বড় মসজিদ।\nএটি ১৯৭৮ সালে উদ্বোধন করা হয় এবং জাতীয় স্বাধীনতার প্রতীক হিসেবে নির্মিত হয়েছে।\nএখানে প্রায় ১,২০,০০০ মুসল্লি একসাথে নামাজ আদায় করতে পারেন।\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
+      "kind": "FloatLiteral",
+      "offset": 2176,
+      "length": 18,
+      "value": "-6.170126722012642"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
+      "kind": "FloatLiteral",
+      "offset": 2215,
+      "length": 18,
+      "value": "106.83100367166882"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 2278,
+      "length": 62,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 2367,
+      "length": 62,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 2456,
+      "length": 62,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 2545,
+      "length": 62,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 2634,
+      "length": 62,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 2723,
+      "length": 62,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 2812,
+      "length": 62,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 592,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 689,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 711,
+      "length": 39,
+      "value": "\"উমাইয়া মসজিদ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 774,
+      "length": 49,
+      "value": "\"দামেস্ক • সিরিয়া\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 859,
+      "length": 62,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 974,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 996,
+      "length": 37,
+      "value": "\"আল-আকসা মসজিদ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 1057,
+      "length": 61,
+      "value": "\"জেরুজালেম • ফিলিস্তিন\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 1154,
+      "length": 62,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1269,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 1291,
+      "length": 30,
+      "value": "\"নববী মসজিদ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 1345,
+      "length": 44,
+      "value": "\"মদিনা • সৌদি আরব\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 1425,
+      "length": 62,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1540,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 1562,
+      "length": 40,
+      "value": "\"মসজিদ আল হারাম\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 1626,
+      "length": 44,
+      "value": "\"মক্কা • সৌদি আরব\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 1706,
+      "length": 62,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1821,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 1843,
+      "length": 39,
+      "value": "\"বাদশাহী মসজিদ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 1906,
+      "length": 49,
+      "value": "\"লাহোর • পাকিস্তান\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 1991,
+      "length": 62,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2106,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 2128,
+      "length": 58,
+      "value": "\"হাসান দ্বিতীয় মসজিদ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 2210,
+      "length": 61,
+      "value": "\"কাসাব্লাঙ্কা • মরক্কো\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 2307,
+      "length": 62,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2422,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 2444,
+      "length": 52,
+      "value": "\"সুলতান আহমেদ মসজিদ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 2520,
+      "length": 55,
+      "value": "\"ইস্তাম্বুল • তুরস্ক\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 2611,
+      "length": 62,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2726,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 2748,
+      "length": 74,
+      "value": "\"শেখ জায়েদ গ্র্যান্ড মসজিদ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 2846,
+      "length": 78,
+      "value": "\"আবুধাবি • সংযুক্ত আরব আমিরাত\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 2960,
+      "length": 62,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3075,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 3097,
+      "length": 45,
+      "value": "\"কুতুবিয়া মসজিদ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 3166,
+      "length": 46,
+      "value": "\"মারাকেশ • মরক্কো\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 3248,
+      "length": 62,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3363,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
+      "kind": "StringLiteral",
+      "offset": 3386,
       "length": 36,
       "value": "\"ফয়সাল মসজিদ\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
       "kind": "StringLiteral",
-      "offset": 4296,
+      "offset": 3446,
       "length": 61,
       "value": "\"ইসলামাবাদ • পাকিস্তান\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/PopularMosque.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueOverview.swift",
       "kind": "StringLiteral",
-      "offset": 4393,
-      "length": 75,
-      "value": "\"https:\/\/cdn.pixabay.com\/photo\/2023\/06\/16\/21\/13\/landscape-8068793_1280.jpg\""
+      "offset": 3543,
+      "length": 62,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1519817650390-64a93db51149\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueSection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 479,
+      "length": 3,
+      "value": "235"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueSection.swift",
+      "kind": "StringLiteral",
+      "offset": 491,
+      "length": 42,
+      "value": "\"জনপ্রিয় মসজিদ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueSection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 623,
+      "length": 3,
+      "value": "239"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/MosqueSection.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 46,
+      "value": "\"বিখ্যাত সব মসজিদ\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOption.swift",
@@ -13485,27 +15055,6 @@
       "offset": 1359,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 492,
-      "length": 9,
-      "value": "\"Success\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 525,
-      "length": 9,
-      "value": "\"Message\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 555,
-      "length": 6,
-      "value": "\"Data\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",

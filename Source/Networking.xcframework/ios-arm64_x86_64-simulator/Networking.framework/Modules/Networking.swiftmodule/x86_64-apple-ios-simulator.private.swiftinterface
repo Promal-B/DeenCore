@@ -4,16 +4,20 @@
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import DomainModels
 import Foundation
-import Playgrounds
 import Swift
 import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-
 public protocol FMService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func fetchMosquepatch() async throws
+  nonisolated(nonsending) func fetchMosquePatch() async throws -> (famousSection: DomainModels.MosqueSection, countries: [DomainModels.Country], popularSection: DomainModels.MosqueSection)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchMosqueList(countryID: Swift.Int?, page: Swift.Int, content: Swift.Int) async throws -> (list: [DomainModels.MosqueOverview], pagination: DomainModels.Pagination?)
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchMosqueDetail(id: Swift.Int) async throws -> DomainModels.MosqueDetails
   #endif
 }
 public protocol QLService {
@@ -36,17 +40,17 @@ public protocol QLService {
   nonisolated(nonsending) func fetchQuizQuestions(categoryID: Swift.Int, subCategoryID: Swift.Int) async throws -> [DomainModels.QuizQuestion]
   #endif
 }
-public enum APIEnvironment {
-  case production
-  case staging
-  public static func == (a: Networking.APIEnvironment, b: Networking.APIEnvironment) -> Swift.Bool
+public enum NetworkEnvironment {
+  case production, staging
+  public static func == (a: Networking.NetworkEnvironment, b: Networking.NetworkEnvironment) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
 }
 public enum ServiceFactory {
-  public static func makeQLNetworkService(environment: Networking.APIEnvironment = .production) -> any Networking.QLService
+  public static func makeQLNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.QLService
+  public static func makeFMNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.FMService
 }
-extension Networking.APIEnvironment : Swift.Equatable {}
-extension Networking.APIEnvironment : Swift.Hashable {}
+extension Networking.NetworkEnvironment : Swift.Equatable {}
+extension Networking.NetworkEnvironment : Swift.Hashable {}

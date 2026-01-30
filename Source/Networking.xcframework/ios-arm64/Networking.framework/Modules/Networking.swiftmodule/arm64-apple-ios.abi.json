@@ -16,10 +16,71 @@
       },
       {
         "kind": "Import",
-        "name": "Playgrounds",
-        "printedName": "Playgrounds",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
         "declKind": "Import",
         "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -77,13 +138,20 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Networking",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking"
       },
       {
         "kind": "Import",
@@ -114,27 +182,13 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
         "declKind": "Import",
         "moduleName": "Networking",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "Networking"
-      },
-      {
-        "kind": "Import",
-        "name": "DomainModels",
-        "printedName": "DomainModels",
-        "declKind": "Import",
-        "moduleName": "Networking"
       },
       {
         "kind": "TypeDecl",
@@ -143,18 +197,159 @@
         "children": [
           {
             "kind": "Function",
-            "name": "fetchMosquepatch",
-            "printedName": "fetchMosquepatch()",
+            "name": "fetchMosquePatch",
+            "printedName": "fetchMosquePatch()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Tuple",
+                "printedName": "(famousSection: DomainModels.MosqueSection, countries: [DomainModels.Country], popularSection: DomainModels.MosqueSection)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MosqueSection",
+                    "printedName": "DomainModels.MosqueSection",
+                    "usr": "s:12DomainModels13MosqueSectionV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DomainModels.Country]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "DomainModels.Country",
+                        "usr": "s:12DomainModels7CountryV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MosqueSection",
+                    "printedName": "DomainModels.MosqueSection",
+                    "usr": "s:12DomainModels13MosqueSectionV"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking9FMServiceP16fetchMosquepatchyyYaKF",
-            "mangledName": "$s10Networking9FMServiceP16fetchMosquepatchyyYaKF",
+            "usr": "s:10Networking9FMServiceP16fetchMosquePatch12DomainModels0D7SectionV06famousH0_SayAE7CountryVG9countriesAG07popularH0tyYaKF",
+            "mangledName": "$s10Networking9FMServiceP16fetchMosquePatch12DomainModels0D7SectionV06famousH0_SayAE7CountryVG9countriesAG07popularH0tyYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.FMService>",
+            "sugared_genericSig": "<Self where Self : Networking.FMService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchMosqueList",
+            "printedName": "fetchMosqueList(countryID:page:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(list: [DomainModels.MosqueOverview], pagination: DomainModels.Pagination?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DomainModels.MosqueOverview]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MosqueOverview",
+                        "printedName": "DomainModels.MosqueOverview",
+                        "usr": "s:12DomainModels14MosqueOverviewV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DomainModels.Pagination?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Pagination",
+                        "printedName": "DomainModels.Pagination",
+                        "usr": "s:12DomainModels10PaginationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking9FMServiceP15fetchMosqueList9countryID4page7contentSay12DomainModels0D8OverviewVG4list_AH10PaginationVSg10paginationtSiSg_S2itYaKF",
+            "mangledName": "$s10Networking9FMServiceP15fetchMosqueList9countryID4page7contentSay12DomainModels0D8OverviewVG4list_AH10PaginationVSg10paginationtSiSg_S2itYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.FMService>",
+            "sugared_genericSig": "<Self where Self : Networking.FMService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchMosqueDetail",
+            "printedName": "fetchMosqueDetail(id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MosqueDetails",
+                "printedName": "DomainModels.MosqueDetails",
+                "usr": "s:12DomainModels13MosqueDetailsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking9FMServiceP17fetchMosqueDetail2id12DomainModels0D7DetailsVSi_tYaKF",
+            "mangledName": "$s10Networking9FMServiceP17fetchMosqueDetail2id12DomainModels0D7DetailsVSi_tYaKF",
             "moduleName": "Networking",
             "genericSig": "<τ_0_0 where τ_0_0 : Networking.FMService>",
             "sugared_genericSig": "<Self where Self : Networking.FMService>",
@@ -172,8 +367,7 @@
         "mangledName": "$s10Networking9FMServiceP",
         "moduleName": "Networking",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -529,8 +723,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "APIEnvironment",
-        "printedName": "APIEnvironment",
+        "name": "NetworkEnvironment",
+        "printedName": "NetworkEnvironment",
         "children": [
           {
             "kind": "Var",
@@ -540,24 +734,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Networking.APIEnvironment.Type) -> Networking.APIEnvironment",
+                "printedName": "(Networking.NetworkEnvironment.Type) -> Networking.NetworkEnvironment",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "APIEnvironment",
-                    "printedName": "Networking.APIEnvironment",
-                    "usr": "s:10Networking14APIEnvironmentO"
+                    "name": "NetworkEnvironment",
+                    "printedName": "Networking.NetworkEnvironment",
+                    "usr": "s:10Networking18NetworkEnvironmentO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "Networking.APIEnvironment.Type",
+                    "printedName": "Networking.NetworkEnvironment.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "APIEnvironment",
-                        "printedName": "Networking.APIEnvironment",
-                        "usr": "s:10Networking14APIEnvironmentO"
+                        "name": "NetworkEnvironment",
+                        "printedName": "Networking.NetworkEnvironment",
+                        "usr": "s:10Networking18NetworkEnvironmentO"
                       }
                     ]
                   }
@@ -565,8 +759,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:10Networking14APIEnvironmentO10productionyA2CmF",
-            "mangledName": "$s10Networking14APIEnvironmentO10productionyA2CmF",
+            "usr": "s:10Networking18NetworkEnvironmentO10productionyA2CmF",
+            "mangledName": "$s10Networking18NetworkEnvironmentO10productionyA2CmF",
             "moduleName": "Networking"
           },
           {
@@ -577,24 +771,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Networking.APIEnvironment.Type) -> Networking.APIEnvironment",
+                "printedName": "(Networking.NetworkEnvironment.Type) -> Networking.NetworkEnvironment",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "APIEnvironment",
-                    "printedName": "Networking.APIEnvironment",
-                    "usr": "s:10Networking14APIEnvironmentO"
+                    "name": "NetworkEnvironment",
+                    "printedName": "Networking.NetworkEnvironment",
+                    "usr": "s:10Networking18NetworkEnvironmentO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "Networking.APIEnvironment.Type",
+                    "printedName": "Networking.NetworkEnvironment.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "APIEnvironment",
-                        "printedName": "Networking.APIEnvironment",
-                        "usr": "s:10Networking14APIEnvironmentO"
+                        "name": "NetworkEnvironment",
+                        "printedName": "Networking.NetworkEnvironment",
+                        "usr": "s:10Networking18NetworkEnvironmentO"
                       }
                     ]
                   }
@@ -602,8 +796,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:10Networking14APIEnvironmentO7stagingyA2CmF",
-            "mangledName": "$s10Networking14APIEnvironmentO7stagingyA2CmF",
+            "usr": "s:10Networking18NetworkEnvironmentO7stagingyA2CmF",
+            "mangledName": "$s10Networking18NetworkEnvironmentO7stagingyA2CmF",
             "moduleName": "Networking"
           },
           {
@@ -619,20 +813,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "APIEnvironment",
-                "printedName": "Networking.APIEnvironment",
-                "usr": "s:10Networking14APIEnvironmentO"
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
+                "usr": "s:10Networking18NetworkEnvironmentO"
               },
               {
                 "kind": "TypeNominal",
-                "name": "APIEnvironment",
-                "printedName": "Networking.APIEnvironment",
-                "usr": "s:10Networking14APIEnvironmentO"
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
+                "usr": "s:10Networking18NetworkEnvironmentO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking14APIEnvironmentO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s10Networking14APIEnvironmentO2eeoiySbAC_ACtFZ",
+            "usr": "s:10Networking18NetworkEnvironmentO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10Networking18NetworkEnvironmentO2eeoiySbAC_ACtFZ",
             "moduleName": "Networking",
             "static": true,
             "implicit": true,
@@ -651,8 +845,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10Networking14APIEnvironmentO9hashValueSivp",
-            "mangledName": "$s10Networking14APIEnvironmentO9hashValueSivp",
+            "usr": "s:10Networking18NetworkEnvironmentO9hashValueSivp",
+            "mangledName": "$s10Networking18NetworkEnvironmentO9hashValueSivp",
             "moduleName": "Networking",
             "implicit": true,
             "accessors": [
@@ -669,8 +863,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10Networking14APIEnvironmentO9hashValueSivg",
-                "mangledName": "$s10Networking14APIEnvironmentO9hashValueSivg",
+                "usr": "s:10Networking18NetworkEnvironmentO9hashValueSivg",
+                "mangledName": "$s10Networking18NetworkEnvironmentO9hashValueSivg",
                 "moduleName": "Networking",
                 "implicit": true,
                 "accessorKind": "get"
@@ -696,16 +890,16 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking14APIEnvironmentO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s10Networking14APIEnvironmentO4hash4intoys6HasherVz_tF",
+            "usr": "s:10Networking18NetworkEnvironmentO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s10Networking18NetworkEnvironmentO4hash4intoys6HasherVz_tF",
             "moduleName": "Networking",
             "implicit": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
-        "usr": "s:10Networking14APIEnvironmentO",
-        "mangledName": "$s10Networking14APIEnvironmentO",
+        "usr": "s:10Networking18NetworkEnvironmentO",
+        "mangledName": "$s10Networking18NetworkEnvironmentO",
         "moduleName": "Networking",
         "declAttributes": [
           "AccessControl",
@@ -750,7 +944,7 @@
           {
             "kind": "Function",
             "name": "makeQLNetworkService",
-            "printedName": "makeQLNetworkService(environment:)",
+            "printedName": "makeQLNetworkService(for:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -760,15 +954,44 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "APIEnvironment",
-                "printedName": "Networking.APIEnvironment",
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
                 "hasDefaultArg": true,
-                "usr": "s:10Networking14APIEnvironmentO"
+                "usr": "s:10Networking18NetworkEnvironmentO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking14ServiceFactoryO013makeQLNetworkB011environmentAA9QLService_pAA14APIEnvironmentO_tFZ",
-            "mangledName": "$s10Networking14ServiceFactoryO013makeQLNetworkB011environmentAA9QLService_pAA14APIEnvironmentO_tFZ",
+            "usr": "s:10Networking14ServiceFactoryO013makeQLNetworkB03forAA9QLService_pAA18NetworkEnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO013makeQLNetworkB03forAA9QLService_pAA18NetworkEnvironmentO_tFZ",
+            "moduleName": "Networking",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeFMNetworkService",
+            "printedName": "makeFMNetworkService(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FMService",
+                "printedName": "any Networking.FMService",
+                "usr": "s:10Networking9FMServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
+                "hasDefaultArg": true,
+                "usr": "s:10Networking18NetworkEnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking14ServiceFactoryO013makeFMNetworkB03forAA9FMService_pAA18NetworkEnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO013makeFMNetworkB03forAA9FMService_pAA18NetworkEnvironmentO_tFZ",
             "moduleName": "Networking",
             "static": true,
             "declAttributes": [
@@ -782,8 +1005,7 @@
         "mangledName": "$s10Networking14ServiceFactoryO",
         "moduleName": "Networking",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -801,52 +1023,125 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "@__swiftmacro_10Networking0031LiveFMNetworkServiceswift_yFFIifMX31_0_33_34EE1CB6AC4A88CED0B40D084B965A41Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1861,
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Famous Mosque\/MosqueDetailDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 482,
+      "length": 4,
+      "value": "\"Id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Famous Mosque\/MosqueDetailDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 509,
+      "length": 8,
+      "value": "\"Banner\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Famous Mosque\/MosqueDetailDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 538,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Famous Mosque\/MosqueDetailDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 565,
+      "length": 6,
+      "value": "\"City\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Famous Mosque\/MosqueDetailDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 596,
       "length": 10,
-      "value": "0x706c6179"
+      "value": "\"Capacity\""
     },
     {
-      "filePath": "@__swiftmacro_10Networking0031LiveFMNetworkServiceswift_yFFIifMX31_0_33_34EE1CB6AC4A88CED0B40D084B965A41Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1888,
-      "length": 1,
-      "value": "0"
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Famous Mosque\/MosqueDetailDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 630,
+      "length": 9,
+      "value": "\"Country\""
     },
     {
-      "filePath": "@__swiftmacro_10Networking0031LiveFMNetworkServiceswift_yFFIifMX31_0_33_34EE1CB6AC4A88CED0B40D084B965A41Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2250,
-      "length": 2,
-      "value": "32"
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Famous Mosque\/MosqueDetailDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 667,
+      "length": 13,
+      "value": "\"Description\""
     },
     {
-      "filePath": "@__swiftmacro_10Networking0031LiveFMNetworkServiceswift_yFFIifMX31_0_33_34EE1CB6AC4A88CED0B40D084B965A41Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2268,
-      "length": 1,
-      "value": "1"
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Famous Mosque\/MosqueDetailDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 749,
+      "length": 9,
+      "value": "\"Gallery\""
     },
     {
-      "filePath": "@__swiftmacro_10Networking0031LiveFMNetworkServiceswift_yFFIifMX31_0_33_34EE1CB6AC4A88CED0B40D084B965A41Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2349,
-      "length": 1,
-      "value": "0"
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Famous Mosque\/MosqueDetailDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 926,
+      "length": 10,
+      "value": "\"imageurl\""
     },
     {
-      "filePath": "@__swiftmacro_10Networking0031LiveFMNetworkServiceswift_yFFIifMX31_0_33_34EE1CB6AC4A88CED0B40D084B965A41Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2354,
-      "length": 1,
-      "value": "0"
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/APIResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 9,
+      "value": "\"Success\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/APIResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 362,
+      "length": 9,
+      "value": "\"Message\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/APIResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 6,
+      "value": "\"Data\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/APIResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 426,
+      "length": 12,
+      "value": "\"IsPrevious\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/APIResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 462,
+      "length": 8,
+      "value": "\"IsNext\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/APIResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 496,
+      "length": 11,
+      "value": "\"TotalPage\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
@@ -1134,27 +1429,6 @@
       "offset": 909,
       "length": 13,
       "value": "\"ContentType\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 327,
-      "length": 9,
-      "value": "\"Success\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 360,
-      "length": 9,
-      "value": "\"Message\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 390,
-      "length": 6,
-      "value": "\"Data\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/APIClient.swift",
