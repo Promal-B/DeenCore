@@ -7,49 +7,28 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
-        .library(name: "DesignSystem", targets: ["DesignSystem"]),
-        .library(name: "DomainModels", targets: ["DomainModels"]),
-        .library(name: "Networking", targets: ["Networking"]),
-        .library(name: "UIComponents", targets: ["UIComponents"])
+        .library(name: "DesignSystem", targets: ["DesignSystemBinary"]),
+        .library(name: "DomainModels", targets: ["DomainModelsBinary"]),
+        .library(name: "Networking", targets: ["NetworkingBinary"]),
+        .library(name: "UIComponents", targets: ["UIComponentsBinary"])
     ],
     targets: [
-        // Wrapper targets that expose the binary targets
-        .target(
-            name: "DesignSystem",
-            dependencies: ["DesignSystemBinary"]
-        ),
-        .target(
-            name: "DomainModels",
-            dependencies: ["DomainModelsBinary"]
-        ),
-        .target(
-            name: "Networking",
-            dependencies: [
-                "NetworkingBinary",
-                "DomainModels"  // Declare the dependency here
-            ]
-        ),
-        .target(
-            name: "UIComponents",
-            dependencies: ["UIComponentsBinary"]
-        ),
-        
-        // Binary targets
+        // Binary targets pointing to XCFrameworks
         .binaryTarget(
             name: "DesignSystemBinary",
-            path: "Source/DesignSystem.xcframework"
+            path: "XCFrameworks/DesignSystem.xcframework"
         ),
         .binaryTarget(
             name: "DomainModelsBinary",
-            path: "Source/DomainModels.xcframework"
+            path: "XCFrameworks/DomainModels.xcframework"
         ),
         .binaryTarget(
             name: "NetworkingBinary",
-            path: "Source/Networking.xcframework"
+            path: "XCFrameworks/Networking.xcframework"
         ),
         .binaryTarget(
             name: "UIComponentsBinary",
-            path: "Source/UIComponents.xcframework"
+            path: "XCFrameworks/UIComponents.xcframework"
         )
     ]
 )
