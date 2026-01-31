@@ -5462,8 +5462,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "QuizOption",
-        "printedName": "QuizOption",
+        "name": "QuizOptionV2",
+        "printedName": "QuizOptionV2",
         "children": [
           {
             "kind": "Var",
@@ -5486,8 +5486,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels10QuizOptionV8optionIDSiSgvp",
-            "mangledName": "$s12DomainModels10QuizOptionV8optionIDSiSgvp",
+            "usr": "s:12DomainModels12QuizOptionV2V8optionIDSiSgvp",
+            "mangledName": "$s12DomainModels12QuizOptionV2V8optionIDSiSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -5517,8 +5517,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels10QuizOptionV8optionIDSiSgvg",
-                "mangledName": "$s12DomainModels10QuizOptionV8optionIDSiSgvg",
+                "usr": "s:12DomainModels12QuizOptionV2V8optionIDSiSgvg",
+                "mangledName": "$s12DomainModels12QuizOptionV2V8optionIDSiSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5546,8 +5546,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels10QuizOptionV11descriptionSSSgvp",
-            "mangledName": "$s12DomainModels10QuizOptionV11descriptionSSSgvp",
+            "usr": "s:12DomainModels12QuizOptionV2V11descriptionSSSgvp",
+            "mangledName": "$s12DomainModels12QuizOptionV2V11descriptionSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -5577,8 +5577,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels10QuizOptionV11descriptionSSSgvg",
-                "mangledName": "$s12DomainModels10QuizOptionV11descriptionSSSgvg",
+                "usr": "s:12DomainModels12QuizOptionV2V11descriptionSSSgvg",
+                "mangledName": "$s12DomainModels12QuizOptionV2V11descriptionSSSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5606,8 +5606,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels10QuizOptionV9isCorrectSbSgvp",
-            "mangledName": "$s12DomainModels10QuizOptionV9isCorrectSbSgvp",
+            "usr": "s:12DomainModels12QuizOptionV2V9isCorrectSbSgvp",
+            "mangledName": "$s12DomainModels12QuizOptionV2V9isCorrectSbSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -5637,8 +5637,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels10QuizOptionV9isCorrectSbSgvg",
-                "mangledName": "$s12DomainModels10QuizOptionV9isCorrectSbSgvg",
+                "usr": "s:12DomainModels12QuizOptionV2V9isCorrectSbSgvg",
+                "mangledName": "$s12DomainModels12QuizOptionV2V9isCorrectSbSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5652,9 +5652,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "QuizOption",
-                "printedName": "DomainModels.QuizOption",
-                "usr": "s:12DomainModels10QuizOptionV"
+                "name": "QuizOptionV2",
+                "printedName": "DomainModels.QuizOptionV2",
+                "usr": "s:12DomainModels12QuizOptionV2V"
               },
               {
                 "kind": "TypeNominal",
@@ -5700,8 +5700,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12DomainModels10QuizOptionV8optionID11description9isCorrectACSiSg_SSSgSbSgtcfc",
-            "mangledName": "$s12DomainModels10QuizOptionV8optionID11description9isCorrectACSiSg_SSSgSbSgtcfc",
+            "usr": "s:12DomainModels12QuizOptionV2V8optionID11description9isCorrectACSiSg_SSSgSbSgtcfc",
+            "mangledName": "$s12DomainModels12QuizOptionV2V8optionID11description9isCorrectACSiSg_SSSgSbSgtcfc",
             "moduleName": "DomainModels",
             "declAttributes": [
               "AccessControl"
@@ -5715,9 +5715,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "QuizOption",
-                "printedName": "DomainModels.QuizOption",
-                "usr": "s:12DomainModels10QuizOptionV"
+                "name": "QuizOptionV2",
+                "printedName": "DomainModels.QuizOptionV2",
+                "usr": "s:12DomainModels12QuizOptionV2V"
               },
               {
                 "kind": "TypeNominal",
@@ -5727,8 +5727,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12DomainModels10QuizOptionV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s12DomainModels10QuizOptionV4fromACs7Decoder_p_tKcfc",
+            "usr": "s:12DomainModels12QuizOptionV2V4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12DomainModels12QuizOptionV2V4fromACs7Decoder_p_tKcfc",
             "moduleName": "DomainModels",
             "implicit": true,
             "throwing": true,
@@ -5752,8 +5752,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12DomainModels10QuizOptionV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s12DomainModels10QuizOptionV6encode2toys7Encoder_p_tKF",
+            "usr": "s:12DomainModels12QuizOptionV2V6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12DomainModels12QuizOptionV2V6encode2toys7Encoder_p_tKF",
             "moduleName": "DomainModels",
             "implicit": true,
             "throwing": true,
@@ -5772,8 +5772,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels10QuizOptionV9hashValueSivp",
-            "mangledName": "$s12DomainModels10QuizOptionV9hashValueSivp",
+            "usr": "s:12DomainModels12QuizOptionV2V9hashValueSivp",
+            "mangledName": "$s12DomainModels12QuizOptionV2V9hashValueSivp",
             "moduleName": "DomainModels",
             "implicit": true,
             "accessors": [
@@ -5790,8 +5790,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels10QuizOptionV9hashValueSivg",
-                "mangledName": "$s12DomainModels10QuizOptionV9hashValueSivg",
+                "usr": "s:12DomainModels12QuizOptionV2V9hashValueSivg",
+                "mangledName": "$s12DomainModels12QuizOptionV2V9hashValueSivg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5817,8 +5817,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12DomainModels10QuizOptionV4hash4intoys6HasherVz_tF",
-            "mangledName": "$s12DomainModels10QuizOptionV4hash4intoys6HasherVz_tF",
+            "usr": "s:12DomainModels12QuizOptionV2V4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12DomainModels12QuizOptionV2V4hash4intoys6HasherVz_tF",
             "moduleName": "DomainModels",
             "implicit": true,
             "funcSelfKind": "NonMutating"
@@ -5836,20 +5836,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "QuizOption",
-                "printedName": "DomainModels.QuizOption",
-                "usr": "s:12DomainModels10QuizOptionV"
+                "name": "QuizOptionV2",
+                "printedName": "DomainModels.QuizOptionV2",
+                "usr": "s:12DomainModels12QuizOptionV2V"
               },
               {
                 "kind": "TypeNominal",
-                "name": "QuizOption",
-                "printedName": "DomainModels.QuizOption",
-                "usr": "s:12DomainModels10QuizOptionV"
+                "name": "QuizOptionV2",
+                "printedName": "DomainModels.QuizOptionV2",
+                "usr": "s:12DomainModels12QuizOptionV2V"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12DomainModels10QuizOptionV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s12DomainModels10QuizOptionV2eeoiySbAC_ACtFZ",
+            "usr": "s:12DomainModels12QuizOptionV2V2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12DomainModels12QuizOptionV2V2eeoiySbAC_ACtFZ",
             "moduleName": "DomainModels",
             "static": true,
             "implicit": true,
@@ -5857,8 +5857,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:12DomainModels10QuizOptionV",
-        "mangledName": "$s12DomainModels10QuizOptionV",
+        "usr": "s:12DomainModels12QuizOptionV2V",
+        "mangledName": "$s12DomainModels12QuizOptionV2V",
         "moduleName": "DomainModels",
         "declAttributes": [
           "AccessControl"
@@ -5920,8 +5920,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "QuizQuestion",
-        "printedName": "QuizQuestion",
+        "name": "QuizQuestionV2",
+        "printedName": "QuizQuestionV2",
         "children": [
           {
             "kind": "Var",
@@ -5936,8 +5936,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels12QuizQuestionV2idSSvp",
-            "mangledName": "$s12DomainModels12QuizQuestionV2idSSvp",
+            "usr": "s:12DomainModels14QuizQuestionV2V2idSSvp",
+            "mangledName": "$s12DomainModels14QuizQuestionV2V2idSSvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -5959,8 +5959,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels12QuizQuestionV2idSSvg",
-                "mangledName": "$s12DomainModels12QuizQuestionV2idSSvg",
+                "usr": "s:12DomainModels14QuizQuestionV2V2idSSvg",
+                "mangledName": "$s12DomainModels14QuizQuestionV2V2idSSvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5988,8 +5988,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels12QuizQuestionV10questionIDSiSgvp",
-            "mangledName": "$s12DomainModels12QuizQuestionV10questionIDSiSgvp",
+            "usr": "s:12DomainModels14QuizQuestionV2V10questionIDSiSgvp",
+            "mangledName": "$s12DomainModels14QuizQuestionV2V10questionIDSiSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -6019,8 +6019,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels12QuizQuestionV10questionIDSiSgvg",
-                "mangledName": "$s12DomainModels12QuizQuestionV10questionIDSiSgvg",
+                "usr": "s:12DomainModels14QuizQuestionV2V10questionIDSiSgvg",
+                "mangledName": "$s12DomainModels14QuizQuestionV2V10questionIDSiSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6048,8 +6048,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels12QuizQuestionV13questionTitleSSSgvp",
-            "mangledName": "$s12DomainModels12QuizQuestionV13questionTitleSSSgvp",
+            "usr": "s:12DomainModels14QuizQuestionV2V13questionTitleSSSgvp",
+            "mangledName": "$s12DomainModels14QuizQuestionV2V13questionTitleSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -6079,8 +6079,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels12QuizQuestionV13questionTitleSSSgvg",
-                "mangledName": "$s12DomainModels12QuizQuestionV13questionTitleSSSgvg",
+                "usr": "s:12DomainModels14QuizQuestionV2V13questionTitleSSSgvg",
+                "mangledName": "$s12DomainModels14QuizQuestionV2V13questionTitleSSSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6108,8 +6108,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels12QuizQuestionV10categoryIDSiSgvp",
-            "mangledName": "$s12DomainModels12QuizQuestionV10categoryIDSiSgvp",
+            "usr": "s:12DomainModels14QuizQuestionV2V10categoryIDSiSgvp",
+            "mangledName": "$s12DomainModels14QuizQuestionV2V10categoryIDSiSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -6139,8 +6139,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels12QuizQuestionV10categoryIDSiSgvg",
-                "mangledName": "$s12DomainModels12QuizQuestionV10categoryIDSiSgvg",
+                "usr": "s:12DomainModels14QuizQuestionV2V10categoryIDSiSgvg",
+                "mangledName": "$s12DomainModels14QuizQuestionV2V10categoryIDSiSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6168,8 +6168,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels12QuizQuestionV7levelIDSiSgvp",
-            "mangledName": "$s12DomainModels12QuizQuestionV7levelIDSiSgvp",
+            "usr": "s:12DomainModels14QuizQuestionV2V7levelIDSiSgvp",
+            "mangledName": "$s12DomainModels14QuizQuestionV2V7levelIDSiSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -6199,8 +6199,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels12QuizQuestionV7levelIDSiSgvg",
-                "mangledName": "$s12DomainModels12QuizQuestionV7levelIDSiSgvg",
+                "usr": "s:12DomainModels14QuizQuestionV2V7levelIDSiSgvg",
+                "mangledName": "$s12DomainModels14QuizQuestionV2V7levelIDSiSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6228,8 +6228,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels12QuizQuestionV8quizTypeSiSgvp",
-            "mangledName": "$s12DomainModels12QuizQuestionV8quizTypeSiSgvp",
+            "usr": "s:12DomainModels14QuizQuestionV2V8quizTypeSiSgvp",
+            "mangledName": "$s12DomainModels14QuizQuestionV2V8quizTypeSiSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -6259,8 +6259,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels12QuizQuestionV8quizTypeSiSgvg",
-                "mangledName": "$s12DomainModels12QuizQuestionV8quizTypeSiSgvg",
+                "usr": "s:12DomainModels14QuizQuestionV2V8quizTypeSiSgvg",
+                "mangledName": "$s12DomainModels14QuizQuestionV2V8quizTypeSiSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6288,8 +6288,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels12QuizQuestionV6onTimeSSSgvp",
-            "mangledName": "$s12DomainModels12QuizQuestionV6onTimeSSSgvp",
+            "usr": "s:12DomainModels14QuizQuestionV2V6onTimeSSSgvp",
+            "mangledName": "$s12DomainModels14QuizQuestionV2V6onTimeSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -6319,8 +6319,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels12QuizQuestionV6onTimeSSSgvg",
-                "mangledName": "$s12DomainModels12QuizQuestionV6onTimeSSSgvg",
+                "usr": "s:12DomainModels14QuizQuestionV2V6onTimeSSSgvg",
+                "mangledName": "$s12DomainModels14QuizQuestionV2V6onTimeSSSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6348,8 +6348,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels12QuizQuestionV13questionScoreSiSgvp",
-            "mangledName": "$s12DomainModels12QuizQuestionV13questionScoreSiSgvp",
+            "usr": "s:12DomainModels14QuizQuestionV2V13questionScoreSiSgvp",
+            "mangledName": "$s12DomainModels14QuizQuestionV2V13questionScoreSiSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -6379,8 +6379,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels12QuizQuestionV13questionScoreSiSgvg",
-                "mangledName": "$s12DomainModels12QuizQuestionV13questionScoreSiSgvg",
+                "usr": "s:12DomainModels14QuizQuestionV2V13questionScoreSiSgvg",
+                "mangledName": "$s12DomainModels14QuizQuestionV2V13questionScoreSiSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6408,8 +6408,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels12QuizQuestionV16questionPlaytimeSiSgvp",
-            "mangledName": "$s12DomainModels12QuizQuestionV16questionPlaytimeSiSgvp",
+            "usr": "s:12DomainModels14QuizQuestionV2V16questionPlaytimeSiSgvp",
+            "mangledName": "$s12DomainModels14QuizQuestionV2V16questionPlaytimeSiSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -6439,8 +6439,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels12QuizQuestionV16questionPlaytimeSiSgvg",
-                "mangledName": "$s12DomainModels12QuizQuestionV16questionPlaytimeSiSgvg",
+                "usr": "s:12DomainModels14QuizQuestionV2V16questionPlaytimeSiSgvg",
+                "mangledName": "$s12DomainModels14QuizQuestionV2V16questionPlaytimeSiSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6468,8 +6468,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels12QuizQuestionV13questionImage10Foundation3URLVSgvp",
-            "mangledName": "$s12DomainModels12QuizQuestionV13questionImage10Foundation3URLVSgvp",
+            "usr": "s:12DomainModels14QuizQuestionV2V13questionImage10Foundation3URLVSgvp",
+            "mangledName": "$s12DomainModels14QuizQuestionV2V13questionImage10Foundation3URLVSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -6499,8 +6499,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels12QuizQuestionV13questionImage10Foundation3URLVSgvg",
-                "mangledName": "$s12DomainModels12QuizQuestionV13questionImage10Foundation3URLVSgvg",
+                "usr": "s:12DomainModels14QuizQuestionV2V13questionImage10Foundation3URLVSgvg",
+                "mangledName": "$s12DomainModels14QuizQuestionV2V13questionImage10Foundation3URLVSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6528,8 +6528,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels12QuizQuestionV8isActiveSbSgvp",
-            "mangledName": "$s12DomainModels12QuizQuestionV8isActiveSbSgvp",
+            "usr": "s:12DomainModels14QuizQuestionV2V8isActiveSbSgvp",
+            "mangledName": "$s12DomainModels14QuizQuestionV2V8isActiveSbSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -6559,8 +6559,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels12QuizQuestionV8isActiveSbSgvg",
-                "mangledName": "$s12DomainModels12QuizQuestionV8isActiveSbSgvg",
+                "usr": "s:12DomainModels14QuizQuestionV2V8isActiveSbSgvg",
+                "mangledName": "$s12DomainModels14QuizQuestionV2V8isActiveSbSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6575,18 +6575,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[DomainModels.QuizOption]?",
+                "printedName": "[DomainModels.QuizOptionV2]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[DomainModels.QuizOption]",
+                    "printedName": "[DomainModels.QuizOptionV2]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "QuizOption",
-                        "printedName": "DomainModels.QuizOption",
-                        "usr": "s:12DomainModels10QuizOptionV"
+                        "name": "QuizOptionV2",
+                        "printedName": "DomainModels.QuizOptionV2",
+                        "usr": "s:12DomainModels12QuizOptionV2V"
                       }
                     ],
                     "usr": "s:Sa"
@@ -6596,8 +6596,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels12QuizQuestionV7optionsSayAA0C6OptionVGSgvp",
-            "mangledName": "$s12DomainModels12QuizQuestionV7optionsSayAA0C6OptionVGSgvp",
+            "usr": "s:12DomainModels14QuizQuestionV2V7optionsSayAA0c6OptionE0VGSgvp",
+            "mangledName": "$s12DomainModels14QuizQuestionV2V7optionsSayAA0c6OptionE0VGSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -6614,18 +6614,18 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[DomainModels.QuizOption]?",
+                    "printedName": "[DomainModels.QuizOptionV2]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Array",
-                        "printedName": "[DomainModels.QuizOption]",
+                        "printedName": "[DomainModels.QuizOptionV2]",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "QuizOption",
-                            "printedName": "DomainModels.QuizOption",
-                            "usr": "s:12DomainModels10QuizOptionV"
+                            "name": "QuizOptionV2",
+                            "printedName": "DomainModels.QuizOptionV2",
+                            "usr": "s:12DomainModels12QuizOptionV2V"
                           }
                         ],
                         "usr": "s:Sa"
@@ -6635,8 +6635,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels12QuizQuestionV7optionsSayAA0C6OptionVGSgvg",
-                "mangledName": "$s12DomainModels12QuizQuestionV7optionsSayAA0C6OptionVGSgvg",
+                "usr": "s:12DomainModels14QuizQuestionV2V7optionsSayAA0c6OptionE0VGSgvg",
+                "mangledName": "$s12DomainModels14QuizQuestionV2V7optionsSayAA0c6OptionE0VGSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6650,9 +6650,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "QuizQuestion",
-                "printedName": "DomainModels.QuizQuestion",
-                "usr": "s:12DomainModels12QuizQuestionV"
+                "name": "QuizQuestionV2",
+                "printedName": "DomainModels.QuizQuestionV2",
+                "usr": "s:12DomainModels14QuizQuestionV2V"
               },
               {
                 "kind": "TypeNominal",
@@ -6804,18 +6804,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[DomainModels.QuizOption]?",
+                "printedName": "[DomainModels.QuizOptionV2]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[DomainModels.QuizOption]",
+                    "printedName": "[DomainModels.QuizOptionV2]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "QuizOption",
-                        "printedName": "DomainModels.QuizOption",
-                        "usr": "s:12DomainModels10QuizOptionV"
+                        "name": "QuizOptionV2",
+                        "printedName": "DomainModels.QuizOptionV2",
+                        "usr": "s:12DomainModels12QuizOptionV2V"
                       }
                     ],
                     "usr": "s:Sa"
@@ -6825,8 +6825,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12DomainModels12QuizQuestionV2id10questionID0F5Title08categoryG005levelG08quizType6onTime0F5Score0F8Playtime0F5Image8isActive7optionsACSS_SiSgSSSgA3pq2P10Foundation3URLVSgSbSgSayAA0C6OptionVGSgtcfc",
-            "mangledName": "$s12DomainModels12QuizQuestionV2id10questionID0F5Title08categoryG005levelG08quizType6onTime0F5Score0F8Playtime0F5Image8isActive7optionsACSS_SiSgSSSgA3pq2P10Foundation3URLVSgSbSgSayAA0C6OptionVGSgtcfc",
+            "usr": "s:12DomainModels14QuizQuestionV2V2id10questionID0G5Title08categoryH005levelH08quizType6onTime0G5Score0G8Playtime0G5Image8isActive7optionsACSS_SiSgSSSgA3pq2P10Foundation3URLVSgSbSgSayAA0c6OptionE0VGSgtcfc",
+            "mangledName": "$s12DomainModels14QuizQuestionV2V2id10questionID0G5Title08categoryH005levelH08quizType6onTime0G5Score0G8Playtime0G5Image8isActive7optionsACSS_SiSgSSSgA3pq2P10Foundation3URLVSgSbSgSayAA0c6OptionE0VGSgtcfc",
             "moduleName": "DomainModels",
             "declAttributes": [
               "AccessControl"
@@ -6840,9 +6840,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "QuizQuestion",
-                "printedName": "DomainModels.QuizQuestion",
-                "usr": "s:12DomainModels12QuizQuestionV"
+                "name": "QuizQuestionV2",
+                "printedName": "DomainModels.QuizQuestionV2",
+                "usr": "s:12DomainModels14QuizQuestionV2V"
               },
               {
                 "kind": "TypeNominal",
@@ -6852,8 +6852,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12DomainModels12QuizQuestionV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s12DomainModels12QuizQuestionV4fromACs7Decoder_p_tKcfc",
+            "usr": "s:12DomainModels14QuizQuestionV2V4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12DomainModels14QuizQuestionV2V4fromACs7Decoder_p_tKcfc",
             "moduleName": "DomainModels",
             "implicit": true,
             "throwing": true,
@@ -6877,8 +6877,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12DomainModels12QuizQuestionV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s12DomainModels12QuizQuestionV6encode2toys7Encoder_p_tKF",
+            "usr": "s:12DomainModels14QuizQuestionV2V6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12DomainModels14QuizQuestionV2V6encode2toys7Encoder_p_tKF",
             "moduleName": "DomainModels",
             "implicit": true,
             "throwing": true,
@@ -6891,14 +6891,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "QuizQuestion",
-                "printedName": "DomainModels.QuizQuestion",
-                "usr": "s:12DomainModels12QuizQuestionV"
+                "name": "QuizQuestionV2",
+                "printedName": "DomainModels.QuizQuestionV2",
+                "usr": "s:12DomainModels14QuizQuestionV2V"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels12QuizQuestionV06sampleD0ACvpZ",
-            "mangledName": "$s12DomainModels12QuizQuestionV06sampleD0ACvpZ",
+            "usr": "s:12DomainModels14QuizQuestionV2V06sampleD0ACvpZ",
+            "mangledName": "$s12DomainModels14QuizQuestionV2V06sampleD0ACvpZ",
             "moduleName": "DomainModels",
             "static": true,
             "declAttributes": [
@@ -6917,14 +6917,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "QuizQuestion",
-                    "printedName": "DomainModels.QuizQuestion",
-                    "usr": "s:12DomainModels12QuizQuestionV"
+                    "name": "QuizQuestionV2",
+                    "printedName": "DomainModels.QuizQuestionV2",
+                    "usr": "s:12DomainModels14QuizQuestionV2V"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels12QuizQuestionV06sampleD0ACvgZ",
-                "mangledName": "$s12DomainModels12QuizQuestionV06sampleD0ACvgZ",
+                "usr": "s:12DomainModels14QuizQuestionV2V06sampleD0ACvgZ",
+                "mangledName": "$s12DomainModels14QuizQuestionV2V06sampleD0ACvgZ",
                 "moduleName": "DomainModels",
                 "static": true,
                 "implicit": true,
@@ -6935,8 +6935,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:12DomainModels12QuizQuestionV",
-        "mangledName": "$s12DomainModels12QuizQuestionV",
+        "usr": "s:12DomainModels14QuizQuestionV2V",
+        "mangledName": "$s12DomainModels14QuizQuestionV2V",
         "moduleName": "DomainModels",
         "declAttributes": [
           "AccessControl"
@@ -14595,177 +14595,177 @@
       "value": "\"https:\/\/www.orangefreesounds.com\/wp-content\/uploads\/2021\/07\/Beep-tone-sound-effect.mp3\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOption.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOptionV2.swift",
       "kind": "StringLiteral",
-      "offset": 529,
+      "offset": 535,
       "length": 10,
       "value": "\"OptionId\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOption.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOptionV2.swift",
       "kind": "StringLiteral",
-      "offset": 567,
+      "offset": 573,
       "length": 13,
       "value": "\"Description\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOption.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOptionV2.swift",
       "kind": "StringLiteral",
-      "offset": 606,
+      "offset": 612,
       "length": 11,
       "value": "\"IsCorrect\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOption.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOptionV2.swift",
       "kind": "IntegerLiteral",
-      "offset": 720,
+      "offset": 732,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOption.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOptionV2.swift",
       "kind": "StringLiteral",
-      "offset": 736,
+      "offset": 748,
       "length": 7,
       "value": "\"Paris\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOption.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOptionV2.swift",
       "kind": "BooleanLiteral",
-      "offset": 756,
+      "offset": 768,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOption.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOptionV2.swift",
       "kind": "IntegerLiteral",
-      "offset": 792,
+      "offset": 806,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOption.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOptionV2.swift",
       "kind": "StringLiteral",
-      "offset": 808,
+      "offset": 822,
       "length": 8,
       "value": "\"London\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOption.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOptionV2.swift",
       "kind": "BooleanLiteral",
-      "offset": 829,
+      "offset": 843,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOption.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOptionV2.swift",
       "kind": "IntegerLiteral",
-      "offset": 866,
+      "offset": 882,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOption.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOptionV2.swift",
       "kind": "StringLiteral",
-      "offset": 882,
+      "offset": 898,
       "length": 8,
       "value": "\"Berlin\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOption.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOptionV2.swift",
       "kind": "BooleanLiteral",
-      "offset": 903,
+      "offset": 919,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOption.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOptionV2.swift",
       "kind": "IntegerLiteral",
-      "offset": 940,
+      "offset": 958,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOption.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOptionV2.swift",
       "kind": "StringLiteral",
-      "offset": 956,
+      "offset": 974,
       "length": 6,
       "value": "\"Rome\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOption.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizOptionV2.swift",
       "kind": "BooleanLiteral",
-      "offset": 975,
+      "offset": 993,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestion.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestionV2.swift",
       "kind": "IntegerLiteral",
-      "offset": 1491,
+      "offset": 1503,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestion.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestionV2.swift",
       "kind": "StringLiteral",
-      "offset": 1517,
+      "offset": 1529,
       "length": 32,
       "value": "\"What is the capital of France?\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestion.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestionV2.swift",
       "kind": "IntegerLiteral",
-      "offset": 1571,
+      "offset": 1583,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestion.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestionV2.swift",
       "kind": "IntegerLiteral",
-      "offset": 1593,
+      "offset": 1605,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestion.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestionV2.swift",
       "kind": "IntegerLiteral",
-      "offset": 1614,
+      "offset": 1626,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestion.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestionV2.swift",
       "kind": "StringLiteral",
-      "offset": 1633,
+      "offset": 1645,
       "length": 22,
       "value": "\"2026-01-31T12:00:00Z\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestion.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestionV2.swift",
       "kind": "IntegerLiteral",
-      "offset": 1680,
+      "offset": 1692,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestion.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestionV2.swift",
       "kind": "IntegerLiteral",
-      "offset": 1709,
+      "offset": 1721,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestion.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestionV2.swift",
       "kind": "StringLiteral",
-      "offset": 1748,
+      "offset": 1760,
       "length": 63,
       "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestion.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Quiz\/QuizQuestionV2.swift",
       "kind": "BooleanLiteral",
-      "offset": 1832,
+      "offset": 1844,
       "length": 4,
       "value": "true"
     },

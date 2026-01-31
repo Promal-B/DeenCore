@@ -37,7 +37,7 @@ public protocol QLService {
   nonisolated(nonsending) func fetchQuizCategories() async throws -> [DomainModels.QuizCategory]
   #endif
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func fetchQuizQuestions(categoryID: Swift.Int, subCategoryID: Swift.Int) async throws -> [DomainModels.QuizQuestion]
+  nonisolated(nonsending) func fetchQuizQuestions(categoryID: Swift.Int, subCategoryID: Swift.Int) async throws -> [DomainModels.QuizQuestionV2]
   #endif
 }
 public enum NetworkEnvironment {

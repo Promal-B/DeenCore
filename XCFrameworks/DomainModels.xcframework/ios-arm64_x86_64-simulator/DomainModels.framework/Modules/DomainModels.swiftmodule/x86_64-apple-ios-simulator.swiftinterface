@@ -194,14 +194,14 @@ extension DomainModels.MosqueSection {
 }
 public let defaultImageURL: Foundation.URL?
 public let defaultAudioURL: Foundation.URL?
-public struct QuizOption : Swift.Codable, Swift.Hashable {
+public struct QuizOptionV2 : Swift.Codable, Swift.Hashable {
   public let optionID: Swift.Int?
   public let description: Swift.String?
   public let isCorrect: Swift.Bool?
   #if compiler(>=5.3) && $NonescapableTypes
   public init(optionID: Swift.Int?, description: Swift.String?, isCorrect: Swift.Bool?)
   #endif
-  public static func == (a: DomainModels.QuizOption, b: DomainModels.QuizOption) -> Swift.Bool
+  public static func == (a: DomainModels.QuizOptionV2, b: DomainModels.QuizOptionV2) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -209,7 +209,7 @@ public struct QuizOption : Swift.Codable, Swift.Hashable {
   }
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct QuizQuestion : Swift.Codable, Swift.Identifiable {
+public struct QuizQuestionV2 : Swift.Codable, Swift.Identifiable {
   public let id: Swift.String
   public let questionID: Swift.Int?
   public let questionTitle: Swift.String?
@@ -221,16 +221,16 @@ public struct QuizQuestion : Swift.Codable, Swift.Identifiable {
   public let questionPlaytime: Swift.Int?
   public let questionImage: Foundation.URL?
   public let isActive: Swift.Bool?
-  public let options: [DomainModels.QuizOption]?
+  public let options: [DomainModels.QuizOptionV2]?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(id: Swift.String = UUID().uuidString, questionID: Swift.Int?, questionTitle: Swift.String?, categoryID: Swift.Int?, levelID: Swift.Int?, quizType: Swift.Int?, onTime: Swift.String?, questionScore: Swift.Int?, questionPlaytime: Swift.Int?, questionImage: Foundation.URL?, isActive: Swift.Bool?, options: [DomainModels.QuizOption]?)
+  public init(id: Swift.String = UUID().uuidString, questionID: Swift.Int?, questionTitle: Swift.String?, categoryID: Swift.Int?, levelID: Swift.Int?, quizType: Swift.Int?, onTime: Swift.String?, questionScore: Swift.Int?, questionPlaytime: Swift.Int?, questionImage: Foundation.URL?, isActive: Swift.Bool?, options: [DomainModels.QuizOptionV2]?)
   #endif
   public typealias ID = Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-extension DomainModels.QuizQuestion {
-  public static let sampleQuestion: DomainModels.QuizQuestion
+extension DomainModels.QuizQuestionV2 {
+  public static let sampleQuestion: DomainModels.QuizQuestionV2
 }
 public struct CommonCardModel : Swift.Identifiable {
   public var id: Foundation.UUID

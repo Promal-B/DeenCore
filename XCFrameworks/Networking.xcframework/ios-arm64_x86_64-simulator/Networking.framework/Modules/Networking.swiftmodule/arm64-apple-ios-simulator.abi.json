@@ -778,13 +778,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[DomainModels.QuizQuestion]",
+                "printedName": "[DomainModels.QuizQuestionV2]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "QuizQuestion",
-                    "printedName": "DomainModels.QuizQuestion",
-                    "usr": "s:12DomainModels12QuizQuestionV"
+                    "name": "QuizQuestionV2",
+                    "printedName": "DomainModels.QuizQuestionV2",
+                    "usr": "s:12DomainModels14QuizQuestionV2V"
                   }
                 ],
                 "usr": "s:Sa"
@@ -803,8 +803,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking9QLServiceP18fetchQuizQuestions10categoryID011subCategoryG0Say12DomainModels0D8QuestionVGSi_SitYaKF",
-            "mangledName": "$s10Networking9QLServiceP18fetchQuizQuestions10categoryID011subCategoryG0Say12DomainModels0D8QuestionVGSi_SitYaKF",
+            "usr": "s:10Networking9QLServiceP18fetchQuizQuestions10categoryID011subCategoryG0Say12DomainModels0D10QuestionV2VGSi_SitYaKF",
+            "mangledName": "$s10Networking9QLServiceP18fetchQuizQuestions10categoryID011subCategoryG0Say12DomainModels0D10QuestionV2VGSi_SitYaKF",
             "moduleName": "Networking",
             "genericSig": "<τ_0_0 where τ_0_0 : Networking.QLService>",
             "sugared_genericSig": "<Self where Self : Networking.QLService>",
@@ -1246,77 +1246,77 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Quiz\/QuizQuestionDTO.swift",
       "kind": "StringLiteral",
-      "offset": 599,
+      "offset": 601,
       "length": 12,
       "value": "\"QuestionID\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Quiz\/QuizQuestionDTO.swift",
       "kind": "StringLiteral",
-      "offset": 641,
+      "offset": 643,
       "length": 15,
       "value": "\"QuestionTitle\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Quiz\/QuizQuestionDTO.swift",
       "kind": "StringLiteral",
-      "offset": 683,
+      "offset": 685,
       "length": 12,
       "value": "\"CategoryID\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Quiz\/QuizQuestionDTO.swift",
       "kind": "StringLiteral",
-      "offset": 719,
+      "offset": 721,
       "length": 9,
       "value": "\"LevelID\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Quiz\/QuizQuestionDTO.swift",
       "kind": "StringLiteral",
-      "offset": 753,
+      "offset": 755,
       "length": 10,
       "value": "\"Quiztype\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Quiz\/QuizQuestionDTO.swift",
       "kind": "StringLiteral",
-      "offset": 786,
+      "offset": 788,
       "length": 8,
       "value": "\"OnTime\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Quiz\/QuizQuestionDTO.swift",
       "kind": "StringLiteral",
-      "offset": 824,
+      "offset": 826,
       "length": 15,
       "value": "\"QuestionScore\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Quiz\/QuizQuestionDTO.swift",
       "kind": "StringLiteral",
-      "offset": 872,
+      "offset": 874,
       "length": 18,
       "value": "\"QuestionPlaytime\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Quiz\/QuizQuestionDTO.swift",
       "kind": "StringLiteral",
-      "offset": 920,
+      "offset": 922,
       "length": 15,
       "value": "\"QuestionImage\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Quiz\/QuizQuestionDTO.swift",
       "kind": "StringLiteral",
-      "offset": 960,
+      "offset": 962,
       "length": 10,
       "value": "\"IsActive\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Quiz\/QuizQuestionDTO.swift",
       "kind": "StringLiteral",
-      "offset": 994,
+      "offset": 996,
       "length": 9,
       "value": "\"Options\""
     },
