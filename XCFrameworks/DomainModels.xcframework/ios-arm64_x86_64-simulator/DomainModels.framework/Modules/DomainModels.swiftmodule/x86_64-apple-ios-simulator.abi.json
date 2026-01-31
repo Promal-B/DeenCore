@@ -10030,6 +10030,34 @@
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mapToLesson",
+            "printedName": "mapToLesson(index:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Lesson",
+                "printedName": "DomainModels.Lesson",
+                "usr": "s:12DomainModels6LessonV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DomainModels10LessonDataV05mapToC05indexAA0C0VSi_tF",
+            "mangledName": "$s12DomainModels10LessonDataV05mapToC05indexAA0C0VSi_tF",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",

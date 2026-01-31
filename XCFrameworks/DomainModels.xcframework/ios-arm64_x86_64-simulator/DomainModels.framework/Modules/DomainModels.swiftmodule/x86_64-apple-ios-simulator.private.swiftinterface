@@ -320,6 +320,9 @@ public struct LessonData : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+extension DomainModels.LessonData {
+  public func mapToLesson(index: Swift.Int) -> DomainModels.Lesson
+}
 public struct MenuItem : Swift.Codable, Swift.Identifiable, Swift.Hashable {
   public let id: Swift.Int
   public let text: Swift.String
