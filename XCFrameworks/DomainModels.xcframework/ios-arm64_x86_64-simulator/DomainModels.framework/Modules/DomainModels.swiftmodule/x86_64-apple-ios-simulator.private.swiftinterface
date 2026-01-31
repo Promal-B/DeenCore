@@ -306,6 +306,9 @@ public struct LessonContent : Swift.Identifiable, Swift.Codable {
 extension DomainModels.LessonContent {
   public static let previewHarakat: DomainModels.LessonContent
   public static let previewHarakats: [DomainModels.LessonContent]
+  public static let fullPageAyathIntroPreview: DomainModels.LessonContent
+  public static let ayathPreview: DomainModels.LessonContent
+  public static let fullPageAyath: [DomainModels.LessonContent]
 }
 public struct LessonData : Swift.Codable {
   public let design: DomainModels.ContentDesign

@@ -9373,6 +9373,169 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullPageAyathIntroPreview",
+            "printedName": "fullPageAyathIntroPreview",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LessonContent",
+                "printedName": "DomainModels.LessonContent",
+                "usr": "s:12DomainModels13LessonContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13LessonContentV25fullPageAyathIntroPreviewACvpZ",
+            "mangledName": "$s12DomainModels13LessonContentV25fullPageAyathIntroPreviewACvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LessonContent",
+                    "printedName": "DomainModels.LessonContent",
+                    "usr": "s:12DomainModels13LessonContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13LessonContentV25fullPageAyathIntroPreviewACvgZ",
+                "mangledName": "$s12DomainModels13LessonContentV25fullPageAyathIntroPreviewACvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ayathPreview",
+            "printedName": "ayathPreview",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LessonContent",
+                "printedName": "DomainModels.LessonContent",
+                "usr": "s:12DomainModels13LessonContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13LessonContentV12ayathPreviewACvpZ",
+            "mangledName": "$s12DomainModels13LessonContentV12ayathPreviewACvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LessonContent",
+                    "printedName": "DomainModels.LessonContent",
+                    "usr": "s:12DomainModels13LessonContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13LessonContentV12ayathPreviewACvgZ",
+                "mangledName": "$s12DomainModels13LessonContentV12ayathPreviewACvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullPageAyath",
+            "printedName": "fullPageAyath",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.LessonContent]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LessonContent",
+                    "printedName": "DomainModels.LessonContent",
+                    "usr": "s:12DomainModels13LessonContentV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13LessonContentV13fullPageAyathSayACGvpZ",
+            "mangledName": "$s12DomainModels13LessonContentV13fullPageAyathSayACGvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DomainModels.LessonContent]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LessonContent",
+                        "printedName": "DomainModels.LessonContent",
+                        "usr": "s:12DomainModels13LessonContentV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13LessonContentV13fullPageAyathSayACGvgZ",
+                "mangledName": "$s12DomainModels13LessonContentV13fullPageAyathSayACGvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -14787,6 +14950,34 @@
       "offset": 2227,
       "length": 5,
       "value": "\"Dal\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
+      "kind": "StringLiteral",
+      "offset": 2321,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
+      "kind": "StringLiteral",
+      "offset": 2339,
+      "length": 638,
+      "value": "\"অক্ষর পরিচিতি পেজ থেকে আমরা অক্ষর শিখেছি।\nকিন্তু এসব অক্ষর যখন শব্দের মধ্যে ব্যবহার হয় তখন তারা দেখতে বিভিন্ন রকম হতে পারে। নিচের শব্দগুলোর দিকে খেয়াল করুন। এগুলো আপনাকে পড়তে হবেনা এখন। শুধু খেয়াল করুন শব্দের মধ্যে কোন অক্ষর কেমন হতে পারে।\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
+      "kind": "StringLiteral",
+      "offset": 3097,
+      "length": 19,
+      "value": "\"আলিফ (أ)\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
+      "kind": "StringLiteral",
+      "offset": 3132,
+      "length": 760,
+      "value": "\"লাম এবং আলিফ গুলিয়ে ফেলতে পারেন অনেক সময়। নিচের আরবি লেখাগুলোতে খেয়াল করুন।\nকমলা কালারের লেখাগুলো লাম। আর সবুজগুলো আলিফ। লামের নিচের দিকে যে লেজ থাকে এটা শুধুমাত্র বামেও থাকে অথবা ডানে বামে দুইদিকেই থাকতে পারে। কিন্তু আলিফের লেজ শুধু ডান দিকে থাকতে পারে। কখনই বামে বা উভয়দিকে থাকবে না।\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
