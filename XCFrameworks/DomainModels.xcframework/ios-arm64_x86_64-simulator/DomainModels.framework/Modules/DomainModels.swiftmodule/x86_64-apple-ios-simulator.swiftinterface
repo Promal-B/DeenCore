@@ -291,13 +291,13 @@ extension DomainModels.Lesson {
 }
 public struct LessonContent : Swift.Identifiable, Swift.Codable {
   public let id: Swift.String
-  public let symbol: Swift.String
-  public let pronounciation: Swift.String
-  public let description: Swift.String?
+  public let title: Swift.String
+  public let text: Swift.String
+  public let textInArabic: Swift.String?
   public let imageURL: Foundation.URL?
   public let audioURL: Foundation.URL?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(id: Swift.String = UUID().uuidString, symbol: Swift.String, pronounciation: Swift.String, description: Swift.String? = nil, imageURL: Foundation.URL?, audioURL: Foundation.URL?)
+  public init(id: Swift.String = UUID().uuidString, title: Swift.String, text: Swift.String, textInArabic: Swift.String? = nil, imageURL: Foundation.URL?, audioURL: Foundation.URL?)
   #endif
   public typealias ID = Swift.String
   public func encode(to encoder: any Swift.Encoder) throws

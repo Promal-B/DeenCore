@@ -8858,8 +8858,8 @@
           },
           {
             "kind": "Var",
-            "name": "symbol",
-            "printedName": "symbol",
+            "name": "title",
+            "printedName": "title",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8869,8 +8869,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels13LessonContentV6symbolSSvp",
-            "mangledName": "$s12DomainModels13LessonContentV6symbolSSvp",
+            "usr": "s:12DomainModels13LessonContentV5titleSSvp",
+            "mangledName": "$s12DomainModels13LessonContentV5titleSSvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -8892,8 +8892,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13LessonContentV6symbolSSvg",
-                "mangledName": "$s12DomainModels13LessonContentV6symbolSSvg",
+                "usr": "s:12DomainModels13LessonContentV5titleSSvg",
+                "mangledName": "$s12DomainModels13LessonContentV5titleSSvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8902,8 +8902,8 @@
           },
           {
             "kind": "Var",
-            "name": "pronounciation",
-            "printedName": "pronounciation",
+            "name": "text",
+            "printedName": "text",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8913,8 +8913,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels13LessonContentV14pronounciationSSvp",
-            "mangledName": "$s12DomainModels13LessonContentV14pronounciationSSvp",
+            "usr": "s:12DomainModels13LessonContentV4textSSvp",
+            "mangledName": "$s12DomainModels13LessonContentV4textSSvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -8936,8 +8936,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13LessonContentV14pronounciationSSvg",
-                "mangledName": "$s12DomainModels13LessonContentV14pronounciationSSvg",
+                "usr": "s:12DomainModels13LessonContentV4textSSvg",
+                "mangledName": "$s12DomainModels13LessonContentV4textSSvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8946,8 +8946,8 @@
           },
           {
             "kind": "Var",
-            "name": "description",
-            "printedName": "description",
+            "name": "textInArabic",
+            "printedName": "textInArabic",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8965,8 +8965,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels13LessonContentV11descriptionSSSgvp",
-            "mangledName": "$s12DomainModels13LessonContentV11descriptionSSSgvp",
+            "usr": "s:12DomainModels13LessonContentV12textInArabicSSSgvp",
+            "mangledName": "$s12DomainModels13LessonContentV12textInArabicSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -8996,8 +8996,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels13LessonContentV11descriptionSSSgvg",
-                "mangledName": "$s12DomainModels13LessonContentV11descriptionSSSgvg",
+                "usr": "s:12DomainModels13LessonContentV12textInArabicSSSgvg",
+                "mangledName": "$s12DomainModels13LessonContentV12textInArabicSSSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -9127,7 +9127,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(id:symbol:pronounciation:description:imageURL:audioURL:)",
+            "printedName": "init(id:title:text:textInArabic:imageURL:audioURL:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9199,8 +9199,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12DomainModels13LessonContentV2id6symbol14pronounciation11description8imageURL05audioJ0ACSS_S3SSg10Foundation0J0VSgANtcfc",
-            "mangledName": "$s12DomainModels13LessonContentV2id6symbol14pronounciation11description8imageURL05audioJ0ACSS_S3SSg10Foundation0J0VSgANtcfc",
+            "usr": "s:12DomainModels13LessonContentV2id5title4text0G8InArabic8imageURL05audioK0ACSS_S3SSg10Foundation0K0VSgANtcfc",
+            "mangledName": "$s12DomainModels13LessonContentV2id5title4text0G8InArabic8imageURL05audioK0ACSS_S3SSg10Foundation0K0VSgANtcfc",
             "moduleName": "DomainModels",
             "declAttributes": [
               "AccessControl"
@@ -14651,140 +14651,140 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1287,
+      "offset": 1237,
       "length": 4,
       "value": "\"ث\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1316,
+      "offset": 1266,
       "length": 6,
       "value": "\"Thaa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1345,
+      "offset": 1295,
       "length": 159,
       "value": "\"Sounds like sa. Put the tongue in the middle of your front teeth (upper and lower). The teeth will touch the tongue slightly.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1628,
+      "offset": 1578,
       "length": 4,
       "value": "\"ا\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1649,
+      "offset": 1599,
       "length": 6,
       "value": "\"Alif\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1685,
+      "offset": 1635,
       "length": 4,
       "value": "\"ب\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1706,
+      "offset": 1656,
       "length": 5,
       "value": "\"Baa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1741,
+      "offset": 1691,
       "length": 4,
       "value": "\"ت\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1762,
+      "offset": 1712,
       "length": 5,
       "value": "\"Taa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1810,
+      "offset": 1760,
       "length": 4,
       "value": "\"ث\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1843,
+      "offset": 1793,
       "length": 6,
       "value": "\"Thaa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1876,
+      "offset": 1826,
       "length": 171,
       "value": "\"Sounds like sa. Put the tongue in the middle of your front teeth (upper and lower). The teeth will touch the tongue slightly.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2086,
+      "offset": 2036,
       "length": 4,
       "value": "\"ج\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2107,
+      "offset": 2057,
       "length": 6,
       "value": "\"Jeem\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2143,
+      "offset": 2093,
       "length": 4,
       "value": "\"ح\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2164,
+      "offset": 2114,
       "length": 5,
       "value": "\"Haa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2199,
+      "offset": 2149,
       "length": 4,
       "value": "\"خ\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2220,
+      "offset": 2170,
       "length": 6,
       "value": "\"Khaa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2256,
+      "offset": 2206,
       "length": 4,
       "value": "\"د\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2277,
+      "offset": 2227,
       "length": 5,
       "value": "\"Dal\""
     },
