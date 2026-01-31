@@ -7964,222 +7964,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Lesson",
-        "printedName": "Lesson",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "id",
-            "printedName": "id",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12DomainModels6LessonV2idSivp",
-            "mangledName": "$s12DomainModels6LessonV2idSivp",
-            "moduleName": "DomainModels",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12DomainModels6LessonV2idSivg",
-                "mangledName": "$s12DomainModels6LessonV2idSivg",
-                "moduleName": "DomainModels",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "intro",
-            "printedName": "intro",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[DomainModels.IntroData]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IntroData",
-                    "printedName": "DomainModels.IntroData",
-                    "usr": "s:12DomainModels9IntroDataV"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12DomainModels6LessonV5introSayAA9IntroDataVGvp",
-            "mangledName": "$s12DomainModels6LessonV5introSayAA9IntroDataVGvp",
-            "moduleName": "DomainModels",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[DomainModels.IntroData]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "IntroData",
-                        "printedName": "DomainModels.IntroData",
-                        "usr": "s:12DomainModels9IntroDataV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12DomainModels6LessonV5introSayAA9IntroDataVGvg",
-                "mangledName": "$s12DomainModels6LessonV5introSayAA9IntroDataVGvg",
-                "moduleName": "DomainModels",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "lessonContent",
-            "printedName": "lessonContent",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[DomainModels.LessonContent]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LessonContent",
-                    "printedName": "DomainModels.LessonContent",
-                    "usr": "s:12DomainModels13LessonContentV"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12DomainModels6LessonV13lessonContentSayAA0cE0VGvp",
-            "mangledName": "$s12DomainModels6LessonV13lessonContentSayAA0cE0VGvp",
-            "moduleName": "DomainModels",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[DomainModels.LessonContent]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LessonContent",
-                        "printedName": "DomainModels.LessonContent",
-                        "usr": "s:12DomainModels13LessonContentV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12DomainModels6LessonV13lessonContentSayAA0cE0VGvg",
-                "mangledName": "$s12DomainModels6LessonV13lessonContentSayAA0cE0VGvg",
-                "moduleName": "DomainModels",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:12DomainModels6LessonV",
-        "mangledName": "$s12DomainModels6LessonV",
-        "moduleName": "DomainModels",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "IntroData",
         "printedName": "IntroData",
         "children": [
@@ -8562,6 +8346,120 @@
             "static": true,
             "implicit": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "previewItem",
+            "printedName": "previewItem",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IntroData",
+                "printedName": "DomainModels.IntroData",
+                "usr": "s:12DomainModels9IntroDataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9IntroDataV11previewItemACvpZ",
+            "mangledName": "$s12DomainModels9IntroDataV11previewItemACvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntroData",
+                    "printedName": "DomainModels.IntroData",
+                    "usr": "s:12DomainModels9IntroDataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IntroDataV11previewItemACvgZ",
+                "mangledName": "$s12DomainModels9IntroDataV11previewItemACvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previewArray",
+            "printedName": "previewArray",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.IntroData]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntroData",
+                    "printedName": "DomainModels.IntroData",
+                    "usr": "s:12DomainModels9IntroDataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9IntroDataV12previewArraySayACGvpZ",
+            "mangledName": "$s12DomainModels9IntroDataV12previewArraySayACGvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DomainModels.IntroData]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntroData",
+                        "printedName": "DomainModels.IntroData",
+                        "usr": "s:12DomainModels9IntroDataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IntroDataV12previewArraySayACGvgZ",
+                "mangledName": "$s12DomainModels9IntroDataV12previewArraySayACGvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -8621,6 +8519,281 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Lesson",
+        "printedName": "Lesson",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels6LessonV2idSivp",
+            "mangledName": "$s12DomainModels6LessonV2idSivp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels6LessonV2idSivg",
+                "mangledName": "$s12DomainModels6LessonV2idSivg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "intro",
+            "printedName": "intro",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.IntroData]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntroData",
+                    "printedName": "DomainModels.IntroData",
+                    "usr": "s:12DomainModels9IntroDataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels6LessonV5introSayAA9IntroDataVGvp",
+            "mangledName": "$s12DomainModels6LessonV5introSayAA9IntroDataVGvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DomainModels.IntroData]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntroData",
+                        "printedName": "DomainModels.IntroData",
+                        "usr": "s:12DomainModels9IntroDataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels6LessonV5introSayAA9IntroDataVGvg",
+                "mangledName": "$s12DomainModels6LessonV5introSayAA9IntroDataVGvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lessonContent",
+            "printedName": "lessonContent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.LessonContent]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LessonContent",
+                    "printedName": "DomainModels.LessonContent",
+                    "usr": "s:12DomainModels13LessonContentV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels6LessonV13lessonContentSayAA0cE0VGvp",
+            "mangledName": "$s12DomainModels6LessonV13lessonContentSayAA0cE0VGvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DomainModels.LessonContent]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LessonContent",
+                        "printedName": "DomainModels.LessonContent",
+                        "usr": "s:12DomainModels13LessonContentV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels6LessonV13lessonContentSayAA0cE0VGvg",
+                "mangledName": "$s12DomainModels6LessonV13lessonContentSayAA0cE0VGvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previewLesson",
+            "printedName": "previewLesson",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Lesson",
+                "printedName": "DomainModels.Lesson",
+                "usr": "s:12DomainModels6LessonV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels6LessonV07previewC0ACvpZ",
+            "mangledName": "$s12DomainModels6LessonV07previewC0ACvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Lesson",
+                    "printedName": "DomainModels.Lesson",
+                    "usr": "s:12DomainModels6LessonV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels6LessonV07previewC0ACvgZ",
+                "mangledName": "$s12DomainModels6LessonV07previewC0ACvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12DomainModels6LessonV",
+        "mangledName": "$s12DomainModels6LessonV",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
           }
         ]
       },
@@ -9084,6 +9257,122 @@
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "previewHarakat",
+            "printedName": "previewHarakat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LessonContent",
+                "printedName": "DomainModels.LessonContent",
+                "usr": "s:12DomainModels13LessonContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13LessonContentV14previewHarakatACvpZ",
+            "mangledName": "$s12DomainModels13LessonContentV14previewHarakatACvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LessonContent",
+                    "printedName": "DomainModels.LessonContent",
+                    "usr": "s:12DomainModels13LessonContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13LessonContentV14previewHarakatACvgZ",
+                "mangledName": "$s12DomainModels13LessonContentV14previewHarakatACvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previewHarakats",
+            "printedName": "previewHarakats",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.LessonContent]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LessonContent",
+                    "printedName": "DomainModels.LessonContent",
+                    "usr": "s:12DomainModels13LessonContentV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels13LessonContentV15previewHarakatsSayACGvpZ",
+            "mangledName": "$s12DomainModels13LessonContentV15previewHarakatsSayACGvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DomainModels.LessonContent]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LessonContent",
+                        "printedName": "DomainModels.LessonContent",
+                        "usr": "s:12DomainModels13LessonContentV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13LessonContentV15previewHarakatsSayACGvgZ",
+                "mangledName": "$s12DomainModels13LessonContentV15previewHarakatsSayACGvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -14332,170 +14621,170 @@
       "value": "\"FullPageAyath\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Lesson.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/IntroData.swift",
       "kind": "StringLiteral",
-      "offset": 552,
+      "offset": 424,
       "length": 11,
       "value": "\"Alphabets\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Lesson.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/IntroData.swift",
       "kind": "StringLiteral",
-      "offset": 583,
+      "offset": 455,
       "length": 3,
       "value": "\"1\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Lesson.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/IntroData.swift",
       "kind": "StringLiteral",
-      "offset": 602,
+      "offset": 474,
       "length": 325,
       "value": "\"Recite Alif and Hamzah without any elongation. Stretch two-component letters for the length of one Alif. Stretch three-component letters for the length of three Alifs (such as Ayn, Nun, Waw). These letters form the foundation of Qur'an learning, so it is essential to recognize them clearly.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Lesson.swift",
       "kind": "IntegerLiteral",
-      "offset": 1075,
+      "offset": 317,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1280,
+      "offset": 1287,
       "length": 4,
       "value": "\"ث\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1309,
+      "offset": 1316,
       "length": 6,
       "value": "\"Thaa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1338,
+      "offset": 1345,
       "length": 159,
       "value": "\"Sounds like sa. Put the tongue in the middle of your front teeth (upper and lower). The teeth will touch the tongue slightly.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1614,
+      "offset": 1628,
       "length": 4,
       "value": "\"ا\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1635,
+      "offset": 1649,
       "length": 6,
       "value": "\"Alif\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1671,
+      "offset": 1685,
       "length": 4,
       "value": "\"ب\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1692,
+      "offset": 1706,
       "length": 5,
       "value": "\"Baa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1727,
+      "offset": 1741,
       "length": 4,
       "value": "\"ت\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1748,
+      "offset": 1762,
       "length": 5,
       "value": "\"Taa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1796,
+      "offset": 1810,
       "length": 4,
       "value": "\"ث\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1829,
+      "offset": 1843,
       "length": 6,
       "value": "\"Thaa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1862,
+      "offset": 1876,
       "length": 171,
       "value": "\"Sounds like sa. Put the tongue in the middle of your front teeth (upper and lower). The teeth will touch the tongue slightly.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2072,
+      "offset": 2086,
       "length": 4,
       "value": "\"ج\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2093,
+      "offset": 2107,
       "length": 6,
       "value": "\"Jeem\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2129,
+      "offset": 2143,
       "length": 4,
       "value": "\"ح\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2150,
+      "offset": 2164,
       "length": 5,
       "value": "\"Haa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2185,
+      "offset": 2199,
       "length": 4,
       "value": "\"خ\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2206,
+      "offset": 2220,
       "length": 6,
       "value": "\"Khaa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2242,
+      "offset": 2256,
       "length": 4,
       "value": "\"د\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 2263,
+      "offset": 2277,
       "length": 5,
       "value": "\"Dal\""
     },

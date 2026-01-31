@@ -263,12 +263,6 @@ extension DomainModels.ContentDesign {
   public init(from string: Swift.String?) throws
   #endif
 }
-public struct Lesson : Swift.Identifiable {
-  public let id: Swift.Int
-  public let intro: [DomainModels.IntroData]
-  public let lessonContent: [DomainModels.LessonContent]
-  public typealias ID = Swift.Int
-}
 public struct IntroData : Swift.Identifiable, Swift.Hashable {
   public let id: Swift.String
   public let title: Swift.String?
@@ -281,6 +275,19 @@ public struct IntroData : Swift.Identifiable, Swift.Hashable {
   public var hashValue: Swift.Int {
     get
   }
+}
+extension DomainModels.IntroData {
+  public static let previewItem: DomainModels.IntroData
+  public static let previewArray: [DomainModels.IntroData]
+}
+public struct Lesson : Swift.Identifiable {
+  public let id: Swift.Int
+  public let intro: [DomainModels.IntroData]
+  public let lessonContent: [DomainModels.LessonContent]
+  public typealias ID = Swift.Int
+}
+extension DomainModels.Lesson {
+  public static let previewLesson: DomainModels.Lesson
 }
 public struct LessonContent : Swift.Identifiable, Swift.Codable {
   public let id: Swift.String
@@ -295,6 +302,10 @@ public struct LessonContent : Swift.Identifiable, Swift.Codable {
   public typealias ID = Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+extension DomainModels.LessonContent {
+  public static let previewHarakat: DomainModels.LessonContent
+  public static let previewHarakats: [DomainModels.LessonContent]
 }
 public struct LessonData : Swift.Codable {
   public let design: DomainModels.ContentDesign
