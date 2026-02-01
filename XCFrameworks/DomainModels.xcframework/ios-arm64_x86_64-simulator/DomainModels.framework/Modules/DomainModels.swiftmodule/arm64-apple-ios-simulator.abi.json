@@ -14785,15 +14785,8 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/CommonCardModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1030,
-      "length": 63,
-      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/CommonCardModel.swift",
       "kind": "Array",
-      "offset": 1117,
+      "offset": 1056,
       "length": 58,
       "value": "[\"১ম পাঠ\", \"কুরআন শিক্ষা\"]"
     },
@@ -14863,65 +14856,65 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1578,
-      "length": 4,
-      "value": "\"ا\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 1599,
-      "length": 6,
-      "value": "\"Alif\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 1635,
-      "length": 4,
-      "value": "\"ب\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 1656,
-      "length": 5,
-      "value": "\"Baa\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 1691,
-      "length": 4,
-      "value": "\"ت\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 1712,
-      "length": 5,
-      "value": "\"Taa\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
-      "kind": "StringLiteral",
-      "offset": 1760,
+      "offset": 1591,
       "length": 4,
       "value": "\"ث\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1793,
+      "offset": 1624,
       "length": 6,
       "value": "\"Thaa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 1826,
+      "offset": 1657,
       "length": 171,
       "value": "\"Sounds like sa. Put the tongue in the middle of your front teeth (upper and lower). The teeth will touch the tongue slightly.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
+      "kind": "StringLiteral",
+      "offset": 1867,
+      "length": 4,
+      "value": "\"ا\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
+      "kind": "StringLiteral",
+      "offset": 1888,
+      "length": 6,
+      "value": "\"Alif\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
+      "kind": "StringLiteral",
+      "offset": 1924,
+      "length": 4,
+      "value": "\"ب\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
+      "kind": "StringLiteral",
+      "offset": 1945,
+      "length": 5,
+      "value": "\"Baa\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
+      "kind": "StringLiteral",
+      "offset": 1980,
+      "length": 4,
+      "value": "\"ت\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
+      "kind": "StringLiteral",
+      "offset": 2001,
+      "length": 5,
+      "value": "\"Taa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
@@ -14990,22 +14983,22 @@
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
       "offset": 2339,
-      "length": 638,
-      "value": "\"অক্ষর পরিচিতি পেজ থেকে আমরা অক্ষর শিখেছি।\nকিন্তু এসব অক্ষর যখন শব্দের মধ্যে ব্যবহার হয় তখন তারা দেখতে বিভিন্ন রকম হতে পারে। নিচের শব্দগুলোর দিকে খেয়াল করুন। এগুলো আপনাকে পড়তে হবেনা এখন। শুধু খেয়াল করুন শব্দের মধ্যে কোন অক্ষর কেমন হতে পারে।\""
+      "length": 691,
+      "value": "\"অক্ষর পরিচিতি পেজ থেকে আমরা অক্ষর শিখেছি।\nকিন্তু এসব অক্ষর যখন শব্দের মধ্যে ব্যবহার হয় তখন তারা দেখতে বিভিন্ন রকম হতে পারে।\nনিচের শব্দগুলোর দিকে খেয়াল করুন।\nএগুলো আপনাকে পড়তে হবেনা এখন।\nশুধু খেয়াল করুন শব্দের মধ্যে কোন অক্ষর কেমন হতে পারে।\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 3097,
+      "offset": 3174,
       "length": 19,
       "value": "\"আলিফ (أ)\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/LessonContent.swift",
       "kind": "StringLiteral",
-      "offset": 3132,
-      "length": 760,
-      "value": "\"লাম এবং আলিফ গুলিয়ে ফেলতে পারেন অনেক সময়। নিচের আরবি লেখাগুলোতে খেয়াল করুন।\nকমলা কালারের লেখাগুলো লাম। আর সবুজগুলো আলিফ। লামের নিচের দিকে যে লেজ থাকে এটা শুধুমাত্র বামেও থাকে অথবা ডানে বামে দুইদিকেই থাকতে পারে। কিন্তু আলিফের লেজ শুধু ডান দিকে থাকতে পারে। কখনই বামে বা উভয়দিকে থাকবে না।\""
+      "offset": 3209,
+      "length": 837,
+      "value": "\"লাম এবং আলিফ গুলিয়ে ফেলতে পারেন অনেক সময়।\nনিচের আরবি লেখাগুলোতে খেয়াল করুন।\nকমলা কালারের লেখাগুলো লাম।\nআর সবুজগুলো আলিফ।\nলামের নিচের দিকে যে লেজ থাকে এটা শুধুমাত্র বামেও থাকে\nঅথবা ডানে বামে দুইদিকেই থাকতে পারে।\nকিন্তু আলিফের লেজ শুধু ডান দিকে থাকতে পারে।\nকখনই বামে বা উভয়দিকে থাকবে না।\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
@@ -15031,16 +15024,198 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 848,
-      "length": 1,
-      "value": "6"
+      "offset": 814,
+      "length": 2,
+      "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
       "kind": "StringLiteral",
-      "offset": 869,
-      "length": 48,
-      "value": "\"অক্ষরের ভিন্নরূপ\""
+      "offset": 824,
+      "length": 33,
+      "value": "\"সূরা ফাতিহা\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 927,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "StringLiteral",
+      "offset": 937,
+      "length": 30,
+      "value": "\"সূরা ইখলাস\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1037,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1047,
+      "length": 30,
+      "value": "\"সূরা ফালাক\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1147,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1157,
+      "length": 24,
+      "value": "\"সূরা নাস\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1251,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1261,
+      "length": 33,
+      "value": "\"সূরা কাওসার\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1364,
+      "length": 2,
+      "value": "23"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1374,
+      "length": 27,
+      "value": "\"সূরা নাসর\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1471,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1481,
+      "length": 24,
+      "value": "\"সূরা আসর\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1575,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1585,
+      "length": 36,
+      "value": "\"সূরা হুমাজাহ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1691,
+      "length": 2,
+      "value": "26"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1701,
+      "length": 24,
+      "value": "\"সূরা ফীল\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1795,
+      "length": 2,
+      "value": "27"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1805,
+      "length": 33,
+      "value": "\"সূরা কুরাইশ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1908,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1918,
+      "length": 20,
+      "value": "\"তাসবীহ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2008,
+      "length": 2,
+      "value": "29"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "StringLiteral",
+      "offset": 2018,
+      "length": 26,
+      "value": "\"তাশাহহুদ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2114,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "StringLiteral",
+      "offset": 2124,
+      "length": 39,
+      "value": "\"দরুদে ইবরাহিম\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2233,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/MenuItem.swift",
+      "kind": "StringLiteral",
+      "offset": 2243,
+      "length": 26,
+      "value": "\"অন্যান্য\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
@@ -15065,267 +15240,211 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
-      "kind": "StringLiteral",
-      "offset": 1406,
-      "length": 63,
-      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "FloatLiteral",
-      "offset": 1649,
+      "offset": 1588,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "IntegerLiteral",
-      "offset": 1697,
+      "offset": 1636,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "StringLiteral",
-      "offset": 1707,
+      "offset": 1646,
       "length": 11,
       "value": "\"Etiquette\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "StringLiteral",
-      "offset": 1730,
+      "offset": 1669,
       "length": 3,
       "value": "\"2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
-      "kind": "StringLiteral",
-      "offset": 1768,
-      "length": 63,
-      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "FloatLiteral",
-      "offset": 2013,
+      "offset": 1891,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "IntegerLiteral",
-      "offset": 2061,
+      "offset": 1939,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "StringLiteral",
-      "offset": 2071,
+      "offset": 1949,
       "length": 11,
       "value": "\"Alphabets\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "StringLiteral",
-      "offset": 2094,
+      "offset": 1972,
       "length": 3,
       "value": "\"3\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
-      "kind": "StringLiteral",
-      "offset": 2132,
-      "length": 63,
-      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "FloatLiteral",
-      "offset": 2377,
+      "offset": 2194,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "IntegerLiteral",
-      "offset": 2425,
+      "offset": 2242,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "StringLiteral",
-      "offset": 2435,
+      "offset": 2252,
       "length": 9,
       "value": "\"Harakat\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "StringLiteral",
-      "offset": 2456,
+      "offset": 2273,
       "length": 3,
       "value": "\"4\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
-      "kind": "StringLiteral",
-      "offset": 2494,
-      "length": 63,
-      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "FloatLiteral",
-      "offset": 2743,
+      "offset": 2499,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "IntegerLiteral",
-      "offset": 2791,
+      "offset": 2547,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "StringLiteral",
-      "offset": 2801,
+      "offset": 2557,
       "length": 6,
       "value": "\"Madd\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "StringLiteral",
-      "offset": 2819,
+      "offset": 2575,
       "length": 3,
       "value": "\"5\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
-      "kind": "StringLiteral",
-      "offset": 2857,
-      "length": 63,
-      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "FloatLiteral",
-      "offset": 3104,
+      "offset": 2799,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "IntegerLiteral",
-      "offset": 3152,
+      "offset": 2847,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "StringLiteral",
-      "offset": 3162,
+      "offset": 2857,
       "length": 9,
       "value": "\"Tajweed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "StringLiteral",
-      "offset": 3183,
+      "offset": 2878,
       "length": 3,
       "value": "\"6\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
-      "kind": "StringLiteral",
-      "offset": 3221,
-      "length": 63,
-      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "FloatLiteral",
-      "offset": 3464,
+      "offset": 3098,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "IntegerLiteral",
-      "offset": 3512,
+      "offset": 3146,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "StringLiteral",
-      "offset": 3522,
+      "offset": 3156,
       "length": 10,
       "value": "\"Practice\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "StringLiteral",
-      "offset": 3544,
+      "offset": 3178,
       "length": 3,
       "value": "\"7\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
-      "kind": "StringLiteral",
-      "offset": 3582,
-      "length": 63,
-      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "FloatLiteral",
-      "offset": 3829,
+      "offset": 3402,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "IntegerLiteral",
-      "offset": 3877,
+      "offset": 3450,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "StringLiteral",
-      "offset": 3887,
+      "offset": 3460,
       "length": 14,
       "value": "\"Final Lesson\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "StringLiteral",
-      "offset": 3913,
+      "offset": 3486,
       "length": 3,
       "value": "\"8\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
-      "kind": "StringLiteral",
-      "offset": 3951,
-      "length": 63,
-      "value": "\"https:\/\/images.unsplash.com\/vector-1745318509361-47ce7e7481d3\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "FloatLiteral",
-      "offset": 4198,
+      "offset": 3710,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/QuranLearning\/Module.swift",
       "kind": "IntegerLiteral",
-      "offset": 4281,
+      "offset": 3793,
       "length": 1,
       "value": "0"
     },

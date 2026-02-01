@@ -950,6 +950,43 @@
             "moduleName": "Networking"
           },
           {
+            "kind": "Var",
+            "name": "android",
+            "printedName": "android",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Networking.NetworkEnvironment.Type) -> Networking.NetworkEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkEnvironment",
+                    "printedName": "Networking.NetworkEnvironment",
+                    "usr": "s:10Networking18NetworkEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Networking.NetworkEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkEnvironment",
+                        "printedName": "Networking.NetworkEnvironment",
+                        "usr": "s:10Networking18NetworkEnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Networking18NetworkEnvironmentO7androidyA2CmF",
+            "mangledName": "$s10Networking18NetworkEnvironmentO7androidyA2CmF",
+            "moduleName": "Networking"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",

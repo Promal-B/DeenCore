@@ -6,7 +6,7 @@
 	<dict>
 		<key>Frameworks/DomainModels.framework/DomainModels</key>
 		<data>
-		piRTo3EvSDjQ2L6nrLKYjCW3xp4=
+		sKs2YZ7PftqyyrYmph/2mAuYLOY=
 		</data>
 		<key>Frameworks/DomainModels.framework/Info.plist</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ZxMNvHkyMzqAMKLhWZbwVXkzhno=
+		agcVgB9kyfLo3Nq5LwMkuIDM7HY=
 		</data>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		nEjrD+/mJtoAwxvWLi+V3plPnqE=
+		vZIXEH9qd5yq3+LSDroDo/nV1cw=
 		</data>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nEjrD+/mJtoAwxvWLi+V3plPnqE=
+		vZIXEH9qd5yq3+LSDroDo/nV1cw=
 		</data>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DdR2he/XvZbgDSqcyEshUX0D2Ck=
+		ESGg8Cwe7/y0XNU8eRLLt+eQdL0=
 		</data>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ZxMNvHkyMzqAMKLhWZbwVXkzhno=
+		agcVgB9kyfLo3Nq5LwMkuIDM7HY=
 		</data>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gkJwJ3JrH0cunqK/GWgRCVV7JN4=
+		oFBhQfPuRrY2UnW94nS05TlyIOU=
 		</data>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gkJwJ3JrH0cunqK/GWgRCVV7JN4=
+		oFBhQfPuRrY2UnW94nS05TlyIOU=
 		</data>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PPkcRCMj/eHTFNBxgSpbWkSJsu8=
+		l7Yzo5OiPn4ZtGKzYk5+TDGL+w0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7dSknfKp5IM/9S/Mk3jMJoA8z1HcgG9SjKTQLabdgUg=
+			PT5zPm4Nt47NMPWURt4v8UP4MiQ0AQWy4jejxKvR6zs=
 			</data>
 		</dict>
 		<key>Frameworks/DomainModels.framework/Info.plist</key>
@@ -88,14 +88,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uVxR8s+XBOy7Y3ozkmd/8F1//mqF9OQBvqrw1bsYIZc=
+			T4V6oWb1yNa+pd66KioB0KutGhDiOwJgGZGz0l4jAQc=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dNS+Y3cNNWY1g++k2tATdY6D2iMOI1F2o8FUJbtga2c=
+			BbizTZpaPvZbdoyW+b8c+5lld0eptZahZmQnMxfjKj0=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -109,28 +109,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dNS+Y3cNNWY1g++k2tATdY6D2iMOI1F2o8FUJbtga2c=
+			BbizTZpaPvZbdoyW+b8c+5lld0eptZahZmQnMxfjKj0=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SaKKdAU/6oDpFWILZNQEJuRAa8cIUFjP9fj1aEDF7JQ=
+			QCgRePEzT7yaZBKY4LyKC2tiQG5rXbBWFOgadsBm3/Q=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uVxR8s+XBOy7Y3ozkmd/8F1//mqF9OQBvqrw1bsYIZc=
+			T4V6oWb1yNa+pd66KioB0KutGhDiOwJgGZGz0l4jAQc=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JICFGPPTeRkf6A0JOJUYK/EXJKT7iIsObLaYosJSJTk=
+			t71VaQ02kci0jJ05qTkiE5Zf/CriH4IBX+KQRtSDzBs=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -144,14 +144,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JICFGPPTeRkf6A0JOJUYK/EXJKT7iIsObLaYosJSJTk=
+			t71VaQ02kci0jJ05qTkiE5Zf/CriH4IBX+KQRtSDzBs=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3yAiKOEntF4q/IZeNIf0SP01PfxEw5R5w2/4Bw5yeAc=
+			TAH5JZQ61COs85t6fX5wxMqvDfU+LUTBQwqycR0OYP4=
 			</data>
 		</dict>
 	</dict>
