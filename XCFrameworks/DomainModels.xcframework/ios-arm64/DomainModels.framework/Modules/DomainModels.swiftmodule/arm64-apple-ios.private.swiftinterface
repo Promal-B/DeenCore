@@ -408,7 +408,7 @@ extension DomainModels.ResponseContentType {
   public init(from string: Swift.String?) throws
   #endif
 }
-public struct Pagination : Swift.Codable {
+public struct PaginationV2 : Swift.Codable {
   public let hasPrevious: Swift.Bool
   public let hasNext: Swift.Bool
   public let totalPage: Swift.Int

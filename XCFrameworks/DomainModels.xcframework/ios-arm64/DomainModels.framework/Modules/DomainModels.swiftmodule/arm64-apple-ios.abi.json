@@ -13214,8 +13214,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Pagination",
-        "printedName": "Pagination",
+        "name": "PaginationV2",
+        "printedName": "PaginationV2",
         "children": [
           {
             "kind": "Var",
@@ -13230,8 +13230,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels10PaginationV11hasPreviousSbvp",
-            "mangledName": "$s12DomainModels10PaginationV11hasPreviousSbvp",
+            "usr": "s:12DomainModels12PaginationV2V11hasPreviousSbvp",
+            "mangledName": "$s12DomainModels12PaginationV2V11hasPreviousSbvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -13253,8 +13253,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels10PaginationV11hasPreviousSbvg",
-                "mangledName": "$s12DomainModels10PaginationV11hasPreviousSbvg",
+                "usr": "s:12DomainModels12PaginationV2V11hasPreviousSbvg",
+                "mangledName": "$s12DomainModels12PaginationV2V11hasPreviousSbvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -13274,8 +13274,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels10PaginationV7hasNextSbvp",
-            "mangledName": "$s12DomainModels10PaginationV7hasNextSbvp",
+            "usr": "s:12DomainModels12PaginationV2V7hasNextSbvp",
+            "mangledName": "$s12DomainModels12PaginationV2V7hasNextSbvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -13297,8 +13297,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels10PaginationV7hasNextSbvg",
-                "mangledName": "$s12DomainModels10PaginationV7hasNextSbvg",
+                "usr": "s:12DomainModels12PaginationV2V7hasNextSbvg",
+                "mangledName": "$s12DomainModels12PaginationV2V7hasNextSbvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -13318,8 +13318,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels10PaginationV9totalPageSivp",
-            "mangledName": "$s12DomainModels10PaginationV9totalPageSivp",
+            "usr": "s:12DomainModels12PaginationV2V9totalPageSivp",
+            "mangledName": "$s12DomainModels12PaginationV2V9totalPageSivp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -13341,8 +13341,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels10PaginationV9totalPageSivg",
-                "mangledName": "$s12DomainModels10PaginationV9totalPageSivg",
+                "usr": "s:12DomainModels12PaginationV2V9totalPageSivg",
+                "mangledName": "$s12DomainModels12PaginationV2V9totalPageSivg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -13356,9 +13356,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Pagination",
-                "printedName": "DomainModels.Pagination",
-                "usr": "s:12DomainModels10PaginationV"
+                "name": "PaginationV2",
+                "printedName": "DomainModels.PaginationV2",
+                "usr": "s:12DomainModels12PaginationV2V"
               },
               {
                 "kind": "TypeNominal",
@@ -13380,8 +13380,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12DomainModels10PaginationV11hasPrevious0D4Next9totalPageACSb_SbSitcfc",
-            "mangledName": "$s12DomainModels10PaginationV11hasPrevious0D4Next9totalPageACSb_SbSitcfc",
+            "usr": "s:12DomainModels12PaginationV2V11hasPrevious0E4Next9totalPageACSb_SbSitcfc",
+            "mangledName": "$s12DomainModels12PaginationV2V11hasPrevious0E4Next9totalPageACSb_SbSitcfc",
             "moduleName": "DomainModels",
             "declAttributes": [
               "AccessControl"
@@ -13395,9 +13395,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Pagination",
-                "printedName": "DomainModels.Pagination",
-                "usr": "s:12DomainModels10PaginationV"
+                "name": "PaginationV2",
+                "printedName": "DomainModels.PaginationV2",
+                "usr": "s:12DomainModels12PaginationV2V"
               },
               {
                 "kind": "TypeNominal",
@@ -13407,8 +13407,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12DomainModels10PaginationV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s12DomainModels10PaginationV4fromACs7Decoder_p_tKcfc",
+            "usr": "s:12DomainModels12PaginationV2V4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12DomainModels12PaginationV2V4fromACs7Decoder_p_tKcfc",
             "moduleName": "DomainModels",
             "implicit": true,
             "throwing": true,
@@ -13432,8 +13432,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12DomainModels10PaginationV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s12DomainModels10PaginationV6encode2toys7Encoder_p_tKF",
+            "usr": "s:12DomainModels12PaginationV2V6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12DomainModels12PaginationV2V6encode2toys7Encoder_p_tKF",
             "moduleName": "DomainModels",
             "implicit": true,
             "throwing": true,
@@ -13441,8 +13441,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:12DomainModels10PaginationV",
-        "mangledName": "$s12DomainModels10PaginationV",
+        "usr": "s:12DomainModels12PaginationV2V",
+        "mangledName": "$s12DomainModels12PaginationV2V",
         "moduleName": "DomainModels",
         "declAttributes": [
           "AccessControl"

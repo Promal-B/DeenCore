@@ -402,7 +402,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Tuple",
-                "printedName": "(list: [DomainModels.MosqueOverview], pagination: DomainModels.Pagination?)",
+                "printedName": "(list: [DomainModels.MosqueOverview], pagination: DomainModels.PaginationV2?)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -421,13 +421,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "DomainModels.Pagination?",
+                    "printedName": "DomainModels.PaginationV2?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Pagination",
-                        "printedName": "DomainModels.Pagination",
-                        "usr": "s:12DomainModels10PaginationV"
+                        "name": "PaginationV2",
+                        "printedName": "DomainModels.PaginationV2",
+                        "usr": "s:12DomainModels12PaginationV2V"
                       }
                     ],
                     "usr": "s:Sq"
@@ -462,8 +462,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking9FMServiceP15fetchMosqueList9countryID4page7contentSay12DomainModels0D8OverviewVG4list_AH10PaginationVSg10paginationtSiSg_S2itYaKF",
-            "mangledName": "$s10Networking9FMServiceP15fetchMosqueList9countryID4page7contentSay12DomainModels0D8OverviewVG4list_AH10PaginationVSg10paginationtSiSg_S2itYaKF",
+            "usr": "s:10Networking9FMServiceP15fetchMosqueList9countryID4page7contentSay12DomainModels0D8OverviewVG4list_AH12PaginationV2VSg10paginationtSiSg_S2itYaKF",
+            "mangledName": "$s10Networking9FMServiceP15fetchMosqueList9countryID4page7contentSay12DomainModels0D8OverviewVG4list_AH12PaginationV2VSg10paginationtSiSg_S2itYaKF",
             "moduleName": "Networking",
             "genericSig": "<τ_0_0 where τ_0_0 : Networking.FMService>",
             "sugared_genericSig": "<Self where Self : Networking.FMService>",
@@ -1437,42 +1437,42 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/APIResponse.swift",
       "kind": "StringLiteral",
-      "offset": 424,
+      "offset": 426,
       "length": 9,
       "value": "\"Success\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/APIResponse.swift",
       "kind": "StringLiteral",
-      "offset": 457,
+      "offset": 459,
       "length": 9,
       "value": "\"Message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/APIResponse.swift",
       "kind": "StringLiteral",
-      "offset": 487,
+      "offset": 489,
       "length": 6,
       "value": "\"Data\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/APIResponse.swift",
       "kind": "StringLiteral",
-      "offset": 521,
+      "offset": 523,
       "length": 12,
       "value": "\"IsPrevious\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/APIResponse.swift",
       "kind": "StringLiteral",
-      "offset": 557,
+      "offset": 559,
       "length": 8,
       "value": "\"IsNext\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/APIResponse.swift",
       "kind": "StringLiteral",
-      "offset": 591,
+      "offset": 593,
       "length": 11,
       "value": "\"TotalPage\""
     },
