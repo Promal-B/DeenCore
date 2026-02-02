@@ -8,12 +8,12 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_Concurrency.MainActor @preconcurrency public struct DateSelection : SwiftUICore.View {
+@_Concurrency.MainActor @preconcurrency public struct DatePickerCalendar : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(currentDate: Foundation.Date = Date(), foreground: SwiftUICore.Color = .green, background: SwiftUICore.Color = .gray.opacity(0.2), onTapAction: @escaping (Foundation.Date) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  public typealias Body = @_opaqueReturnTypeOf("$s12UIComponents13DateSelectionV4bodyQrvp", 0) __
+  public typealias Body = @_opaqueReturnTypeOf("$s12UIComponents18DatePickerCalendarV4bodyQrvp", 0) __
 }
 
 @_Concurrency.MainActor @preconcurrency public struct HorizontalUncontainedCarousel<Item, Content> : SwiftUICore.View where Item : Swift.Identifiable, Content : SwiftUICore.View {
@@ -27,5 +27,5 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func anchoredPopup<Content>(_ isPresented: SwiftUICore.Binding<Swift.Bool>, color: SwiftUICore.Color, radius: CoreFoundation.CGFloat = 0, @SwiftUICore.ViewBuilder content: @escaping () -> Content) -> some SwiftUICore.View where Content : SwiftUICore.View
   
 }
-extension UIComponents.DateSelection : Swift.Sendable {}
+extension UIComponents.DatePickerCalendar : Swift.Sendable {}
 extension UIComponents.HorizontalUncontainedCarousel : Swift.Sendable {}

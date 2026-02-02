@@ -6,16 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "UIComponents",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -36,8 +26,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "DateSelection",
-        "printedName": "DateSelection",
+        "name": "DatePickerCalendar",
+        "printedName": "DatePickerCalendar",
         "children": [
           {
             "kind": "Constructor",
@@ -46,9 +36,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "DateSelection",
-                "printedName": "UIComponents.DateSelection",
-                "usr": "s:12UIComponents13DateSelectionV"
+                "name": "DatePickerCalendar",
+                "printedName": "UIComponents.DatePickerCalendar",
+                "usr": "s:12UIComponents18DatePickerCalendarV"
               },
               {
                 "kind": "TypeNominal",
@@ -91,8 +81,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12UIComponents13DateSelectionV07currentB010foreground10background11onTapActionAC10Foundation0B0V_7SwiftUI5ColorVAMyAJctcfc",
-            "mangledName": "$s12UIComponents13DateSelectionV07currentB010foreground10background11onTapActionAC10Foundation0B0V_7SwiftUI5ColorVAMyAJctcfc",
+            "usr": "s:12UIComponents18DatePickerCalendarV07currentB010foreground10background11onTapActionAC10Foundation0B0V_7SwiftUI5ColorVAMyAJctcfc",
+            "mangledName": "$s12UIComponents18DatePickerCalendarV07currentB010foreground10background11onTapActionAC10Foundation0B0V_7SwiftUI5ColorVAMyAJctcfc",
             "moduleName": "UIComponents",
             "declAttributes": [
               "Preconcurrency",
@@ -121,8 +111,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12UIComponents13DateSelectionV4bodyQrvp",
-            "mangledName": "$s12UIComponents13DateSelectionV4bodyQrvp",
+            "usr": "s:12UIComponents18DatePickerCalendarV4bodyQrvp",
+            "mangledName": "$s12UIComponents18DatePickerCalendarV4bodyQrvp",
             "moduleName": "UIComponents",
             "declAttributes": [
               "Preconcurrency",
@@ -150,8 +140,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12UIComponents13DateSelectionV4bodyQrvg",
-                "mangledName": "$s12UIComponents13DateSelectionV4bodyQrvg",
+                "usr": "s:12UIComponents18DatePickerCalendarV4bodyQrvg",
+                "mangledName": "$s12UIComponents18DatePickerCalendarV4bodyQrvg",
                 "moduleName": "UIComponents",
                 "accessorKind": "get"
               }
@@ -159,8 +149,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:12UIComponents13DateSelectionV",
-        "mangledName": "$s12UIComponents13DateSelectionV",
+        "usr": "s:12UIComponents18DatePickerCalendarV",
+        "mangledName": "$s12UIComponents18DatePickerCalendarV",
         "moduleName": "UIComponents",
         "declAttributes": [
           "Preconcurrency",
@@ -512,6 +502,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "View",
         "printedName": "View",
@@ -641,30 +641,30 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DateSelection.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DatePickerCalendar.swift",
       "kind": "Array",
-      "offset": 156,
+      "offset": 161,
       "length": 49,
       "value": "[\"Sun\", \"Mon\", \"Tue\", \"Wed\", \"Thu\", \"Fri\", \"Sat\"]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DateSelection.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DatePickerCalendar.swift",
       "kind": "IntegerLiteral",
-      "offset": 237,
+      "offset": 242,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DateSelection.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DatePickerCalendar.swift",
       "kind": "StringLiteral",
-      "offset": 573,
+      "offset": 578,
       "length": 12,
       "value": "\"dd\/MM\/yyyy\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DateSelection.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DatePickerCalendar.swift",
       "kind": "FloatLiteral",
-      "offset": 755,
+      "offset": 760,
       "length": 3,
       "value": "0.2"
     },
@@ -725,9 +725,9 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/PopUp\/Popover.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/PopUp\/AnchoredPopup.swift",
       "kind": "IntegerLiteral",
-      "offset": 1441,
+      "offset": 1451,
       "length": 1,
       "value": "0"
     }
