@@ -10767,6 +10767,94 @@
               },
               {
                 "kind": "Var",
+                "name": "brand",
+                "printedName": "brand",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Brand",
+                    "printedName": "DesignSystem.Colors.Brand",
+                    "usr": "s:12DesignSystem6ColorsO5BrandV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem5ThemeO13ConfigurationV5brandAA6ColorsO5BrandVvp",
+                "mangledName": "$s12DesignSystem5ThemeO13ConfigurationV5brandAA6ColorsO5BrandVvp",
+                "moduleName": "DesignSystem",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Brand",
+                        "printedName": "DesignSystem.Colors.Brand",
+                        "usr": "s:12DesignSystem6ColorsO5BrandV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem5ThemeO13ConfigurationV5brandAA6ColorsO5BrandVvg",
+                    "mangledName": "$s12DesignSystem5ThemeO13ConfigurationV5brandAA6ColorsO5BrandVvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "brandSecondary",
+                "printedName": "brandSecondary",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrandSecondary",
+                    "printedName": "DesignSystem.Colors.BrandSecondary",
+                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem5ThemeO13ConfigurationV14brandSecondaryAA6ColorsO05BrandF0Vvp",
+                "mangledName": "$s12DesignSystem5ThemeO13ConfigurationV14brandSecondaryAA6ColorsO05BrandF0Vvp",
+                "moduleName": "DesignSystem",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BrandSecondary",
+                        "printedName": "DesignSystem.Colors.BrandSecondary",
+                        "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem5ThemeO13ConfigurationV14brandSecondaryAA6ColorsO05BrandF0Vvg",
+                    "mangledName": "$s12DesignSystem5ThemeO13ConfigurationV14brandSecondaryAA6ColorsO05BrandF0Vvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "uiColor",
                 "printedName": "uiColor",
                 "children": [
@@ -10988,7 +11076,7 @@
               {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(base:background:text:border:icon:action:uiColor:radiusSize:borderSize:iconSize:spaceSize:)",
+                "printedName": "init(base:background:text:border:icon:action:brand:brandSecondary:uiColor:radiusSize:borderSize:iconSize:spaceSize:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -11040,6 +11128,20 @@
                   },
                   {
                     "kind": "TypeNominal",
+                    "name": "Brand",
+                    "printedName": "DesignSystem.Colors.Brand",
+                    "hasDefaultArg": true,
+                    "usr": "s:12DesignSystem6ColorsO5BrandV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrandSecondary",
+                    "printedName": "DesignSystem.Colors.BrandSecondary",
+                    "hasDefaultArg": true,
+                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV"
+                  },
+                  {
+                    "kind": "TypeNominal",
                     "name": "UIColors",
                     "printedName": "DesignSystem.Colors.UIColors",
                     "hasDefaultArg": true,
@@ -11075,8 +11177,8 @@
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:12DesignSystem5ThemeO13ConfigurationV4base10background4text6border4icon6action7uiColor10radiusSize0hN00iN005spaceN0AeA6ColorsO4BaseV_AR10BackgroundVAR4TextVAR6BorderVAR4IconVAR6ActionVAR8UIColorsVAA5SizesO6RadiusVA6_AYVA6_A_VA6_5SpaceVtcfc",
-                "mangledName": "$s12DesignSystem5ThemeO13ConfigurationV4base10background4text6border4icon6action7uiColor10radiusSize0hN00iN005spaceN0AeA6ColorsO4BaseV_AR10BackgroundVAR4TextVAR6BorderVAR4IconVAR6ActionVAR8UIColorsVAA5SizesO6RadiusVA6_AYVA6_A_VA6_5SpaceVtcfc",
+                "usr": "s:12DesignSystem5ThemeO13ConfigurationV4base10background4text6border4icon6action5brand0K9Secondary7uiColor10radiusSize0hP00iP005spaceP0AeA6ColorsO4BaseV_AT10BackgroundVAT4TextVAT6BorderVAT4IconVAT6ActionVAT5BrandVAT0yL0VAT8UIColorsVAA5SizesO6RadiusVA12_A_VA12_A1_VA12_5SpaceVtcfc",
+                "mangledName": "$s12DesignSystem5ThemeO13ConfigurationV4base10background4text6border4icon6action5brand0K9Secondary7uiColor10radiusSize0hP00iP005spaceP0AeA6ColorsO4BaseV_AT10BackgroundVAT4TextVAT6BorderVAT4IconVAT6ActionVAT5BrandVAT0yL0VAT8UIColorsVAA5SizesO6RadiusVA12_A_VA12_A1_VA12_5SpaceVtcfc",
                 "moduleName": "DesignSystem",
                 "declAttributes": [
                   "AccessControl"

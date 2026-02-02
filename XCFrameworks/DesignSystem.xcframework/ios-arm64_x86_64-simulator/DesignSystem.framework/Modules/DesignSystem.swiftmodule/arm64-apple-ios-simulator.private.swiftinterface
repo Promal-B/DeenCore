@@ -371,12 +371,14 @@ extension DesignSystem.Theme {
     public let border: DesignSystem.Colors.Border
     public let icon: DesignSystem.Colors.Icon
     public let action: DesignSystem.Colors.Action
+    public let brand: DesignSystem.Colors.Brand
+    public let brandSecondary: DesignSystem.Colors.BrandSecondary
     public let uiColor: DesignSystem.Colors.UIColors
     public let radiusSize: DesignSystem.Sizes.Radius
     public let borderSize: DesignSystem.Sizes.Border
     public let iconSize: DesignSystem.Sizes.Icon
     public let spaceSize: DesignSystem.Sizes.Space
-    public init(base: DesignSystem.Colors.Base = Colors.Base(), background: DesignSystem.Colors.Background = Colors.Background(), text: DesignSystem.Colors.Text = Colors.Text(), border: DesignSystem.Colors.Border = Colors.Border(), icon: DesignSystem.Colors.Icon = Colors.Icon(), action: DesignSystem.Colors.Action = Colors.Action(), uiColor: DesignSystem.Colors.UIColors = Colors.UIColors(), radiusSize: DesignSystem.Sizes.Radius = Sizes.Radius(), borderSize: DesignSystem.Sizes.Border = Sizes.Border(), iconSize: DesignSystem.Sizes.Icon = Sizes.Icon(), spaceSize: DesignSystem.Sizes.Space = Sizes.Space())
+    public init(base: DesignSystem.Colors.Base = Colors.Base(), background: DesignSystem.Colors.Background = Colors.Background(), text: DesignSystem.Colors.Text = Colors.Text(), border: DesignSystem.Colors.Border = Colors.Border(), icon: DesignSystem.Colors.Icon = Colors.Icon(), action: DesignSystem.Colors.Action = Colors.Action(), brand: DesignSystem.Colors.Brand = Colors.Brand(), brandSecondary: DesignSystem.Colors.BrandSecondary = Colors.BrandSecondary(), uiColor: DesignSystem.Colors.UIColors = Colors.UIColors(), radiusSize: DesignSystem.Sizes.Radius = Sizes.Radius(), borderSize: DesignSystem.Sizes.Border = Sizes.Border(), iconSize: DesignSystem.Sizes.Icon = Sizes.Icon(), spaceSize: DesignSystem.Sizes.Space = Sizes.Space())
   }
 }
 extension DesignSystem.DSResources.DSImage : Swift.Equatable {}
