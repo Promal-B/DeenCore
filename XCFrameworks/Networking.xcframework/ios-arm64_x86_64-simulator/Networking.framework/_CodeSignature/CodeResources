@@ -4,18 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/DomainModels.framework/DomainModels</key>
-		<data>
-		tSzUo39yJhHA0ELCI1TqASvKFSI=
-		</data>
-		<key>Frameworks/DomainModels.framework/Info.plist</key>
-		<data>
-		0BmRVs/iso467XFa5/VAENCcS9k=
-		</data>
-		<key>Frameworks/DomainModels.framework/_CodeSignature/CodeResources</key>
-		<data>
-		E7bNtCjZaGriFq4PQ6nLgF+XwR0=
-		</data>
 		<key>Info.plist</key>
 		<data>
 		grUa6DTmIlEbpJvg1AS5E+Rkshw=
@@ -63,27 +51,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/DomainModels.framework/DomainModels</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+0Yi9oxXTEZFu9qKg4oKDfTUAycUeKB1wz2J2vDMHJ0=
-			</data>
-		</dict>
-		<key>Frameworks/DomainModels.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			V0bAYEngKDIFq5+jPUhw9fbze1BO8EKNJG5AuKIbQg4=
-			</data>
-		</dict>
-		<key>Frameworks/DomainModels.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jP50qjnrJmzNMtjf6Kwo01JTywOXgGaDpkUnaD+aaBI=
-			</data>
-		</dict>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
