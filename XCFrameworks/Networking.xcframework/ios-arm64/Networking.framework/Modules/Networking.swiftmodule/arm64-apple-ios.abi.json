@@ -402,7 +402,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Tuple",
-                "printedName": "(list: [DomainModels.MosqueOverview], pagination: DomainModels.PaginationV2?)",
+                "printedName": "(list: [DomainModels.MosqueOverview], pagination: DomainModels.PaginationV2?, title: Swift.String?)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -428,6 +428,20 @@
                         "name": "PaginationV2",
                         "printedName": "DomainModels.PaginationV2",
                         "usr": "s:12DomainModels12PaginationV2V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
@@ -462,8 +476,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking9FMServiceP15fetchMosqueList9countryID4page7contentSay12DomainModels0D8OverviewVG4list_AH12PaginationV2VSg10paginationtSiSg_S2itYaKF",
-            "mangledName": "$s10Networking9FMServiceP15fetchMosqueList9countryID4page7contentSay12DomainModels0D8OverviewVG4list_AH12PaginationV2VSg10paginationtSiSg_S2itYaKF",
+            "usr": "s:10Networking9FMServiceP15fetchMosqueList9countryID4page7contentSay12DomainModels0D8OverviewVG4list_AH12PaginationV2VSg10paginationSSSg5titletSiSg_S2itYaKF",
+            "mangledName": "$s10Networking9FMServiceP15fetchMosqueList9countryID4page7contentSay12DomainModels0D8OverviewVG4list_AH12PaginationV2VSg10paginationSSSg5titletSiSg_S2itYaKF",
             "moduleName": "Networking",
             "genericSig": "<τ_0_0 where τ_0_0 : Networking.FMService>",
             "sugared_genericSig": "<Self where Self : Networking.FMService>",

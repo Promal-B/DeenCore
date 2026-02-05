@@ -8,6 +8,30 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_Concurrency.MainActor @preconcurrency public struct HorizontalUncontainedCarousel<Item, Content> : SwiftUICore.View where Item : Swift.Identifiable, Content : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(items: [Item], largeItemWidth: CoreFoundation.CGFloat = 180, smallItemWidth: CoreFoundation.CGFloat = 50, itemSpacing: CoreFoundation.CGFloat = 8, horizontalPadding: CoreFoundation.CGFloat = 16, @SwiftUICore.ViewBuilder content: @escaping (Item) -> Content)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12UIComponents29HorizontalUncontainedCarouselV4bodyQrvp", 0) __<Item, Content>
+}
+@_Concurrency.MainActor @preconcurrency public struct CenteredSnapCarousel<Item, Content> : SwiftUICore.View where Item : Swift.Identifiable, Content : SwiftUICore.View {
+  public enum VerticalAlignment {
+    case top
+    case center
+    case bottom
+    public static func == (a: UIComponents.CenteredSnapCarousel<Item, Content>.VerticalAlignment, b: UIComponents.CenteredSnapCarousel<Item, Content>.VerticalAlignment) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor @preconcurrency public init(spacing: CoreFoundation.CGFloat = 16, cardWidth: CoreFoundation.CGFloat = 300, cardHeight: CoreFoundation.CGFloat = 400, scale: CoreFoundation.CGFloat = 0.9, verticalAlignment: UIComponents.CenteredSnapCarousel<Item, Content>.VerticalAlignment = .center, index: SwiftUICore.Binding<Swift.Int>, items: [Item], @SwiftUICore.ViewBuilder content: @escaping (Item) -> Content)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12UIComponents20CenteredSnapCarouselV4bodyQrvp", 0) __<Item, Content>
+}
 @_Concurrency.MainActor @preconcurrency public struct DatePickerCalendar : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(currentDate: Foundation.Date = Date(), foreground: SwiftUICore.Color = .green, background: SwiftUICore.Color = .gray.opacity(0.2), onTapAction: @escaping (Foundation.Date) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
@@ -16,16 +40,12 @@ import _SwiftConcurrencyShims
   public typealias Body = @_opaqueReturnTypeOf("$s12UIComponents18DatePickerCalendarV4bodyQrvp", 0) __
 }
 
-@_Concurrency.MainActor @preconcurrency public struct HorizontalUncontainedCarousel<Item, Content> : SwiftUICore.View where Item : Swift.Identifiable, Content : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(items: [Item], largeItemWidth: CoreFoundation.CGFloat = 180, smallItemWidth: CoreFoundation.CGFloat = 50, itemSpacing: CoreFoundation.CGFloat = 8, horizontalPadding: CoreFoundation.CGFloat = 16, @SwiftUICore.ViewBuilder content: @escaping (Item) -> Content)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s12UIComponents29HorizontalUncontainedCarouselV4bodyQrvp", 0) __<Item, Content>
-}
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func anchoredPopup<Content>(_ isPresented: SwiftUICore.Binding<Swift.Bool>, color: SwiftUICore.Color, radius: CoreFoundation.CGFloat = 0, @SwiftUICore.ViewBuilder content: @escaping () -> Content) -> some SwiftUICore.View where Content : SwiftUICore.View
   
 }
-extension UIComponents.DatePickerCalendar : Swift.Sendable {}
 extension UIComponents.HorizontalUncontainedCarousel : Swift.Sendable {}
+extension UIComponents.CenteredSnapCarousel : Swift.Sendable {}
+extension UIComponents.CenteredSnapCarousel.VerticalAlignment : Swift.Equatable {}
+extension UIComponents.CenteredSnapCarousel.VerticalAlignment : Swift.Hashable {}
+extension UIComponents.DatePickerCalendar : Swift.Sendable {}

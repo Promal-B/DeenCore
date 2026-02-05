@@ -14,7 +14,7 @@ public protocol FMService {
   nonisolated(nonsending) func fetchMosquePatch() async throws -> (famousSection: DomainModels.MosqueSection, countries: [DomainModels.Country], popularSection: DomainModels.MosqueSection)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func fetchMosqueList(countryID: Swift.Int?, page: Swift.Int, content: Swift.Int) async throws -> (list: [DomainModels.MosqueOverview], pagination: DomainModels.PaginationV2?)
+  nonisolated(nonsending) func fetchMosqueList(countryID: Swift.Int?, page: Swift.Int, content: Swift.Int) async throws -> (list: [DomainModels.MosqueOverview], pagination: DomainModels.PaginationV2?, title: Swift.String?)
   #endif
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func fetchMosqueDetail(id: Swift.Int) async throws -> DomainModels.MosqueDetails

@@ -6,229 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UIComponents",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "UIComponents",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "DatePickerCalendar",
-        "printedName": "DatePickerCalendar",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(currentDate:foreground:background:onTapAction:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DatePickerCalendar",
-                "printedName": "UIComponents.DatePickerCalendar",
-                "usr": "s:12UIComponents18DatePickerCalendarV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "hasDefaultArg": true,
-                "usr": "s:10Foundation4DateV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "hasDefaultArg": true,
-                "usr": "s:7SwiftUI5ColorV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "hasDefaultArg": true,
-                "usr": "s:7SwiftUI5ColorV"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Foundation.Date) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:12UIComponents18DatePickerCalendarV07currentB010foreground10background11onTapActionAC10Foundation0B0V_7SwiftUI5ColorVAMyAJctcfc",
-            "mangledName": "$s12UIComponents18DatePickerCalendarV07currentB010foreground10background11onTapActionAC10Foundation0B0V_7SwiftUI5ColorVAMyAJctcfc",
-            "moduleName": "UIComponents",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12UIComponents18DatePickerCalendarV4bodyQrvp",
-            "mangledName": "$s12UIComponents18DatePickerCalendarV4bodyQrvp",
-            "moduleName": "UIComponents",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12UIComponents18DatePickerCalendarV4bodyQrvg",
-                "mangledName": "$s12UIComponents18DatePickerCalendarV4bodyQrvg",
-                "moduleName": "UIComponents",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:12UIComponents18DatePickerCalendarV",
-        "mangledName": "$s12UIComponents18DatePickerCalendarV",
-        "moduleName": "UIComponents",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UIComponents",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "UIComponents"
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -492,6 +269,742 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "CenteredSnapCarousel",
+        "printedName": "CenteredSnapCarousel",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "VerticalAlignment",
+            "printedName": "VerticalAlignment",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "top",
+                "printedName": "top",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "GenericFunction",
+                    "printedName": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Identifiable, τ_0_1 : SwiftUI.View> (UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>.VerticalAlignment.Type) -> UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>.VerticalAlignment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerticalAlignment",
+                        "printedName": "UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>.VerticalAlignment",
+                        "usr": "s:12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>.VerticalAlignment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VerticalAlignment",
+                            "printedName": "UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>.VerticalAlignment",
+                            "usr": "s:12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO3topyAEyxq__GAGms12IdentifiableRz7SwiftUI4ViewR_r0_lF",
+                "mangledName": "$s12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO3topyAEyxq__GAGms12IdentifiableRz7SwiftUI4ViewR_r0_lF",
+                "moduleName": "UIComponents"
+              },
+              {
+                "kind": "Var",
+                "name": "center",
+                "printedName": "center",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "GenericFunction",
+                    "printedName": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Identifiable, τ_0_1 : SwiftUI.View> (UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>.VerticalAlignment.Type) -> UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>.VerticalAlignment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerticalAlignment",
+                        "printedName": "UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>.VerticalAlignment",
+                        "usr": "s:12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>.VerticalAlignment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VerticalAlignment",
+                            "printedName": "UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>.VerticalAlignment",
+                            "usr": "s:12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO6centeryAEyxq__GAGms12IdentifiableRz7SwiftUI4ViewR_r0_lF",
+                "mangledName": "$s12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO6centeryAEyxq__GAGms12IdentifiableRz7SwiftUI4ViewR_r0_lF",
+                "moduleName": "UIComponents"
+              },
+              {
+                "kind": "Var",
+                "name": "bottom",
+                "printedName": "bottom",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "GenericFunction",
+                    "printedName": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Identifiable, τ_0_1 : SwiftUI.View> (UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>.VerticalAlignment.Type) -> UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>.VerticalAlignment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerticalAlignment",
+                        "printedName": "UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>.VerticalAlignment",
+                        "usr": "s:12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>.VerticalAlignment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VerticalAlignment",
+                            "printedName": "UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>.VerticalAlignment",
+                            "usr": "s:12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO6bottomyAEyxq__GAGms12IdentifiableRz7SwiftUI4ViewR_r0_lF",
+                "mangledName": "$s12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO6bottomyAEyxq__GAGms12IdentifiableRz7SwiftUI4ViewR_r0_lF",
+                "moduleName": "UIComponents"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerticalAlignment",
+                    "printedName": "UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>.VerticalAlignment",
+                    "usr": "s:12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerticalAlignment",
+                    "printedName": "UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>.VerticalAlignment",
+                    "usr": "s:12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO2eeoiySbAEyxq__G_AGtFZ",
+                "mangledName": "$s12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO2eeoiySbAEyxq__G_AGtFZ",
+                "moduleName": "UIComponents",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Identifiable, τ_0_1 : SwiftUI.View>",
+                "sugared_genericSig": "<Item, Content where Item : Swift.Identifiable, Content : SwiftUI.View>",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO9hashValueSivp",
+                "mangledName": "$s12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO9hashValueSivp",
+                "moduleName": "UIComponents",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO9hashValueSivg",
+                    "mangledName": "$s12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO9hashValueSivg",
+                    "moduleName": "UIComponents",
+                    "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Identifiable, τ_0_1 : SwiftUI.View>",
+                    "sugared_genericSig": "<Item, Content where Item : Swift.Identifiable, Content : SwiftUI.View>",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO4hash4intoys6HasherVz_tF",
+                "moduleName": "UIComponents",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Identifiable, τ_0_1 : SwiftUI.View>",
+                "sugared_genericSig": "<Item, Content where Item : Swift.Identifiable, Content : SwiftUI.View>",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO",
+            "mangledName": "$s12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO",
+            "moduleName": "UIComponents",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Identifiable, τ_0_1 : SwiftUI.View>",
+            "sugared_genericSig": "<Item, Content where Item : Swift.Identifiable, Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(spacing:cardWidth:cardHeight:scale:verticalAlignment:index:items:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CenteredSnapCarousel",
+                "printedName": "UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:12UIComponents20CenteredSnapCarouselV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VerticalAlignment",
+                "printedName": "UIComponents.CenteredSnapCarousel<τ_0_0, τ_0_1>.VerticalAlignment",
+                "hasDefaultArg": true,
+                "usr": "s:12UIComponents20CenteredSnapCarouselV17VerticalAlignmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Int>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) -> τ_0_1",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12UIComponents20CenteredSnapCarouselV7spacing9cardWidth0F6Height5scale17verticalAlignment5index5items7contentACyxq_G14CoreFoundation7CGFloatV_A3oC08VerticalK0Oyxq__G7SwiftUI7BindingVySiGSayxGq_xctcfc",
+            "mangledName": "$s12UIComponents20CenteredSnapCarouselV7spacing9cardWidth0F6Height5scale17verticalAlignment5index5items7contentACyxq_G12CoreGraphics7CGFloatV_A3oC08VerticalK0Oyxq__G7SwiftUI7BindingVySiGSayxGq_xctcfc",
+            "moduleName": "UIComponents",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Identifiable, τ_0_1 : SwiftUI.View>",
+            "sugared_genericSig": "<Item, Content where Item : Swift.Identifiable, Content : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents20CenteredSnapCarouselV4bodyQrvp",
+            "mangledName": "$s12UIComponents20CenteredSnapCarouselV4bodyQrvp",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents20CenteredSnapCarouselV4bodyQrvg",
+                "mangledName": "$s12UIComponents20CenteredSnapCarouselV4bodyQrvg",
+                "moduleName": "UIComponents",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Identifiable, τ_0_1 : SwiftUI.View>",
+                "sugared_genericSig": "<Item, Content where Item : Swift.Identifiable, Content : SwiftUI.View>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12UIComponents20CenteredSnapCarouselV",
+        "mangledName": "$s12UIComponents20CenteredSnapCarouselV",
+        "moduleName": "UIComponents",
+        "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Identifiable, τ_0_1 : SwiftUI.View>",
+        "sugared_genericSig": "<Item, Content where Item : Swift.Identifiable, Content : SwiftUI.View>",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DatePickerCalendar",
+        "printedName": "DatePickerCalendar",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(currentDate:foreground:background:onTapAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DatePickerCalendar",
+                "printedName": "UIComponents.DatePickerCalendar",
+                "usr": "s:12UIComponents18DatePickerCalendarV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Date) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12UIComponents18DatePickerCalendarV07currentB010foreground10background11onTapActionAC10Foundation0B0V_7SwiftUI5ColorVAMyAJctcfc",
+            "mangledName": "$s12UIComponents18DatePickerCalendarV07currentB010foreground10background11onTapActionAC10Foundation0B0V_7SwiftUI5ColorVAMyAJctcfc",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents18DatePickerCalendarV4bodyQrvp",
+            "mangledName": "$s12UIComponents18DatePickerCalendarV4bodyQrvp",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents18DatePickerCalendarV4bodyQrvg",
+                "mangledName": "$s12UIComponents18DatePickerCalendarV4bodyQrvg",
+                "moduleName": "UIComponents",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12UIComponents18DatePickerCalendarV",
+        "mangledName": "$s12UIComponents18DatePickerCalendarV",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UIComponents"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -641,6 +1154,195 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 285,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 330,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
+      "kind": "Dictionary",
+      "offset": 622,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 701,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 740,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 775,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 815,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/HorizontalUncontainedCarousel\/ItemPositionPreference.swift",
+      "kind": "Array",
+      "offset": 344,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 476,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 672,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 705,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 740,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 770,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4293,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4309,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4531,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4629,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4793,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 4797,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 4803,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5224,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5240,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5537,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5635,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5909,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5934,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5983,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DatePickerCalendar.swift",
       "kind": "Array",
       "offset": 161,
@@ -667,62 +1369,6 @@
       "offset": 760,
       "length": 3,
       "value": "0.2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
-      "kind": "FloatLiteral",
-      "offset": 285,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
-      "kind": "FloatLiteral",
-      "offset": 330,
-      "length": 3,
-      "value": "0.7"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
-      "kind": "Dictionary",
-      "offset": 622,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 701,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 740,
-      "length": 2,
-      "value": "50"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 775,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/HorizontalUncontainedCarousel\/HorizontalUncontainedCarousel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 815,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/HorizontalUncontainedCarousel\/ItemPositionPreference.swift",
-      "kind": "Array",
-      "offset": 344,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/PopUp\/AnchoredPopup.swift",
