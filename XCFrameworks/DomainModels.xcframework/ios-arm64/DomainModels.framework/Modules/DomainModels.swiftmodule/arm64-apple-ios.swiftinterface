@@ -183,7 +183,7 @@ extension DomainModels.MosqueOverview {
 }
 public struct MosqueSection : Swift.Identifiable {
   public let id: Swift.Int
-  public let title: Swift.String
+  public var title: Swift.String
   public var items: [DomainModels.MosqueOverview]
   public init(id: Swift.Int, title: Swift.String, items: [DomainModels.MosqueOverview])
   public typealias ID = Swift.Int

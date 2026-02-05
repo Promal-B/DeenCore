@@ -4992,7 +4992,6 @@
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -5013,6 +5012,48 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueSectionV5titleSSvs",
+                "mangledName": "$s12DomainModels13MosqueSectionV5titleSSvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels13MosqueSectionV5titleSSvM",
+                "mangledName": "$s12DomainModels13MosqueSectionV5titleSSvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
