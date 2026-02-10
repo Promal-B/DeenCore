@@ -231,6 +231,22 @@ extension DesignSystem.DSResources {
     }
   }
 }
+public typealias NNNImage = DesignSystem.DSResources.NNNImage
+extension DesignSystem.DSResources {
+  public enum NNNImage : Swift.String, DesignSystem.ImageAsset {
+    case pause
+    case play
+    case loop
+    case volume
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.String)
+    #endif
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
 public typealias QLImage = DesignSystem.DSResources.QLImage
 extension DesignSystem.DSResources {
   public enum QLImage : Swift.String, DesignSystem.ImageAsset {
@@ -387,6 +403,9 @@ extension DesignSystem.DSResources.DSImage : Swift.RawRepresentable {}
 extension DesignSystem.DSResources.FMImage : Swift.Equatable {}
 extension DesignSystem.DSResources.FMImage : Swift.Hashable {}
 extension DesignSystem.DSResources.FMImage : Swift.RawRepresentable {}
+extension DesignSystem.DSResources.NNNImage : Swift.Equatable {}
+extension DesignSystem.DSResources.NNNImage : Swift.Hashable {}
+extension DesignSystem.DSResources.NNNImage : Swift.RawRepresentable {}
 extension DesignSystem.DSResources.QLImage : Swift.Equatable {}
 extension DesignSystem.DSResources.QLImage : Swift.Hashable {}
 extension DesignSystem.DSResources.QLImage : Swift.RawRepresentable {}

@@ -15,16 +15,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "UIComponents",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "HorizontalUncontainedCarousel",
         "printedName": "HorizontalUncontainedCarousel",
@@ -535,7 +525,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(spacing:cardWidth:cardHeight:scale:verticalAlignment:index:items:content:)",
+            "printedName": "init(spacing:cardWidth:cardHeight:scale:verticalAlignment:rotation:index:items:content:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -592,6 +582,13 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Binding",
                 "printedName": "SwiftUI.Binding<Swift.Int>",
                 "children": [
@@ -636,8 +633,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12UIComponents20CenteredSnapCarouselV7spacing9cardWidth0F6Height5scale17verticalAlignment5index5items7contentACyxq_G14CoreFoundation7CGFloatV_A3oC08VerticalK0Oyxq__G7SwiftUI7BindingVySiGSayxGq_xctcfc",
-            "mangledName": "$s12UIComponents20CenteredSnapCarouselV7spacing9cardWidth0F6Height5scale17verticalAlignment5index5items7contentACyxq_G12CoreGraphics7CGFloatV_A3oC08VerticalK0Oyxq__G7SwiftUI7BindingVySiGSayxGq_xctcfc",
+            "usr": "s:12UIComponents20CenteredSnapCarouselV7spacing9cardWidth0F6Height5scale17verticalAlignment8rotation5index5items7contentACyxq_G14CoreFoundation7CGFloatV_A3pC08VerticalK0Oyxq__GAP7SwiftUI7BindingVySiGSayxGq_xctcfc",
+            "mangledName": "$s12UIComponents20CenteredSnapCarouselV7spacing9cardWidth0F6Height5scale17verticalAlignment8rotation5index5items7contentACyxq_G12CoreGraphics7CGFloatV_A3pC08VerticalK0Oyxq__GAP7SwiftUI7BindingVySiGSayxGq_xctcfc",
             "moduleName": "UIComponents",
             "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Identifiable, τ_0_1 : SwiftUI.View>",
             "sugared_genericSig": "<Item, Content where Item : Swift.Identifiable, Content : SwiftUI.View>",
@@ -1025,6 +1022,1675 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "UIComponents"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MediaPlayerManager",
+        "printedName": "MediaPlayerManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MediaPlayerManager",
+                "printedName": "UIComponents.MediaPlayerManager",
+                "usr": "s:12UIComponents18MediaPlayerManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents18MediaPlayerManagerC6sharedACvpZ",
+            "mangledName": "$s12UIComponents18MediaPlayerManagerC6sharedACvpZ",
+            "moduleName": "UIComponents",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MediaPlayerManager",
+                    "printedName": "UIComponents.MediaPlayerManager",
+                    "usr": "s:12UIComponents18MediaPlayerManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents18MediaPlayerManagerC6sharedACvgZ",
+                "mangledName": "$s12UIComponents18MediaPlayerManagerC6sharedACvgZ",
+                "moduleName": "UIComponents",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentlyPlayingURL",
+            "printedName": "currentlyPlayingURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents18MediaPlayerManagerC19currentlyPlayingURL10Foundation0G0VSgvp",
+            "mangledName": "$s12UIComponents18MediaPlayerManagerC19currentlyPlayingURL10Foundation0G0VSgvp",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents18MediaPlayerManagerC19currentlyPlayingURL10Foundation0G0VSgvg",
+                "mangledName": "$s12UIComponents18MediaPlayerManagerC19currentlyPlayingURL10Foundation0G0VSgvg",
+                "moduleName": "UIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$currentlyPlayingURL",
+            "printedName": "$currentlyPlayingURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<Foundation.URL>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents18MediaPlayerManagerC20$currentlyPlayingURL7Combine9PublishedV9PublisherVy10Foundation0G0VSg_Gvp",
+            "mangledName": "$s12UIComponents18MediaPlayerManagerC20$currentlyPlayingURL7Combine9PublishedV9PublisherVy10Foundation0G0VSg_Gvp",
+            "moduleName": "UIComponents",
+            "implicit": true,
+            "declAttributes": [
+              "Final",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Foundation.URL>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents18MediaPlayerManagerC20$currentlyPlayingURL7Combine9PublishedV9PublisherVy10Foundation0G0VSg_Gvg",
+                "mangledName": "$s12UIComponents18MediaPlayerManagerC20$currentlyPlayingURL7Combine9PublishedV9PublisherVy10Foundation0G0VSg_Gvg",
+                "moduleName": "UIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isPlaying",
+            "printedName": "isPlaying",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents18MediaPlayerManagerC9isPlayingSbvp",
+            "mangledName": "$s12UIComponents18MediaPlayerManagerC9isPlayingSbvp",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents18MediaPlayerManagerC9isPlayingSbvg",
+                "mangledName": "$s12UIComponents18MediaPlayerManagerC9isPlayingSbvg",
+                "moduleName": "UIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$isPlaying",
+            "printedName": "$isPlaying",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents18MediaPlayerManagerC10$isPlaying7Combine9PublishedV9PublisherVySb_Gvp",
+            "mangledName": "$s12UIComponents18MediaPlayerManagerC10$isPlaying7Combine9PublishedV9PublisherVySb_Gvp",
+            "moduleName": "UIComponents",
+            "implicit": true,
+            "declAttributes": [
+              "Final",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents18MediaPlayerManagerC10$isPlaying7Combine9PublishedV9PublisherVySb_Gvg",
+                "mangledName": "$s12UIComponents18MediaPlayerManagerC10$isPlaying7Combine9PublishedV9PublisherVySb_Gvg",
+                "moduleName": "UIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isLooping",
+            "printedName": "isLooping",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents18MediaPlayerManagerC9isLoopingSbvp",
+            "mangledName": "$s12UIComponents18MediaPlayerManagerC9isLoopingSbvp",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents18MediaPlayerManagerC9isLoopingSbvg",
+                "mangledName": "$s12UIComponents18MediaPlayerManagerC9isLoopingSbvg",
+                "moduleName": "UIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents18MediaPlayerManagerC9isLoopingSbvs",
+                "mangledName": "$s12UIComponents18MediaPlayerManagerC9isLoopingSbvs",
+                "moduleName": "UIComponents",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents18MediaPlayerManagerC9isLoopingSbvM",
+                "mangledName": "$s12UIComponents18MediaPlayerManagerC9isLoopingSbvM",
+                "moduleName": "UIComponents",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$isLooping",
+            "printedName": "$isLooping",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents18MediaPlayerManagerC10$isLooping7Combine9PublishedV9PublisherVySb_Gvp",
+            "mangledName": "$s12UIComponents18MediaPlayerManagerC10$isLooping7Combine9PublishedV9PublisherVySb_Gvp",
+            "moduleName": "UIComponents",
+            "implicit": true,
+            "declAttributes": [
+              "Final",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents18MediaPlayerManagerC10$isLooping7Combine9PublishedV9PublisherVySb_Gvg",
+                "mangledName": "$s12UIComponents18MediaPlayerManagerC10$isLooping7Combine9PublishedV9PublisherVySb_Gvg",
+                "moduleName": "UIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents18MediaPlayerManagerC10$isLooping7Combine9PublishedV9PublisherVySb_Gvs",
+                "mangledName": "$s12UIComponents18MediaPlayerManagerC10$isLooping7Combine9PublishedV9PublisherVySb_Gvs",
+                "moduleName": "UIComponents",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents18MediaPlayerManagerC10$isLooping7Combine9PublishedV9PublisherVySb_GvM",
+                "mangledName": "$s12UIComponents18MediaPlayerManagerC10$isLooping7Combine9PublishedV9PublisherVySb_GvM",
+                "moduleName": "UIComponents",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Final",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "play",
+            "printedName": "play(url:loop:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents18MediaPlayerManagerC4play3url4loopy10Foundation3URLV_SbtF",
+            "mangledName": "$s12UIComponents18MediaPlayerManagerC4play3url4loopy10Foundation3URLV_SbtF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents18MediaPlayerManagerC5pauseyyF",
+            "mangledName": "$s12UIComponents18MediaPlayerManagerC5pauseyyF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents18MediaPlayerManagerC4stopyyF",
+            "mangledName": "$s12UIComponents18MediaPlayerManagerC4stopyyF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12UIComponents18MediaPlayerManagerC",
+        "mangledName": "$s12UIComponents18MediaPlayerManagerC",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UIComponents"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UIComponents"
+      },
+      {
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "UIComponents"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SVGPhase",
+        "printedName": "SVGPhase",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "empty",
+            "printedName": "empty",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIComponents.SVGPhase.Type) -> UIComponents.SVGPhase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SVGPhase",
+                    "printedName": "UIComponents.SVGPhase",
+                    "usr": "s:12UIComponents8SVGPhaseO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UIComponents.SVGPhase.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SVGPhase",
+                        "printedName": "UIComponents.SVGPhase",
+                        "usr": "s:12UIComponents8SVGPhaseO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12UIComponents8SVGPhaseO5emptyyA2CmF",
+            "mangledName": "$s12UIComponents8SVGPhaseO5emptyyA2CmF",
+            "moduleName": "UIComponents"
+          },
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIComponents.SVGPhase.Type) -> (SwiftUI.Image) -> UIComponents.SVGPhase",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftUI.Image) -> UIComponents.SVGPhase",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SVGPhase",
+                        "printedName": "UIComponents.SVGPhase",
+                        "usr": "s:12UIComponents8SVGPhaseO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "SwiftUI.Image",
+                        "usr": "s:7SwiftUI5ImageV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UIComponents.SVGPhase.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SVGPhase",
+                        "printedName": "UIComponents.SVGPhase",
+                        "usr": "s:12UIComponents8SVGPhaseO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12UIComponents8SVGPhaseO7successyAC7SwiftUI5ImageVcACmF",
+            "mangledName": "$s12UIComponents8SVGPhaseO7successyAC7SwiftUI5ImageVcACmF",
+            "moduleName": "UIComponents"
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIComponents.SVGPhase.Type) -> (any Swift.Error) -> UIComponents.SVGPhase",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> UIComponents.SVGPhase",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SVGPhase",
+                        "printedName": "UIComponents.SVGPhase",
+                        "usr": "s:12UIComponents8SVGPhaseO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UIComponents.SVGPhase.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SVGPhase",
+                        "printedName": "UIComponents.SVGPhase",
+                        "usr": "s:12UIComponents8SVGPhaseO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12UIComponents8SVGPhaseO7failureyACs5Error_pcACmF",
+            "mangledName": "$s12UIComponents8SVGPhaseO7failureyACs5Error_pcACmF",
+            "moduleName": "UIComponents"
+          },
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Image?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents8SVGPhaseO5image7SwiftUI5ImageVSgvp",
+            "mangledName": "$s12UIComponents8SVGPhaseO5image7SwiftUI5ImageVSgvp",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Image?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "SwiftUI.Image",
+                        "usr": "s:7SwiftUI5ImageV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents8SVGPhaseO5image7SwiftUI5ImageVSgvg",
+                "mangledName": "$s12UIComponents8SVGPhaseO5image7SwiftUI5ImageVSgvg",
+                "moduleName": "UIComponents",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents8SVGPhaseO5errors5Error_pSgvp",
+            "mangledName": "$s12UIComponents8SVGPhaseO5errors5Error_pSgvp",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents8SVGPhaseO5errors5Error_pSgvg",
+                "mangledName": "$s12UIComponents8SVGPhaseO5errors5Error_pSgvg",
+                "moduleName": "UIComponents",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12UIComponents8SVGPhaseO",
+        "mangledName": "$s12UIComponents8SVGPhaseO",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SVGImage",
+        "printedName": "SVGImage",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SVGImage",
+                "printedName": "UIComponents.SVGImage",
+                "usr": "s:12UIComponents8SVGImageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12UIComponents8SVGImageV3urlAC10Foundation3URLV_tcfc",
+            "mangledName": "$s12UIComponents8SVGImageV3urlAC10Foundation3URLV_tcfc",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents8SVGImageV4bodyQrvp",
+            "mangledName": "$s12UIComponents8SVGImageV4bodyQrvp",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents8SVGImageV4bodyQrvg",
+                "mangledName": "$s12UIComponents8SVGImageV4bodyQrvg",
+                "moduleName": "UIComponents",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12UIComponents8SVGImageV",
+        "mangledName": "$s12UIComponents8SVGImageV",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SVGImageWithPhase",
+        "printedName": "SVGImageWithPhase",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SVGImageWithPhase",
+                "printedName": "UIComponents.SVGImageWithPhase<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:12UIComponents17SVGImageWithPhaseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIComponents.SVGPhase) -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SVGPhase",
+                    "printedName": "UIComponents.SVGPhase",
+                    "usr": "s:12UIComponents8SVGPhaseO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12UIComponents17SVGImageWithPhaseV3url7contentACyxG10Foundation3URLV_xAA8SVGPhaseOctcfc",
+            "mangledName": "$s12UIComponents17SVGImageWithPhaseV3url7contentACyxG10Foundation3URLV_xAA8SVGPhaseOctcfc",
+            "moduleName": "UIComponents",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents17SVGImageWithPhaseV4bodyQrvp",
+            "mangledName": "$s12UIComponents17SVGImageWithPhaseV4bodyQrvp",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents17SVGImageWithPhaseV4bodyQrvg",
+                "mangledName": "$s12UIComponents17SVGImageWithPhaseV4bodyQrvg",
+                "moduleName": "UIComponents",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12UIComponents17SVGImageWithPhaseV",
+        "mangledName": "$s12UIComponents17SVGImageWithPhaseV",
+        "moduleName": "UIComponents",
+        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SVGError",
+        "printedName": "SVGError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidData",
+            "printedName": "invalidData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIComponents.SVGError.Type) -> UIComponents.SVGError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SVGError",
+                    "printedName": "UIComponents.SVGError",
+                    "usr": "s:12UIComponents8SVGErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UIComponents.SVGError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SVGError",
+                        "printedName": "UIComponents.SVGError",
+                        "usr": "s:12UIComponents8SVGErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12UIComponents8SVGErrorO11invalidDatayA2CmF",
+            "mangledName": "$s12UIComponents8SVGErrorO11invalidDatayA2CmF",
+            "moduleName": "UIComponents"
+          },
+          {
+            "kind": "Var",
+            "name": "renderingFailed",
+            "printedName": "renderingFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIComponents.SVGError.Type) -> UIComponents.SVGError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SVGError",
+                    "printedName": "UIComponents.SVGError",
+                    "usr": "s:12UIComponents8SVGErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UIComponents.SVGError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SVGError",
+                        "printedName": "UIComponents.SVGError",
+                        "usr": "s:12UIComponents8SVGErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12UIComponents8SVGErrorO15renderingFailedyA2CmF",
+            "mangledName": "$s12UIComponents8SVGErrorO15renderingFailedyA2CmF",
+            "moduleName": "UIComponents"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SVGError",
+                "printedName": "UIComponents.SVGError",
+                "usr": "s:12UIComponents8SVGErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SVGError",
+                "printedName": "UIComponents.SVGError",
+                "usr": "s:12UIComponents8SVGErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents8SVGErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12UIComponents8SVGErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "UIComponents",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents8SVGErrorO9hashValueSivp",
+            "mangledName": "$s12UIComponents8SVGErrorO9hashValueSivp",
+            "moduleName": "UIComponents",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents8SVGErrorO9hashValueSivg",
+                "mangledName": "$s12UIComponents8SVGErrorO9hashValueSivg",
+                "moduleName": "UIComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents8SVGErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12UIComponents8SVGErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "UIComponents",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12UIComponents8SVGErrorO",
+        "mangledName": "$s12UIComponents8SVGErrorO",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SVG",
+        "printedName": "SVG",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIComponents.SVG?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SVG",
+                    "printedName": "UIComponents.SVG",
+                    "usr": "s:12UIComponents3SVGC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12UIComponents3SVGCyACSg10Foundation4DataVcfc",
+            "mangledName": "$s12UIComponents3SVGCyACSg10Foundation4DataVcfc",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "size",
+            "printedName": "size",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents3SVGC4sizeSo6CGSizeVvp",
+            "mangledName": "$s12UIComponents3SVGC4sizeSo6CGSizeVvp",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents3SVGC4sizeSo6CGSizeVvg",
+                "mangledName": "$s12UIComponents3SVGC4sizeSo6CGSizeVvg",
+                "moduleName": "UIComponents",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "draw",
+            "printedName": "draw(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGContext",
+                "printedName": "CoreGraphics.CGContext",
+                "usr": "c:@T@CGContextRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents3SVGC4draw2inySo12CGContextRefa_tF",
+            "mangledName": "$s12UIComponents3SVGC4draw2inySo12CGContextRefa_tF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12UIComponents3SVGC",
+        "mangledName": "$s12UIComponents3SVGC",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "View",
         "printedName": "View",
@@ -1212,135 +2878,716 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 476,
+      "offset": 502,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 672,
+      "offset": 698,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 705,
+      "offset": 731,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 740,
+      "offset": 766,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "FloatLiteral",
-      "offset": 770,
+      "offset": 796,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4293,
+      "offset": 885,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4309,
+      "offset": 4749,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4531,
+      "offset": 4991,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4629,
+      "offset": 5089,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4793,
+      "offset": 5235,
       "length": 1,
-      "value": "1"
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5271,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5364,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "FloatLiteral",
-      "offset": 4797,
+      "offset": 5482,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "FloatLiteral",
-      "offset": 4803,
+      "offset": 5514,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 5540,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5591,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5651,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 5743,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 5777,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5859,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5919,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 6011,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 6044,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6631,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6647,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6724,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6740,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6962,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7060,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7206,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7242,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7338,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7423,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 7535,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7577,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 7691,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7729,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7769,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7861,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 8016,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8059,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8257,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8349,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 8502,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8545,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8744,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8814,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 8960,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8998,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9038,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9107,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 9251,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9289,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9325,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9521,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9537,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9759,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9857,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10072,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10108,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10180,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10210,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10241,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10272,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10367,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10428,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 10558,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10600,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 10734,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10818,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10878,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 11010,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11052,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 11182,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11264,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11324,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 11455,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11497,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 11634,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11717,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11794,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 11868,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11951,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12028,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 12102,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12337,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12353,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12575,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12673,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12837,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 12841,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 12847,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5224,
+      "offset": 13268,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5240,
+      "offset": 13284,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5537,
+      "offset": 13581,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5635,
+      "offset": 13679,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5909,
+      "offset": 13953,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5934,
+      "offset": 13978,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5983,
+      "offset": 14027,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14234,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14438,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14512,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DatePickerCalendar.swift",
@@ -1376,6 +3623,62 @@
       "offset": 1451,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/MediaPlayerManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 432,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/MediaPlayerManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 482,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/MediaPlayerManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1149,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/SVGImage.swift",
+      "kind": "StringLiteral",
+      "offset": 3445,
+      "length": 22,
+      "value": "\"CGSVGDocumentRelease\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/SVGImage.swift",
+      "kind": "StringLiteral",
+      "offset": 3588,
+      "length": 29,
+      "value": "\"CGSVGDocumentCreateFromData\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/SVGImage.swift",
+      "kind": "StringLiteral",
+      "offset": 3718,
+      "length": 26,
+      "value": "\"CGContextDrawSVGDocument\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/SVGImage.swift",
+      "kind": "StringLiteral",
+      "offset": 3837,
+      "length": 28,
+      "value": "\"CGSVGDocumentGetCanvasSize\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/SVGImage.swift",
+      "kind": "StringLiteral",
+      "offset": 3897,
+      "length": 61,
+      "value": "\"\/System\/Library\/PrivateFrameworks\/CoreSVG.framework\/CoreSVG\""
     }
   ]
 }

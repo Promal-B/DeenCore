@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		B9ksvQbY8f3KijUBWHO3g0s05/0=
+		cSns/0YSvP21gdThJDWIa5lcUIU=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -26,43 +26,43 @@
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		AdCBa0CVRAWeVTAQVC2KI8Vvky4=
+		y4AvUm4n6ERrAjbQMnx/N94xu3g=
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gD33b1vNZjgPHLbOQ/j+Q05e0dM=
+		SM3qJO19gkQihI5kqdjNO+MFYsI=
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jS0uLK9q/Ny4SQRZx96wMYtzRhY=
+		SRtGs/rfyChPzhrGmQJWRI65Ckw=
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gD33b1vNZjgPHLbOQ/j+Q05e0dM=
+		SM3qJO19gkQihI5kqdjNO+MFYsI=
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fcF6kCaMkRRzHvrKAfRRETjb9/M=
+		3lw7Jdknf8OZ5UGuU1y5LtvMnEo=
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		AdCBa0CVRAWeVTAQVC2KI8Vvky4=
+		y4AvUm4n6ERrAjbQMnx/N94xu3g=
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		LW5m9W9TYYTlzVIRq28NYBFiY0M=
+		PxqtbKcT8ZQgcBTaNh6izNpL7cA=
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		cqmjAJv6qNJImYSFft6zDeLk4Qg=
+		3dtfsWOa/R1VCjm8PRMB5XvsHUg=
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		LW5m9W9TYYTlzVIRq28NYBFiY0M=
+		PxqtbKcT8ZQgcBTaNh6izNpL7cA=
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XivxCcO+haqkjTYZALBOXHD/+3o=
+		c1gv90uYnW0dnBIliyOxhxiR4H0=
 		</data>
 		<key>NotoSerifBengali-VariableFont_wdth,wght.ttf</key>
 		<data>
@@ -100,6 +100,18 @@
 		<data>
 		Kh0Aa6S18yMHCoJpIuYyON57AXM=
 		</data>
+		<key>fasting.json</key>
+		<data>
+		yWYbAJB5DS5a+nGaDRtYBdkF028=
+		</data>
+		<key>iftar.json</key>
+		<data>
+		4m72ajVl31zKkF7niVAiVjrG7kY=
+		</data>
+		<key>seheri.json</key>
+		<data>
+		upNbQKGCRB2MpCBrmH8gxhJ0Hkw=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -114,7 +126,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Kuj5qjpym8QQ6IXIxmA9LyETgteHZYVhgmU6FeymGI=
+			sHmbQopUVwIy1dAbaSQbNgX+Imzc1G9JvLvmt4bZsKg=
 			</data>
 		</dict>
 		<key>Inter-Italic-VariableFont_opsz,wght.ttf</key>
@@ -135,70 +147,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OJ99Dk4ZNqlfMtpZ0Ou39pDo8WF2oERsvUixVz/0yk0=
+			swliRFydH/xI51qavx4bBVQtz1IZBLweRnNdEDzYKl8=
 			</data>
 		</dict>
 		<key>Modules/DesignSystem.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9KKqad8UpBMUBa2t0Pp4WJLT632mAPEYkZD0vvmdGbw=
+			zlHej39MJ6ugssJOD76GfiUVrT8l5ViHiWl2CC1uf+I=
 			</data>
 		</dict>
 		<key>Modules/DesignSystem.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			idGl4EOYOUmTyYR/8W98PU9r3AWKkQYIVIbeHSsZiOo=
+			Dnx0LziUA+4HIq89nJO2cZoEp5zmbl4B+hap0vP4G90=
 			</data>
 		</dict>
 		<key>Modules/DesignSystem.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9KKqad8UpBMUBa2t0Pp4WJLT632mAPEYkZD0vvmdGbw=
+			zlHej39MJ6ugssJOD76GfiUVrT8l5ViHiWl2CC1uf+I=
 			</data>
 		</dict>
 		<key>Modules/DesignSystem.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			stqEN3ttAv3nPkwnFipn/z8ldQYZ7xgpDp3Eb0dyhjM=
+			DdCP6c+926JMr+KTbdOTHXTKIFVneqQ5YksBQt62KiY=
 			</data>
 		</dict>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OJ99Dk4ZNqlfMtpZ0Ou39pDo8WF2oERsvUixVz/0yk0=
+			swliRFydH/xI51qavx4bBVQtz1IZBLweRnNdEDzYKl8=
 			</data>
 		</dict>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OgxCwiaO3Divv92Yc5wTjT91HRPQbqXQSJHfU8OLbco=
+			P2uVkJJBDRY7KYev9l1WMFlhNEIsIXmISVZS/Cg+BJA=
 			</data>
 		</dict>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dyPx1f3Gy7ZvtPXWO6m8gK9yLYzlflqe0HOpRob05Pg=
+			GYw1zHffT2KBsNyXS89nsVUQBUJDCYXFLmHbJgM8rjs=
 			</data>
 		</dict>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OgxCwiaO3Divv92Yc5wTjT91HRPQbqXQSJHfU8OLbco=
+			P2uVkJJBDRY7KYev9l1WMFlhNEIsIXmISVZS/Cg+BJA=
 			</data>
 		</dict>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MMmlqR7lwKWKXfGpFUB46m14KQWNgFJATRnIae3AGnY=
+			SsBgBGAR/TjLjEqBXwYtEhXiio4YDac7MCM9JD+9Ngo=
 			</data>
 		</dict>
 		<key>NotoSerifBengali-VariableFont_wdth,wght.ttf</key>
@@ -262,6 +274,27 @@
 			<key>hash2</key>
 			<data>
 			0nkW4Q1xdH++tVt1GZ7R6B9xGa3FaAQb43TwtUILGGg=
+			</data>
+		</dict>
+		<key>fasting.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XA8xw/rjjCsUTwF91UGYpez4ch1R/Tr+ghuCba3nSec=
+			</data>
+		</dict>
+		<key>iftar.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V3+osT4/9Qx2bA/rkewQXShBvjy41UnrAiwYGYINxU8=
+			</data>
+		</dict>
+		<key>seheri.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fmf1bYTrYbROIDW/p26FZN3fs+RTN9iH2c8Jb16rLPc=
 			</data>
 		</dict>
 	</dict>

@@ -7094,6 +7094,302 @@
           },
           {
             "kind": "TypeDecl",
+            "name": "NNNImage",
+            "printedName": "NNNImage",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "pause",
+                "printedName": "pause",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DesignSystem.DSResources.NNNImage.Type) -> DesignSystem.DSResources.NNNImage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NNNImage",
+                        "printedName": "DesignSystem.DSResources.NNNImage",
+                        "usr": "s:12DesignSystem11DSResourcesO8NNNImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DesignSystem.DSResources.NNNImage.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NNNImage",
+                            "printedName": "DesignSystem.DSResources.NNNImage",
+                            "usr": "s:12DesignSystem11DSResourcesO8NNNImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12DesignSystem11DSResourcesO8NNNImageO5pauseyA2EmF",
+                "mangledName": "$s12DesignSystem11DSResourcesO8NNNImageO5pauseyA2EmF",
+                "moduleName": "DesignSystem"
+              },
+              {
+                "kind": "Var",
+                "name": "play",
+                "printedName": "play",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DesignSystem.DSResources.NNNImage.Type) -> DesignSystem.DSResources.NNNImage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NNNImage",
+                        "printedName": "DesignSystem.DSResources.NNNImage",
+                        "usr": "s:12DesignSystem11DSResourcesO8NNNImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DesignSystem.DSResources.NNNImage.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NNNImage",
+                            "printedName": "DesignSystem.DSResources.NNNImage",
+                            "usr": "s:12DesignSystem11DSResourcesO8NNNImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12DesignSystem11DSResourcesO8NNNImageO4playyA2EmF",
+                "mangledName": "$s12DesignSystem11DSResourcesO8NNNImageO4playyA2EmF",
+                "moduleName": "DesignSystem"
+              },
+              {
+                "kind": "Var",
+                "name": "loop",
+                "printedName": "loop",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DesignSystem.DSResources.NNNImage.Type) -> DesignSystem.DSResources.NNNImage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NNNImage",
+                        "printedName": "DesignSystem.DSResources.NNNImage",
+                        "usr": "s:12DesignSystem11DSResourcesO8NNNImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DesignSystem.DSResources.NNNImage.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NNNImage",
+                            "printedName": "DesignSystem.DSResources.NNNImage",
+                            "usr": "s:12DesignSystem11DSResourcesO8NNNImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12DesignSystem11DSResourcesO8NNNImageO4loopyA2EmF",
+                "mangledName": "$s12DesignSystem11DSResourcesO8NNNImageO4loopyA2EmF",
+                "moduleName": "DesignSystem"
+              },
+              {
+                "kind": "Var",
+                "name": "volume",
+                "printedName": "volume",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DesignSystem.DSResources.NNNImage.Type) -> DesignSystem.DSResources.NNNImage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NNNImage",
+                        "printedName": "DesignSystem.DSResources.NNNImage",
+                        "usr": "s:12DesignSystem11DSResourcesO8NNNImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DesignSystem.DSResources.NNNImage.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NNNImage",
+                            "printedName": "DesignSystem.DSResources.NNNImage",
+                            "usr": "s:12DesignSystem11DSResourcesO8NNNImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12DesignSystem11DSResourcesO8NNNImageO6volumeyA2EmF",
+                "mangledName": "$s12DesignSystem11DSResourcesO8NNNImageO6volumeyA2EmF",
+                "moduleName": "DesignSystem"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DesignSystem.DSResources.NNNImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NNNImage",
+                        "printedName": "DesignSystem.DSResources.NNNImage",
+                        "usr": "s:12DesignSystem11DSResourcesO8NNNImageO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:12DesignSystem11DSResourcesO8NNNImageO8rawValueAESgSS_tcfc",
+                "mangledName": "$s12DesignSystem11DSResourcesO8NNNImageO8rawValueAESgSS_tcfc",
+                "moduleName": "DesignSystem",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem11DSResourcesO8NNNImageO8rawValueSSvp",
+                "mangledName": "$s12DesignSystem11DSResourcesO8NNNImageO8rawValueSSvp",
+                "moduleName": "DesignSystem",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem11DSResourcesO8NNNImageO8rawValueSSvg",
+                    "mangledName": "$s12DesignSystem11DSResourcesO8NNNImageO8rawValueSSvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:12DesignSystem11DSResourcesO8NNNImageO",
+            "mangledName": "$s12DesignSystem11DSResourcesO8NNNImageO",
+            "moduleName": "DesignSystem",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "ImageAsset",
+                "printedName": "ImageAsset",
+                "usr": "s:12DesignSystem10ImageAssetP",
+                "mangledName": "$s12DesignSystem10ImageAssetP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
             "name": "QLImage",
             "printedName": "QLImage",
             "children": [
@@ -13322,6 +13618,34 @@
       "value": "\"fm_checkmark\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+NNNImage.swift",
+      "kind": "StringLiteral",
+      "offset": 510,
+      "length": 11,
+      "value": "\"nnn_pause\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+NNNImage.swift",
+      "kind": "StringLiteral",
+      "offset": 542,
+      "length": 10,
+      "value": "\"nnn_play\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+NNNImage.swift",
+      "kind": "StringLiteral",
+      "offset": 573,
+      "length": 13,
+      "value": "\"nnn_refresh\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+NNNImage.swift",
+      "kind": "StringLiteral",
+      "offset": 609,
+      "length": 12,
+      "value": "\"nnn_volume\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+QLImage.swift",
       "kind": "StringLiteral",
       "offset": 526,
@@ -13870,182 +14194,210 @@
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2313,
+      "offset": 2317,
+      "length": 11,
+      "value": "\"nnn_pause\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2453,
+      "length": 10,
+      "value": "\"nnn_play\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2594,
+      "length": 13,
+      "value": "\"nnn_refresh\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2736,
+      "length": 12,
+      "value": "\"nnn_volume\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2871,
       "length": 9,
       "value": "\"ql_Edit\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2481,
+      "offset": 3039,
       "length": 27,
       "value": "\"ql_QLQHomePatchBackground\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2661,
+      "offset": 3219,
       "length": 24,
       "value": "\"ql_QuranLearningQuizBG\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2812,
+      "offset": 3370,
       "length": 11,
       "value": "\"ql_Rating\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2946,
+      "offset": 3504,
       "length": 9,
       "value": "\"ql_Time\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3080,
+      "offset": 3638,
       "length": 10,
       "value": "\"ql_check\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3215,
+      "offset": 3773,
       "length": 10,
       "value": "\"ql_error\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3357,
+      "offset": 3915,
       "length": 14,
       "value": "\"ql_fire-fill\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3494,
+      "offset": 4052,
       "length": 9,
       "value": "\"ql_next\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3626,
+      "offset": 4184,
       "length": 9,
       "value": "\"ql_play\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3758,
+      "offset": 4316,
       "length": 9,
       "value": "\"ql_prev\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3892,
+      "offset": 4450,
       "length": 10,
       "value": "\"ql_quran\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4036,
+      "offset": 4594,
       "length": 15,
       "value": "\"ql_quran_quiz\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4174,
+      "offset": 4732,
       "length": 9,
       "value": "\"ql_star\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4324,
+      "offset": 4882,
       "length": 18,
       "value": "\"ql_stepsDisabled\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4481,
+      "offset": 5039,
       "length": 17,
       "value": "\"ql_stepsEnabled\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4635,
+      "offset": 5193,
       "length": 16,
       "value": "\"rhc_background\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4791,
+      "offset": 5349,
       "length": 18,
       "value": "\"rhc_checked_done\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4944,
+      "offset": 5502,
       "length": 15,
       "value": "\"rhc_checkmark\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5099,
+      "offset": 5657,
       "length": 18,
       "value": "\"rhc_fasting_icon\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5247,
+      "offset": 5805,
       "length": 13,
       "value": "\"rhc_home_bg\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5396,
+      "offset": 5954,
       "length": 16,
       "value": "\"rhc_iftar_icon\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5562,
+      "offset": 6120,
       "length": 23,
       "value": "\"rhc_notifications_off\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5733,
+      "offset": 6291,
       "length": 22,
       "value": "\"rhc_notifications_on\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5893,
+      "offset": 6451,
       "length": 17,
       "value": "\"rhc_seheri_icon\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6037,
+      "offset": 6595,
       "length": 11,
       "value": "\"rhc_share\""
     }
