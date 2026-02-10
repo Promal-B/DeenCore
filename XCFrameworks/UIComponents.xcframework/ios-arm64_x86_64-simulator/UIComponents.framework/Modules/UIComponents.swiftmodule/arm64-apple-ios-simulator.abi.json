@@ -3569,27 +3569,6 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14234,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14438,
-      "length": 3,
-      "value": "180"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Carousel\/CenteredSnapCarousel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14512,
-      "length": 1,
-      "value": "2"
-    },
-    {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DatePickerCalendar.swift",
       "kind": "Array",
       "offset": 161,
