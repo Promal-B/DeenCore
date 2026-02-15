@@ -10,43 +10,43 @@
 		</data>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		UprqJW6QH1arFKSyw/SXY8/ZNc4=
+		Prd5hj0UjQxEBOhjMnxxzdmvxpA=
 		</data>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		r2NKLKZF1UXo9Zvp7TYhZJr/g7Q=
+		P2H3cgUylTEnLCqPBGBZyyUmjFY=
 		</data>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		OMJG0sXl1+1zOP9AY30RLw8zUc8=
+		wuP1Poe+jgM8ln9kuhHPZ192PHA=
 		</data>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		r2NKLKZF1UXo9Zvp7TYhZJr/g7Q=
+		P2H3cgUylTEnLCqPBGBZyyUmjFY=
 		</data>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GhqK0cbgbvMTSSXKkYihBQTKDM8=
+		PYH/AdzH123DEj1Zt0phs0rw0t0=
 		</data>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		UprqJW6QH1arFKSyw/SXY8/ZNc4=
+		Prd5hj0UjQxEBOhjMnxxzdmvxpA=
 		</data>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		62fjIVrZnTaCe+NO0fG9d1P8OQQ=
+		bUxe5Y79d34AW7LEyNVQG+sFS9U=
 		</data>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		qDazgq+DG8jlEMPXSg5rLqjElXQ=
+		0rjO3+1Xl8KtzO15fg6amTxaLWo=
 		</data>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		62fjIVrZnTaCe+NO0fG9d1P8OQQ=
+		bUxe5Y79d34AW7LEyNVQG+sFS9U=
 		</data>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XO1f5Uj6weJQEQsevjF+TIvEtAw=
+		WxAJm1E2yhDN8H9HBDaDIzhJ8Ms=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,70 +55,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DfaGv4zLZvViWOP84eV2LJGl18LPHW0TYpJFM2N+NOU=
+			MTOjCijTWHdAukuRoYkevohElr8iW2mAxHCdTWd8MSI=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KcVyhdKqaXpqIHWuWb9jXeWIFGfbpuKwyTzaeaBYQT8=
+			uZ1uYMjRgZ1CyLre3n2Nc7hdjxf4kDevtwq5EQTAskM=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g/M9oKQIOF8OBM82RQL8aEBhhCzKSfifL+dF3QKbewk=
+			5invXuxYWfjba6W2vM5P/a+ipAWovBNd0KK+cU8iDFg=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KcVyhdKqaXpqIHWuWb9jXeWIFGfbpuKwyTzaeaBYQT8=
+			uZ1uYMjRgZ1CyLre3n2Nc7hdjxf4kDevtwq5EQTAskM=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7B/P/cvrXCRmEQlVzoE8ZlmqOfdYduP3Zv3p8FWaVlk=
+			67Q1eXbIYmOVKmxwzDkomaGxXlt5gpsc335RGBx/GDo=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DfaGv4zLZvViWOP84eV2LJGl18LPHW0TYpJFM2N+NOU=
+			MTOjCijTWHdAukuRoYkevohElr8iW2mAxHCdTWd8MSI=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6y/7HpFVN1EZEbkwsPhgZRmldlHE4OiTbO1zmGl9pZ0=
+			miop2TkkpgIgNDiMarLp1Y3J5cYUYCH+EBQXBtyARgw=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jY4iqTv1372E4L4z+rQtp+u4y917kFcniMXcZtPsMDk=
+			fq9X21GIN+Gbwaa9lCeOxjszAyTqsX/pK7xn2tzSifI=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6y/7HpFVN1EZEbkwsPhgZRmldlHE4OiTbO1zmGl9pZ0=
+			miop2TkkpgIgNDiMarLp1Y3J5cYUYCH+EBQXBtyARgw=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DKMFQbJcs+4VoBhwQth2qSfkiOYlDf5sgmNDNAupjkU=
+			o/v4TFePyC+HK3YJM51dL25D4FxgcDhD6MwEn64Tq3A=
 			</data>
 		</dict>
 	</dict>

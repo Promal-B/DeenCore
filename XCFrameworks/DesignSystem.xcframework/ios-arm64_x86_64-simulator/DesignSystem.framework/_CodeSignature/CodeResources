@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		ql5VhOKeq6SSye0teNPujTCdyE8=
+		nTxLSnPp1jinSeLPZ2XmbRAkIsY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -108,6 +108,10 @@
 		<data>
 		4m72ajVl31zKkF7niVAiVjrG7kY=
 		</data>
+		<key>ramadan_Header.lottie</key>
+		<data>
+		w8pQ+e2y2FXxgjxjSX4WiOtH0AA=
+		</data>
 		<key>seheri.json</key>
 		<data>
 		upNbQKGCRB2MpCBrmH8gxhJ0Hkw=
@@ -126,7 +130,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wzrulyZacKi0RUrPOKst91FPyaHGr6ttIjX6zNdHeHM=
+			jMJCHkyCPmcEAlFcRJx4veVgOWiu1FQYo5K3V4C9Ra0=
 			</data>
 		</dict>
 		<key>Inter-Italic-VariableFont_opsz,wght.ttf</key>
@@ -288,6 +292,13 @@
 			<key>hash2</key>
 			<data>
 			V3+osT4/9Qx2bA/rkewQXShBvjy41UnrAiwYGYINxU8=
+			</data>
+		</dict>
+		<key>ramadan_Header.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			68UFxU/H4Zlp6O3ljB/cdFBMBuR+eSQUrZlsDvRlPFU=
 			</data>
 		</dict>
 		<key>seheri.json</key>

@@ -1023,6 +1023,945 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "UIComponents"
+      },
+      {
+        "kind": "Import",
+        "name": "MapKit",
+        "printedName": "MapKit",
+        "declKind": "Import",
+        "moduleName": "UIComponents"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocalNotificationHandler",
+        "printedName": "LocalNotificationHandler",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocalNotificationHandler",
+                "printedName": "UIComponents.LocalNotificationHandler",
+                "usr": "s:12UIComponents24LocalNotificationHandlerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC6sharedACvpZ",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC6sharedACvpZ",
+            "moduleName": "UIComponents",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocalNotificationHandler",
+                    "printedName": "UIComponents.LocalNotificationHandler",
+                    "usr": "s:12UIComponents24LocalNotificationHandlerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents24LocalNotificationHandlerC6sharedACvgZ",
+                "mangledName": "$s12UIComponents24LocalNotificationHandlerC6sharedACvgZ",
+                "moduleName": "UIComponents",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "requestPermission",
+            "printedName": "requestPermission(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNAuthorizationOptions",
+                "printedName": "UserNotifications.UNAuthorizationOptions",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UNAuthorizationOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC17requestPermission7optionsSbSo22UNAuthorizationOptionsV_tYaKF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC17requestPermission7optionsSbSo22UNAuthorizationOptionsV_tYaKF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "authorizationStatus",
+            "printedName": "authorizationStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNAuthorizationStatus",
+                "printedName": "UserNotifications.UNAuthorizationStatus",
+                "usr": "c:@E@UNAuthorizationStatus"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC19authorizationStatusSo015UNAuthorizationF0VyYaF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC19authorizationStatusSo015UNAuthorizationF0VyYaF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerCategories",
+            "printedName": "registerCategories(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<UserNotifications.UNNotificationCategory>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationCategory",
+                    "printedName": "UserNotifications.UNNotificationCategory",
+                    "usr": "c:objc(cs)UNNotificationCategory"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC18registerCategoriesyyShySo22UNNotificationCategoryCGF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC18registerCategoriesyyShySo22UNNotificationCategoryCGF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeCategory",
+            "printedName": "makeCategory(identifier:actions:intentIdentifiers:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationCategory",
+                "printedName": "UserNotifications.UNNotificationCategory",
+                "usr": "c:objc(cs)UNNotificationCategory"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UserNotifications.UNNotificationAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationAction",
+                    "printedName": "UserNotifications.UNNotificationAction",
+                    "usr": "c:objc(cs)UNNotificationAction"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationCategoryOptions",
+                "printedName": "UserNotifications.UNNotificationCategoryOptions",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UNNotificationCategoryOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC12makeCategory10identifier7actions17intentIdentifiers7optionsSo014UNNotificationF0CSS_SaySo0L6ActionCGSaySSGSo0lF7OptionsVtF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC12makeCategory10identifier7actions17intentIdentifiers7optionsSo014UNNotificationF0CSS_SaySo0L6ActionCGSaySSGSo0lF7OptionsVtF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "schedule",
+            "printedName": "schedule(identifier:content:trigger:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationContent",
+                "printedName": "UserNotifications.UNNotificationContent",
+                "usr": "c:objc(cs)UNNotificationContent"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UserNotifications.UNNotificationTrigger?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationTrigger",
+                    "printedName": "UserNotifications.UNNotificationTrigger",
+                    "usr": "c:objc(cs)UNNotificationTrigger"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC8schedule10identifier7content7triggerySS_So21UNNotificationContentCSo0I7TriggerCSgtYaKF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC8schedule10identifier7content7triggerySS_So21UNNotificationContentCSo0I7TriggerCSgtYaKF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeContent",
+            "printedName": "makeContent(title:body:subtitle:sound:badge:userInfo:categoryIdentifier:threadIdentifier:interruptionLevel:relevanceScore:attachments:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNMutableNotificationContent",
+                "printedName": "UserNotifications.UNMutableNotificationContent",
+                "usr": "c:objc(cs)UNMutableNotificationContent"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UserNotifications.UNNotificationSound?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationSound",
+                    "printedName": "UserNotifications.UNNotificationSound",
+                    "usr": "c:objc(cs)UNNotificationSound"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UserNotifications.UNNotificationInterruptionLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationInterruptionLevel",
+                    "printedName": "UserNotifications.UNNotificationInterruptionLevel",
+                    "usr": "c:@E@UNNotificationInterruptionLevel"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UserNotifications.UNNotificationAttachment]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationAttachment",
+                    "printedName": "UserNotifications.UNNotificationAttachment",
+                    "usr": "c:objc(cs)UNNotificationAttachment"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC11makeContent5title4body8subtitle5sound5badge8userInfo18categoryIdentifier06threadO017interruptionLevel14relevanceScore11attachmentsSo09UNMutablecF0CSS_S2SSgSo19UNNotificationSoundCSgSo8NSNumberCSgSDys11AnyHashableVypGA2RSo0w12InterruptionR0VSgSdSgSaySo0W10AttachmentCGtF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC11makeContent5title4body8subtitle5sound5badge8userInfo18categoryIdentifier06threadO017interruptionLevel14relevanceScore11attachmentsSo09UNMutablecF0CSS_S2SSgSo19UNNotificationSoundCSgSo8NSNumberCSgSDys11AnyHashableVypGA2RSo0w12InterruptionR0VSgSdSgSaySo0W10AttachmentCGtF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeTimeTrigger",
+            "printedName": "makeTimeTrigger(after:repeats:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNTimeIntervalNotificationTrigger",
+                "printedName": "UserNotifications.UNTimeIntervalNotificationTrigger",
+                "usr": "c:objc(cs)UNTimeIntervalNotificationTrigger"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC15makeTimeTrigger5after7repeatsSo014UNTimeIntervalcG0CSd_SbtF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC15makeTimeTrigger5after7repeatsSo014UNTimeIntervalcG0CSd_SbtF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeCalendarTrigger",
+            "printedName": "makeCalendarTrigger(dateComponents:repeats:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNCalendarNotificationTrigger",
+                "printedName": "UserNotifications.UNCalendarNotificationTrigger",
+                "usr": "c:objc(cs)UNCalendarNotificationTrigger"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DateComponents",
+                "printedName": "Foundation.DateComponents",
+                "usr": "s:10Foundation14DateComponentsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC19makeCalendarTrigger14dateComponents7repeatsSo010UNCalendarcG0C10Foundation04DateI0V_SbtF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC19makeCalendarTrigger14dateComponents7repeatsSo010UNCalendarcG0C10Foundation04DateI0V_SbtF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeLocationTrigger",
+            "printedName": "makeLocationTrigger(region:repeats:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UNLocationNotificationTrigger",
+                "printedName": "UserNotifications.UNLocationNotificationTrigger",
+                "usr": "c:objc(cs)UNLocationNotificationTrigger"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLRegion",
+                "printedName": "CoreLocation.CLRegion",
+                "usr": "c:objc(cs)CLRegion"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC19makeLocationTrigger6region7repeatsSo010UNLocationcG0CSo8CLRegionC_SbtF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC19makeLocationTrigger6region7repeatsSo010UNLocationcG0CSo8CLRegionC_SbtF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificationExists",
+            "printedName": "notificationExists(identifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC18notificationExists10identifierSbSS_tYaF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC18notificationExists10identifierSbSS_tYaF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pendingNotifications",
+            "printedName": "pendingNotifications()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UserNotifications.UNNotificationRequest]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationRequest",
+                    "printedName": "UserNotifications.UNNotificationRequest",
+                    "usr": "c:objc(cs)UNNotificationRequest"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC20pendingNotificationsSaySo21UNNotificationRequestCGyYaF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC20pendingNotificationsSaySo21UNNotificationRequestCGyYaF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pendingNotification",
+            "printedName": "pendingNotification(identifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UserNotifications.UNNotificationRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationRequest",
+                    "printedName": "UserNotifications.UNNotificationRequest",
+                    "usr": "c:objc(cs)UNNotificationRequest"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC07pendingC010identifierSo21UNNotificationRequestCSgSS_tYaF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC07pendingC010identifierSo21UNNotificationRequestCSgSS_tYaF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deliveredNotifications",
+            "printedName": "deliveredNotifications()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UserNotifications.UNNotification]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotification",
+                    "printedName": "UserNotifications.UNNotification",
+                    "usr": "c:objc(cs)UNNotification"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC22deliveredNotificationsSaySo14UNNotificationCGyYaF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC22deliveredNotificationsSaySo14UNNotificationCGyYaF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deliveredNotification",
+            "printedName": "deliveredNotification(identifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UserNotifications.UNNotification?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotification",
+                    "printedName": "UserNotifications.UNNotification",
+                    "usr": "c:objc(cs)UNNotification"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC09deliveredC010identifierSo14UNNotificationCSgSS_tYaF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC09deliveredC010identifierSo14UNNotificationCSgSS_tYaF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removePending",
+            "printedName": "removePending(identifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC13removePending10identifierySS_tYaF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC13removePending10identifierySS_tYaF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removePending",
+            "printedName": "removePending(identifiers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC13removePending11identifiersySaySSG_tYaF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC13removePending11identifiersySaySSG_tYaF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAllPending",
+            "printedName": "removeAllPending()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC16removeAllPendingyyYaF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC16removeAllPendingyyYaF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeDelivered",
+            "printedName": "removeDelivered(identifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC15removeDelivered10identifierySS_tYaF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC15removeDelivered10identifierySS_tYaF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeDelivered",
+            "printedName": "removeDelivered(identifiers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC15removeDelivered11identifiersySaySSG_tYaF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC15removeDelivered11identifiersySaySSG_tYaF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAllDelivered",
+            "printedName": "removeAllDelivered()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC18removeAllDeliveredyyYaF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC18removeAllDeliveredyyYaF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAll",
+            "printedName": "removeAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC9removeAllyyYaF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC9removeAllyyYaF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12UIComponents24LocalNotificationHandlerC",
+        "mangledName": "$s12UIComponents24LocalNotificationHandlerC",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -3604,21 +4543,70 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/MediaPlayerManager.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
+      "kind": "Array",
+      "offset": 5420,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
+      "kind": "Array",
+      "offset": 5473,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
+      "kind": "Dictionary",
+      "offset": 6461,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
+      "kind": "Array",
+      "offset": 6706,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7881,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8166,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8431,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/MediaPlayerManager.swift",
       "kind": "BooleanLiteral",
       "offset": 432,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/MediaPlayerManager.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/MediaPlayerManager.swift",
       "kind": "BooleanLiteral",
       "offset": 482,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/MediaPlayerManager.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/MediaPlayerManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1149,
       "length": 5,

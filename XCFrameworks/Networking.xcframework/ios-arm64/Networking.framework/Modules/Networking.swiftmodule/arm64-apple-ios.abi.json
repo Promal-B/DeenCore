@@ -6,6 +6,26 @@
     "children": [
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -18,6 +38,30 @@
         "kind": "Import",
         "name": "DomainModels",
         "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
+        "name": "Playgrounds",
+        "printedName": "Playgrounds",
         "declKind": "Import",
         "moduleName": "Networking"
       },
@@ -169,6 +213,16 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -568,6 +622,105 @@
         "declKind": "Protocol",
         "usr": "s:10Networking9FMServiceP",
         "mangledName": "$s10Networking9FMServiceP",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PTService",
+        "printedName": "PTService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fetchSeheriIfterTime",
+            "printedName": "fetchSeheriIfterTime(for:location:language:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(sehri: Swift.String, iftar: Swift.String)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking9PTServiceP20fetchSeheriIfterTime3for8location8languageSS5sehri_SS5iftartSS_S2StYaKF",
+            "mangledName": "$s10Networking9PTServiceP20fetchSeheriIfterTime3for8location8languageSS5sehri_SS5iftartSS_S2StYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.PTService>",
+            "sugared_genericSig": "<Self where Self : Networking.PTService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10Networking9PTServiceP",
+        "mangledName": "$s10Networking9PTServiceP",
         "moduleName": "Networking",
         "declAttributes": [
           "AccessControl",
@@ -1359,6 +1512,36 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makePTNetworkService",
+            "printedName": "makePTNetworkService(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PTService",
+                "printedName": "any Networking.PTService",
+                "usr": "s:10Networking9PTServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
+                "hasDefaultArg": true,
+                "usr": "s:10Networking18NetworkEnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking14ServiceFactoryO013makePTNetworkB03forAA9PTService_pAA18NetworkEnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO013makePTNetworkB03forAA9PTService_pAA18NetworkEnvironmentO_tFZ",
+            "moduleName": "Networking",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -1385,21 +1568,81 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "Networking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/PTNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 4,
+      "value": "\"bn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/PTNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 1669,
+      "length": 12,
+      "value": "\"dd\/MM\/yyyy\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/PTNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 1728,
+      "length": 13,
+      "value": "\"en_US_POSIX\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/PTNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 1887,
+      "length": 7,
+      "value": "\"Dhaka\""
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027PTNetworkServiceswift_ovFAhfMX51_0_33_5F3106FEA47542FDB434873902F315F1Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2142,
+      "length": 10,
+      "value": "0x706c6179"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027PTNetworkServiceswift_ovFAhfMX51_0_33_5F3106FEA47542FDB434873902F315F1Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2169,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027PTNetworkServiceswift_ovFAhfMX51_0_33_5F3106FEA47542FDB434873902F315F1Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2523,
+      "length": 2,
+      "value": "52"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027PTNetworkServiceswift_ovFAhfMX51_0_33_5F3106FEA47542FDB434873902F315F1Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2541,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027PTNetworkServiceswift_ovFAhfMX51_0_33_5F3106FEA47542FDB434873902F315F1Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2622,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027PTNetworkServiceswift_ovFAhfMX51_0_33_5F3106FEA47542FDB434873902F315F1Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2627,
+      "length": 1,
+      "value": "0"
+    },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Amal of Ramadan\/EventDetailDTO.swift",
       "kind": "StringLiteral",
@@ -1574,6 +1817,153 @@
       "offset": 956,
       "length": 10,
       "value": "\"imageurl\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 670,
+      "length": 6,
+      "value": "\"Date\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 704,
+      "length": 13,
+      "value": "\"IslamicDate\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 744,
+      "length": 12,
+      "value": "\"BanglaDate\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 776,
+      "length": 5,
+      "value": "\"Day\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 803,
+      "length": 7,
+      "value": "\"Sehri\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 831,
+      "length": 6,
+      "value": "\"Fajr\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 861,
+      "length": 9,
+      "value": "\"Sunrise\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 891,
+      "length": 6,
+      "value": "\"Noon\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 918,
+      "length": 6,
+      "value": "\"Juhr\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 944,
+      "length": 5,
+      "value": "\"Asr\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 972,
+      "length": 8,
+      "value": "\"Sunset\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 1002,
+      "length": 7,
+      "value": "\"Iftar\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 1032,
+      "length": 8,
+      "value": "\"Magrib\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 1061,
+      "length": 6,
+      "value": "\"Isha\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 1092,
+      "length": 10,
+      "value": "\"Tahajjut\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 1125,
+      "length": 8,
+      "value": "\"Ishrak\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 1154,
+      "length": 6,
+      "value": "\"wish\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 1183,
+      "length": 8,
+      "value": "\"moment\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 1219,
+      "length": 13,
+      "value": "\"WaktTracker\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 1399,
+      "length": 6,
+      "value": "\"Wakt\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 1428,
+      "length": 8,
+      "value": "\"status\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Quiz\/QuizQuestionDTO.swift",
@@ -2169,6 +2559,13 @@
       "offset": 764,
       "length": 41,
       "value": "\"api\/Islamic\/getRichTextTopicsbyCategory\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 863,
+      "length": 35,
+      "value": "\"api\/PrayerTime\/PrayerTimeDateWise\""
     }
   ]
 }

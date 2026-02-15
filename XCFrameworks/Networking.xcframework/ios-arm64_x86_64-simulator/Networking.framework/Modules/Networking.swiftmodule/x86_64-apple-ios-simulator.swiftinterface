@@ -4,11 +4,13 @@
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import DomainModels
 import Foundation
+import Playgrounds
 import Swift
 import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+
 public protocol FMService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func fetchMosquePatch() async throws -> (famousSection: DomainModels.MosqueSection, countries: [DomainModels.Country], popularSection: DomainModels.MosqueSection)
@@ -18,6 +20,11 @@ public protocol FMService {
   #endif
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func fetchMosqueDetail(id: Swift.Int) async throws -> DomainModels.MosqueDetails
+  #endif
+}
+public protocol PTService {
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchSeheriIfterTime(for date: Swift.String, location: Swift.String, language: Swift.String) async throws -> (sehri: Swift.String, iftar: Swift.String)
   #endif
 }
 public protocol QLService {
@@ -59,6 +66,7 @@ public enum ServiceFactory {
   public static func makeQLNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.QLService
   public static func makeFMNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.FMService
   public static func makeRAmalNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.RAmalService
+  public static func makePTNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.PTService
 }
 extension Networking.NetworkEnvironment : Swift.Equatable {}
 extension Networking.NetworkEnvironment : Swift.Hashable {}

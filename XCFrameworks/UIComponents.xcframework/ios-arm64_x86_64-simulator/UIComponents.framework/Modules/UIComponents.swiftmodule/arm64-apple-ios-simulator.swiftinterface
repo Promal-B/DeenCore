@@ -6,9 +6,11 @@ import AVFoundation
 import Combine
 import Darwin
 import Foundation
+import MapKit
 import Swift
 import SwiftUI
 import UIKit
+import UserNotifications
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -47,6 +49,64 @@ import _SwiftConcurrencyShims
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func anchoredPopup<Content>(_ isPresented: SwiftUICore.Binding<Swift.Bool>, color: SwiftUICore.Color, radius: CoreFoundation.CGFloat = 0, @SwiftUICore.ViewBuilder content: @escaping () -> Content) -> some SwiftUICore.View where Content : SwiftUICore.View
   
+}
+@_hasMissingDesignatedInitializers public class LocalNotificationHandler {
+  public static let shared: UIComponents.LocalNotificationHandler
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  @discardableResult
+  nonisolated(nonsending) public func requestPermission(options: UserNotifications.UNAuthorizationOptions = [.alert, .sound, .badge]) async throws -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public func authorizationStatus() async -> UserNotifications.UNAuthorizationStatus
+  #endif
+  public func registerCategories(_ categories: Swift.Set<UserNotifications.UNNotificationCategory>)
+  public func makeCategory(identifier: Swift.String, actions: [UserNotifications.UNNotificationAction], intentIdentifiers: [Swift.String] = [], options: UserNotifications.UNNotificationCategoryOptions = []) -> UserNotifications.UNNotificationCategory
+  #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public func schedule(identifier: Swift.String, content: UserNotifications.UNNotificationContent, trigger: UserNotifications.UNNotificationTrigger?) async throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func makeContent(title: Swift.String, body: Swift.String, subtitle: Swift.String? = nil, sound: UserNotifications.UNNotificationSound? = .default, badge: Foundation.NSNumber? = nil, userInfo: [Swift.AnyHashable : Any] = [:], categoryIdentifier: Swift.String? = nil, threadIdentifier: Swift.String? = nil, interruptionLevel: UserNotifications.UNNotificationInterruptionLevel? = nil, relevanceScore: Swift.Double? = nil, attachments: [UserNotifications.UNNotificationAttachment] = []) -> UserNotifications.UNMutableNotificationContent
+  #endif
+  public func makeTimeTrigger(after timeInterval: Foundation.TimeInterval, repeats: Swift.Bool = false) -> UserNotifications.UNTimeIntervalNotificationTrigger
+  public func makeCalendarTrigger(dateComponents: Foundation.DateComponents, repeats: Swift.Bool = false) -> UserNotifications.UNCalendarNotificationTrigger
+  public func makeLocationTrigger(region: CoreLocation.CLRegion, repeats: Swift.Bool = false) -> UserNotifications.UNLocationNotificationTrigger
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public func notificationExists(identifier: Swift.String) async -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public func pendingNotifications() async -> [UserNotifications.UNNotificationRequest]
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public func pendingNotification(identifier: Swift.String) async -> UserNotifications.UNNotificationRequest?
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public func deliveredNotifications() async -> [UserNotifications.UNNotification]
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public func deliveredNotification(identifier: Swift.String) async -> UserNotifications.UNNotification?
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public func removePending(identifier: Swift.String) async
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public func removePending(identifiers: [Swift.String]) async
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public func removeAllPending() async
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public func removeDelivered(identifier: Swift.String) async
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public func removeDelivered(identifiers: [Swift.String]) async
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public func removeAllDelivered() async
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public func removeAll() async
+  #endif
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class MediaPlayerManager : Combine.ObservableObject {
   @_Concurrency.MainActor public static let shared: UIComponents.MediaPlayerManager
