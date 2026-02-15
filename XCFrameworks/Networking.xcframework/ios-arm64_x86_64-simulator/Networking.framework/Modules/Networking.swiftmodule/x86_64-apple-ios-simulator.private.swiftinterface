@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Networking
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import DomainModels
 import Foundation
 import Swift
@@ -40,6 +40,11 @@ public protocol QLService {
   nonisolated(nonsending) func fetchQuizQuestions(categoryID: Swift.Int, subCategoryID: Swift.Int) async throws -> [DomainModels.QuizQuestionV2]
   #endif
 }
+public protocol RAmalService {
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func getRichTextTopics(by categoryID: Swift.Int, token: Swift.String) async throws -> [DomainModels.IslamicEvent]
+  #endif
+}
 public enum NetworkEnvironment {
   case production
   case staging
@@ -53,6 +58,7 @@ public enum NetworkEnvironment {
 public enum ServiceFactory {
   public static func makeQLNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.QLService
   public static func makeFMNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.FMService
+  public static func makeRAmalNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.RAmalService
 }
 extension Networking.NetworkEnvironment : Swift.Equatable {}
 extension Networking.NetworkEnvironment : Swift.Hashable {}

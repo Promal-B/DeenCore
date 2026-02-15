@@ -6,16 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "Networking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -45,6 +35,57 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
         "declKind": "Import",
         "moduleName": "Networking"
       },
@@ -859,6 +900,94 @@
       },
       {
         "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RAmalService",
+        "printedName": "RAmalService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getRichTextTopics",
+            "printedName": "getRichTextTopics(by:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.IslamicEvent]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IslamicEvent",
+                    "printedName": "DomainModels.IslamicEvent",
+                    "usr": "s:12DomainModels12IslamicEventV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking12RAmalServiceP17getRichTextTopics2by5tokenSay12DomainModels12IslamicEventVGSi_SStYaKF",
+            "mangledName": "$s10Networking12RAmalServiceP17getRichTextTopics2by5tokenSay12DomainModels12IslamicEventVGSi_SStYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.RAmalService>",
+            "sugared_genericSig": "<Self where Self : Networking.RAmalService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10Networking12RAmalServiceP",
+        "mangledName": "$s10Networking12RAmalServiceP",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1200,6 +1329,36 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeRAmalNetworkService",
+            "printedName": "makeRAmalNetworkService(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RAmalService",
+                "printedName": "any Networking.RAmalService",
+                "usr": "s:10Networking12RAmalServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
+                "hasDefaultArg": true,
+                "usr": "s:10Networking18NetworkEnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking14ServiceFactoryO016makeRAmalNetworkB03forAA0eB0_pAA0F11EnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO016makeRAmalNetworkB03forAA0eB0_pAA0F11EnvironmentO_tFZ",
+            "moduleName": "Networking",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -1226,11 +1385,133 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Amal of Ramadan\/EventDetailDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 457,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Amal of Ramadan\/EventDetailDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
+      "length": 6,
+      "value": "\"Text\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Amal of Ramadan\/EventDetailDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 520,
+      "length": 14,
+      "value": "\"TextInArabic\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Amal of Ramadan\/EventDetailDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 564,
+      "length": 15,
+      "value": "\"Pronunciation\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Amal of Ramadan\/EventDetailDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 604,
+      "length": 10,
+      "value": "\"ImageUrl\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Amal of Ramadan\/EventDetailDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 661,
+      "length": 8,
+      "value": "\"Serial\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Amal of Ramadan\/IslamicEventDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 582,
+      "length": 12,
+      "value": "\"CategoryID\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Amal of Ramadan\/IslamicEventDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 619,
+      "length": 10,
+      "value": "\"Category\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Amal of Ramadan\/IslamicEventDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 648,
+      "length": 4,
+      "value": "\"Id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Amal of Ramadan\/IslamicEventDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 674,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Amal of Ramadan\/IslamicEventDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 702,
+      "length": 6,
+      "value": "\"Text\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Amal of Ramadan\/IslamicEventDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 737,
+      "length": 14,
+      "value": "\"TextInArabic\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Amal of Ramadan\/IslamicEventDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 781,
+      "length": 15,
+      "value": "\"Pronunciation\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Amal of Ramadan\/IslamicEventDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 821,
+      "length": 10,
+      "value": "\"ImageUrl\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Amal of Ramadan\/IslamicEventDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 856,
+      "length": 10,
+      "value": "\"Language\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Amal of Ramadan\/IslamicEventDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 889,
+      "length": 8,
+      "value": "\"Serial\""
+    },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Famous Mosque\/MosqueDetailDTO.swift",
       "kind": "StringLiteral",
@@ -1881,6 +2162,13 @@
       "offset": 682,
       "length": 26,
       "value": "\"api\/Mosque\/GetMosqueList\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 764,
+      "length": 41,
+      "value": "\"api\/Islamic\/getRichTextTopicsbyCategory\""
     }
   ]
 }

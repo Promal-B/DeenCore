@@ -16,6 +16,1663 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "EventDetail",
+        "printedName": "EventDetail",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels11EventDetailV2id10Foundation4UUIDVvp",
+            "mangledName": "$s12DomainModels11EventDetailV2id10Foundation4UUIDVvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels11EventDetailV2id10Foundation4UUIDVvg",
+                "mangledName": "$s12DomainModels11EventDetailV2id10Foundation4UUIDVvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels11EventDetailV2id10Foundation4UUIDVvs",
+                "mangledName": "$s12DomainModels11EventDetailV2id10Foundation4UUIDVvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels11EventDetailV2id10Foundation4UUIDVvM",
+                "mangledName": "$s12DomainModels11EventDetailV2id10Foundation4UUIDVvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels11EventDetailV5titleSSvp",
+            "mangledName": "$s12DomainModels11EventDetailV5titleSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels11EventDetailV5titleSSvg",
+                "mangledName": "$s12DomainModels11EventDetailV5titleSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels11EventDetailV4textSSvp",
+            "mangledName": "$s12DomainModels11EventDetailV4textSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels11EventDetailV4textSSvg",
+                "mangledName": "$s12DomainModels11EventDetailV4textSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textInArabic",
+            "printedName": "textInArabic",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels11EventDetailV12textInArabicSSvp",
+            "mangledName": "$s12DomainModels11EventDetailV12textInArabicSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels11EventDetailV12textInArabicSSvg",
+                "mangledName": "$s12DomainModels11EventDetailV12textInArabicSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pronunciation",
+            "printedName": "pronunciation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels11EventDetailV13pronunciationSSvp",
+            "mangledName": "$s12DomainModels11EventDetailV13pronunciationSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels11EventDetailV13pronunciationSSvg",
+                "mangledName": "$s12DomainModels11EventDetailV13pronunciationSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageUrl",
+            "printedName": "imageUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels11EventDetailV8imageUrl10Foundation3URLVSgvp",
+            "mangledName": "$s12DomainModels11EventDetailV8imageUrl10Foundation3URLVSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels11EventDetailV8imageUrl10Foundation3URLVSgvg",
+                "mangledName": "$s12DomainModels11EventDetailV8imageUrl10Foundation3URLVSgvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contenturl",
+            "printedName": "contenturl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels11EventDetailV10contenturlSSvp",
+            "mangledName": "$s12DomainModels11EventDetailV10contenturlSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels11EventDetailV10contenturlSSvg",
+                "mangledName": "$s12DomainModels11EventDetailV10contenturlSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serial",
+            "printedName": "serial",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels11EventDetailV6serialSivp",
+            "mangledName": "$s12DomainModels11EventDetailV6serialSivp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels11EventDetailV6serialSivg",
+                "mangledName": "$s12DomainModels11EventDetailV6serialSivg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reference",
+            "printedName": "reference",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels11EventDetailV9referenceSSvp",
+            "mangledName": "$s12DomainModels11EventDetailV9referenceSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels11EventDetailV9referenceSSvg",
+                "mangledName": "$s12DomainModels11EventDetailV9referenceSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(title:text:textInArabic:pronunciation:imageUrl:contenturl:serial:reference:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventDetail",
+                "printedName": "DomainModels.EventDetail",
+                "usr": "s:12DomainModels11EventDetailV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DomainModels11EventDetailV5title4text0F8InArabic13pronunciation8imageUrl10contenturl6serial9referenceACSS_S3S10Foundation3URLVSgSSSiSStcfc",
+            "mangledName": "$s12DomainModels11EventDetailV5title4text0F8InArabic13pronunciation8imageUrl10contenturl6serial9referenceACSS_S3S10Foundation3URLVSgSSSiSStcfc",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventDetail",
+                "printedName": "DomainModels.EventDetail",
+                "usr": "s:12DomainModels11EventDetailV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DomainModels11EventDetailV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12DomainModels11EventDetailV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DomainModels11EventDetailV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12DomainModels11EventDetailV6encode2toys7Encoder_p_tKF",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "preview",
+            "printedName": "preview",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventDetail",
+                "printedName": "DomainModels.EventDetail",
+                "usr": "s:12DomainModels11EventDetailV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels11EventDetailV7previewACvpZ",
+            "mangledName": "$s12DomainModels11EventDetailV7previewACvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventDetail",
+                    "printedName": "DomainModels.EventDetail",
+                    "usr": "s:12DomainModels11EventDetailV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels11EventDetailV7previewACvgZ",
+                "mangledName": "$s12DomainModels11EventDetailV7previewACvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12DomainModels11EventDetailV",
+        "mangledName": "$s12DomainModels11EventDetailV",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IslamicEvent",
+        "printedName": "IslamicEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "categoryID",
+            "printedName": "categoryID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12IslamicEventV10categoryIDSivp",
+            "mangledName": "$s12DomainModels12IslamicEventV10categoryIDSivp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12IslamicEventV10categoryIDSivg",
+                "mangledName": "$s12DomainModels12IslamicEventV10categoryIDSivg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "category",
+            "printedName": "category",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12IslamicEventV8categorySSvp",
+            "mangledName": "$s12DomainModels12IslamicEventV8categorySSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12IslamicEventV8categorySSvg",
+                "mangledName": "$s12DomainModels12IslamicEventV8categorySSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12IslamicEventV2idSivp",
+            "mangledName": "$s12DomainModels12IslamicEventV2idSivp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12IslamicEventV2idSivg",
+                "mangledName": "$s12DomainModels12IslamicEventV2idSivg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12IslamicEventV5titleSSvp",
+            "mangledName": "$s12DomainModels12IslamicEventV5titleSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12IslamicEventV5titleSSvg",
+                "mangledName": "$s12DomainModels12IslamicEventV5titleSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12IslamicEventV4textSSvp",
+            "mangledName": "$s12DomainModels12IslamicEventV4textSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12IslamicEventV4textSSvg",
+                "mangledName": "$s12DomainModels12IslamicEventV4textSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textInArabic",
+            "printedName": "textInArabic",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12IslamicEventV12textInArabicSSvp",
+            "mangledName": "$s12DomainModels12IslamicEventV12textInArabicSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12IslamicEventV12textInArabicSSvg",
+                "mangledName": "$s12DomainModels12IslamicEventV12textInArabicSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pronunciation",
+            "printedName": "pronunciation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12IslamicEventV13pronunciationSSvp",
+            "mangledName": "$s12DomainModels12IslamicEventV13pronunciationSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12IslamicEventV13pronunciationSSvg",
+                "mangledName": "$s12DomainModels12IslamicEventV13pronunciationSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageUrl",
+            "printedName": "imageUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12IslamicEventV8imageUrl10Foundation3URLVSgvp",
+            "mangledName": "$s12DomainModels12IslamicEventV8imageUrl10Foundation3URLVSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12IslamicEventV8imageUrl10Foundation3URLVSgvg",
+                "mangledName": "$s12DomainModels12IslamicEventV8imageUrl10Foundation3URLVSgvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "language",
+            "printedName": "language",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12IslamicEventV8languageSSvp",
+            "mangledName": "$s12DomainModels12IslamicEventV8languageSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12IslamicEventV8languageSSvg",
+                "mangledName": "$s12DomainModels12IslamicEventV8languageSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serial",
+            "printedName": "serial",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12IslamicEventV6serialSivp",
+            "mangledName": "$s12DomainModels12IslamicEventV6serialSivp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12IslamicEventV6serialSivg",
+                "mangledName": "$s12DomainModels12IslamicEventV6serialSivg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reference",
+            "printedName": "reference",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12IslamicEventV9referenceSSvp",
+            "mangledName": "$s12DomainModels12IslamicEventV9referenceSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12IslamicEventV9referenceSSvg",
+                "mangledName": "$s12DomainModels12IslamicEventV9referenceSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "details",
+            "printedName": "details",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.EventDetail]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventDetail",
+                    "printedName": "DomainModels.EventDetail",
+                    "usr": "s:12DomainModels11EventDetailV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12IslamicEventV7detailsSayAA0D6DetailVGvp",
+            "mangledName": "$s12DomainModels12IslamicEventV7detailsSayAA0D6DetailVGvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DomainModels.EventDetail]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventDetail",
+                        "printedName": "DomainModels.EventDetail",
+                        "usr": "s:12DomainModels11EventDetailV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12IslamicEventV7detailsSayAA0D6DetailVGvg",
+                "mangledName": "$s12DomainModels12IslamicEventV7detailsSayAA0D6DetailVGvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "idValue",
+            "printedName": "idValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12IslamicEventV7idValueSivp",
+            "mangledName": "$s12DomainModels12IslamicEventV7idValueSivp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12IslamicEventV7idValueSivg",
+                "mangledName": "$s12DomainModels12IslamicEventV7idValueSivg",
+                "moduleName": "DomainModels",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(categoryID:category:id:title:text:textInArabic:pronunciation:imageUrl:language:serial:reference:details:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IslamicEvent",
+                "printedName": "DomainModels.IslamicEvent",
+                "usr": "s:12DomainModels12IslamicEventV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.EventDetail]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventDetail",
+                    "printedName": "DomainModels.EventDetail",
+                    "usr": "s:12DomainModels11EventDetailV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DomainModels12IslamicEventV10categoryID0E02id5title4text0I8InArabic13pronunciation8imageUrl8language6serial9reference7detailsACSi_SSSiS4S10Foundation3URLVSgSSSiSSSayAA0D6DetailVGtcfc",
+            "mangledName": "$s12DomainModels12IslamicEventV10categoryID0E02id5title4text0I8InArabic13pronunciation8imageUrl8language6serial9reference7detailsACSi_SSSiS4S10Foundation3URLVSgSSSiSSSayAA0D6DetailVGtcfc",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IslamicEvent",
+                "printedName": "DomainModels.IslamicEvent",
+                "usr": "s:12DomainModels12IslamicEventV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DomainModels12IslamicEventV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12DomainModels12IslamicEventV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DomainModels12IslamicEventV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12DomainModels12IslamicEventV6encode2toys7Encoder_p_tKF",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "preview",
+            "printedName": "preview",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IslamicEvent",
+                "printedName": "DomainModels.IslamicEvent",
+                "usr": "s:12DomainModels12IslamicEventV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12IslamicEventV7previewACvpZ",
+            "mangledName": "$s12DomainModels12IslamicEventV7previewACvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IslamicEvent",
+                    "printedName": "DomainModels.IslamicEvent",
+                    "usr": "s:12DomainModels12IslamicEventV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12IslamicEventV7previewACvgZ",
+                "mangledName": "$s12DomainModels12IslamicEventV7previewACvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previews",
+            "printedName": "previews",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.IslamicEvent]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IslamicEvent",
+                    "printedName": "DomainModels.IslamicEvent",
+                    "usr": "s:12DomainModels12IslamicEventV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12IslamicEventV8previewsSayACGvpZ",
+            "mangledName": "$s12DomainModels12IslamicEventV8previewsSayACGvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DomainModels.IslamicEvent]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IslamicEvent",
+                        "printedName": "DomainModels.IslamicEvent",
+                        "usr": "s:12DomainModels12IslamicEventV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12IslamicEventV8previewsSayACGvgZ",
+                "mangledName": "$s12DomainModels12IslamicEventV8previewsSayACGvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12DomainModels12IslamicEventV",
+        "mangledName": "$s12DomainModels12IslamicEventV",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "AppError",
         "printedName": "AppError",
         "children": [
@@ -13879,6 +15536,965 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/EventDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1037,
+      "length": 54,
+      "value": "\"ফিতরা (সদকাতুল ফিতর)\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/EventDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1107,
+      "length": 557,
+      "value": "\"ফিতরা (সদকাতুল ফিতর) রমজানের রোজা শুদ্ধ করার এবং ঈদের দিনে গরিব–মিসকিনদের আনন্দে শামিল করার একটি গুরুত্বপূর্ণ ফরজ সদকা।\nঈদের নামাজের আগেই ফিতরা আদায় করা উত্তম, যাতে অভাবগ্রস্তরা খাবারের ব্যবস্থা করতে পারে।\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/EventDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 1688,
+      "length": 539,
+      "value": "\"فَرَضَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ زَكَاةَ الْفِطْرِ طُهْرَةً لِلصَّائِمِ مِنَ اللَّغْوِ وَالرَّفَثِ، وَطُعْمَةً لِلْمَسَاكِينِ.\n\nمَنْ أَدَّاهَا قَبْلَ الصَّلَاةِ فَهِيَ زَكَاةٌ مَقْبُولَةٌ، وَمَنْ أَدَّاهَا بَعْدَ الصَّلَاةِ فَهِيَ صَدَقَةٌ مِنَ الصَّدَقَاتِ.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/EventDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 2252,
+      "length": 805,
+      "value": "\"ফারাদা রাসূলুল্লাহি সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম যাকাতাল্‌-ফিতরি তুহরাতাল্‌ লিস্‌-সা-ইমি মিনাল্‌-লাগ্‌ওয়ি ওয়ার্‌-রাফাছ, ওয়া তু‘মাতাল্‌ লিল্‌-মাসাকীন।\n\nমান আদ্দাহা ক্বাবলাস্‌-সালাতি ফাহিয়া যাকাতুম্‌ মাক্ববূলাহ, ওয়া মান আদ্দাহা বা‘দাস্‌-সালাতি ফাহিয়া সাদাক্বাতুম্‌ মিনাস্‌-সাদাক্বাত।\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/EventDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3102,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/EventDetail.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3122,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/EventDetail.swift",
+      "kind": "StringLiteral",
+      "offset": 3144,
+      "length": 112,
+      "value": "\"সুনান আবু দাউদ ১৬০৯, সুনান ইবনু মাজাহ ১৮২৭\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1389,
+      "length": 3,
+      "value": "121"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1412,
+      "length": 39,
+      "value": "\"রামাদানের আমল\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1465,
+      "length": 3,
+      "value": "351"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1485,
+      "length": 49,
+      "value": "\"রমজানের চাঁদ দেখা\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1550,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1576,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1603,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1660,
+      "length": 4,
+      "value": "\"bn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1682,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1704,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1851,
+      "length": 3,
+      "value": "121"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1878,
+      "length": 39,
+      "value": "\"রামাদানের আমল\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1935,
+      "length": 3,
+      "value": "351"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1959,
+      "length": 49,
+      "value": "\"রমজানের চাঁদ দেখা\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2028,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2058,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2089,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2154,
+      "length": 4,
+      "value": "\"bn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2180,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2206,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2310,
+      "length": 3,
+      "value": "121"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2337,
+      "length": 39,
+      "value": "\"রামাদানের আমল\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2394,
+      "length": 3,
+      "value": "352"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2418,
+      "length": 27,
+      "value": "\"রোজা রাখা\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2465,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2495,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2526,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2591,
+      "length": 4,
+      "value": "\"bn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2617,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2643,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2747,
+      "length": 3,
+      "value": "121"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2774,
+      "length": 39,
+      "value": "\"রামাদানের আমল\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2831,
+      "length": 3,
+      "value": "353"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2855,
+      "length": 62,
+      "value": "\"তারাবির নামাজ আদায় করা\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2937,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2967,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2998,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3063,
+      "length": 4,
+      "value": "\"bn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3089,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3115,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3219,
+      "length": 3,
+      "value": "121"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3246,
+      "length": 39,
+      "value": "\"রামাদানের আমল\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3303,
+      "length": 3,
+      "value": "354"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3327,
+      "length": 27,
+      "value": "\"সাহরি করা\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3374,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3404,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3435,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3500,
+      "length": 4,
+      "value": "\"bn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3526,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3552,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3656,
+      "length": 3,
+      "value": "121"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3683,
+      "length": 39,
+      "value": "\"রামাদানের আমল\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3740,
+      "length": 3,
+      "value": "355"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3764,
+      "length": 78,
+      "value": "\"সাহরি রাতের শেষ প্রহরে খাওয়া\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3862,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3892,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3923,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 3988,
+      "length": 4,
+      "value": "\"bn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4014,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 4040,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4144,
+      "length": 3,
+      "value": "121"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 4171,
+      "length": 39,
+      "value": "\"রামাদানের আমল\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4228,
+      "length": 3,
+      "value": "356"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 4252,
+      "length": 27,
+      "value": "\"ইফতার করা\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 4299,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 4329,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 4360,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 4425,
+      "length": 4,
+      "value": "\"bn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4451,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 4477,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4581,
+      "length": 3,
+      "value": "121"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 4608,
+      "length": 39,
+      "value": "\"রামাদানের আমল\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4665,
+      "length": 3,
+      "value": "357"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 4689,
+      "length": 52,
+      "value": "\"ইফতার তাড়াতাড়ি করা\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 4761,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 4791,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 4822,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 4887,
+      "length": 4,
+      "value": "\"bn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4913,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 4939,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5043,
+      "length": 3,
+      "value": "121"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 5070,
+      "length": 39,
+      "value": "\"রামাদানের আমল\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5127,
+      "length": 3,
+      "value": "358"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 5151,
+      "length": 36,
+      "value": "\"ইফতারের দোয়া\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 5207,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 5237,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 5268,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 5333,
+      "length": 4,
+      "value": "\"bn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5359,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 5385,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5489,
+      "length": 3,
+      "value": "121"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 5516,
+      "length": 39,
+      "value": "\"রামাদানের আমল\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5573,
+      "length": 3,
+      "value": "359"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 5597,
+      "length": 75,
+      "value": "\"ইফতার ও সাহরিতে খেজুর খাওয়া\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 5692,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 5722,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 5753,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 5818,
+      "length": 4,
+      "value": "\"bn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5844,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 5870,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5974,
+      "length": 3,
+      "value": "121"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 6001,
+      "length": 39,
+      "value": "\"রামাদানের আমল\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6058,
+      "length": 3,
+      "value": "360"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 6082,
+      "length": 75,
+      "value": "\"দিনের আল্লাহর কাছে দোয়া করা\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 6177,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 6207,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 6238,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 6303,
+      "length": 4,
+      "value": "\"bn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6329,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 6356,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6460,
+      "length": 3,
+      "value": "121"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 6487,
+      "length": 39,
+      "value": "\"রামাদানের আমল\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6544,
+      "length": 3,
+      "value": "361"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 6568,
+      "length": 78,
+      "value": "\"সকল প্রকার পাপাচার বর্জন করা\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 6666,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 6696,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 6727,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 6792,
+      "length": 4,
+      "value": "\"bn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6818,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 6845,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6949,
+      "length": 3,
+      "value": "121"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 6976,
+      "length": 39,
+      "value": "\"রামাদানের আমল\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7033,
+      "length": 3,
+      "value": "362"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 7057,
+      "length": 87,
+      "value": "\"মিথ্যা কথা, কাজ ও প্রতারণা না করা\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 7164,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 7194,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 7225,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 7290,
+      "length": 4,
+      "value": "\"bn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7316,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Amal of Ramadan\/IslamicEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 7343,
+      "length": 2,
+      "value": "\"\""
+    },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
       "kind": "StringLiteral",
