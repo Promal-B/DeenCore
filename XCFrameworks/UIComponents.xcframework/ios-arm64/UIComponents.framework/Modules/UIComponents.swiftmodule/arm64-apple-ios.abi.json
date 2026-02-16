@@ -1059,7 +1059,7 @@
                 "kind": "TypeNominal",
                 "name": "LocalNotificationHandler",
                 "printedName": "UIComponents.LocalNotificationHandler",
-                "usr": "s:12UIComponents24LocalNotificationHandlerC"
+                "usr": "c:@M@UIComponents@objc(cs)LocalNotificationHandler"
               }
             ],
             "declKind": "Var",
@@ -1085,7 +1085,7 @@
                     "kind": "TypeNominal",
                     "name": "LocalNotificationHandler",
                     "printedName": "UIComponents.LocalNotificationHandler",
-                    "usr": "s:12UIComponents24LocalNotificationHandlerC"
+                    "usr": "c:@M@UIComponents@objc(cs)LocalNotificationHandler"
                   }
                 ],
                 "declKind": "Accessor",
@@ -1469,6 +1469,109 @@
             "mangledName": "$s12UIComponents24LocalNotificationHandlerC11makeContent5title4body8subtitle5sound5badge8userInfo18categoryIdentifier06threadO017interruptionLevel14relevanceScore11attachmentsSo09UNMutablecF0CSS_S2SSgSo19UNNotificationSoundCSgSo8NSNumberCSgSDys11AnyHashableVypGA2RSo0w12InterruptionR0VSgSdSgSaySo0W10AttachmentCGtF",
             "moduleName": "UIComponents",
             "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:willPresent:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotification",
+                "printedName": "UserNotifications.UNNotification",
+                "usr": "c:objc(cs)UNNotification"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UserNotifications.UNNotificationPresentationOptions) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationPresentationOptions",
+                    "printedName": "UserNotifications.UNNotificationPresentationOptions",
+                    "usr": "c:@E@UNNotificationPresentationOptions"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UIComponents@objc(cs)LocalNotificationHandler(im)userNotificationCenter:willPresentNotification:withCompletionHandler:",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC04userC6Center_11willPresent014withCompletionD0ySo06UNUsercF0C_So14UNNotificationCySo0L19PresentationOptionsVctF",
+            "moduleName": "UIComponents",
+            "objc_name": "userNotificationCenter:willPresentNotification:withCompletionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:didReceive:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UIComponents@objc(cs)LocalNotificationHandler(im)userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC04userC6Center_10didReceive014withCompletionD0ySo06UNUsercF0C_So22UNNotificationResponseCyyctF",
+            "moduleName": "UIComponents",
+            "objc_name": "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "declAttributes": [
+              "ObjC",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -1953,14 +2056,20 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:12UIComponents24LocalNotificationHandlerC",
+        "usr": "c:@M@UIComponents@objc(cs)LocalNotificationHandler",
         "mangledName": "$s12UIComponents24LocalNotificationHandlerC",
         "moduleName": "UIComponents",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment"
+          "RawDocComment",
+          "ObjC"
         ],
+        "superclassUsr": "c:objc(cs)NSObject",
         "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
         "conformances": [
           {
             "kind": "Conformance",
@@ -1975,6 +2084,55 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -4572,50 +4730,57 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4085,
+      "length": 23,
+      "value": "\"notificationDelivered\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
       "kind": "Array",
-      "offset": 5420,
+      "offset": 5617,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
       "kind": "Array",
-      "offset": 5473,
+      "offset": 5670,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
       "kind": "Dictionary",
-      "offset": 6461,
+      "offset": 6658,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
       "kind": "Array",
-      "offset": 6706,
+      "offset": 6903,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 7881,
+      "offset": 9572,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 8166,
+      "offset": 9857,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 8431,
+      "offset": 10122,
       "length": 5,
       "value": "false"
     },

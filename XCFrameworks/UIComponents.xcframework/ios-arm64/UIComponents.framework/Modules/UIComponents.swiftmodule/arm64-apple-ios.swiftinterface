@@ -50,7 +50,7 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func anchoredPopup<Content>(_ isPresented: SwiftUICore.Binding<Swift.Bool>, color: SwiftUICore.Color, radius: CoreFoundation.CGFloat = 0, @SwiftUICore.ViewBuilder content: @escaping () -> Content) -> some SwiftUICore.View where Content : SwiftUICore.View
   
 }
-@_hasMissingDesignatedInitializers public class LocalNotificationHandler {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LocalNotificationHandler : ObjectiveC.NSObject, UserNotifications.UNUserNotificationCenterDelegate {
   public static let shared: UIComponents.LocalNotificationHandler
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   @discardableResult
@@ -67,6 +67,8 @@ extension SwiftUICore.View {
   #if compiler(>=5.3) && $NonescapableTypes
   public func makeContent(title: Swift.String, body: Swift.String, subtitle: Swift.String? = nil, sound: UserNotifications.UNNotificationSound? = .default, badge: Foundation.NSNumber? = nil, userInfo: [Swift.AnyHashable : Any] = [:], categoryIdentifier: Swift.String? = nil, threadIdentifier: Swift.String? = nil, interruptionLevel: UserNotifications.UNNotificationInterruptionLevel? = nil, relevanceScore: Swift.Double? = nil, attachments: [UserNotifications.UNNotificationAttachment] = []) -> UserNotifications.UNMutableNotificationContent
   #endif
+  @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
+  @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
   public func makeTimeTrigger(after timeInterval: Foundation.TimeInterval, repeats: Swift.Bool = false) -> UserNotifications.UNTimeIntervalNotificationTrigger
   public func makeCalendarTrigger(dateComponents: Foundation.DateComponents, repeats: Swift.Bool = false) -> UserNotifications.UNCalendarNotificationTrigger
   public func makeLocationTrigger(region: CoreLocation.CLRegion, repeats: Swift.Bool = false) -> UserNotifications.UNLocationNotificationTrigger
