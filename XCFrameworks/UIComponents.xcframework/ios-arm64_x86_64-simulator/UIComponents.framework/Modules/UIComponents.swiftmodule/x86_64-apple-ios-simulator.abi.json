@@ -1922,6 +1922,34 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasNotificationPassed",
+            "printedName": "hasNotificationPassed(identifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC03hasC6Passed10identifierSbSS_tYaF",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC03hasC6Passed10identifierSbSS_tYaF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",

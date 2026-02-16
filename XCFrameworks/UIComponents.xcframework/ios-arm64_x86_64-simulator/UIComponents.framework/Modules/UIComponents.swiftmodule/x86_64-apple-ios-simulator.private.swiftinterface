@@ -106,6 +106,9 @@ extension SwiftUICore.View {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) public func removeAll() async
   #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) public func hasNotificationPassed(identifier: Swift.String) async -> Swift.Bool
+  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class MediaPlayerManager : Combine.ObservableObject {
