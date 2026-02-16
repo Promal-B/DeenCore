@@ -1614,49 +1614,63 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/FTNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 3177,
+      "offset": 4780,
       "length": 239,
       "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBsaWNhdGlvbiI6IkRlZW4gSXNsYW0iLCJuYW1lIjoiODgwMTczODQzOTIzNiIsInJvbGUiOiJBZG1pbiIsIm5iZiI6MTc3MTIzOTM4NSwiZXhwIjoxNzcxMzI1Nzg1LCJpYXQiOjE3NzEyMzkzODV9.B3TbLhvgj5vQnRHWPQvdNcBei7uECOb9UTvJ3KUnAiA\""
     },
     {
-      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX93_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/FTNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 5280,
+      "length": 12,
+      "value": "\"16\/02\/2026\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/FTNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 5304,
+      "length": 4,
+      "value": "\"bn\""
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX132_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2262,
+      "offset": 2386,
       "length": 10,
       "value": "0x706c6179"
     },
     {
-      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX93_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
+      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX132_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2289,
+      "offset": 2413,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX93_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
+      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX132_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2643,
-      "length": 2,
-      "value": "94"
+      "offset": 2769,
+      "length": 3,
+      "value": "133"
     },
     {
-      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX93_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
+      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX132_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2661,
+      "offset": 2788,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX93_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
+      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX132_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2742,
+      "offset": 2869,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX93_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
+      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX132_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2747,
+      "offset": 2874,
       "length": 1,
       "value": "0"
     },
@@ -2611,6 +2625,13 @@
       "offset": 1118,
       "length": 37,
       "value": "\"api\/FastTracker\/GetFastTrackingInfo\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1183,
+      "length": 37,
+      "value": "\"api\/SeheriIftarTime\/ramadanCalander\""
     }
   ]
 }
