@@ -239,6 +239,25 @@ extension DomainModels.MosqueSection {
   public static let previewPopular: DomainModels.MosqueSection
   public static let previewFamous: DomainModels.MosqueSection
 }
+public struct FastingTrackingSummary : Swift.Codable {
+  public let date: Swift.String?
+  public let islamicDate: Swift.String?
+  public let banglaDate: Swift.String?
+  public let suhoor: Swift.String?
+  public let iftaar: Swift.String?
+  public let isFasting: Swift.Bool
+  public let totalTracked: Swift.Int
+  public let totalDays: Swift.Int
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(date: Swift.String?, islamicDate: Swift.String?, banglaDate: Swift.String?, suhoor: Swift.String?, iftaar: Swift.String?, isFasting: Swift.Bool, totalTracked: Swift.Int, totalDays: Swift.Int)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension DomainModels.FastingTrackingSummary {
+  public static let preview: DomainModels.FastingTrackingSummary
+  public static let emptyPreview: DomainModels.FastingTrackingSummary
+}
 public let defaultImageURL: Foundation.URL?
 public let defaultAudioURL: Foundation.URL?
 public struct QuizOptionV2 : Swift.Codable, Swift.Hashable {

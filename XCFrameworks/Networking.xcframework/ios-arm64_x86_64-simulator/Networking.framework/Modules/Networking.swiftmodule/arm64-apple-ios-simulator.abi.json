@@ -101,6 +101,23 @@
       },
       {
         "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1574,74 +1591,81 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/FTNetworkService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1247,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/FTNetworkService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1276,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/FTNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 1309,
+      "length": 4,
+      "value": "\"bn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/FTNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 3177,
+      "length": 239,
+      "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBsaWNhdGlvbiI6IkRlZW4gSXNsYW0iLCJuYW1lIjoiODgwMTczODQzOTIzNiIsInJvbGUiOiJBZG1pbiIsIm5iZiI6MTc3MTIzOTM4NSwiZXhwIjoxNzcxMzI1Nzg1LCJpYXQiOjE3NzEyMzkzODV9.B3TbLhvgj5vQnRHWPQvdNcBei7uECOb9UTvJ3KUnAiA\""
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX93_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2262,
+      "length": 10,
+      "value": "0x706c6179"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX93_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2289,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX93_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2643,
+      "length": 2,
+      "value": "94"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX93_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2661,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX93_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2742,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX93_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2747,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/PTNetworkService.swift",
       "kind": "StringLiteral",
       "offset": 788,
       "length": 4,
       "value": "\"bn\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/PTNetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 1669,
-      "length": 12,
-      "value": "\"dd\/MM\/yyyy\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/PTNetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 1728,
-      "length": 13,
-      "value": "\"en_US_POSIX\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/PTNetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 1887,
-      "length": 7,
-      "value": "\"Dhaka\""
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0027PTNetworkServiceswift_ovFAhfMX51_0_33_5F3106FEA47542FDB434873902F315F1Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2142,
-      "length": 10,
-      "value": "0x706c6179"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0027PTNetworkServiceswift_ovFAhfMX51_0_33_5F3106FEA47542FDB434873902F315F1Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2169,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0027PTNetworkServiceswift_ovFAhfMX51_0_33_5F3106FEA47542FDB434873902F315F1Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2523,
-      "length": 2,
-      "value": "52"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0027PTNetworkServiceswift_ovFAhfMX51_0_33_5F3106FEA47542FDB434873902F315F1Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2541,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0027PTNetworkServiceswift_ovFAhfMX51_0_33_5F3106FEA47542FDB434873902F315F1Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2622,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0027PTNetworkServiceswift_ovFAhfMX51_0_33_5F3106FEA47542FDB434873902F315F1Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2627,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/Amal of Ramadan\/EventDetailDTO.swift",
@@ -2566,6 +2590,27 @@
       "offset": 863,
       "length": 35,
       "value": "\"api\/PrayerTime\/PrayerTimeDateWise\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 964,
+      "length": 37,
+      "value": "\"api\/FastTracker\/AddFastTrackingInfo\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1041,
+      "length": 45,
+      "value": "\"api\/FastTracker\/AddFastTrackingInfoDateWise\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1118,
+      "length": 37,
+      "value": "\"api\/FastTracker\/GetFastTrackingInfo\""
     }
   ]
 }
