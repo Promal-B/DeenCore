@@ -52,6 +52,7 @@ extension SwiftUICore.View {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LocalNotificationHandler : ObjectiveC.NSObject, UserNotifications.UNUserNotificationCenterDelegate {
   public static let shared: UIComponents.LocalNotificationHandler
+  public static let notificationDelivered: Foundation.Notification.Name
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   @discardableResult
   nonisolated(nonsending) public func requestPermission(options: UserNotifications.UNAuthorizationOptions = [.alert, .sound, .badge]) async throws -> Swift.Bool

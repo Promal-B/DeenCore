@@ -1102,6 +1102,57 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "notificationDelivered",
+            "printedName": "notificationDelivered",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents24LocalNotificationHandlerC21notificationDeliveredSo18NSNotificationNameavpZ",
+            "mangledName": "$s12UIComponents24LocalNotificationHandlerC21notificationDeliveredSo18NSNotificationNameavpZ",
+            "moduleName": "UIComponents",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents24LocalNotificationHandlerC21notificationDeliveredSo18NSNotificationNameavgZ",
+                "mangledName": "$s12UIComponents24LocalNotificationHandlerC21notificationDeliveredSo18NSNotificationNameavgZ",
+                "moduleName": "UIComponents",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "requestPermission",
             "printedName": "requestPermission(options:)",
@@ -4731,56 +4782,56 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
       "kind": "StringLiteral",
-      "offset": 4085,
+      "offset": 4092,
       "length": 23,
       "value": "\"notificationDelivered\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
       "kind": "Array",
-      "offset": 5617,
+      "offset": 5624,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
       "kind": "Array",
-      "offset": 5670,
+      "offset": 5677,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
       "kind": "Dictionary",
-      "offset": 6658,
+      "offset": 6665,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
       "kind": "Array",
-      "offset": 6903,
+      "offset": 6910,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 9572,
+      "offset": 9579,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 9857,
+      "offset": 9864,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 10122,
+      "offset": 10129,
       "length": 5,
       "value": "false"
     },
