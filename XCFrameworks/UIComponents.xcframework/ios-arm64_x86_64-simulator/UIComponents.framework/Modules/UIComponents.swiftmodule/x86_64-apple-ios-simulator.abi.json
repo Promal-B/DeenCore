@@ -1623,7 +1623,8 @@
             "objc_name": "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
             "declAttributes": [
               "ObjC",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4817,21 +4818,21 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 9579,
+      "offset": 9785,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 9864,
+      "offset": 10070,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/Notification Handler\/LocalNotificationHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 10129,
+      "offset": 10335,
       "length": 5,
       "value": "false"
     },

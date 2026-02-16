@@ -10,7 +10,7 @@
 		</data>
 		<key>Modules/UIComponents.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		JRNAO3pMPLtWxtTGwKtEzt4SYxg=
+		/AkkWbFfJ1o9eh0ejXtt1eCxjAs=
 		</data>
 		<key>Modules/UIComponents.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/UIComponents.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		OtLtliqOY7geCevrhyPT5PTZXeU=
+		hxbL3+63ntW7eIi1nDuee3YljYk=
 		</data>
 		<key>Modules/UIComponents.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/UIComponents.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		JRNAO3pMPLtWxtTGwKtEzt4SYxg=
+		/AkkWbFfJ1o9eh0ejXtt1eCxjAs=
 		</data>
 		<key>Modules/UIComponents.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/UIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		RCOmCMlf3RPD+U57T7Fneb0zZfU=
+		feCCSGMkIg2iwO1U242+5wRghac=
 		</data>
 		<key>Modules/UIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nHweDre6lii8wZ8JeDiRZ8dkZOX9DxipEJo3C/e36aA=
+			Zptz0q08GHXkx8dEB9ulxalZgc+prqW3hFAQ6LXguh0=
 			</data>
 		</dict>
 		<key>Modules/UIComponents.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -69,7 +69,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Drrdiqfusy7uInzLJWEHyuuUBmYnQfbjamXExfgX1yw=
+			2zeIiA2faZE2kEnvj3CRCLC2so1wyCuV8gQg+X9fYdM=
 			</data>
 		</dict>
 		<key>Modules/UIComponents.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -90,7 +90,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nHweDre6lii8wZ8JeDiRZ8dkZOX9DxipEJo3C/e36aA=
+			Zptz0q08GHXkx8dEB9ulxalZgc+prqW3hFAQ6LXguh0=
 			</data>
 		</dict>
 		<key>Modules/UIComponents.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -104,7 +104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TF1GBI0vxLxueoecPa6hZ/+zUUHE3IKVW/Aw8yYr/Z4=
+			/HpVMYS6Nr8J5JzVjhlwkUZMWSMkIcDssKy4jM4h8p0=
 			</data>
 		</dict>
 		<key>Modules/UIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
