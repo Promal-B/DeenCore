@@ -2482,6 +2482,101 @@
           },
           {
             "kind": "Var",
+            "name": "isMuted",
+            "printedName": "isMuted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents18MediaPlayerManagerC7isMutedSbvp",
+            "mangledName": "$s12UIComponents18MediaPlayerManagerC7isMutedSbvp",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents18MediaPlayerManagerC7isMutedSbvg",
+                "mangledName": "$s12UIComponents18MediaPlayerManagerC7isMutedSbvg",
+                "moduleName": "UIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$isMuted",
+            "printedName": "$isMuted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12UIComponents18MediaPlayerManagerC8$isMuted7Combine9PublishedV9PublisherVySb_Gvp",
+            "mangledName": "$s12UIComponents18MediaPlayerManagerC8$isMuted7Combine9PublishedV9PublisherVySb_Gvp",
+            "moduleName": "UIComponents",
+            "implicit": true,
+            "declAttributes": [
+              "Final",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12UIComponents18MediaPlayerManagerC8$isMuted7Combine9PublishedV9PublisherVySb_Gvg",
+                "mangledName": "$s12UIComponents18MediaPlayerManagerC8$isMuted7Combine9PublishedV9PublisherVySb_Gvg",
+                "moduleName": "UIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "isLooping",
             "printedName": "isLooping",
             "children": [
@@ -2774,6 +2869,56 @@
             "declKind": "Func",
             "usr": "s:12UIComponents18MediaPlayerManagerC4stopyyF",
             "mangledName": "$s12UIComponents18MediaPlayerManagerC4stopyyF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toggleMute",
+            "printedName": "toggleMute()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents18MediaPlayerManagerC10toggleMuteyyF",
+            "mangledName": "$s12UIComponents18MediaPlayerManagerC10toggleMuteyyF",
+            "moduleName": "UIComponents",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMuted",
+            "printedName": "setMuted(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12UIComponents18MediaPlayerManagerC8setMutedyySbF",
+            "mangledName": "$s12UIComponents18MediaPlayerManagerC8setMutedyySbF",
             "moduleName": "UIComponents",
             "declAttributes": [
               "Custom",
@@ -4839,21 +4984,28 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/MediaPlayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 432,
+      "offset": 429,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/MediaPlayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 482,
+      "offset": 487,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/MediaPlayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1149,
+      "offset": 537,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/Services\/MediaPlayerManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1204,
       "length": 5,
       "value": "false"
     },

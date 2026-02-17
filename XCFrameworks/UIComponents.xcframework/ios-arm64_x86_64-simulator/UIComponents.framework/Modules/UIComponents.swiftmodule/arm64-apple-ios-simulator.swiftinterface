@@ -132,6 +132,12 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor final public var $isPlaying: Combine.Published<Swift.Bool>.Publisher {
     get
   }
+  @Combine.Published @_projectedValueProperty($isMuted) @_Concurrency.MainActor final public var isMuted: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor final public var $isMuted: Combine.Published<Swift.Bool>.Publisher {
+    get
+  }
   @Combine.Published @_projectedValueProperty($isLooping) @_Concurrency.MainActor final public var isLooping: Swift.Bool {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
@@ -147,6 +153,8 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor final public func play(url: Foundation.URL, loop: Swift.Bool = false)
   @_Concurrency.MainActor final public func pause()
   @_Concurrency.MainActor final public func stop()
+  @_Concurrency.MainActor final public func toggleMute()
+  @_Concurrency.MainActor final public func setMuted(_ muted: Swift.Bool)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
