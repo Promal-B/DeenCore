@@ -6,16 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "Networking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -639,6 +629,197 @@
         "declKind": "Protocol",
         "usr": "s:10Networking9FMServiceP",
         "mangledName": "$s10Networking9FMServiceP",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FTService",
+        "printedName": "FTService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "addFastTrackingInfo",
+            "printedName": "addFastTrackingInfo(token:date:suhoor:iftaar:language:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking9FTServiceP19addFastTrackingInfo5token4date6suhoor6iftaar8languageSbSS_SSSgS2bSStYaKF",
+            "mangledName": "$s10Networking9FTServiceP19addFastTrackingInfo5token4date6suhoor6iftaar8languageSbSS_SSSgS2bSStYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.FTService>",
+            "sugared_genericSig": "<Self where Self : Networking.FTService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchFastTrackingInfo",
+            "printedName": "fetchFastTrackingInfo(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FastingTrackingSummary",
+                "printedName": "DomainModels.FastingTrackingSummary",
+                "usr": "s:12DomainModels22FastingTrackingSummaryV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking9FTServiceP21fetchFastTrackingInfo5token12DomainModels07FastingE7SummaryVSS_tYaKF",
+            "mangledName": "$s10Networking9FTServiceP21fetchFastTrackingInfo5token12DomainModels07FastingE7SummaryVSS_tYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.FTService>",
+            "sugared_genericSig": "<Self where Self : Networking.FTService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchTrackingDetails",
+            "printedName": "fetchTrackingDetails(token:date:language:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MonthlyFastingCalendar",
+                "printedName": "DomainModels.MonthlyFastingCalendar",
+                "usr": "s:12DomainModels22MonthlyFastingCalendarV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking9FTServiceP20fetchTrackingDetails5token4date8language12DomainModels22MonthlyFastingCalendarVSS_S2StYaKF",
+            "mangledName": "$s10Networking9FTServiceP20fetchTrackingDetails5token4date8language12DomainModels22MonthlyFastingCalendarVSS_S2StYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.FTService>",
+            "sugared_genericSig": "<Self where Self : Networking.FTService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10Networking9FTServiceP",
+        "mangledName": "$s10Networking9FTServiceP",
         "moduleName": "Networking",
         "declAttributes": [
           "AccessControl",
@@ -1559,6 +1740,35 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeFTNetworkService",
+            "printedName": "makeFTNetworkService(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FTService",
+                "printedName": "any Networking.FTService",
+                "usr": "s:10Networking9FTServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
+                "hasDefaultArg": true,
+                "usr": "s:10Networking18NetworkEnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking14ServiceFactoryO013makeFTNetworkB03forAA9FTService_pAA18NetworkEnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO013makeFTNetworkB03forAA9FTService_pAA18NetworkEnvironmentO_tFZ",
+            "moduleName": "Networking",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -1585,6 +1795,16 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       }
     ],
     "json_format_version": 8
@@ -1593,84 +1813,84 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/FTNetworkService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1247,
+      "offset": 1258,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/FTNetworkService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1276,
+      "offset": 1287,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/FTNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 1309,
+      "offset": 1320,
       "length": 4,
       "value": "\"bn\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/FTNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 4780,
+      "offset": 4791,
       "length": 239,
       "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBsaWNhdGlvbiI6IkRlZW4gSXNsYW0iLCJuYW1lIjoiODgwMTczODQzOTIzNiIsInJvbGUiOiJBZG1pbiIsIm5iZiI6MTc3MTIzOTM4NSwiZXhwIjoxNzcxMzI1Nzg1LCJpYXQiOjE3NzEyMzkzODV9.B3TbLhvgj5vQnRHWPQvdNcBei7uECOb9UTvJ3KUnAiA\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/FTNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 5280,
+      "offset": 5291,
       "length": 12,
       "value": "\"16\/02\/2026\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/FTNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 5304,
+      "offset": 5315,
       "length": 4,
       "value": "\"bn\""
     },
     {
       "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX132_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2386,
+      "offset": 2442,
       "length": 10,
       "value": "0x706c6179"
     },
     {
       "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX132_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2413,
+      "offset": 2469,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX132_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2769,
+      "offset": 2825,
       "length": 3,
       "value": "133"
     },
     {
       "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX132_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2788,
+      "offset": 2844,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX132_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2869,
+      "offset": 2925,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX132_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2874,
+      "offset": 2930,
       "length": 1,
       "value": "0"
     },

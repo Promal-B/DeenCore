@@ -22,6 +22,17 @@ public protocol FMService {
   nonisolated(nonsending) func fetchMosqueDetail(id: Swift.Int) async throws -> DomainModels.MosqueDetails
   #endif
 }
+public protocol FTService {
+  #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func addFastTrackingInfo(token: Swift.String, date: Swift.String?, suhoor: Swift.Bool, iftaar: Swift.Bool, language: Swift.String) async throws -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchFastTrackingInfo(token: Swift.String) async throws -> DomainModels.FastingTrackingSummary
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchTrackingDetails(token: Swift.String, date: Swift.String, language: Swift.String) async throws -> DomainModels.MonthlyFastingCalendar
+  #endif
+}
 public protocol PTService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func fetchSeheriIfterTime(for date: Swift.String, location: Swift.String, language: Swift.String) async throws -> (sehri: Swift.String, iftar: Swift.String)
@@ -67,6 +78,7 @@ public enum ServiceFactory {
   public static func makeFMNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.FMService
   public static func makeRAmalNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.RAmalService
   public static func makePTNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.PTService
+  public static func makeFTNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.FTService
 }
 extension Networking.NetworkEnvironment : Swift.Equatable {}
 extension Networking.NetworkEnvironment : Swift.Hashable {}
