@@ -279,14 +279,14 @@ extension DesignSystem.DSResources {
 public typealias RHCImage = DesignSystem.DSResources.RHCImage
 extension DesignSystem.DSResources {
   public enum RHCImage : Swift.String, DesignSystem.ImageAsset {
+    case shareBackground
+    case shareTimeIcon
+    case shareTitleBN
+    case shareTitleEN
     case share
-    case seheri
-    case iftar
-    case fasting
     case notificationOff
     case notificationOn
     case cardBG
-    case homeBG
     case checkedDone
     case checkmark
     #if compiler(>=5.3) && $NonescapableTypes

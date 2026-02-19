@@ -8172,6 +8172,154 @@
             "children": [
               {
                 "kind": "Var",
+                "name": "shareBackground",
+                "printedName": "shareBackground",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DesignSystem.DSResources.RHCImage.Type) -> DesignSystem.DSResources.RHCImage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RHCImage",
+                        "printedName": "DesignSystem.DSResources.RHCImage",
+                        "usr": "s:12DesignSystem11DSResourcesO8RHCImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DesignSystem.DSResources.RHCImage.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RHCImage",
+                            "printedName": "DesignSystem.DSResources.RHCImage",
+                            "usr": "s:12DesignSystem11DSResourcesO8RHCImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12DesignSystem11DSResourcesO8RHCImageO15shareBackgroundyA2EmF",
+                "mangledName": "$s12DesignSystem11DSResourcesO8RHCImageO15shareBackgroundyA2EmF",
+                "moduleName": "DesignSystem"
+              },
+              {
+                "kind": "Var",
+                "name": "shareTimeIcon",
+                "printedName": "shareTimeIcon",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DesignSystem.DSResources.RHCImage.Type) -> DesignSystem.DSResources.RHCImage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RHCImage",
+                        "printedName": "DesignSystem.DSResources.RHCImage",
+                        "usr": "s:12DesignSystem11DSResourcesO8RHCImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DesignSystem.DSResources.RHCImage.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RHCImage",
+                            "printedName": "DesignSystem.DSResources.RHCImage",
+                            "usr": "s:12DesignSystem11DSResourcesO8RHCImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12DesignSystem11DSResourcesO8RHCImageO13shareTimeIconyA2EmF",
+                "mangledName": "$s12DesignSystem11DSResourcesO8RHCImageO13shareTimeIconyA2EmF",
+                "moduleName": "DesignSystem"
+              },
+              {
+                "kind": "Var",
+                "name": "shareTitleBN",
+                "printedName": "shareTitleBN",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DesignSystem.DSResources.RHCImage.Type) -> DesignSystem.DSResources.RHCImage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RHCImage",
+                        "printedName": "DesignSystem.DSResources.RHCImage",
+                        "usr": "s:12DesignSystem11DSResourcesO8RHCImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DesignSystem.DSResources.RHCImage.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RHCImage",
+                            "printedName": "DesignSystem.DSResources.RHCImage",
+                            "usr": "s:12DesignSystem11DSResourcesO8RHCImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12DesignSystem11DSResourcesO8RHCImageO12shareTitleBNyA2EmF",
+                "mangledName": "$s12DesignSystem11DSResourcesO8RHCImageO12shareTitleBNyA2EmF",
+                "moduleName": "DesignSystem"
+              },
+              {
+                "kind": "Var",
+                "name": "shareTitleEN",
+                "printedName": "shareTitleEN",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DesignSystem.DSResources.RHCImage.Type) -> DesignSystem.DSResources.RHCImage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RHCImage",
+                        "printedName": "DesignSystem.DSResources.RHCImage",
+                        "usr": "s:12DesignSystem11DSResourcesO8RHCImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DesignSystem.DSResources.RHCImage.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RHCImage",
+                            "printedName": "DesignSystem.DSResources.RHCImage",
+                            "usr": "s:12DesignSystem11DSResourcesO8RHCImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12DesignSystem11DSResourcesO8RHCImageO12shareTitleENyA2EmF",
+                "mangledName": "$s12DesignSystem11DSResourcesO8RHCImageO12shareTitleENyA2EmF",
+                "moduleName": "DesignSystem"
+              },
+              {
+                "kind": "Var",
                 "name": "share",
                 "printedName": "share",
                 "children": [
@@ -8205,117 +8353,6 @@
                 "declKind": "EnumElement",
                 "usr": "s:12DesignSystem11DSResourcesO8RHCImageO5shareyA2EmF",
                 "mangledName": "$s12DesignSystem11DSResourcesO8RHCImageO5shareyA2EmF",
-                "moduleName": "DesignSystem"
-              },
-              {
-                "kind": "Var",
-                "name": "seheri",
-                "printedName": "seheri",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(DesignSystem.DSResources.RHCImage.Type) -> DesignSystem.DSResources.RHCImage",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RHCImage",
-                        "printedName": "DesignSystem.DSResources.RHCImage",
-                        "usr": "s:12DesignSystem11DSResourcesO8RHCImageO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "DesignSystem.DSResources.RHCImage.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RHCImage",
-                            "printedName": "DesignSystem.DSResources.RHCImage",
-                            "usr": "s:12DesignSystem11DSResourcesO8RHCImageO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12DesignSystem11DSResourcesO8RHCImageO6seheriyA2EmF",
-                "mangledName": "$s12DesignSystem11DSResourcesO8RHCImageO6seheriyA2EmF",
-                "moduleName": "DesignSystem"
-              },
-              {
-                "kind": "Var",
-                "name": "iftar",
-                "printedName": "iftar",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(DesignSystem.DSResources.RHCImage.Type) -> DesignSystem.DSResources.RHCImage",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RHCImage",
-                        "printedName": "DesignSystem.DSResources.RHCImage",
-                        "usr": "s:12DesignSystem11DSResourcesO8RHCImageO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "DesignSystem.DSResources.RHCImage.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RHCImage",
-                            "printedName": "DesignSystem.DSResources.RHCImage",
-                            "usr": "s:12DesignSystem11DSResourcesO8RHCImageO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12DesignSystem11DSResourcesO8RHCImageO5iftaryA2EmF",
-                "mangledName": "$s12DesignSystem11DSResourcesO8RHCImageO5iftaryA2EmF",
-                "moduleName": "DesignSystem"
-              },
-              {
-                "kind": "Var",
-                "name": "fasting",
-                "printedName": "fasting",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(DesignSystem.DSResources.RHCImage.Type) -> DesignSystem.DSResources.RHCImage",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RHCImage",
-                        "printedName": "DesignSystem.DSResources.RHCImage",
-                        "usr": "s:12DesignSystem11DSResourcesO8RHCImageO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "DesignSystem.DSResources.RHCImage.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RHCImage",
-                            "printedName": "DesignSystem.DSResources.RHCImage",
-                            "usr": "s:12DesignSystem11DSResourcesO8RHCImageO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12DesignSystem11DSResourcesO8RHCImageO7fastingyA2EmF",
-                "mangledName": "$s12DesignSystem11DSResourcesO8RHCImageO7fastingyA2EmF",
                 "moduleName": "DesignSystem"
               },
               {
@@ -8427,43 +8464,6 @@
                 "declKind": "EnumElement",
                 "usr": "s:12DesignSystem11DSResourcesO8RHCImageO6cardBGyA2EmF",
                 "mangledName": "$s12DesignSystem11DSResourcesO8RHCImageO6cardBGyA2EmF",
-                "moduleName": "DesignSystem"
-              },
-              {
-                "kind": "Var",
-                "name": "homeBG",
-                "printedName": "homeBG",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(DesignSystem.DSResources.RHCImage.Type) -> DesignSystem.DSResources.RHCImage",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RHCImage",
-                        "printedName": "DesignSystem.DSResources.RHCImage",
-                        "usr": "s:12DesignSystem11DSResourcesO8RHCImageO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "DesignSystem.DSResources.RHCImage.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RHCImage",
-                            "printedName": "DesignSystem.DSResources.RHCImage",
-                            "usr": "s:12DesignSystem11DSResourcesO8RHCImageO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12DesignSystem11DSResourcesO8RHCImageO6homeBGyA2EmF",
-                "mangledName": "$s12DesignSystem11DSResourcesO8RHCImageO6homeBGyA2EmF",
                 "moduleName": "DesignSystem"
               },
               {
@@ -13767,70 +13767,70 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+RHCImage.swift",
       "kind": "StringLiteral",
-      "offset": 503,
+      "offset": 513,
+      "length": 26,
+      "value": "\"ramadan_share_background\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+RHCImage.swift",
+      "kind": "StringLiteral",
+      "offset": 569,
+      "length": 20,
+      "value": "\"ramadan_share_icon\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+RHCImage.swift",
+      "kind": "StringLiteral",
+      "offset": 618,
+      "length": 24,
+      "value": "\"ramadan_share_title_bn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+RHCImage.swift",
+      "kind": "StringLiteral",
+      "offset": 671,
+      "length": 24,
+      "value": "\"ramadan_share_title_en\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+RHCImage.swift",
+      "kind": "StringLiteral",
+      "offset": 717,
       "length": 11,
       "value": "\"rhc_share\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+RHCImage.swift",
       "kind": "StringLiteral",
-      "offset": 537,
-      "length": 17,
-      "value": "\"rhc_seheri_icon\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+RHCImage.swift",
-      "kind": "StringLiteral",
-      "offset": 576,
-      "length": 16,
-      "value": "\"rhc_iftar_icon\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+RHCImage.swift",
-      "kind": "StringLiteral",
-      "offset": 616,
-      "length": 18,
-      "value": "\"rhc_fasting_icon\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+RHCImage.swift",
-      "kind": "StringLiteral",
-      "offset": 666,
+      "offset": 760,
       "length": 23,
       "value": "\"rhc_notifications_off\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+RHCImage.swift",
       "kind": "StringLiteral",
-      "offset": 720,
+      "offset": 814,
       "length": 22,
       "value": "\"rhc_notifications_on\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+RHCImage.swift",
       "kind": "StringLiteral",
-      "offset": 765,
+      "offset": 859,
       "length": 16,
       "value": "\"rhc_background\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+RHCImage.swift",
       "kind": "StringLiteral",
-      "offset": 804,
-      "length": 13,
-      "value": "\"rhc_home_bg\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+RHCImage.swift",
-      "kind": "StringLiteral",
-      "offset": 845,
+      "offset": 903,
       "length": 18,
       "value": "\"rhc_checked_done\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+RHCImage.swift",
       "kind": "StringLiteral",
-      "offset": 889,
+      "offset": 947,
       "length": 15,
       "value": "\"rhc_checkmark\""
     },
@@ -14334,70 +14334,70 @@
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5193,
+      "offset": 5212,
+      "length": 26,
+      "value": "\"ramadan_share_background\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5382,
+      "length": 20,
+      "value": "\"ramadan_share_icon\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5553,
+      "length": 24,
+      "value": "\"ramadan_share_title_bn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5728,
+      "length": 24,
+      "value": "\"ramadan_share_title_en\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5889,
       "length": 16,
       "value": "\"rhc_background\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5349,
+      "offset": 6045,
       "length": 18,
       "value": "\"rhc_checked_done\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5502,
+      "offset": 6198,
       "length": 15,
       "value": "\"rhc_checkmark\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5657,
-      "length": 18,
-      "value": "\"rhc_fasting_icon\""
-    },
-    {
-      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 5805,
-      "length": 13,
-      "value": "\"rhc_home_bg\""
-    },
-    {
-      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 5954,
-      "length": 16,
-      "value": "\"rhc_iftar_icon\""
-    },
-    {
-      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 6120,
+      "offset": 6363,
       "length": 23,
       "value": "\"rhc_notifications_off\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6291,
+      "offset": 6534,
       "length": 22,
       "value": "\"rhc_notifications_on\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6451,
-      "length": 17,
-      "value": "\"rhc_seheri_icon\""
-    },
-    {
-      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 6595,
+      "offset": 6683,
       "length": 11,
       "value": "\"rhc_share\""
     }
