@@ -10,7 +10,8 @@ let package = Package(
         .library(name: "DesignSystem", targets: ["DesignSystemBinary"]),
         .library(name: "DomainModels", targets: ["DomainModelsBinary"]),
         .library(name: "Networking", targets: ["NetworkingBinary"]),
-        .library(name: "UIComponents", targets: ["UIComponentsBinary"])
+        .library(name: "UIComponents", targets: ["UIComponentsBinary"]),
+        .library(name: "Services", targets: ["ServicesBinary"])
     ],
     targets: [
         // Binary targets pointing to XCFrameworks
@@ -29,6 +30,10 @@ let package = Package(
         .binaryTarget(
             name: "UIComponentsBinary",
             path: "XCFrameworks/UIComponents.xcframework"
+        ),
+        .binaryTarget(
+            name: "ServicesBinary",
+            path: "XCFrameworks/Services.xcframework"
         )
     ]
 )
