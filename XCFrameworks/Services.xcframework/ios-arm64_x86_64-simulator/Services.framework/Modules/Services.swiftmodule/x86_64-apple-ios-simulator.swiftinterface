@@ -84,12 +84,12 @@ import _SwiftConcurrencyShims
 }
 extension Services.Utilities {
   #if compiler(>=5.3) && $NonescapableTypes
-  final public func localizeDate(_ date: Foundation.Date = Date(), locale: Swift.String = "en_US", format: Swift.String = "EEEE, d MMMM yyyy", amSymbol: Swift.String? = nil, pmSymbol: Swift.String? = nil) -> Swift.String
+  final public func localizeDate(_ date: Foundation.Date = Date(), locale: Swift.String = "en-US", format: Swift.String = "EEEE, d MMMM yyyy", amSymbol: Swift.String? = nil, pmSymbol: Swift.String? = nil) -> Swift.String
   #endif
 }
 extension Services.Utilities {
-  final public func localizeNumber(_ number: Swift.Int, locale: Swift.String = "en_US", minimumDigits: Swift.Int = 1) -> Swift.String
-  final public func localizeNumber(_ value: Swift.String, locale: Swift.String = "en_US", minimumDigits: Swift.Int = 1) -> Swift.String
+  final public func localizeNumber(_ number: Swift.Int, locale: Swift.String = "en-US", minimumDigits: Swift.Int = 1) -> Swift.String
+  final public func localizeNumber(_ value: Swift.String, locale: Swift.String = "en-US", minimumDigits: Swift.Int = 1) -> Swift.String
 }
 extension Services.Utilities {
   final public func shareImage(_ image: UIKit.UIImage, title: Swift.String = "Share")

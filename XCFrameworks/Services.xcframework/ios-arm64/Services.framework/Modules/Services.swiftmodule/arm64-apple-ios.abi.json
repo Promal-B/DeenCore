@@ -2488,7 +2488,7 @@
       "kind": "StringLiteral",
       "offset": 896,
       "length": 7,
-      "value": "\"en_US\""
+      "value": "\"en-US\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Services\/Utilities\/Utilities+localizeDate.swift",
@@ -2502,7 +2502,7 @@
       "kind": "StringLiteral",
       "offset": 652,
       "length": 7,
-      "value": "\"en_US\""
+      "value": "\"en-US\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Services\/Utilities\/Utilities+localizeNumber.swift",
@@ -2516,7 +2516,7 @@
       "kind": "StringLiteral",
       "offset": 1571,
       "length": 7,
-      "value": "\"en_US\""
+      "value": "\"en-US\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Services\/Utilities\/Utilities+localizeNumber.swift",
