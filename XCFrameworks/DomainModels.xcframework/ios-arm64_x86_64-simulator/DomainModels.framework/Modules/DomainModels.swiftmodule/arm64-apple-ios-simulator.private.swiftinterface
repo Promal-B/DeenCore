@@ -55,6 +55,124 @@ extension DomainModels.IslamicEvent {
   public static let preview: DomainModels.IslamicEvent
   public static let previews: [DomainModels.IslamicEvent]
 }
+public enum AppDesign : Swift.String, Swift.CaseIterable, Swift.Codable {
+  case banners
+  case wish
+  case services
+  case dailyVerse
+  case hadith
+  case dua
+  case compass
+  case zakat
+  case tasbeeh
+  case islamicName
+  case ninetyNineNamesOfAllah
+  case recentQuran
+  case hajjPreReg
+  case seriesQuranLearnPatch
+  case digitalTasbeeh
+  case favorite
+  case singleCard
+  case singleCardList
+  case singleImage
+  case leaderboard
+  case ramadanCard
+  case deenAI
+  case qiratParticipants
+  case qiratVideos
+  case ramadanPlanner
+  case commonAudioCardList
+  case trackerCard
+  case ordhekDeen
+  case widgetPatch
+  case sohojQuranPatch
+  case responsibilities
+  case unknown
+  public init(from decoder: any Swift.Decoder) throws
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias AllCases = [DomainModels.AppDesign]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [DomainModels.AppDesign] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct PatchDetails : Swift.Codable, Swift.Identifiable, Swift.Hashable {
+  public let id: Swift.Int
+  public let featureID: Swift.Int
+  public let featureName: Swift.String?
+  public let featureTitle: Swift.String?
+  public let title: Swift.String?
+  public let text: Swift.String?
+  public let arabicText: Swift.String?
+  public let reference: Swift.String?
+  public let imageurl1: Foundation.URL?
+  public let imageurl2: Foundation.URL?
+  public let imageurl3: Foundation.URL?
+  public let imageurl4: Foundation.URL?
+  public let imageurl5: Foundation.URL?
+  public let isActive: Swift.Bool?
+  public let language: Swift.String?
+  public let sequence: Swift.Int?
+  public let contentType: Swift.String?
+  public let featureType: Swift.String?
+  public let surahID: Swift.Int?
+  public let juzID: Swift.Int?
+  public let verseID: Swift.Int?
+  public let hadithID: Swift.Int?
+  public let categoryID: Swift.Int?
+  public let subCategoryID: Swift.Int?
+  public let duaID: Swift.Int?
+  public let mText: Swift.String?
+  public let meaning: Swift.String?
+  public let eCount: Swift.String?
+  public let featureDesign: Swift.String?
+  public let featureLogo: Foundation.URL?
+  public let featureButton: Swift.String?
+  public let serial: Swift.Int?
+  public let isVideo: Swift.Bool?
+  public let isLive: Swift.Bool?
+  public let featureSize: Swift.String?
+  public let enableText1: Swift.Bool?
+  public let enableText2: Swift.Bool?
+  public let boldText1: Swift.Bool?
+  public let boldText2: Swift.Bool?
+  public let isCustom: Swift.Bool?
+  public let isPremium: Swift.Bool?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(id: Swift.Int, featureID: Swift.Int, featureName: Swift.String?, featureTitle: Swift.String?, title: Swift.String?, text: Swift.String?, arabicText: Swift.String?, reference: Swift.String?, imageurl1: Foundation.URL?, imageurl2: Foundation.URL?, imageurl3: Foundation.URL?, imageurl4: Foundation.URL?, imageurl5: Foundation.URL?, isActive: Swift.Bool?, language: Swift.String?, sequence: Swift.Int?, contentType: Swift.String?, featureType: Swift.String?, surahID: Swift.Int?, juzID: Swift.Int?, verseID: Swift.Int?, hadithID: Swift.Int?, categoryID: Swift.Int?, subCategoryID: Swift.Int?, duaID: Swift.Int?, mText: Swift.String?, meaning: Swift.String?, eCount: Swift.String?, featureDesign: Swift.String?, featureLogo: Foundation.URL?, featureButton: Swift.String?, serial: Swift.Int?, isVideo: Swift.Bool?, isLive: Swift.Bool?, featureSize: Swift.String?, enableText1: Swift.Bool?, enableText2: Swift.Bool?, boldText1: Swift.Bool?, boldText2: Swift.Bool?, isCustom: Swift.Bool?, isPremium: Swift.Bool?)
+  #endif
+  public static func == (a: DomainModels.PatchDetails, b: DomainModels.PatchDetails) -> Swift.Bool
+  public typealias ID = Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PatchList : Swift.Codable, Swift.Identifiable {
+  public let id: Swift.Int
+  public let title: Swift.String
+  public let design: Swift.String?
+  public let appDesign: DomainModels.AppDesign
+  public let logo: Foundation.URL?
+  public let buttonText: Swift.String?
+  public let sequence: Swift.Int?
+  public let featureSize: Swift.String?
+  public let featureType: Swift.String?
+  public let items: [DomainModels.PatchDetails]
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(id: Swift.Int, title: Swift.String, design: Swift.String?, appDesign: DomainModels.AppDesign, logo: Foundation.URL?, buttonText: Swift.String?, sequence: Swift.Int?, featureSize: Swift.String?, featureType: Swift.String?, items: [DomainModels.PatchDetails])
+  #endif
+  public typealias ID = Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public enum AppError : Foundation.LocalizedError {
   case invalidInput
   case validationFailed
@@ -514,6 +632,9 @@ public struct RichTextContent : Swift.Identifiable {
   public init(id: Swift.Int, title: Swift.String, text: Swift.String)
   public typealias ID = Swift.Int
 }
+extension DomainModels.AppDesign : Swift.Equatable {}
+extension DomainModels.AppDesign : Swift.Hashable {}
+extension DomainModels.AppDesign : Swift.RawRepresentable {}
 extension DomainModels.AppError : Swift.Equatable {}
 extension DomainModels.AppError : Swift.Hashable {}
 extension DomainModels.AuthError : Swift.Equatable {}

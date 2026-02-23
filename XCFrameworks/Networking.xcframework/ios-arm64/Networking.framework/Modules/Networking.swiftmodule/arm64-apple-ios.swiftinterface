@@ -4,13 +4,21 @@
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import DomainModels
 import Foundation
-import Playgrounds
 import Swift
 import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-
+public protocol ContentService {
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func getRichTextTopics(by categoryID: Swift.Int, token: Swift.String) async throws -> [DomainModels.IslamicEvent]
+  #endif
+}
+public protocol DashboardService {
+  #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func loadContent(content: Swift.Int, page: Swift.Int, token: Swift.String?) async throws -> (list: [DomainModels.PatchList], pagination: DomainModels.PaginationV2?)
+  #endif
+}
 public protocol FMService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func fetchMosquePatch() async throws -> (famousSection: DomainModels.MosqueSection, countries: [DomainModels.Country], popularSection: DomainModels.MosqueSection)
@@ -58,11 +66,6 @@ public protocol QLService {
   nonisolated(nonsending) func fetchQuizQuestions(categoryID: Swift.Int, subCategoryID: Swift.Int) async throws -> [DomainModels.QuizQuestionV2]
   #endif
 }
-public protocol RAmalService {
-  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func getRichTextTopics(by categoryID: Swift.Int, token: Swift.String) async throws -> [DomainModels.IslamicEvent]
-  #endif
-}
 public enum NetworkEnvironment {
   case production
   case staging
@@ -76,9 +79,10 @@ public enum NetworkEnvironment {
 public enum ServiceFactory {
   public static func makeQLNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.QLService
   public static func makeFMNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.FMService
-  public static func makeRAmalNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.RAmalService
+  public static func makeContentNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.ContentService
   public static func makePTNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.PTService
   public static func makeFTNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.FTService
+  public static func makeDashboardNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.DashboardService
 }
 extension Networking.NetworkEnvironment : Swift.Equatable {}
 extension Networking.NetworkEnvironment : Swift.Hashable {}

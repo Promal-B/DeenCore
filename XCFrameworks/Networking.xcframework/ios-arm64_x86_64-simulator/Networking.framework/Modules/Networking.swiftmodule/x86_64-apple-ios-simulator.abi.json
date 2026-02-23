@@ -6,8 +6,8 @@
     "children": [
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "Networking",
         "declAttributes": [
@@ -29,7 +29,10 @@
         "name": "DomainModels",
         "printedName": "DomainModels",
         "declKind": "Import",
-        "moduleName": "Networking"
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -50,15 +53,8 @@
       },
       {
         "kind": "Import",
-        "name": "Playgrounds",
-        "printedName": "Playgrounds",
-        "declKind": "Import",
-        "moduleName": "Networking"
-      },
-      {
-        "kind": "Import",
-        "name": "DomainModels",
-        "printedName": "DomainModels",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Networking",
         "declAttributes": [
@@ -67,8 +63,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
         "declKind": "Import",
         "moduleName": "Networking"
       },
@@ -108,8 +104,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
         "declKind": "Import",
         "moduleName": "Networking",
         "declAttributes": [
@@ -118,8 +114,8 @@
       },
       {
         "kind": "Import",
-        "name": "DomainModels",
-        "printedName": "DomainModels",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Networking"
       },
@@ -142,6 +138,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
         "name": "DomainModels",
         "printedName": "DomainModels",
         "declKind": "Import",
@@ -149,6 +162,40 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking"
       },
       {
         "kind": "Import",
@@ -426,6 +473,215 @@
         "printedName": "DomainModels",
         "declKind": "Import",
         "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ContentService",
+        "printedName": "ContentService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getRichTextTopics",
+            "printedName": "getRichTextTopics(by:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.IslamicEvent]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IslamicEvent",
+                    "printedName": "DomainModels.IslamicEvent",
+                    "usr": "s:12DomainModels12IslamicEventV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking14ContentServiceP17getRichTextTopics2by5tokenSay12DomainModels12IslamicEventVGSi_SStYaKF",
+            "mangledName": "$s10Networking14ContentServiceP17getRichTextTopics2by5tokenSay12DomainModels12IslamicEventVGSi_SStYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.ContentService>",
+            "sugared_genericSig": "<Self where Self : Networking.ContentService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10Networking14ContentServiceP",
+        "mangledName": "$s10Networking14ContentServiceP",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DashboardService",
+        "printedName": "DashboardService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadContent",
+            "printedName": "loadContent(content:page:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(list: [DomainModels.PatchList], pagination: DomainModels.PaginationV2?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DomainModels.PatchList]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PatchList",
+                        "printedName": "DomainModels.PatchList",
+                        "usr": "s:12DomainModels9PatchListV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DomainModels.PaginationV2?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaginationV2",
+                        "printedName": "DomainModels.PaginationV2",
+                        "usr": "s:12DomainModels12PaginationV2V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking16DashboardServiceP11loadContent7content4page5tokenSay12DomainModels9PatchListVG4list_AH12PaginationV2VSg10paginationtSi_SiSSSgtYaKF",
+            "mangledName": "$s10Networking16DashboardServiceP11loadContent7content4page5tokenSay12DomainModels9PatchListVG4list_AH12PaginationV2VSg10paginationtSi_SiSSSgtYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.DashboardService>",
+            "sugared_genericSig": "<Self where Self : Networking.DashboardService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10Networking16DashboardServiceP",
+        "mangledName": "$s10Networking16DashboardServiceP",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1251,94 +1507,6 @@
       },
       {
         "kind": "Import",
-        "name": "DomainModels",
-        "printedName": "DomainModels",
-        "declKind": "Import",
-        "moduleName": "Networking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "RAmalService",
-        "printedName": "RAmalService",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "getRichTextTopics",
-            "printedName": "getRichTextTopics(by:token:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[DomainModels.IslamicEvent]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IslamicEvent",
-                    "printedName": "DomainModels.IslamicEvent",
-                    "usr": "s:12DomainModels12IslamicEventV"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Networking12RAmalServiceP17getRichTextTopics2by5tokenSay12DomainModels12IslamicEventVGSi_SStYaKF",
-            "mangledName": "$s10Networking12RAmalServiceP17getRichTextTopics2by5tokenSay12DomainModels12IslamicEventVGSi_SStYaKF",
-            "moduleName": "Networking",
-            "genericSig": "<τ_0_0 where τ_0_0 : Networking.RAmalService>",
-            "sugared_genericSig": "<Self where Self : Networking.RAmalService>",
-            "protocolReq": true,
-            "declAttributes": [
-              "Nonisolated",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:10Networking12RAmalServiceP",
-        "mangledName": "$s10Networking12RAmalServiceP",
-        "moduleName": "Networking",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1683,14 +1851,14 @@
           },
           {
             "kind": "Function",
-            "name": "makeRAmalNetworkService",
-            "printedName": "makeRAmalNetworkService(for:)",
+            "name": "makeContentNetworkService",
+            "printedName": "makeContentNetworkService(for:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "RAmalService",
-                "printedName": "any Networking.RAmalService",
-                "usr": "s:10Networking12RAmalServiceP"
+                "name": "ContentService",
+                "printedName": "any Networking.ContentService",
+                "usr": "s:10Networking14ContentServiceP"
               },
               {
                 "kind": "TypeNominal",
@@ -1701,8 +1869,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking14ServiceFactoryO016makeRAmalNetworkB03forAA0eB0_pAA0F11EnvironmentO_tFZ",
-            "mangledName": "$s10Networking14ServiceFactoryO016makeRAmalNetworkB03forAA0eB0_pAA0F11EnvironmentO_tFZ",
+            "usr": "s:10Networking14ServiceFactoryO018makeContentNetworkB03forAA0eB0_pAA0F11EnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO018makeContentNetworkB03forAA0eB0_pAA0F11EnvironmentO_tFZ",
             "moduleName": "Networking",
             "static": true,
             "declAttributes": [
@@ -1766,6 +1934,36 @@
             "moduleName": "Networking",
             "static": true,
             "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeDashboardNetworkService",
+            "printedName": "makeDashboardNetworkService(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DashboardService",
+                "printedName": "any Networking.DashboardService",
+                "usr": "s:10Networking16DashboardServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
+                "hasDefaultArg": true,
+                "usr": "s:10Networking18NetworkEnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking14ServiceFactoryO020makeDashboardNetworkB03forAA0eB0_pAA0F11EnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO020makeDashboardNetworkB03forAA0eB0_pAA0F11EnvironmentO_tFZ",
+            "moduleName": "Networking",
+            "static": true,
+            "declAttributes": [
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -1795,21 +1993,116 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "Networking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/APIEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 188,
+      "length": 34,
+      "value": "\"api\/Dashboard\/GetDashboardDataV3\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 240,
+      "length": 37,
+      "value": "\"api\/Quran\/GetQuranLearningHomePatch\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 27,
+      "value": "\"api\/Quiz\/getQuizQuestions\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 359,
+      "length": 27,
+      "value": "\"api\/Quran\/GetQaidaFeature\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 420,
+      "length": 34,
+      "value": "\"api\/Quran\/GetQaidaFeatureDetails\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 488,
+      "length": 37,
+      "value": "\"api\/DeenQuiz\/GetSohojQuranQuizPatch\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 580,
+      "length": 27,
+      "value": "\"api\/Mosque\/GetMosquePatch\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 26,
+      "value": "\"api\/Mosque\/MosqueDetails\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 686,
+      "length": 26,
+      "value": "\"api\/Mosque\/GetMosqueList\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 768,
+      "length": 41,
+      "value": "\"api\/Islamic\/getRichTextTopicsbyCategory\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 867,
+      "length": 35,
+      "value": "\"api\/PrayerTime\/PrayerTimeDateWise\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 968,
+      "length": 37,
+      "value": "\"api\/FastTracker\/AddFastTrackingInfo\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1045,
+      "length": 45,
+      "value": "\"api\/FastTracker\/AddFastTrackingInfoDateWise\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1122,
+      "length": 37,
+      "value": "\"api\/FastTracker\/GetFastTrackingInfo\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1187,
+      "length": 37,
+      "value": "\"api\/SeheriIftarTime\/ramadanCalander\""
+    },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/FTNetworkService.swift",
       "kind": "BooleanLiteral",
@@ -1830,69 +2123,6 @@
       "offset": 1320,
       "length": 4,
       "value": "\"bn\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/FTNetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 4791,
-      "length": 239,
-      "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBsaWNhdGlvbiI6IkRlZW4gSXNsYW0iLCJuYW1lIjoiODgwMTczODQzOTIzNiIsInJvbGUiOiJBZG1pbiIsIm5iZiI6MTc3MTIzOTM4NSwiZXhwIjoxNzcxMzI1Nzg1LCJpYXQiOjE3NzEyMzkzODV9.B3TbLhvgj5vQnRHWPQvdNcBei7uECOb9UTvJ3KUnAiA\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/FTNetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 5291,
-      "length": 12,
-      "value": "\"16\/02\/2026\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/FTNetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 5315,
-      "length": 4,
-      "value": "\"bn\""
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX132_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2442,
-      "length": 10,
-      "value": "0x706c6179"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX132_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2469,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX132_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2825,
-      "length": 3,
-      "value": "133"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX132_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2844,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX132_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2925,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0027FTNetworkServiceswift_ovFAhfMX132_0_33_0FED973422F26B8DBBF7E567747411D8Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2930,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Live\/PTNetworkService.swift",
@@ -2448,291 +2678,277 @@
       "value": "\"ContentType\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1190,
+      "offset": 1697,
       "length": 4,
       "value": "\"Id\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1219,
-      "length": 10,
-      "value": "\"IsActive\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1254,
-      "length": 10,
-      "value": "\"Language\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1289,
-      "length": 10,
-      "value": "\"Sequence\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1322,
-      "length": 8,
-      "value": "\"Serial\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1356,
+      "offset": 1727,
       "length": 11,
       "value": "\"FeatureID\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1395,
+      "offset": 1766,
       "length": 13,
       "value": "\"FeatureName\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1437,
+      "offset": 1808,
       "length": 14,
       "value": "\"FeatureTitle\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1481,
-      "length": 15,
-      "value": "\"FeatureDesign\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1524,
-      "length": 13,
-      "value": "\"FeatureLogo\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1567,
-      "length": 15,
-      "value": "\"FeatureButton\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1610,
-      "length": 13,
-      "value": "\"FeatureSize\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1645,
+      "offset": 1844,
       "length": 7,
       "value": "\"Title\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1673,
+      "offset": 1872,
       "length": 6,
       "value": "\"Text\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1706,
+      "offset": 1905,
       "length": 12,
       "value": "\"ArabicText\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1740,
-      "length": 7,
-      "value": "\"MText\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1771,
-      "length": 9,
-      "value": "\"Meaning\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1806,
+      "offset": 1943,
       "length": 11,
       "value": "\"Reference\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1838,
-      "length": 6,
-      "value": "\"Logo\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1872,
-      "length": 13,
-      "value": "\"ContentType\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 1916,
+      "offset": 2100,
       "length": 16,
       "value": "\"contentBaseUrl\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2023,
-      "length": 9,
-      "value": "\"SurahId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 2054,
-      "length": 7,
-      "value": "\"JuzId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 2085,
-      "length": 9,
-      "value": "\"VerseId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 2119,
+      "offset": 2141,
       "length": 10,
-      "value": "\"HadithId\""
+      "value": "\"IsActive\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2151,
-      "length": 7,
-      "value": "\"DuaId\""
+      "offset": 2176,
+      "length": 10,
+      "value": "\"Language\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2185,
-      "length": 12,
-      "value": "\"CategoryId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 2227,
-      "length": 15,
-      "value": "\"SubCategoryId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 2305,
-      "length": 8,
-      "value": "\"ECount\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchList.swift",
-      "kind": "StringLiteral",
-      "offset": 547,
-      "length": 4,
-      "value": "\"Id\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchList.swift",
-      "kind": "StringLiteral",
-      "offset": 573,
-      "length": 7,
-      "value": "\"Title\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchList.swift",
-      "kind": "StringLiteral",
-      "offset": 603,
-      "length": 8,
-      "value": "\"Design\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchList.swift",
-      "kind": "StringLiteral",
-      "offset": 637,
-      "length": 11,
-      "value": "\"AppDesign\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchList.swift",
-      "kind": "StringLiteral",
-      "offset": 669,
-      "length": 6,
-      "value": "\"Logo\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchList.swift",
-      "kind": "StringLiteral",
-      "offset": 702,
-      "length": 12,
-      "value": "\"ButtonText\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchList.swift",
-      "kind": "StringLiteral",
-      "offset": 739,
+      "offset": 2211,
       "length": 10,
       "value": "\"Sequence\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchList.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 777,
+      "offset": 2249,
+      "length": 13,
+      "value": "\"ContentType\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 2290,
+      "length": 13,
+      "value": "\"FeatureType\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 2327,
+      "length": 9,
+      "value": "\"SurahId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 2358,
+      "length": 7,
+      "value": "\"JuzId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 2389,
+      "length": 9,
+      "value": "\"VerseId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 2423,
+      "length": 10,
+      "value": "\"HadithId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 2460,
+      "length": 12,
+      "value": "\"CategoryId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 2502,
+      "length": 15,
+      "value": "\"SubCategoryId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 2539,
+      "length": 7,
+      "value": "\"DuaId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 2568,
+      "length": 7,
+      "value": "\"MText\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 2599,
+      "length": 9,
+      "value": "\"Meaning\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 2631,
+      "length": 8,
+      "value": "\"ECount\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 2669,
+      "length": 15,
+      "value": "\"FeatureDesign\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 2712,
+      "length": 13,
+      "value": "\"FeatureLogo\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 2755,
+      "length": 15,
+      "value": "\"FeatureButton\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 2793,
+      "length": 8,
+      "value": "\"Serial\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 2870,
       "length": 13,
       "value": "\"FeatureSize\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchList.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchListDTO.swift",
       "kind": "StringLiteral",
-      "offset": 812,
+      "offset": 508,
+      "length": 4,
+      "value": "\"Id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchListDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchListDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 564,
+      "length": 8,
+      "value": "\"Design\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchListDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 598,
+      "length": 11,
+      "value": "\"AppDesign\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchListDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 630,
+      "length": 6,
+      "value": "\"Logo\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchListDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 663,
+      "length": 12,
+      "value": "\"ButtonText\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchListDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 700,
+      "length": 10,
+      "value": "\"Sequence\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchListDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 738,
+      "length": 13,
+      "value": "\"FeatureSize\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchListDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 779,
+      "length": 13,
+      "value": "\"FeatureType\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchListDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 814,
       "length": 7,
       "value": "\"Items\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchList.swift",
-      "kind": "StringLiteral",
-      "offset": 840,
-      "length": 6,
-      "value": "\"Text\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchList.swift",
-      "kind": "StringLiteral",
-      "offset": 871,
-      "length": 10,
-      "value": "\"imageurl\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Model\/PatchList.swift",
-      "kind": "StringLiteral",
-      "offset": 909,
-      "length": 13,
-      "value": "\"ContentType\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/APIClient.swift",
@@ -2754,104 +2970,6 @@
       "offset": 627,
       "length": 3,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 236,
-      "length": 37,
-      "value": "\"api\/Quran\/GetQuranLearningHomePatch\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 301,
-      "length": 27,
-      "value": "\"api\/Quiz\/getQuizQuestions\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 355,
-      "length": 27,
-      "value": "\"api\/Quran\/GetQaidaFeature\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 416,
-      "length": 34,
-      "value": "\"api\/Quran\/GetQaidaFeatureDetails\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 484,
-      "length": 37,
-      "value": "\"api\/DeenQuiz\/GetSohojQuranQuizPatch\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 576,
-      "length": 27,
-      "value": "\"api\/Mosque\/GetMosquePatch\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 631,
-      "length": 26,
-      "value": "\"api\/Mosque\/MosqueDetails\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 682,
-      "length": 26,
-      "value": "\"api\/Mosque\/GetMosqueList\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 764,
-      "length": 41,
-      "value": "\"api\/Islamic\/getRichTextTopicsbyCategory\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 863,
-      "length": 35,
-      "value": "\"api\/PrayerTime\/PrayerTimeDateWise\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 964,
-      "length": 37,
-      "value": "\"api\/FastTracker\/AddFastTrackingInfo\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 1041,
-      "length": 45,
-      "value": "\"api\/FastTracker\/AddFastTrackingInfoDateWise\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 1118,
-      "length": 37,
-      "value": "\"api\/FastTracker\/GetFastTrackingInfo\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/ServiceEndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 1183,
-      "length": 37,
-      "value": "\"api\/SeheriIftarTime\/ramadanCalander\""
     }
   ]
 }
