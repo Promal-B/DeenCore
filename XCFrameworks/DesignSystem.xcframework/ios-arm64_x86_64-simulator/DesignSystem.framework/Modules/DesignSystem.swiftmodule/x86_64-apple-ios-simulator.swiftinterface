@@ -71,6 +71,20 @@ extension DesignSystem.Colors {
     public init()
   }
   public struct UIColors {
+    public let accent1: SwiftUICore.Color
+    public let accent2: SwiftUICore.Color
+    public let accent3: SwiftUICore.Color
+    public let accent4: SwiftUICore.Color
+    public let accent5: SwiftUICore.Color
+    public let accent6: SwiftUICore.Color
+    public let accent7: SwiftUICore.Color
+    public let accent8: SwiftUICore.Color
+    public let accent9: SwiftUICore.Color
+    public let accent10: SwiftUICore.Color
+    public let accent11: SwiftUICore.Color
+    public let accent12: SwiftUICore.Color
+    public let accent13: SwiftUICore.Color
+    public let accent14: SwiftUICore.Color
     public func staticColor(using index: Swift.Int) -> SwiftUICore.Color
     public init()
   }
@@ -221,6 +235,11 @@ extension DesignSystem.DSResources {
     case bgGradient
     case share
     case xmark
+    case popupBG
+    case adsClick
+    case download
+    case favorite
+    case livePodcast
     #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
     #endif

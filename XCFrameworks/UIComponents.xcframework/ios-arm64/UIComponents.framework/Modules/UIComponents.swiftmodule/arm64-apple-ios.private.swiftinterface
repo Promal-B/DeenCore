@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name UIComponents
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+import Combine
 import Darwin
 import Foundation
 import Swift
@@ -10,6 +11,14 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_Concurrency.MainActor @preconcurrency public struct ChipButtonStyle : SwiftUI.ButtonStyle {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public init(color: SwiftUICore.Color, horizontalPadding: CoreFoundation.CGFloat = 16, verticalPadding: CoreFoundation.CGFloat = 6, cornerRadius: CoreFoundation.CGFloat = 20, background: SwiftUICore.Color? = nil)
+  #endif
+  @_Concurrency.MainActor @preconcurrency public func makeBody(configuration: UIComponents.ChipButtonStyle.Configuration) -> some SwiftUICore.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s12UIComponents15ChipButtonStyleV8makeBody13configurationQr7SwiftUI0cD13ConfigurationV_tF", 0) __
+}
 @_Concurrency.MainActor @preconcurrency public struct HorizontalUncontainedCarousel<Item, Content> : SwiftUICore.View where Item : Swift.Identifiable, Content : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(items: [Item], largeItemWidth: CoreFoundation.CGFloat = 180, smallItemWidth: CoreFoundation.CGFloat = 50, itemSpacing: CoreFoundation.CGFloat = 8, horizontalPadding: CoreFoundation.CGFloat = 16, @SwiftUICore.ViewBuilder content: @escaping (Item) -> Content)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
@@ -45,6 +54,24 @@ import _SwiftConcurrencyShims
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func anchoredPopup<Content>(_ isPresented: SwiftUICore.Binding<Swift.Bool>, color: SwiftUICore.Color, radius: CoreFoundation.CGFloat = 0, @SwiftUICore.ViewBuilder content: @escaping () -> Content) -> some SwiftUICore.View where Content : SwiftUICore.View
   
+}
+public struct FullScreenPopupDismissKey : SwiftUICore.EnvironmentKey {
+  public static let defaultValue: (() -> Swift.Void)?
+  public typealias Value = (() -> Swift.Void)?
+}
+extension SwiftUICore.EnvironmentValues {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var fullScreenPopupDismiss: (() -> Swift.Void)? {
+    get
+    set
+  }
+  #endif
+}
+extension SwiftUICore.View {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func fullScreenPopup<Content>(isPresented: SwiftUICore.Binding<Swift.Bool>, backdropColor: SwiftUICore.Color = .black.opacity(0.4), transition: SwiftUICore.AnyTransition = .scale(scale: 0.92).combined(with: .opacity), onDismiss: (() -> Swift.Void)? = nil, @SwiftUICore.ViewBuilder content: @escaping () -> Content) -> some SwiftUICore.View where Content : SwiftUICore.View
+  
+  #endif
 }
 public enum SVGPhase {
   case empty
@@ -94,6 +121,7 @@ public class SVG {
   }
   public func draw(in context: CoreGraphics.CGContext)
 }
+extension UIComponents.ChipButtonStyle : Swift.Sendable {}
 extension UIComponents.HorizontalUncontainedCarousel : Swift.Sendable {}
 extension UIComponents.CenteredSnapCarousel : Swift.Sendable {}
 extension UIComponents.CenteredSnapCarousel.VerticalAlignment : Swift.Equatable {}

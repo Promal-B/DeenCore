@@ -55,6 +55,21 @@ extension DomainModels.IslamicEvent {
   public static let preview: DomainModels.IslamicEvent
   public static let previews: [DomainModels.IslamicEvent]
 }
+public struct LoginData : Swift.Codable {
+  public let jwt: Swift.String
+  public let refreshToken: DomainModels.RefreshToken
+  public init(jwt: Swift.String, refreshToken: DomainModels.RefreshToken)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct RefreshToken : Swift.Codable {
+  public let token: Swift.String
+  public let created: Foundation.Date
+  public let expires: Foundation.Date
+  public init(token: Swift.String, created: Foundation.Date, expires: Foundation.Date)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public enum AppDesign : Swift.String, Swift.CaseIterable, Swift.Codable {
   case banners
   case wish

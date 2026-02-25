@@ -1752,6 +1752,636 @@
             "printedName": "UIColors",
             "children": [
               {
+                "kind": "Var",
+                "name": "accent1",
+                "printedName": "accent1",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem6ColorsO8UIColorsV7accent17SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO8UIColorsV7accent17SwiftUI5ColorVvp",
+                "moduleName": "DesignSystem",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem6ColorsO8UIColorsV7accent17SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO8UIColorsV7accent17SwiftUI5ColorVvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accent2",
+                "printedName": "accent2",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem6ColorsO8UIColorsV7accent27SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO8UIColorsV7accent27SwiftUI5ColorVvp",
+                "moduleName": "DesignSystem",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem6ColorsO8UIColorsV7accent27SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO8UIColorsV7accent27SwiftUI5ColorVvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accent3",
+                "printedName": "accent3",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem6ColorsO8UIColorsV7accent37SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO8UIColorsV7accent37SwiftUI5ColorVvp",
+                "moduleName": "DesignSystem",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem6ColorsO8UIColorsV7accent37SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO8UIColorsV7accent37SwiftUI5ColorVvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accent4",
+                "printedName": "accent4",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem6ColorsO8UIColorsV7accent47SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO8UIColorsV7accent47SwiftUI5ColorVvp",
+                "moduleName": "DesignSystem",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem6ColorsO8UIColorsV7accent47SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO8UIColorsV7accent47SwiftUI5ColorVvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accent5",
+                "printedName": "accent5",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem6ColorsO8UIColorsV7accent57SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO8UIColorsV7accent57SwiftUI5ColorVvp",
+                "moduleName": "DesignSystem",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem6ColorsO8UIColorsV7accent57SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO8UIColorsV7accent57SwiftUI5ColorVvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accent6",
+                "printedName": "accent6",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem6ColorsO8UIColorsV7accent67SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO8UIColorsV7accent67SwiftUI5ColorVvp",
+                "moduleName": "DesignSystem",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem6ColorsO8UIColorsV7accent67SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO8UIColorsV7accent67SwiftUI5ColorVvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accent7",
+                "printedName": "accent7",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem6ColorsO8UIColorsV7accent77SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO8UIColorsV7accent77SwiftUI5ColorVvp",
+                "moduleName": "DesignSystem",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem6ColorsO8UIColorsV7accent77SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO8UIColorsV7accent77SwiftUI5ColorVvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accent8",
+                "printedName": "accent8",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem6ColorsO8UIColorsV7accent87SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO8UIColorsV7accent87SwiftUI5ColorVvp",
+                "moduleName": "DesignSystem",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem6ColorsO8UIColorsV7accent87SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO8UIColorsV7accent87SwiftUI5ColorVvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accent9",
+                "printedName": "accent9",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem6ColorsO8UIColorsV7accent97SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO8UIColorsV7accent97SwiftUI5ColorVvp",
+                "moduleName": "DesignSystem",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem6ColorsO8UIColorsV7accent97SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO8UIColorsV7accent97SwiftUI5ColorVvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accent10",
+                "printedName": "accent10",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem6ColorsO8UIColorsV8accent107SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO8UIColorsV8accent107SwiftUI5ColorVvp",
+                "moduleName": "DesignSystem",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem6ColorsO8UIColorsV8accent107SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO8UIColorsV8accent107SwiftUI5ColorVvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accent11",
+                "printedName": "accent11",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem6ColorsO8UIColorsV8accent117SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO8UIColorsV8accent117SwiftUI5ColorVvp",
+                "moduleName": "DesignSystem",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem6ColorsO8UIColorsV8accent117SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO8UIColorsV8accent117SwiftUI5ColorVvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accent12",
+                "printedName": "accent12",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem6ColorsO8UIColorsV8accent127SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO8UIColorsV8accent127SwiftUI5ColorVvp",
+                "moduleName": "DesignSystem",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem6ColorsO8UIColorsV8accent127SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO8UIColorsV8accent127SwiftUI5ColorVvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accent13",
+                "printedName": "accent13",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem6ColorsO8UIColorsV8accent137SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO8UIColorsV8accent137SwiftUI5ColorVvp",
+                "moduleName": "DesignSystem",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem6ColorsO8UIColorsV8accent137SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO8UIColorsV8accent137SwiftUI5ColorVvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "accent14",
+                "printedName": "accent14",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem6ColorsO8UIColorsV8accent147SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO8UIColorsV8accent147SwiftUI5ColorVvp",
+                "moduleName": "DesignSystem",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem6ColorsO8UIColorsV8accent147SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO8UIColorsV8accent147SwiftUI5ColorVvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Function",
                 "name": "staticColor",
                 "printedName": "staticColor(using:)",
@@ -6910,6 +7540,191 @@
                 "declKind": "EnumElement",
                 "usr": "s:12DesignSystem11DSResourcesO7DSImageO5xmarkyA2EmF",
                 "mangledName": "$s12DesignSystem11DSResourcesO7DSImageO5xmarkyA2EmF",
+                "moduleName": "DesignSystem"
+              },
+              {
+                "kind": "Var",
+                "name": "popupBG",
+                "printedName": "popupBG",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DesignSystem.DSResources.DSImage.Type) -> DesignSystem.DSResources.DSImage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSImage",
+                        "printedName": "DesignSystem.DSResources.DSImage",
+                        "usr": "s:12DesignSystem11DSResourcesO7DSImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DesignSystem.DSResources.DSImage.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DSImage",
+                            "printedName": "DesignSystem.DSResources.DSImage",
+                            "usr": "s:12DesignSystem11DSResourcesO7DSImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12DesignSystem11DSResourcesO7DSImageO7popupBGyA2EmF",
+                "mangledName": "$s12DesignSystem11DSResourcesO7DSImageO7popupBGyA2EmF",
+                "moduleName": "DesignSystem"
+              },
+              {
+                "kind": "Var",
+                "name": "adsClick",
+                "printedName": "adsClick",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DesignSystem.DSResources.DSImage.Type) -> DesignSystem.DSResources.DSImage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSImage",
+                        "printedName": "DesignSystem.DSResources.DSImage",
+                        "usr": "s:12DesignSystem11DSResourcesO7DSImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DesignSystem.DSResources.DSImage.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DSImage",
+                            "printedName": "DesignSystem.DSResources.DSImage",
+                            "usr": "s:12DesignSystem11DSResourcesO7DSImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12DesignSystem11DSResourcesO7DSImageO8adsClickyA2EmF",
+                "mangledName": "$s12DesignSystem11DSResourcesO7DSImageO8adsClickyA2EmF",
+                "moduleName": "DesignSystem"
+              },
+              {
+                "kind": "Var",
+                "name": "download",
+                "printedName": "download",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DesignSystem.DSResources.DSImage.Type) -> DesignSystem.DSResources.DSImage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSImage",
+                        "printedName": "DesignSystem.DSResources.DSImage",
+                        "usr": "s:12DesignSystem11DSResourcesO7DSImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DesignSystem.DSResources.DSImage.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DSImage",
+                            "printedName": "DesignSystem.DSResources.DSImage",
+                            "usr": "s:12DesignSystem11DSResourcesO7DSImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12DesignSystem11DSResourcesO7DSImageO8downloadyA2EmF",
+                "mangledName": "$s12DesignSystem11DSResourcesO7DSImageO8downloadyA2EmF",
+                "moduleName": "DesignSystem"
+              },
+              {
+                "kind": "Var",
+                "name": "favorite",
+                "printedName": "favorite",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DesignSystem.DSResources.DSImage.Type) -> DesignSystem.DSResources.DSImage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSImage",
+                        "printedName": "DesignSystem.DSResources.DSImage",
+                        "usr": "s:12DesignSystem11DSResourcesO7DSImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DesignSystem.DSResources.DSImage.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DSImage",
+                            "printedName": "DesignSystem.DSResources.DSImage",
+                            "usr": "s:12DesignSystem11DSResourcesO7DSImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12DesignSystem11DSResourcesO7DSImageO8favoriteyA2EmF",
+                "mangledName": "$s12DesignSystem11DSResourcesO7DSImageO8favoriteyA2EmF",
+                "moduleName": "DesignSystem"
+              },
+              {
+                "kind": "Var",
+                "name": "livePodcast",
+                "printedName": "livePodcast",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DesignSystem.DSResources.DSImage.Type) -> DesignSystem.DSResources.DSImage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSImage",
+                        "printedName": "DesignSystem.DSResources.DSImage",
+                        "usr": "s:12DesignSystem11DSResourcesO7DSImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DesignSystem.DSResources.DSImage.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DSImage",
+                            "printedName": "DesignSystem.DSResources.DSImage",
+                            "usr": "s:12DesignSystem11DSResourcesO7DSImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12DesignSystem11DSResourcesO7DSImageO11livePodcastyA2EmF",
+                "mangledName": "$s12DesignSystem11DSResourcesO7DSImageO11livePodcastyA2EmF",
                 "moduleName": "DesignSystem"
               },
               {
@@ -13176,6 +13991,104 @@
       "value": "\"#FAA282\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 3200,
+      "length": 9,
+      "value": "\"#EBCA28\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 3223,
+      "length": 9,
+      "value": "\"#C9FC5A\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 3246,
+      "length": 9,
+      "value": "\"#3BCCD5\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 3269,
+      "length": 9,
+      "value": "\"#79E2E7\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 3292,
+      "length": 9,
+      "value": "\"#ABEEF6\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 3327,
+      "length": 9,
+      "value": "\"#4BBC97\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 3350,
+      "length": 9,
+      "value": "\"#73B578\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 3373,
+      "length": 9,
+      "value": "\"#71D7B7\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 3396,
+      "length": 9,
+      "value": "\"#A6E9D2\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 3419,
+      "length": 9,
+      "value": "\"#A08CF9\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 3454,
+      "length": 9,
+      "value": "\"#DF83EF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 3477,
+      "length": 9,
+      "value": "\"#C49ED4\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 3500,
+      "length": 9,
+      "value": "\"#50A4FF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 3523,
+      "length": 9,
+      "value": "\"#FAA282\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
       "offset": 193,
@@ -13981,6 +14894,41 @@
       "value": "\"core_xmark\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+DSImage.swift",
+      "kind": "StringLiteral",
+      "offset": 652,
+      "length": 23,
+      "value": "\"deen_premium_popup_bg\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+DSImage.swift",
+      "kind": "StringLiteral",
+      "offset": 700,
+      "length": 16,
+      "value": "\"core_ads_click\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+DSImage.swift",
+      "kind": "StringLiteral",
+      "offset": 741,
+      "length": 15,
+      "value": "\"core_download\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+DSImage.swift",
+      "kind": "StringLiteral",
+      "offset": 781,
+      "length": 15,
+      "value": "\"core_favorite\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+DSImage.swift",
+      "kind": "StringLiteral",
+      "offset": 824,
+      "length": 19,
+      "value": "\"core_live_podcast\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+FMImage.swift",
       "kind": "StringLiteral",
       "offset": 496,
@@ -14536,322 +15484,357 @@
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 889,
+      "offset": 890,
+      "length": 16,
+      "value": "\"core_ads_click\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1041,
       "length": 15,
       "value": "\"core_chevBack\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1043,
+      "offset": 1191,
+      "length": 15,
+      "value": "\"core_download\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1341,
+      "length": 15,
+      "value": "\"core_favorite\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1495,
       "length": 17,
       "value": "\"core_gradientBG\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1189,
+      "offset": 1654,
+      "length": 19,
+      "value": "\"core_live_podcast\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1802,
       "length": 12,
       "value": "\"core_share\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1330,
+      "offset": 1943,
       "length": 12,
       "value": "\"core_xmark\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1482,
+      "offset": 2104,
+      "length": 23,
+      "value": "\"deen_premium_popup_bg\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2267,
       "length": 17,
       "value": "\"dhuhrBackground\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1637,
+      "offset": 2422,
       "length": 16,
       "value": "\"fajrBackground\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1791,
+      "offset": 2576,
       "length": 17,
       "value": "\"fm_Chevron-down\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1933,
+      "offset": 2718,
       "length": 10,
       "value": "\"fm_Users\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2076,
+      "offset": 2861,
       "length": 14,
       "value": "\"fm_checkmark\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2213,
+      "offset": 2998,
       "length": 9,
       "value": "\"fm_icon\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2352,
+      "offset": 3137,
       "length": 13,
       "value": "\"fm_link-out\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2501,
+      "offset": 3286,
       "length": 16,
       "value": "\"fm_location to\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2642,
+      "offset": 3427,
       "length": 10,
       "value": "\"fm_share\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2800,
+      "offset": 3585,
       "length": 21,
       "value": "\"forbiddenBackground\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2959,
+      "offset": 3744,
       "length": 16,
       "value": "\"ishaBackground\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3117,
+      "offset": 3902,
       "length": 18,
       "value": "\"magribBackground\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3262,
+      "offset": 4047,
       "length": 11,
       "value": "\"nnn_pause\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3398,
+      "offset": 4183,
       "length": 10,
       "value": "\"nnn_play\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3539,
+      "offset": 4324,
       "length": 13,
       "value": "\"nnn_refresh\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3681,
+      "offset": 4466,
       "length": 12,
       "value": "\"nnn_volume\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3816,
+      "offset": 4601,
       "length": 9,
       "value": "\"ql_Edit\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3984,
+      "offset": 4769,
       "length": 27,
       "value": "\"ql_QLQHomePatchBackground\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4164,
+      "offset": 4949,
       "length": 24,
       "value": "\"ql_QuranLearningQuizBG\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4315,
+      "offset": 5100,
       "length": 11,
       "value": "\"ql_Rating\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4449,
+      "offset": 5234,
       "length": 9,
       "value": "\"ql_Time\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4583,
+      "offset": 5368,
       "length": 10,
       "value": "\"ql_check\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4718,
+      "offset": 5503,
       "length": 10,
       "value": "\"ql_error\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4860,
+      "offset": 5645,
       "length": 14,
       "value": "\"ql_fire-fill\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4997,
+      "offset": 5782,
       "length": 9,
       "value": "\"ql_next\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5129,
+      "offset": 5914,
       "length": 9,
       "value": "\"ql_play\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5261,
+      "offset": 6046,
       "length": 9,
       "value": "\"ql_prev\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5395,
+      "offset": 6180,
       "length": 10,
       "value": "\"ql_quran\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5539,
+      "offset": 6324,
       "length": 15,
       "value": "\"ql_quran_quiz\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5677,
+      "offset": 6462,
       "length": 9,
       "value": "\"ql_star\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5827,
+      "offset": 6612,
       "length": 18,
       "value": "\"ql_stepsDisabled\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5984,
+      "offset": 6769,
       "length": 17,
       "value": "\"ql_stepsEnabled\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6157,
+      "offset": 6942,
       "length": 26,
       "value": "\"ramadan_share_background\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6327,
+      "offset": 7112,
       "length": 20,
       "value": "\"ramadan_share_icon\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6498,
+      "offset": 7283,
       "length": 24,
       "value": "\"ramadan_share_title_bn\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6673,
+      "offset": 7458,
       "length": 24,
       "value": "\"ramadan_share_title_en\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6834,
+      "offset": 7619,
       "length": 16,
       "value": "\"rhc_background\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6990,
+      "offset": 7775,
       "length": 18,
       "value": "\"rhc_checked_done\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7143,
+      "offset": 7928,
       "length": 15,
       "value": "\"rhc_checkmark\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7308,
+      "offset": 8093,
       "length": 23,
       "value": "\"rhc_notifications_off\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7479,
+      "offset": 8264,
       "length": 22,
       "value": "\"rhc_notifications_on\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphoneos\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7628,
+      "offset": 8413,
       "length": 11,
       "value": "\"rhc_share\""
     }

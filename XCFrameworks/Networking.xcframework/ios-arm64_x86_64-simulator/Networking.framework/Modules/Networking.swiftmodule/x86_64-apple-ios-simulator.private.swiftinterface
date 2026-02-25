@@ -4,11 +4,13 @@
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import DomainModels
 import Foundation
+import Playgrounds
 import Swift
 import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+
 public protocol ContentService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func getRichTextTopics(by categoryID: Swift.Int, token: Swift.String) async throws -> [DomainModels.IslamicEvent]
@@ -28,17 +30,6 @@ public protocol FMService {
   #endif
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func fetchMosqueDetail(id: Swift.Int) async throws -> DomainModels.MosqueDetails
-  #endif
-}
-public protocol FTService {
-  #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func addFastTrackingInfo(token: Swift.String, date: Swift.String?, suhoor: Swift.Bool, iftaar: Swift.Bool, language: Swift.String) async throws -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func fetchFastTrackingInfo(token: Swift.String) async throws -> DomainModels.FastingTrackingSummary
-  #endif
-  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func fetchTrackingDetails(token: Swift.String, date: Swift.String, language: Swift.String) async throws -> DomainModels.MonthlyFastingCalendar
   #endif
 }
 public protocol PTService {
@@ -64,6 +55,17 @@ public protocol QLService {
   #endif
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func fetchQuizQuestions(categoryID: Swift.Int, subCategoryID: Swift.Int) async throws -> [DomainModels.QuizQuestionV2]
+  #endif
+}
+public protocol FTService {
+  #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func addFastTrackingInfo(token: Swift.String, date: Swift.String?, suhoor: Swift.Bool, iftaar: Swift.Bool, language: Swift.String) async throws -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchFastTrackingInfo(token: Swift.String) async throws -> DomainModels.FastingTrackingSummary
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchTrackingDetails(token: Swift.String, date: Swift.String, language: Swift.String) async throws -> DomainModels.MonthlyFastingCalendar
   #endif
 }
 public enum NetworkEnvironment {

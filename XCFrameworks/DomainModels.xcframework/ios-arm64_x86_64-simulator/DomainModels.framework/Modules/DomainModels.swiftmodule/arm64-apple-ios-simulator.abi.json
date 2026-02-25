@@ -1663,6 +1663,499 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "LoginData",
+        "printedName": "LoginData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "jwt",
+            "printedName": "jwt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9LoginDataV3jwtSSvp",
+            "mangledName": "$s12DomainModels9LoginDataV3jwtSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9LoginDataV3jwtSSvg",
+                "mangledName": "$s12DomainModels9LoginDataV3jwtSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "refreshToken",
+            "printedName": "refreshToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RefreshToken",
+                "printedName": "DomainModels.RefreshToken",
+                "usr": "s:12DomainModels12RefreshTokenV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9LoginDataV12refreshTokenAA07RefreshF0Vvp",
+            "mangledName": "$s12DomainModels9LoginDataV12refreshTokenAA07RefreshF0Vvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RefreshToken",
+                    "printedName": "DomainModels.RefreshToken",
+                    "usr": "s:12DomainModels12RefreshTokenV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9LoginDataV12refreshTokenAA07RefreshF0Vvg",
+                "mangledName": "$s12DomainModels9LoginDataV12refreshTokenAA07RefreshF0Vvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(jwt:refreshToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LoginData",
+                "printedName": "DomainModels.LoginData",
+                "usr": "s:12DomainModels9LoginDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RefreshToken",
+                "printedName": "DomainModels.RefreshToken",
+                "usr": "s:12DomainModels12RefreshTokenV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DomainModels9LoginDataV3jwt12refreshTokenACSS_AA07RefreshG0Vtcfc",
+            "mangledName": "$s12DomainModels9LoginDataV3jwt12refreshTokenACSS_AA07RefreshG0Vtcfc",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LoginData",
+                "printedName": "DomainModels.LoginData",
+                "usr": "s:12DomainModels9LoginDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DomainModels9LoginDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12DomainModels9LoginDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DomainModels9LoginDataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12DomainModels9LoginDataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12DomainModels9LoginDataV",
+        "mangledName": "$s12DomainModels9LoginDataV",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RefreshToken",
+        "printedName": "RefreshToken",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12RefreshTokenV5tokenSSvp",
+            "mangledName": "$s12DomainModels12RefreshTokenV5tokenSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12RefreshTokenV5tokenSSvg",
+                "mangledName": "$s12DomainModels12RefreshTokenV5tokenSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "created",
+            "printedName": "created",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12RefreshTokenV7created10Foundation4DateVvp",
+            "mangledName": "$s12DomainModels12RefreshTokenV7created10Foundation4DateVvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12RefreshTokenV7created10Foundation4DateVvg",
+                "mangledName": "$s12DomainModels12RefreshTokenV7created10Foundation4DateVvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expires",
+            "printedName": "expires",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12RefreshTokenV7expires10Foundation4DateVvp",
+            "mangledName": "$s12DomainModels12RefreshTokenV7expires10Foundation4DateVvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12RefreshTokenV7expires10Foundation4DateVvg",
+                "mangledName": "$s12DomainModels12RefreshTokenV7expires10Foundation4DateVvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:created:expires:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RefreshToken",
+                "printedName": "DomainModels.RefreshToken",
+                "usr": "s:12DomainModels12RefreshTokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DomainModels12RefreshTokenV5token7created7expiresACSS_10Foundation4DateVAItcfc",
+            "mangledName": "$s12DomainModels12RefreshTokenV5token7created7expiresACSS_10Foundation4DateVAItcfc",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RefreshToken",
+                "printedName": "DomainModels.RefreshToken",
+                "usr": "s:12DomainModels12RefreshTokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DomainModels12RefreshTokenV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12DomainModels12RefreshTokenV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DomainModels12RefreshTokenV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12DomainModels12RefreshTokenV6encode2toys7Encoder_p_tKF",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12DomainModels12RefreshTokenV",
+        "mangledName": "$s12DomainModels12RefreshTokenV",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "AppDesign",
         "printedName": "AppDesign",
         "children": [
