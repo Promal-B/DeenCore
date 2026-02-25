@@ -86,22 +86,24 @@ public enum AppDesign : Swift.String, Swift.CaseIterable, Swift.Codable {
   case hajjPreReg
   case seriesQuranLearnPatch
   case digitalTasbeeh
-  case favorite
+  case favcontent
   case singleCard
-  case singleCardList
+  case commonCardList
   case singleImage
   case leaderboard
-  case ramadanCard
+  case ramadancard
   case deenAI
   case qiratParticipants
-  case qiratVideos
+  case qiratVidoes
   case ramadanPlanner
   case commonAudioCardList
   case trackerCard
-  case ordhekDeen
+  case ordhekdeen
   case widgetPatch
-  case sohojQuranPatch
+  case sohojquranpatch
   case responsibilities
+  case subscription
+  case ramadanamolpatch
   case unknown
   public init(from decoder: any Swift.Decoder) throws
   #if compiler(>=5.3) && $NonescapableTypes

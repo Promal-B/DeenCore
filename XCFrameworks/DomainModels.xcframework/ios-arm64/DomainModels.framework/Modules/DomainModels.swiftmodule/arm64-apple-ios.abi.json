@@ -2722,8 +2722,8 @@
           },
           {
             "kind": "Var",
-            "name": "favorite",
-            "printedName": "favorite",
+            "name": "favcontent",
+            "printedName": "favcontent",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -2753,8 +2753,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12DomainModels9AppDesignO8favoriteyA2CmF",
-            "mangledName": "$s12DomainModels9AppDesignO8favoriteyA2CmF",
+            "usr": "s:12DomainModels9AppDesignO10favcontentyA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO10favcontentyA2CmF",
             "moduleName": "DomainModels"
           },
           {
@@ -2796,8 +2796,8 @@
           },
           {
             "kind": "Var",
-            "name": "singleCardList",
-            "printedName": "singleCardList",
+            "name": "commonCardList",
+            "printedName": "commonCardList",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -2827,8 +2827,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12DomainModels9AppDesignO14singleCardListyA2CmF",
-            "mangledName": "$s12DomainModels9AppDesignO14singleCardListyA2CmF",
+            "usr": "s:12DomainModels9AppDesignO14commonCardListyA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO14commonCardListyA2CmF",
             "moduleName": "DomainModels"
           },
           {
@@ -2907,8 +2907,8 @@
           },
           {
             "kind": "Var",
-            "name": "ramadanCard",
-            "printedName": "ramadanCard",
+            "name": "ramadancard",
+            "printedName": "ramadancard",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -2938,8 +2938,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12DomainModels9AppDesignO11ramadanCardyA2CmF",
-            "mangledName": "$s12DomainModels9AppDesignO11ramadanCardyA2CmF",
+            "usr": "s:12DomainModels9AppDesignO11ramadancardyA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO11ramadancardyA2CmF",
             "moduleName": "DomainModels"
           },
           {
@@ -3021,8 +3021,8 @@
           },
           {
             "kind": "Var",
-            "name": "qiratVideos",
-            "printedName": "qiratVideos",
+            "name": "qiratVidoes",
+            "printedName": "qiratVidoes",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -3052,8 +3052,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12DomainModels9AppDesignO11qiratVideosyA2CmF",
-            "mangledName": "$s12DomainModels9AppDesignO11qiratVideosyA2CmF",
+            "usr": "s:12DomainModels9AppDesignO11qiratVidoesyA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO11qiratVidoesyA2CmF",
             "moduleName": "DomainModels"
           },
           {
@@ -3169,8 +3169,8 @@
           },
           {
             "kind": "Var",
-            "name": "ordhekDeen",
-            "printedName": "ordhekDeen",
+            "name": "ordhekdeen",
+            "printedName": "ordhekdeen",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -3200,8 +3200,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12DomainModels9AppDesignO10ordhekDeenyA2CmF",
-            "mangledName": "$s12DomainModels9AppDesignO10ordhekDeenyA2CmF",
+            "usr": "s:12DomainModels9AppDesignO10ordhekdeenyA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO10ordhekdeenyA2CmF",
             "moduleName": "DomainModels"
           },
           {
@@ -3243,8 +3243,8 @@
           },
           {
             "kind": "Var",
-            "name": "sohojQuranPatch",
-            "printedName": "sohojQuranPatch",
+            "name": "sohojquranpatch",
+            "printedName": "sohojquranpatch",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -3274,8 +3274,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12DomainModels9AppDesignO15sohojQuranPatchyA2CmF",
-            "mangledName": "$s12DomainModels9AppDesignO15sohojQuranPatchyA2CmF",
+            "usr": "s:12DomainModels9AppDesignO15sohojquranpatchyA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO15sohojquranpatchyA2CmF",
             "moduleName": "DomainModels"
           },
           {
@@ -3313,6 +3313,80 @@
             "declKind": "EnumElement",
             "usr": "s:12DomainModels9AppDesignO16responsibilitiesyA2CmF",
             "mangledName": "$s12DomainModels9AppDesignO16responsibilitiesyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "subscription",
+            "printedName": "subscription",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.AppDesign.Type) -> DomainModels.AppDesign",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppDesign",
+                    "printedName": "DomainModels.AppDesign",
+                    "usr": "s:12DomainModels9AppDesignO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.AppDesign.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppDesign",
+                        "printedName": "DomainModels.AppDesign",
+                        "usr": "s:12DomainModels9AppDesignO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels9AppDesignO12subscriptionyA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO12subscriptionyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "ramadanamolpatch",
+            "printedName": "ramadanamolpatch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.AppDesign.Type) -> DomainModels.AppDesign",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppDesign",
+                    "printedName": "DomainModels.AppDesign",
+                    "usr": "s:12DomainModels9AppDesignO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.AppDesign.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppDesign",
+                        "printedName": "DomainModels.AppDesign",
+                        "usr": "s:12DomainModels9AppDesignO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels9AppDesignO16ramadanamolpatchyA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO16ramadanamolpatchyA2CmF",
             "moduleName": "DomainModels"
           },
           {
@@ -24178,114 +24252,128 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 741,
+      "offset": 743,
       "length": 12,
       "value": "\"Favcontent\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 776,
+      "offset": 778,
       "length": 12,
       "value": "\"SingleCard\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 815,
+      "offset": 817,
       "length": 16,
       "value": "\"CommonCardList\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 855,
+      "offset": 857,
       "length": 13,
       "value": "\"SingleImage\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 892,
+      "offset": 894,
       "length": 13,
       "value": "\"Leaderboard\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 929,
+      "offset": 931,
       "length": 13,
       "value": "\"ramadancard\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 969,
+      "offset": 971,
       "length": 8,
       "value": "\"deenAI\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1007,
+      "offset": 1009,
       "length": 19,
       "value": "\"qiratParticipants\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1050,
+      "offset": 1052,
       "length": 13,
       "value": "\"qiratVidoes\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1090,
+      "offset": 1092,
       "length": 16,
       "value": "\"ramadanPlanner\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1138,
+      "offset": 1140,
       "length": 21,
       "value": "\"CommonAudioCardList\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1183,
+      "offset": 1185,
       "length": 13,
       "value": "\"TrackerCard\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1219,
+      "offset": 1221,
       "length": 12,
       "value": "\"ordhekdeen\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1255,
+      "offset": 1257,
       "length": 13,
       "value": "\"widgetPatch\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1296,
+      "offset": 1298,
       "length": 17,
       "value": "\"sohojquranpatch\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1342,
+      "offset": 1344,
       "length": 18,
       "value": "\"responsibilities\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
+      "kind": "StringLiteral",
+      "offset": 1387,
+      "length": 14,
+      "value": "\"subscription\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
+      "kind": "StringLiteral",
+      "offset": 1430,
+      "length": 18,
+      "value": "\"ramadanamolpatch\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/Country.swift",
