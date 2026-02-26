@@ -1579,8 +1579,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "production",
-            "printedName": "production",
+            "name": "productionEN",
+            "printedName": "productionEN",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -1610,14 +1610,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:10Networking18NetworkEnvironmentO10productionyA2CmF",
-            "mangledName": "$s10Networking18NetworkEnvironmentO10productionyA2CmF",
+            "usr": "s:10Networking18NetworkEnvironmentO12productionENyA2CmF",
+            "mangledName": "$s10Networking18NetworkEnvironmentO12productionENyA2CmF",
             "moduleName": "Networking"
           },
           {
             "kind": "Var",
-            "name": "staging",
-            "printedName": "staging",
+            "name": "productionBN",
+            "printedName": "productionBN",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -1647,8 +1647,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:10Networking18NetworkEnvironmentO7stagingyA2CmF",
-            "mangledName": "$s10Networking18NetworkEnvironmentO7stagingyA2CmF",
+            "usr": "s:10Networking18NetworkEnvironmentO12productionBNyA2CmF",
+            "mangledName": "$s10Networking18NetworkEnvironmentO12productionBNyA2CmF",
             "moduleName": "Networking"
           },
           {
@@ -2583,63 +2583,63 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Auth\/AuthNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 1647,
+      "offset": 1649,
       "length": 239,
       "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBsaWNhdGlvbiI6IkRlZW4gSXNsYW0iLCJuYW1lIjoiODgwMTczODQzOTIzNiIsInJvbGUiOiJBZG1pbiIsIm5iZiI6MTc3MTkwOTMzMiwiZXhwIjoxNzcxOTk1NzMyLCJpYXQiOjE3NzE5MDkzMzJ9.CuMzSrfsBpSk3dOhgTUlmo9Np4PDqZVxJIPywUPDElw\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Auth\/AuthNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 1954,
+      "offset": 1956,
       "length": 15,
       "value": "\"8801738439232\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Auth\/AuthNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 1981,
+      "offset": 1983,
       "length": 8,
       "value": "\"123456\""
     },
     {
       "filePath": "@__swiftmacro_10Networking0029AuthNetworkServiceswift_tAFJhfMX57_0_33_F3D48C3CD3D21D52D471E1DBA1EB1FBELl10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2207,
+      "offset": 2209,
       "length": 10,
       "value": "0x706c6179"
     },
     {
       "filePath": "@__swiftmacro_10Networking0029AuthNetworkServiceswift_tAFJhfMX57_0_33_F3D48C3CD3D21D52D471E1DBA1EB1FBELl10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2234,
+      "offset": 2236,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "@__swiftmacro_10Networking0029AuthNetworkServiceswift_tAFJhfMX57_0_33_F3D48C3CD3D21D52D471E1DBA1EB1FBELl10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2592,
+      "offset": 2594,
       "length": 2,
       "value": "58"
     },
     {
       "filePath": "@__swiftmacro_10Networking0029AuthNetworkServiceswift_tAFJhfMX57_0_33_F3D48C3CD3D21D52D471E1DBA1EB1FBELl10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2610,
+      "offset": 2612,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "@__swiftmacro_10Networking0029AuthNetworkServiceswift_tAFJhfMX57_0_33_F3D48C3CD3D21D52D471E1DBA1EB1FBELl10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2691,
+      "offset": 2693,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "@__swiftmacro_10Networking0029AuthNetworkServiceswift_tAFJhfMX57_0_33_F3D48C3CD3D21D52D471E1DBA1EB1FBELl10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2696,
+      "offset": 2698,
       "length": 1,
       "value": "0"
     },

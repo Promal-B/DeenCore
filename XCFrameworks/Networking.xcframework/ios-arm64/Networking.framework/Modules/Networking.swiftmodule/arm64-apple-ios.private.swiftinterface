@@ -69,8 +69,8 @@ public protocol FTService {
   #endif
 }
 public enum NetworkEnvironment {
-  case production
-  case staging
+  case productionEN
+  case productionBN
   case android
   public static func == (a: Networking.NetworkEnvironment, b: Networking.NetworkEnvironment) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
@@ -79,12 +79,12 @@ public enum NetworkEnvironment {
   }
 }
 public enum ServiceFactory {
-  public static func makeQLNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.QLService
-  public static func makeFMNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.FMService
-  public static func makeContentNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.ContentService
-  public static func makePTNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.PTService
-  public static func makeFTNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.FTService
-  public static func makeDashboardNetworkService(for environment: Networking.NetworkEnvironment = .production) -> any Networking.DashboardService
+  public static func makeQLNetworkService(for environment: Networking.NetworkEnvironment = .productionEN) -> any Networking.QLService
+  public static func makeFMNetworkService(for environment: Networking.NetworkEnvironment = .productionEN) -> any Networking.FMService
+  public static func makeContentNetworkService(for environment: Networking.NetworkEnvironment = .productionEN) -> any Networking.ContentService
+  public static func makePTNetworkService(for environment: Networking.NetworkEnvironment = .productionEN) -> any Networking.PTService
+  public static func makeFTNetworkService(for environment: Networking.NetworkEnvironment = .productionEN) -> any Networking.FTService
+  public static func makeDashboardNetworkService(for environment: Networking.NetworkEnvironment = .productionEN) -> any Networking.DashboardService
 }
 extension Networking.NetworkEnvironment : Swift.Equatable {}
 extension Networking.NetworkEnvironment : Swift.Hashable {}
