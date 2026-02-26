@@ -2464,6 +2464,104 @@
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "previewDefault",
+            "printedName": "previewDefault",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserProfile",
+                "printedName": "DomainModels.UserProfile",
+                "usr": "s:12DomainModels11UserProfileV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels11UserProfileV14previewDefaultACvpZ",
+            "mangledName": "$s12DomainModels11UserProfileV14previewDefaultACvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserProfile",
+                    "printedName": "DomainModels.UserProfile",
+                    "usr": "s:12DomainModels11UserProfileV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels11UserProfileV14previewDefaultACvgZ",
+                "mangledName": "$s12DomainModels11UserProfileV14previewDefaultACvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previewVarified",
+            "printedName": "previewVarified",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserProfile",
+                "printedName": "DomainModels.UserProfile",
+                "usr": "s:12DomainModels11UserProfileV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels11UserProfileV15previewVarifiedACvpZ",
+            "mangledName": "$s12DomainModels11UserProfileV15previewVarifiedACvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserProfile",
+                    "printedName": "DomainModels.UserProfile",
+                    "usr": "s:12DomainModels11UserProfileV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels11UserProfileV15previewVarifiedACvgZ",
+                "mangledName": "$s12DomainModels11UserProfileV15previewVarifiedACvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -24493,6 +24591,48 @@
       "offset": 7343,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Auth\/UserProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 621,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Auth\/UserProfile.swift",
+      "kind": "BooleanLiteral",
+      "offset": 641,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Auth\/UserProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
+      "length": 5,
+      "value": "\"0BK\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Auth\/UserProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 758,
+      "length": 12,
+      "value": "\"John Smith\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Auth\/UserProfile.swift",
+      "kind": "BooleanLiteral",
+      "offset": 796,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Auth\/UserProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 821,
+      "length": 5,
+      "value": "\"1BK\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",

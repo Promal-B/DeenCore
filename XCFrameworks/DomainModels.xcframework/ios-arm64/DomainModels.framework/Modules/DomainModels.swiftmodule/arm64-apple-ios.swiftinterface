@@ -81,6 +81,10 @@ public struct UserProfile : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+extension DomainModels.UserProfile {
+  public static let previewDefault: DomainModels.UserProfile
+  public static let previewVarified: DomainModels.UserProfile
+}
 public enum AppDesign : Swift.String, Swift.CaseIterable, Swift.Codable {
   case banners
   case wish
