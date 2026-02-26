@@ -240,6 +240,7 @@ extension DesignSystem.DSResources {
     case download
     case favorite
     case livePodcast
+    case avatar
     #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
     #endif

@@ -335,7 +335,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Tuple",
-                "printedName": "(list: [DomainModels.PatchList], pagination: DomainModels.PaginationV2?)",
+                "printedName": "(list: [DomainModels.PatchList], profile: DomainModels.UserProfile, pagination: DomainModels.PaginationV2?)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -350,6 +350,12 @@
                       }
                     ],
                     "usr": "s:Sa"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserProfile",
+                    "printedName": "DomainModels.UserProfile",
+                    "usr": "s:12DomainModels11UserProfileV"
                   },
                   {
                     "kind": "TypeNominal",
@@ -395,8 +401,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking16DashboardServiceP11loadContent7content4page5tokenSay12DomainModels9PatchListVG4list_AH12PaginationV2VSg10paginationtSi_SiSSSgtYaKF",
-            "mangledName": "$s10Networking16DashboardServiceP11loadContent7content4page5tokenSay12DomainModels9PatchListVG4list_AH12PaginationV2VSg10paginationtSi_SiSSSgtYaKF",
+            "usr": "s:10Networking16DashboardServiceP11loadContent7content4page5tokenSay12DomainModels9PatchListVG4list_AH11UserProfileV7profileAH12PaginationV2VSg10paginationtSi_SiSSSgtYaKF",
+            "mangledName": "$s10Networking16DashboardServiceP11loadContent7content4page5tokenSay12DomainModels9PatchListVG4list_AH11UserProfileV7profileAH12PaginationV2VSg10paginationtSi_SiSSSgtYaKF",
             "moduleName": "Networking",
             "genericSig": "<τ_0_0 where τ_0_0 : Networking.DashboardService>",
             "sugared_genericSig": "<Self where Self : Networking.DashboardService>",
@@ -2045,44 +2051,72 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/APIResponse.swift",
       "kind": "StringLiteral",
-      "offset": 426,
+      "offset": 460,
       "length": 9,
       "value": "\"Success\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/APIResponse.swift",
       "kind": "StringLiteral",
-      "offset": 459,
+      "offset": 493,
       "length": 9,
       "value": "\"Message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/APIResponse.swift",
       "kind": "StringLiteral",
-      "offset": 489,
+      "offset": 523,
       "length": 6,
       "value": "\"Data\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/APIResponse.swift",
       "kind": "StringLiteral",
-      "offset": 523,
+      "offset": 557,
       "length": 12,
       "value": "\"IsPrevious\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/APIResponse.swift",
       "kind": "StringLiteral",
-      "offset": 559,
+      "offset": 593,
       "length": 8,
       "value": "\"IsNext\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/APIResponse.swift",
       "kind": "StringLiteral",
-      "offset": 593,
+      "offset": 627,
       "length": 11,
       "value": "\"TotalPage\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/APIResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 663,
+      "length": 10,
+      "value": "\"Username\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/APIResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 704,
+      "length": 15,
+      "value": "\"isPeronalMenu\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/APIResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 745,
+      "length": 11,
+      "value": "\"isPremium\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/APIResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 783,
+      "length": 12,
+      "value": "\"ProfileUrl\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/MenuItemDTO.swift",

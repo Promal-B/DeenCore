@@ -7728,6 +7728,43 @@
                 "moduleName": "DesignSystem"
               },
               {
+                "kind": "Var",
+                "name": "avatar",
+                "printedName": "avatar",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DesignSystem.DSResources.DSImage.Type) -> DesignSystem.DSResources.DSImage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DSImage",
+                        "printedName": "DesignSystem.DSResources.DSImage",
+                        "usr": "s:12DesignSystem11DSResourcesO7DSImageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DesignSystem.DSResources.DSImage.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DSImage",
+                            "printedName": "DesignSystem.DSResources.DSImage",
+                            "usr": "s:12DesignSystem11DSResourcesO7DSImageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12DesignSystem11DSResourcesO7DSImageO6avataryA2EmF",
+                "mangledName": "$s12DesignSystem11DSResourcesO7DSImageO6avataryA2EmF",
+                "moduleName": "DesignSystem"
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(rawValue:)",
@@ -14929,6 +14966,13 @@
       "value": "\"core_live_podcast\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+DSImage.swift",
+      "kind": "StringLiteral",
+      "offset": 866,
+      "length": 13,
+      "value": "\"core_avatar\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+FMImage.swift",
       "kind": "StringLiteral",
       "offset": 496,
@@ -15491,350 +15535,357 @@
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1041,
+      "offset": 1037,
+      "length": 13,
+      "value": "\"core_avatar\""
+    },
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1185,
       "length": 15,
       "value": "\"core_chevBack\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1191,
+      "offset": 1335,
       "length": 15,
       "value": "\"core_download\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1341,
+      "offset": 1485,
       "length": 15,
       "value": "\"core_favorite\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1495,
+      "offset": 1639,
       "length": 17,
       "value": "\"core_gradientBG\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1654,
+      "offset": 1798,
       "length": 19,
       "value": "\"core_live_podcast\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1802,
+      "offset": 1946,
       "length": 12,
       "value": "\"core_share\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1943,
+      "offset": 2087,
       "length": 12,
       "value": "\"core_xmark\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2104,
+      "offset": 2248,
       "length": 23,
       "value": "\"deen_premium_popup_bg\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2267,
+      "offset": 2411,
       "length": 17,
       "value": "\"dhuhrBackground\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2422,
+      "offset": 2566,
       "length": 16,
       "value": "\"fajrBackground\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2576,
+      "offset": 2720,
       "length": 17,
       "value": "\"fm_Chevron-down\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2718,
+      "offset": 2862,
       "length": 10,
       "value": "\"fm_Users\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2861,
+      "offset": 3005,
       "length": 14,
       "value": "\"fm_checkmark\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2998,
+      "offset": 3142,
       "length": 9,
       "value": "\"fm_icon\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3137,
+      "offset": 3281,
       "length": 13,
       "value": "\"fm_link-out\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3286,
+      "offset": 3430,
       "length": 16,
       "value": "\"fm_location to\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3427,
+      "offset": 3571,
       "length": 10,
       "value": "\"fm_share\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3585,
+      "offset": 3729,
       "length": 21,
       "value": "\"forbiddenBackground\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3744,
+      "offset": 3888,
       "length": 16,
       "value": "\"ishaBackground\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3902,
+      "offset": 4046,
       "length": 18,
       "value": "\"magribBackground\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4047,
+      "offset": 4191,
       "length": 11,
       "value": "\"nnn_pause\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4183,
+      "offset": 4327,
       "length": 10,
       "value": "\"nnn_play\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4324,
+      "offset": 4468,
       "length": 13,
       "value": "\"nnn_refresh\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4466,
+      "offset": 4610,
       "length": 12,
       "value": "\"nnn_volume\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4601,
+      "offset": 4745,
       "length": 9,
       "value": "\"ql_Edit\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4769,
+      "offset": 4913,
       "length": 27,
       "value": "\"ql_QLQHomePatchBackground\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4949,
+      "offset": 5093,
       "length": 24,
       "value": "\"ql_QuranLearningQuizBG\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5100,
+      "offset": 5244,
       "length": 11,
       "value": "\"ql_Rating\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5234,
+      "offset": 5378,
       "length": 9,
       "value": "\"ql_Time\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5368,
+      "offset": 5512,
       "length": 10,
       "value": "\"ql_check\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5503,
+      "offset": 5647,
       "length": 10,
       "value": "\"ql_error\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5645,
+      "offset": 5789,
       "length": 14,
       "value": "\"ql_fire-fill\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5782,
+      "offset": 5926,
       "length": 9,
       "value": "\"ql_next\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5914,
+      "offset": 6058,
       "length": 9,
       "value": "\"ql_play\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6046,
+      "offset": 6190,
       "length": 9,
       "value": "\"ql_prev\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6180,
+      "offset": 6324,
       "length": 10,
       "value": "\"ql_quran\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6324,
+      "offset": 6468,
       "length": 15,
       "value": "\"ql_quran_quiz\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6462,
+      "offset": 6606,
       "length": 9,
       "value": "\"ql_star\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6612,
+      "offset": 6756,
       "length": 18,
       "value": "\"ql_stepsDisabled\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6769,
+      "offset": 6913,
       "length": 17,
       "value": "\"ql_stepsEnabled\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6942,
+      "offset": 7086,
       "length": 26,
       "value": "\"ramadan_share_background\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7112,
+      "offset": 7256,
       "length": 20,
       "value": "\"ramadan_share_icon\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7283,
+      "offset": 7427,
       "length": 24,
       "value": "\"ramadan_share_title_bn\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7458,
+      "offset": 7602,
       "length": 24,
       "value": "\"ramadan_share_title_en\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7619,
+      "offset": 7763,
       "length": 16,
       "value": "\"rhc_background\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7775,
+      "offset": 7919,
       "length": 18,
       "value": "\"rhc_checked_done\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7928,
+      "offset": 8072,
       "length": 15,
       "value": "\"rhc_checkmark\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8093,
+      "offset": 8237,
       "length": 23,
       "value": "\"rhc_notifications_off\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8264,
+      "offset": 8408,
       "length": 22,
       "value": "\"rhc_notifications_on\""
     },
     {
       "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/DeenCoreFramework-byhyiuywcjaykkfoukkqewnjwyaq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/DesignSystem\/IntermediateBuildFilesPath\/DeenCoreFramework.build\/Release-iphonesimulator\/DesignSystem.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8413,
+      "offset": 8557,
       "length": 11,
       "value": "\"rhc_share\""
     }

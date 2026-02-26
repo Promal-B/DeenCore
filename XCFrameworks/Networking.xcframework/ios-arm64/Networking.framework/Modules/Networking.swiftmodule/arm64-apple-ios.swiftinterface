@@ -18,7 +18,7 @@ public protocol ContentService {
 }
 public protocol DashboardService {
   #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func loadContent(content: Swift.Int, page: Swift.Int, token: Swift.String?) async throws -> (list: [DomainModels.PatchList], pagination: DomainModels.PaginationV2?)
+  nonisolated(nonsending) func loadContent(content: Swift.Int, page: Swift.Int, token: Swift.String?) async throws -> (list: [DomainModels.PatchList], profile: DomainModels.UserProfile, pagination: DomainModels.PaginationV2?)
   #endif
 }
 public protocol FMService {

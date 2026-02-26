@@ -70,6 +70,17 @@ public struct RefreshToken : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct UserProfile : Swift.Codable {
+  public let username: Swift.String
+  public let isPersonalMenu: Swift.Bool
+  public let isPremium: Swift.String
+  public let profileURl: Foundation.URL?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(username: Swift.String, isPersonalMenu: Swift.Bool, isPremium: Swift.String, profileURl: Foundation.URL?)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public enum AppDesign : Swift.String, Swift.CaseIterable, Swift.Codable {
   case banners
   case wish
