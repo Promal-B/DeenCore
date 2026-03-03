@@ -35,6 +35,30 @@ public protocol FMService {
   nonisolated(nonsending) func fetchMosqueDetail(id: Swift.Int) async throws -> DomainModels.MosqueDetails
   #endif
 }
+public struct PrayerTimeDataDTO : Swift.Codable {
+  public let date: Swift.String
+  public let islamicDate: Swift.String
+  public let banglaDate: Swift.String
+  public let day: Swift.Int
+  public let sehri: Swift.String
+  public let fajr: Swift.String
+  public let sunrise: Swift.String
+  public let noon: Swift.String
+  public let juhr: Swift.String
+  public let asr: Swift.String
+  public let sunset: Swift.String
+  public let iftar: Swift.String
+  public let magrib: Swift.String
+  public let isha: Swift.String
+  public let tahajjut: Swift.String
+  public let ishrak: Swift.String
+  public let wish: Swift.String
+  public let moment: Swift.String
+  public let waktTracker: [DomainModels.WaktStatus]
+  public init(date: Swift.String, islamicDate: Swift.String, banglaDate: Swift.String, day: Swift.Int, sehri: Swift.String, fajr: Swift.String, sunrise: Swift.String, noon: Swift.String, juhr: Swift.String, asr: Swift.String, sunset: Swift.String, iftar: Swift.String, magrib: Swift.String, isha: Swift.String, tahajjut: Swift.String, ishrak: Swift.String, wish: Swift.String, moment: Swift.String, waktTracker: [DomainModels.WaktStatus])
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public protocol PTService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func fetchPrayerTimeData(for date: Swift.String, location: Swift.String, language: Swift.String) async throws -> DomainModels.PrayerTimeData

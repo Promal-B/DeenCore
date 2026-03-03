@@ -17275,6 +17275,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "PrayerTimeData",
         "printedName": "PrayerTimeData",
@@ -18034,14 +18044,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12DomainModels14PrayerTimeDataV6momentSSvp",
-            "mangledName": "$s12DomainModels14PrayerTimeDataV6momentSSvp",
+            "usr": "s:12DomainModels14PrayerTimeDataV6moment10Foundation3URLVSgvp",
+            "mangledName": "$s12DomainModels14PrayerTimeDataV6moment10Foundation3URLVSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
@@ -18057,14 +18075,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels14PrayerTimeDataV6momentSSvg",
-                "mangledName": "$s12DomainModels14PrayerTimeDataV6momentSSvg",
+                "usr": "s:12DomainModels14PrayerTimeDataV6moment10Foundation3URLVSgvg",
+                "mangledName": "$s12DomainModels14PrayerTimeDataV6moment10Foundation3URLVSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -18246,9 +18272,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -18266,8 +18300,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12DomainModels14PrayerTimeDataV4date11islamicDate06banglaH03day5sehri4fajr7sunrise4noon4juhr3asr6sunset5iftar6magrib4isha8tahajjut6ishrak4wish6moment11waktTrackerACSS_S2SSiS14SSayAA10WaktStatusVGtcfc",
-            "mangledName": "$s12DomainModels14PrayerTimeDataV4date11islamicDate06banglaH03day5sehri4fajr7sunrise4noon4juhr3asr6sunset5iftar6magrib4isha8tahajjut6ishrak4wish6moment11waktTrackerACSS_S2SSiS14SSayAA10WaktStatusVGtcfc",
+            "usr": "s:12DomainModels14PrayerTimeDataV4date11islamicDate06banglaH03day5sehri4fajr7sunrise4noon4juhr3asr6sunset5iftar6magrib4isha8tahajjut6ishrak4wish6moment11waktTrackerACSS_S2SSiS13S10Foundation3URLVSgSayAA10WaktStatusVGtcfc",
+            "mangledName": "$s12DomainModels14PrayerTimeDataV4date11islamicDate06banglaH03day5sehri4fajr7sunrise4noon4juhr3asr6sunset5iftar6magrib4isha8tahajjut6ishrak4wish6moment11waktTrackerACSS_S2SSiS13S10Foundation3URLVSgSayAA10WaktStatusVGtcfc",
             "moduleName": "DomainModels",
             "declAttributes": [
               "AccessControl"
@@ -18324,6 +18358,55 @@
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "preview",
+            "printedName": "preview",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrayerTimeData",
+                "printedName": "DomainModels.PrayerTimeData",
+                "usr": "s:12DomainModels14PrayerTimeDataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels14PrayerTimeDataV7previewACvpZ",
+            "mangledName": "$s12DomainModels14PrayerTimeDataV7previewACvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PrayerTimeData",
+                    "printedName": "DomainModels.PrayerTimeData",
+                    "usr": "s:12DomainModels14PrayerTimeDataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels14PrayerTimeDataV7previewACvgZ",
+                "mangledName": "$s12DomainModels14PrayerTimeDataV7previewACvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -18331,8 +18414,7 @@
         "mangledName": "$s12DomainModels14PrayerTimeDataV",
         "moduleName": "DomainModels",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -29297,135 +29379,198 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
       "kind": "StringLiteral",
-      "offset": 762,
-      "length": 6,
-      "value": "\"Date\""
+      "offset": 1848,
+      "length": 21,
+      "value": "\"2026-03-03T00:00:00\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
       "kind": "StringLiteral",
-      "offset": 796,
-      "length": 13,
-      "value": "\"IslamicDate\""
+      "offset": 1892,
+      "length": 54,
+      "value": "\"১৩ রমজান, ১৪৪৭ হিজরী\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
       "kind": "StringLiteral",
-      "offset": 836,
-      "length": 12,
-      "value": "\"BanglaDate\""
+      "offset": 1968,
+      "length": 44,
+      "value": "\"১৮ ফাল্গুন, ১৪৩২\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2027,
+      "length": 2,
+      "value": "62"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
       "kind": "StringLiteral",
-      "offset": 868,
-      "length": 5,
-      "value": "\"Day\""
+      "offset": 2046,
+      "length": 10,
+      "value": "\"05:03:00\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
       "kind": "StringLiteral",
-      "offset": 895,
-      "length": 7,
-      "value": "\"Sehri\""
+      "offset": 2072,
+      "length": 10,
+      "value": "\"05:06:00\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
       "kind": "StringLiteral",
-      "offset": 923,
+      "offset": 2101,
+      "length": 10,
+      "value": "\"06:19:00\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 2127,
+      "length": 10,
+      "value": "\"12:11:00\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 2153,
+      "length": 10,
+      "value": "\"12:14:00\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 2178,
+      "length": 10,
+      "value": "\"16:23:00\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 2206,
+      "length": 10,
+      "value": "\"18:02:00\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 2233,
+      "length": 10,
+      "value": "\"18:04:00\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 2261,
+      "length": 10,
+      "value": "\"18:04:00\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 2287,
+      "length": 10,
+      "value": "\"19:19:00\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 2317,
+      "length": 10,
+      "value": "\"05:02:00\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 2345,
+      "length": 10,
+      "value": "\"06:32:00\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 2371,
+      "length": 84,
+      "value": "\"আসসালামু আলাইকুম, শুভ মধ্যাহ্ন\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 2485,
+      "length": 55,
+      "value": "\"https:\/\/cdn-icons-png.flaticon.com\/512\/483\/483947.png\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 2608,
       "length": 6,
       "value": "\"Fajr\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 953,
-      "length": 9,
-      "value": "\"Sunrise\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 983,
-      "length": 6,
-      "value": "\"Noon\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 1010,
-      "length": 6,
-      "value": "\"Juhr\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 1036,
+      "kind": "BooleanLiteral",
+      "offset": 2624,
       "length": 5,
-      "value": "\"Asr\""
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
       "kind": "StringLiteral",
-      "offset": 1064,
-      "length": 8,
-      "value": "\"Sunset\""
+      "offset": 2674,
+      "length": 6,
+      "value": "\"Zuhr\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2690,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
       "kind": "StringLiteral",
-      "offset": 1094,
-      "length": 7,
-      "value": "\"Iftar\""
+      "offset": 2740,
+      "length": 6,
+      "value": "\"Asar\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2756,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
       "kind": "StringLiteral",
-      "offset": 1124,
-      "length": 8,
-      "value": "\"Magrib\""
+      "offset": 2806,
+      "length": 9,
+      "value": "\"Maghrib\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2825,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
       "kind": "StringLiteral",
-      "offset": 1153,
+      "offset": 2875,
       "length": 6,
       "value": "\"Isha\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 1184,
-      "length": 10,
-      "value": "\"Tahajjut\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 1217,
-      "length": 8,
-      "value": "\"Ishrak\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 1246,
-      "length": 6,
-      "value": "\"wish\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 1275,
-      "length": 8,
-      "value": "\"moment\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 1311,
-      "length": 13,
-      "value": "\"WaktTracker\""
+      "kind": "BooleanLiteral",
+      "offset": 2891,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/WaktStatus.swift",

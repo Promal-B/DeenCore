@@ -772,6 +772,1123 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "PrayerTimeDataDTO",
+        "printedName": "PrayerTimeDataDTO",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "date",
+            "printedName": "date",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV4dateSSvp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV4dateSSvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV4dateSSvg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV4dateSSvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "islamicDate",
+            "printedName": "islamicDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV11islamicDateSSvp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV11islamicDateSSvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV11islamicDateSSvg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV11islamicDateSSvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "banglaDate",
+            "printedName": "banglaDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV10banglaDateSSvp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV10banglaDateSSvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV10banglaDateSSvg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV10banglaDateSSvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "day",
+            "printedName": "day",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV3daySivp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV3daySivp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV3daySivg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV3daySivg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sehri",
+            "printedName": "sehri",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV5sehriSSvp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV5sehriSSvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV5sehriSSvg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV5sehriSSvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fajr",
+            "printedName": "fajr",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV4fajrSSvp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV4fajrSSvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV4fajrSSvg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV4fajrSSvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sunrise",
+            "printedName": "sunrise",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV7sunriseSSvp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV7sunriseSSvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV7sunriseSSvg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV7sunriseSSvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "noon",
+            "printedName": "noon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV4noonSSvp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV4noonSSvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV4noonSSvg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV4noonSSvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "juhr",
+            "printedName": "juhr",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV4juhrSSvp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV4juhrSSvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV4juhrSSvg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV4juhrSSvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "asr",
+            "printedName": "asr",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV3asrSSvp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV3asrSSvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV3asrSSvg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV3asrSSvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sunset",
+            "printedName": "sunset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV6sunsetSSvp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV6sunsetSSvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV6sunsetSSvg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV6sunsetSSvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "iftar",
+            "printedName": "iftar",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV5iftarSSvp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV5iftarSSvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV5iftarSSvg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV5iftarSSvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "magrib",
+            "printedName": "magrib",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV6magribSSvp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV6magribSSvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV6magribSSvg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV6magribSSvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isha",
+            "printedName": "isha",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV4ishaSSvp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV4ishaSSvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV4ishaSSvg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV4ishaSSvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tahajjut",
+            "printedName": "tahajjut",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV8tahajjutSSvp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV8tahajjutSSvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV8tahajjutSSvg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV8tahajjutSSvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ishrak",
+            "printedName": "ishrak",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV6ishrakSSvp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV6ishrakSSvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV6ishrakSSvg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV6ishrakSSvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "wish",
+            "printedName": "wish",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV4wishSSvp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV4wishSSvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV4wishSSvg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV4wishSSvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "moment",
+            "printedName": "moment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV6momentSSvp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV6momentSSvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV6momentSSvg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV6momentSSvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "waktTracker",
+            "printedName": "waktTracker",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.WaktStatus]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WaktStatus",
+                    "printedName": "DomainModels.WaktStatus",
+                    "usr": "s:12DomainModels10WaktStatusV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking17PrayerTimeDataDTOV11waktTrackerSay12DomainModels10WaktStatusVGvp",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV11waktTrackerSay12DomainModels10WaktStatusVGvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DomainModels.WaktStatus]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WaktStatus",
+                        "printedName": "DomainModels.WaktStatus",
+                        "usr": "s:12DomainModels10WaktStatusV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking17PrayerTimeDataDTOV11waktTrackerSay12DomainModels10WaktStatusVGvg",
+                "mangledName": "$s10Networking17PrayerTimeDataDTOV11waktTrackerSay12DomainModels10WaktStatusVGvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(date:islamicDate:banglaDate:day:sehri:fajr:sunrise:noon:juhr:asr:sunset:iftar:magrib:isha:tahajjut:ishrak:wish:moment:waktTracker:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrayerTimeDataDTO",
+                "printedName": "Networking.PrayerTimeDataDTO",
+                "usr": "s:10Networking17PrayerTimeDataDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.WaktStatus]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WaktStatus",
+                    "printedName": "DomainModels.WaktStatus",
+                    "usr": "s:12DomainModels10WaktStatusV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10Networking17PrayerTimeDataDTOV4date11islamicDate06banglaH03day5sehri4fajr7sunrise4noon4juhr3asr6sunset5iftar6magrib4isha8tahajjut6ishrak4wish6moment11waktTrackerACSS_S2SSiS14SSay12DomainModels10WaktStatusVGtcfc",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV4date11islamicDate06banglaH03day5sehri4fajr7sunrise4noon4juhr3asr6sunset5iftar6magrib4isha8tahajjut6ishrak4wish6moment11waktTrackerACSS_S2SSiS14SSay12DomainModels10WaktStatusVGtcfc",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrayerTimeDataDTO",
+                "printedName": "Networking.PrayerTimeDataDTO",
+                "usr": "s:10Networking17PrayerTimeDataDTOV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10Networking17PrayerTimeDataDTOV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Networking",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking17PrayerTimeDataDTOV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10Networking17PrayerTimeDataDTOV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Networking",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Networking17PrayerTimeDataDTOV",
+        "mangledName": "$s10Networking17PrayerTimeDataDTOV",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -3403,6 +4520,139 @@
       "offset": 956,
       "length": 10,
       "value": "\"imageurl\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 786,
+      "length": 6,
+      "value": "\"Date\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 820,
+      "length": 13,
+      "value": "\"IslamicDate\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 860,
+      "length": 12,
+      "value": "\"BanglaDate\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 892,
+      "length": 5,
+      "value": "\"Day\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 919,
+      "length": 7,
+      "value": "\"Sehri\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 947,
+      "length": 6,
+      "value": "\"Fajr\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 977,
+      "length": 9,
+      "value": "\"Sunrise\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1007,
+      "length": 6,
+      "value": "\"Noon\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1034,
+      "length": 6,
+      "value": "\"Juhr\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1060,
+      "length": 5,
+      "value": "\"Asr\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1088,
+      "length": 8,
+      "value": "\"Sunset\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1118,
+      "length": 7,
+      "value": "\"Iftar\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1148,
+      "length": 8,
+      "value": "\"Magrib\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1177,
+      "length": 6,
+      "value": "\"Isha\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1208,
+      "length": 10,
+      "value": "\"Tahajjut\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1241,
+      "length": 8,
+      "value": "\"Ishrak\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1270,
+      "length": 6,
+      "value": "\"wish\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1299,
+      "length": 8,
+      "value": "\"moment\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1335,
+      "length": 13,
+      "value": "\"WaktTracker\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/PTNetworkService.swift",

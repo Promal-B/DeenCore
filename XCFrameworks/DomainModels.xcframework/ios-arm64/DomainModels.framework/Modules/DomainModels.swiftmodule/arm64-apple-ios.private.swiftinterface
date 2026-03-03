@@ -515,11 +515,16 @@ public struct PrayerTimeData : Swift.Codable {
   public let tahajjut: Swift.String
   public let ishrak: Swift.String
   public let wish: Swift.String
-  public let moment: Swift.String
+  public let moment: Foundation.URL?
   public let waktTracker: [DomainModels.WaktStatus]
-  public init(date: Swift.String, islamicDate: Swift.String, banglaDate: Swift.String, day: Swift.Int, sehri: Swift.String, fajr: Swift.String, sunrise: Swift.String, noon: Swift.String, juhr: Swift.String, asr: Swift.String, sunset: Swift.String, iftar: Swift.String, magrib: Swift.String, isha: Swift.String, tahajjut: Swift.String, ishrak: Swift.String, wish: Swift.String, moment: Swift.String, waktTracker: [DomainModels.WaktStatus])
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(date: Swift.String, islamicDate: Swift.String, banglaDate: Swift.String, day: Swift.Int, sehri: Swift.String, fajr: Swift.String, sunrise: Swift.String, noon: Swift.String, juhr: Swift.String, asr: Swift.String, sunset: Swift.String, iftar: Swift.String, magrib: Swift.String, isha: Swift.String, tahajjut: Swift.String, ishrak: Swift.String, wish: Swift.String, moment: Foundation.URL?, waktTracker: [DomainModels.WaktStatus])
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+extension DomainModels.PrayerTimeData {
+  public static let preview: DomainModels.PrayerTimeData
 }
 public struct WaktStatus : Swift.Codable {
   public let wakt: Swift.String
