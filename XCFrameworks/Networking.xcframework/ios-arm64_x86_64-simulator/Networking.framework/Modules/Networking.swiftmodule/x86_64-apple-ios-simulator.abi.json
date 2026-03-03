@@ -6,6 +6,16 @@
     "children": [
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "DomainModels",
         "printedName": "DomainModels",
         "declKind": "Import",
@@ -753,16 +763,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Networking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "DomainModels",
         "printedName": "DomainModels",
         "declKind": "Import",
@@ -800,22 +800,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Tuple",
-                "printedName": "(sehri: Swift.String, iftar: Swift.String)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
+                "name": "PrayerTimeData",
+                "printedName": "DomainModels.PrayerTimeData",
+                "usr": "s:12DomainModels14PrayerTimeDataV"
               },
               {
                 "kind": "TypeNominal",
@@ -837,8 +824,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking9PTServiceP20fetchSeheriIfterTime3for8location8languageSS5sehri_SS5iftartSS_S2StYaKF",
-            "mangledName": "$s10Networking9PTServiceP20fetchSeheriIfterTime3for8location8languageSS5sehri_SS5iftartSS_S2StYaKF",
+            "usr": "s:10Networking9PTServiceP20fetchSeheriIfterTime3for8location8language12DomainModels06PrayerF4DataVSS_S2StYaKF",
+            "mangledName": "$s10Networking9PTServiceP20fetchSeheriIfterTime3for8location8language12DomainModels06PrayerF4DataVSS_S2StYaKF",
             "moduleName": "Networking",
             "genericSig": "<τ_0_0 where τ_0_0 : Networking.PTService>",
             "sugared_genericSig": "<Self where Self : Networking.PTService>",
@@ -2032,16 +2019,6 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "Networking",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -3426,153 +3403,6 @@
       "offset": 956,
       "length": 10,
       "value": "\"imageurl\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 670,
-      "length": 6,
-      "value": "\"Date\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 704,
-      "length": 13,
-      "value": "\"IslamicDate\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 744,
-      "length": 12,
-      "value": "\"BanglaDate\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 776,
-      "length": 5,
-      "value": "\"Day\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 803,
-      "length": 7,
-      "value": "\"Sehri\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 831,
-      "length": 6,
-      "value": "\"Fajr\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 861,
-      "length": 9,
-      "value": "\"Sunrise\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 891,
-      "length": 6,
-      "value": "\"Noon\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 918,
-      "length": 6,
-      "value": "\"Juhr\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 944,
-      "length": 5,
-      "value": "\"Asr\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 972,
-      "length": 8,
-      "value": "\"Sunset\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 1002,
-      "length": 7,
-      "value": "\"Iftar\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 1032,
-      "length": 8,
-      "value": "\"Magrib\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 1061,
-      "length": 6,
-      "value": "\"Isha\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 1092,
-      "length": 10,
-      "value": "\"Tahajjut\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 1125,
-      "length": 8,
-      "value": "\"Ishrak\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 1154,
-      "length": 6,
-      "value": "\"wish\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 1183,
-      "length": 8,
-      "value": "\"moment\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 1219,
-      "length": 13,
-      "value": "\"WaktTracker\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 1399,
-      "length": 6,
-      "value": "\"Wakt\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeData.swift",
-      "kind": "StringLiteral",
-      "offset": 1428,
-      "length": 8,
-      "value": "\"status\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/PTNetworkService.swift",

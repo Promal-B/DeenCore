@@ -37,7 +37,7 @@ public protocol FMService {
 }
 public protocol PTService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func fetchSeheriIfterTime(for date: Swift.String, location: Swift.String, language: Swift.String) async throws -> (sehri: Swift.String, iftar: Swift.String)
+  nonisolated(nonsending) func fetchSeheriIfterTime(for date: Swift.String, location: Swift.String, language: Swift.String) async throws -> DomainModels.PrayerTimeData
   #endif
 }
 public protocol QLService {
