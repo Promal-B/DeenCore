@@ -10,11 +10,11 @@
 		</data>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		bRQpQAVzBbYMiBN1RhZTzQCxnGU=
+		wxXC/dTEYHSkvhI1rd//5tTAcII=
 		</data>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hbYLEz46YZtMDby71s9owan84yw=
+		gPTQv1+ALZbNzaaz6XMd74aE/Pc=
 		</data>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hbYLEz46YZtMDby71s9owan84yw=
+		gPTQv1+ALZbNzaaz6XMd74aE/Pc=
 		</data>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VO82zrZ021BsMPLNNNpF+bgUMVI=
+		zxKrEgt1NIA3FD8iKwWI/g5L3OQ=
 		</data>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bRQpQAVzBbYMiBN1RhZTzQCxnGU=
+		wxXC/dTEYHSkvhI1rd//5tTAcII=
 		</data>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		dL2dPZruURcGgkHWfu1o1g1kLj4=
+		+aB5eIoiixVR1g66GPJlvnFaqY4=
 		</data>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dL2dPZruURcGgkHWfu1o1g1kLj4=
+		+aB5eIoiixVR1g66GPJlvnFaqY4=
 		</data>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		I30usFgfmnmpwYZd+ZzUVRccqhk=
+		sqb3/k3XQ48+KPAJw8m4stdf7Ro=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,14 +55,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			23FQrDnEqAGYcCermoQp2qwI95CguMMYiS/yurZXju0=
+			UiIPMAlGs0gbKdKVQhBfsdkVGlbSyayqZLQFRo176Rc=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1w4fa5RiMjhWxqwiXGQsCkIvwaB/NWfN9z3Z3zRrRyw=
+			bbnfoHynxqaaXbTBk0JumFwPHRooByrIjJGPkxHcLAM=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -76,28 +76,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1w4fa5RiMjhWxqwiXGQsCkIvwaB/NWfN9z3Z3zRrRyw=
+			bbnfoHynxqaaXbTBk0JumFwPHRooByrIjJGPkxHcLAM=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Mz6dzV/6gSbEf2LGYYRI46FFAirqM7T8vGF1yRy6Jc=
+			Lv5FownIbPMvJM3jsmDreO1Kok3V1mWBtvH0AO423xY=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			23FQrDnEqAGYcCermoQp2qwI95CguMMYiS/yurZXju0=
+			UiIPMAlGs0gbKdKVQhBfsdkVGlbSyayqZLQFRo176Rc=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aPKUrMXPD8Td6O43dc2d18SseLU/IqDDNSljZeiMZKI=
+			YfMrA5n6hIPRTJQ6CT2lVM/vLuUS8BlGiE+4TQxCyoI=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -111,14 +111,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aPKUrMXPD8Td6O43dc2d18SseLU/IqDDNSljZeiMZKI=
+			YfMrA5n6hIPRTJQ6CT2lVM/vLuUS8BlGiE+4TQxCyoI=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tzONZyHuJbmw4tE5R8aLsAI+zfVyOeb7omLPRNU7zp8=
+			dzhrIfQ5jSEvkZ0FPjkdDtKLypOaz10hWmG9J2481ks=
 			</data>
 		</dict>
 	</dict>

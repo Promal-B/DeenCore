@@ -10,6 +10,9 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+extension Swift.String {
+  public func to12HourFormat() -> Swift.String
+}
 
 public protocol ContentService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes

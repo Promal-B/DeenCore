@@ -1289,7 +1289,7 @@
           {
             "kind": "Function",
             "name": "localizeDate",
-            "printedName": "localizeDate(_:locale:format:amSymbol:pmSymbol:)",
+            "printedName": "localizeDate(_:locale:format:amSymbol:pmSymbol:identifier:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1347,11 +1347,18 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Identifier",
+                "printedName": "Foundation.Calendar.Identifier",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation8CalendarV10IdentifierO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8Services9UtilitiesC12localizeDate_6locale6format8amSymbol02pmH0SS10Foundation0D0V_S3SSgALtF",
-            "mangledName": "$s8Services9UtilitiesC12localizeDate_6locale6format8amSymbol02pmH0SS10Foundation0D0V_S3SSgALtF",
+            "usr": "s:8Services9UtilitiesC12localizeDate_6locale6format8amSymbol02pmH010identifierSS10Foundation0D0V_S3SSgAmJ8CalendarV10IdentifierOtF",
+            "mangledName": "$s8Services9UtilitiesC12localizeDate_6locale6format8amSymbol02pmH010identifierSS10Foundation0D0V_S3SSgAmJ8CalendarV10IdentifierOtF",
             "moduleName": "Services",
             "declAttributes": [
               "Final",

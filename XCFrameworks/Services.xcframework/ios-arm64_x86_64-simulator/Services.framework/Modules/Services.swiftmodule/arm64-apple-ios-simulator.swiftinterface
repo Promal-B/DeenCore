@@ -84,7 +84,7 @@ import _SwiftConcurrencyShims
 }
 extension Services.Utilities {
   #if compiler(>=5.3) && $NonescapableTypes
-  final public func localizeDate(_ date: Foundation.Date = Date(), locale: Swift.String = "en-US", format: Swift.String = "EEEE, d MMMM yyyy", amSymbol: Swift.String? = nil, pmSymbol: Swift.String? = nil) -> Swift.String
+  final public func localizeDate(_ date: Foundation.Date = Date(), locale: Swift.String = "en-US", format: Swift.String = "EEEE, d MMMM yyyy", amSymbol: Swift.String? = nil, pmSymbol: Swift.String? = nil, identifier: Foundation.Calendar.Identifier = .gregorian) -> Swift.String
   #endif
 }
 extension Services.Utilities {
