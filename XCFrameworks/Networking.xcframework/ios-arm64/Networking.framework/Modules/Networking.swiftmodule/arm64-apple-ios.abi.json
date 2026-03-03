@@ -795,8 +795,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "fetchSeheriIfterTime",
-            "printedName": "fetchSeheriIfterTime(for:location:language:)",
+            "name": "fetchPrayerTimeData",
+            "printedName": "fetchPrayerTimeData(for:location:language:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -824,8 +824,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking9PTServiceP20fetchSeheriIfterTime3for8location8language12DomainModels06PrayerF4DataVSS_S2StYaKF",
-            "mangledName": "$s10Networking9PTServiceP20fetchSeheriIfterTime3for8location8language12DomainModels06PrayerF4DataVSS_S2StYaKF",
+            "usr": "s:10Networking9PTServiceP19fetchPrayerTimeData3for8location8language12DomainModels0deF0VSS_S2StYaKF",
+            "mangledName": "$s10Networking9PTServiceP19fetchPrayerTimeData3for8location8language12DomainModels0deF0VSS_S2StYaKF",
             "moduleName": "Networking",
             "genericSig": "<τ_0_0 where τ_0_0 : Networking.PTService>",
             "sugared_genericSig": "<Self where Self : Networking.PTService>",
@@ -3407,7 +3407,7 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/PTNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 788,
+      "offset": 787,
       "length": 4,
       "value": "\"bn\""
     },
