@@ -30,6 +30,11 @@ extension DesignSystem.Colors {
     public let contentPrimary: SwiftUICore.Color
     public init()
   }
+  public struct Gradient {
+    public let deenAILeft: SwiftUICore.Color
+    public let deenAIRight: SwiftUICore.Color
+    public init()
+  }
   public struct Background {
     public let `default`: SwiftUICore.Color
     public let secondary: SwiftUICore.Color

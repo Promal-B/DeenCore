@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		+pwj8kOBQWBlA972TTcycc0ihzY=
+		sF+TWEDyzFwb5OVwS/wnYFfm+VQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		sGS4GOxIVzRpMA0pOQNC+/Y8IsQ=
+		BmO2uUa3/aOmNQU4lVoiN+S/R1E=
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Sp3sXCIC0iVDYSKEYDFS7VyRNB8=
+		bvRlnAqcI+NK/FcAo4BFEPsEsvs=
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Sp3sXCIC0iVDYSKEYDFS7VyRNB8=
+		bvRlnAqcI+NK/FcAo4BFEPsEsvs=
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		N8Rd0vqTYZHQT8os35XyRBI4VUU=
+		7WC0YIWn9tmgRDJr8XHnfrfiglc=
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		sGS4GOxIVzRpMA0pOQNC+/Y8IsQ=
+		BmO2uUa3/aOmNQU4lVoiN+S/R1E=
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gbK1MsVt/rzItEpVcIrGInMMzEo=
+		HUxmLiUkV4WeC5W/x/topsUOLfc=
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gbK1MsVt/rzItEpVcIrGInMMzEo=
+		HUxmLiUkV4WeC5W/x/topsUOLfc=
 		</data>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CrSfwqAPkc624DHuUJCA9noMc7g=
+		MdQFZL7nEbjs7CcWM4TemC+GUS4=
 		</data>
 		<key>NotoSerifBengali-VariableFont_wdth,wght.ttf</key>
 		<data>
@@ -126,7 +126,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bsEk9j2r2V+pSbp+bgkOpHMzk1xC9HsPTZ2+A37IWMY=
+			r4hETc+bpF3IVZPGbPz6kxkwfYQZRnHNBYLqc95CC5k=
 			</data>
 		</dict>
 		<key>Inter-Italic-VariableFont_opsz,wght.ttf</key>
@@ -147,14 +147,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RjXaY+caCSZSEBc0It8KaP+DiK97qCbTDuUInE9OH0o=
+			tauSSG4iYT8DaulpOzfkaaR5aYnO+UWchIdL7oLhgYI=
 			</data>
 		</dict>
 		<key>Modules/DesignSystem.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0GfgMYpHZ36C6hUIuN38DCwK/l92ZVbg+K42wknbYGk=
+			2vSioEU4+HNO4Dl1nhc6jjcNzr0DHujJF39keZO3kZc=
 			</data>
 		</dict>
 		<key>Modules/DesignSystem.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -168,28 +168,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0GfgMYpHZ36C6hUIuN38DCwK/l92ZVbg+K42wknbYGk=
+			2vSioEU4+HNO4Dl1nhc6jjcNzr0DHujJF39keZO3kZc=
 			</data>
 		</dict>
 		<key>Modules/DesignSystem.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nCDvRAbXqvuFZ6MkiKt10/PYakhxD017gqHoPLVgyyE=
+			pR7iMVVUpz2vy04KXptj8WCFQb9TpnGzfGy/bSob6tk=
 			</data>
 		</dict>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RjXaY+caCSZSEBc0It8KaP+DiK97qCbTDuUInE9OH0o=
+			tauSSG4iYT8DaulpOzfkaaR5aYnO+UWchIdL7oLhgYI=
 			</data>
 		</dict>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AypayKpHpUR510jK8knIWylHjTQ8Tjvy7QVBA7XR/M0=
+			tGkMm+/7ttMyHAAW72D6X5HG2gbwgTvS1WznqP/Q7t0=
 			</data>
 		</dict>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -203,14 +203,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AypayKpHpUR510jK8knIWylHjTQ8Tjvy7QVBA7XR/M0=
+			tGkMm+/7ttMyHAAW72D6X5HG2gbwgTvS1WznqP/Q7t0=
 			</data>
 		</dict>
 		<key>Modules/DesignSystem.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gqjFetn7BbZSHBMCBlNtoye4myKppzb5FVvlixx3tkQ=
+			TmfHMaGaIPH36Vis2lwVBA/VImE3ZWOC9VuzNz0Ja0Q=
 			</data>
 		</dict>
 		<key>NotoSerifBengali-VariableFont_wdth,wght.ttf</key>
