@@ -24,6 +24,7 @@ extension DesignSystem.Colors {
   public struct Base {
     public let black: SwiftUICore.Color
     public let white: SwiftUICore.Color
+    public let grayscale: SwiftUICore.Color
     public let primary: SwiftUICore.Color
     public let secondary: SwiftUICore.Color
     public let contentPrimary: SwiftUICore.Color

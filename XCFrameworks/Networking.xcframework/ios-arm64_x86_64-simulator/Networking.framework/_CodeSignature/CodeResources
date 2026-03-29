@@ -6,7 +6,7 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		6TwM5TQNvSoG0KFLGOeJ4EFhGHM=
+		5NFqYFqZzkboxhf33NGwGpPC5iA=
 		</data>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/Networking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wz3UbYbTuiNXXXmYZDNNLf+3HeQ=
+		X7bmFbJveidQqtCzXH8pA5i2NWQ=
 		</data>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LYDXofqlhvaxsoOy8MNolzn2J4w=
+		BvF7tNMhktsk/Fq+sxkW3Me98sA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g50qZckVaElKVFJO+BlhWB4wZKkDylctOrzoTn2vR5U=
+			e6d4tQT7YCQp7o4XfC55/akvjGM5TzDL1irX1guqj1w=
 			</data>
 		</dict>
 		<key>Modules/Networking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vBV1NOzkMx5fJoKVZ4YKUo9rPGQkE/SSQfb3CJbW25g=
+			8EbVNs2SmopJdQHxl0MPtvEWTpprkU/4yDBQHX+uJ0Y=
 			</data>
 		</dict>
 	</dict>
