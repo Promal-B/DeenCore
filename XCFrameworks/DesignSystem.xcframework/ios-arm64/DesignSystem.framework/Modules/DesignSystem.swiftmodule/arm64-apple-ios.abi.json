@@ -12296,6 +12296,50 @@
               },
               {
                 "kind": "Var",
+                "name": "gradient",
+                "printedName": "gradient",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Gradient",
+                    "printedName": "DesignSystem.Colors.Gradient",
+                    "usr": "s:12DesignSystem6ColorsO8GradientV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem5ThemeO13ConfigurationV8gradientAA6ColorsO8GradientVvp",
+                "mangledName": "$s12DesignSystem5ThemeO13ConfigurationV8gradientAA6ColorsO8GradientVvp",
+                "moduleName": "DesignSystem",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Gradient",
+                        "printedName": "DesignSystem.Colors.Gradient",
+                        "usr": "s:12DesignSystem6ColorsO8GradientV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem5ThemeO13ConfigurationV8gradientAA6ColorsO8GradientVvg",
+                    "mangledName": "$s12DesignSystem5ThemeO13ConfigurationV8gradientAA6ColorsO8GradientVvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "text",
                 "printedName": "text",
                 "children": [
@@ -12781,7 +12825,7 @@
               {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(base:background:text:border:icon:action:brand:brandSecondary:uiColor:radiusSize:borderSize:iconSize:spaceSize:)",
+                "printedName": "init(base:background:gradient:text:border:icon:action:brand:brandSecondary:uiColor:radiusSize:borderSize:iconSize:spaceSize:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -12802,6 +12846,13 @@
                     "printedName": "DesignSystem.Colors.Background",
                     "hasDefaultArg": true,
                     "usr": "s:12DesignSystem6ColorsO10BackgroundV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Gradient",
+                    "printedName": "DesignSystem.Colors.Gradient",
+                    "hasDefaultArg": true,
+                    "usr": "s:12DesignSystem6ColorsO8GradientV"
                   },
                   {
                     "kind": "TypeNominal",
@@ -12882,8 +12933,8 @@
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:12DesignSystem5ThemeO13ConfigurationV4base10background4text6border4icon6action5brand0K9Secondary7uiColor10radiusSize0hP00iP005spaceP0AeA6ColorsO4BaseV_AT10BackgroundVAT4TextVAT6BorderVAT4IconVAT6ActionVAT5BrandVAT0yL0VAT8UIColorsVAA5SizesO6RadiusVA12_A_VA12_A1_VA12_5SpaceVtcfc",
-                "mangledName": "$s12DesignSystem5ThemeO13ConfigurationV4base10background4text6border4icon6action5brand0K9Secondary7uiColor10radiusSize0hP00iP005spaceP0AeA6ColorsO4BaseV_AT10BackgroundVAT4TextVAT6BorderVAT4IconVAT6ActionVAT5BrandVAT0yL0VAT8UIColorsVAA5SizesO6RadiusVA12_A_VA12_A1_VA12_5SpaceVtcfc",
+                "usr": "s:12DesignSystem5ThemeO13ConfigurationV4base10background8gradient4text6border4icon6action5brand0L9Secondary7uiColor10radiusSize0iQ00jQ005spaceQ0AeA6ColorsO4BaseV_AU10BackgroundVAU8GradientVAU4TextVAU6BorderVAU4IconVAU6ActionVAU5BrandVAU05BrandM0VAU8UIColorsVAA5SizesO6RadiusVA15_A2_VA15_A4_VA15_5SpaceVtcfc",
+                "mangledName": "$s12DesignSystem5ThemeO13ConfigurationV4base10background8gradient4text6border4icon6action5brand0L9Secondary7uiColor10radiusSize0iQ00jQ005spaceQ0AeA6ColorsO4BaseV_AU10BackgroundVAU8GradientVAU4TextVAU6BorderVAU4IconVAU6ActionVAU5BrandVAU05BrandM0VAU8UIColorsVAA5SizesO6RadiusVA15_A2_VA15_A4_VA15_5SpaceVtcfc",
                 "moduleName": "DesignSystem",
                 "declAttributes": [
                   "AccessControl"
