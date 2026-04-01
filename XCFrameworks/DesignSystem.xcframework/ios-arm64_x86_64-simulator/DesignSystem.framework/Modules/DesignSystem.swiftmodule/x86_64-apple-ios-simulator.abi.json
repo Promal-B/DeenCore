@@ -1139,6 +1139,51 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "vector",
+                "printedName": "vector",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12DesignSystem6ColorsO10BackgroundV6vector7SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO10BackgroundV6vector7SwiftUI5ColorVvp",
+                "moduleName": "DesignSystem",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12DesignSystem6ColorsO10BackgroundV6vector7SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO10BackgroundV6vector7SwiftUI5ColorVvg",
+                    "moduleName": "DesignSystem",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init()",
@@ -14100,343 +14145,357 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 1834,
+      "offset": 1774,
+      "length": 9,
+      "value": "\"#DDEDED\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1785,
+      "length": 9,
+      "value": "\"#2F4F4F\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 1890,
       "length": 9,
       "value": "\"#141414\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 1845,
+      "offset": 1901,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 1893,
+      "offset": 1949,
       "length": 9,
       "value": "\"#5D5D5D\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 1904,
+      "offset": 1960,
       "length": 11,
       "value": "\"#B3FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 1953,
+      "offset": 2009,
       "length": 9,
       "value": "\"#D1D1D1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 1964,
+      "offset": 2020,
       "length": 11,
       "value": "\"#4DFFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2010,
+      "offset": 2066,
       "length": 9,
       "value": "\"#D2F5F1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2021,
+      "offset": 2077,
       "length": 9,
       "value": "\"#1A4647\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2128,
+      "offset": 2184,
       "length": 9,
       "value": "\"#E7E7E7\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2139,
+      "offset": 2195,
       "length": 9,
       "value": "\"#4F4F4F\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2187,
+      "offset": 2243,
       "length": 9,
       "value": "\"#D1D1D1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2198,
+      "offset": 2254,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2303,
+      "offset": 2359,
       "length": 9,
       "value": "\"#141414\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2314,
+      "offset": 2370,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2362,
+      "offset": 2418,
       "length": 9,
       "value": "\"#6D6D6D\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2373,
+      "offset": 2429,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2420,
+      "offset": 2476,
       "length": 9,
       "value": "\"#888888\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2431,
+      "offset": 2487,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2542,
+      "offset": 2598,
       "length": 9,
       "value": "\"#2FB68E\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2593,
+      "offset": 2649,
       "length": 9,
       "value": "\"#FF9A1F\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2642,
+      "offset": 2698,
       "length": 9,
       "value": "\"#FF2323\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2754,
+      "offset": 2810,
       "length": 9,
       "value": "\"#EBCA28\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2805,
+      "offset": 2861,
       "length": 9,
       "value": "\"#C9FC5A\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2856,
+      "offset": 2912,
       "length": 9,
       "value": "\"#3BCCD5\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2907,
+      "offset": 2963,
       "length": 9,
       "value": "\"#79E2E7\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 2958,
+      "offset": 3014,
       "length": 9,
       "value": "\"#ABEEF6\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3009,
+      "offset": 3065,
       "length": 9,
       "value": "\"#4BBC97\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3060,
+      "offset": 3116,
       "length": 9,
       "value": "\"#73B578\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3111,
+      "offset": 3167,
       "length": 9,
       "value": "\"#71D7B7\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3162,
+      "offset": 3218,
       "length": 9,
       "value": "\"#A6E9D2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3214,
+      "offset": 3270,
       "length": 9,
       "value": "\"#A08CF9\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3266,
+      "offset": 3322,
       "length": 9,
       "value": "\"#DF83EF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3318,
+      "offset": 3374,
       "length": 9,
       "value": "\"#C49ED4\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3370,
+      "offset": 3426,
       "length": 9,
       "value": "\"#50A4FF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3422,
+      "offset": 3478,
       "length": 9,
       "value": "\"#FAA282\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3479,
+      "offset": 3535,
       "length": 9,
       "value": "\"#EBCA28\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3502,
+      "offset": 3558,
       "length": 9,
       "value": "\"#C9FC5A\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3525,
+      "offset": 3581,
       "length": 9,
       "value": "\"#3BCCD5\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3548,
+      "offset": 3604,
       "length": 9,
       "value": "\"#79E2E7\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3571,
+      "offset": 3627,
       "length": 9,
       "value": "\"#ABEEF6\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3606,
+      "offset": 3662,
       "length": 9,
       "value": "\"#4BBC97\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3629,
+      "offset": 3685,
       "length": 9,
       "value": "\"#73B578\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3652,
+      "offset": 3708,
       "length": 9,
       "value": "\"#71D7B7\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3675,
+      "offset": 3731,
       "length": 9,
       "value": "\"#A6E9D2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3698,
+      "offset": 3754,
       "length": 9,
       "value": "\"#A08CF9\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3733,
+      "offset": 3789,
       "length": 9,
       "value": "\"#DF83EF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3756,
+      "offset": 3812,
       "length": 9,
       "value": "\"#C49ED4\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3779,
+      "offset": 3835,
       "length": 9,
       "value": "\"#50A4FF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors.swift",
       "kind": "StringLiteral",
-      "offset": 3802,
+      "offset": 3858,
       "length": 9,
       "value": "\"#FAA282\""
     },

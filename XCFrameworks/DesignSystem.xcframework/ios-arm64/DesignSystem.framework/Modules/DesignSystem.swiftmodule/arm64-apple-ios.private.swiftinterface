@@ -50,6 +50,7 @@ extension DesignSystem.Colors {
     public let secondary900: SwiftUICore.Color
     public let orange900: SwiftUICore.Color
     public let red900: SwiftUICore.Color
+    public let vector: SwiftUICore.Color
     public init()
   }
   public struct Text {
