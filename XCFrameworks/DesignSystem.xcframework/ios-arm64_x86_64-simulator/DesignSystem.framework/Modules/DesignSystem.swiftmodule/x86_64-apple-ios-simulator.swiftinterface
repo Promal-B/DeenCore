@@ -51,6 +51,7 @@ extension DesignSystem.Colors {
     public let orange900: SwiftUICore.Color
     public let red900: SwiftUICore.Color
     public let vector: SwiftUICore.Color
+    public let activeHighlight: SwiftUICore.Color
     public init()
   }
   public struct Text {
