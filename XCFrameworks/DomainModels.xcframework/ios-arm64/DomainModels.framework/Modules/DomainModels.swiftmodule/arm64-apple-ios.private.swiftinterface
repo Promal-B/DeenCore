@@ -393,20 +393,7 @@ public enum ValidationError : Foundation.LocalizedError {
   }
   #endif
 }
-public struct Country : Swift.Identifiable, Swift.Codable, Swift.Equatable {
-  public let id: Swift.Int
-  public let title: Swift.String
-  public init(id: Swift.Int, title: Swift.String)
-  public static func == (a: DomainModels.Country, b: DomainModels.Country) -> Swift.Bool
-  public typealias ID = Swift.Int
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-extension DomainModels.Country {
-  public static let preview: DomainModels.Country
-  public static let previews: [DomainModels.Country]
-}
-public struct MosqueDetails : Swift.Codable, Swift.Identifiable {
+public struct LandmarkDetails : Swift.Codable, Swift.Identifiable {
   public let id: Swift.Int
   public let banner: Foundation.URL?
   public let name: Swift.String
@@ -424,10 +411,10 @@ public struct MosqueDetails : Swift.Codable, Swift.Identifiable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-extension DomainModels.MosqueDetails {
-  public static let preview: DomainModels.MosqueDetails
+extension DomainModels.LandmarkDetails {
+  public static let preview: DomainModels.LandmarkDetails
 }
-public struct MosqueOverview : Swift.Identifiable, Swift.Equatable {
+public struct LandmarkOverview : Swift.Identifiable, Swift.Equatable {
   public var id: Swift.Int
   public var title: Swift.String
   public var location: Swift.String
@@ -435,23 +422,36 @@ public struct MosqueOverview : Swift.Identifiable, Swift.Equatable {
   #if compiler(>=5.3) && $NonescapableTypes
   public init(id: Swift.Int, title: Swift.String, location: Swift.String, imageURL: Foundation.URL? = nil)
   #endif
-  public static func == (a: DomainModels.MosqueOverview, b: DomainModels.MosqueOverview) -> Swift.Bool
+  public static func == (a: DomainModels.LandmarkOverview, b: DomainModels.LandmarkOverview) -> Swift.Bool
   public typealias ID = Swift.Int
 }
-extension DomainModels.MosqueOverview {
-  public static let preview: DomainModels.MosqueOverview
-  public static let previews: [DomainModels.MosqueOverview]
+extension DomainModels.LandmarkOverview {
+  public static let preview: DomainModels.LandmarkOverview
+  public static let previews: [DomainModels.LandmarkOverview]
 }
-public struct MosqueSection : Swift.Identifiable {
+public struct LandmarkSection : Swift.Identifiable {
   public let id: Swift.Int
   public var title: Swift.String
-  public var items: [DomainModels.MosqueOverview]
-  public init(id: Swift.Int, title: Swift.String, items: [DomainModels.MosqueOverview])
+  public var items: [DomainModels.LandmarkOverview]
+  public init(id: Swift.Int, title: Swift.String, items: [DomainModels.LandmarkOverview])
   public typealias ID = Swift.Int
 }
-extension DomainModels.MosqueSection {
-  public static let previewPopular: DomainModels.MosqueSection
-  public static let previewFamous: DomainModels.MosqueSection
+extension DomainModels.LandmarkSection {
+  public static let previewPopular: DomainModels.LandmarkSection
+  public static let previewFamous: DomainModels.LandmarkSection
+}
+public struct LocationInfo : Swift.Identifiable, Swift.Codable, Swift.Equatable {
+  public let id: Swift.Int
+  public let title: Swift.String
+  public init(id: Swift.Int, title: Swift.String)
+  public static func == (a: DomainModels.LocationInfo, b: DomainModels.LocationInfo) -> Swift.Bool
+  public typealias ID = Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension DomainModels.LocationInfo {
+  public static let preview: DomainModels.LocationInfo
+  public static let previews: [DomainModels.LocationInfo]
 }
 public struct FastingCalendarDay : Swift.Codable {
   public let trackingDate: Swift.String

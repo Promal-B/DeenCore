@@ -24,16 +24,19 @@ public protocol DashboardService {
   nonisolated(nonsending) func loadContent(content: Swift.Int, page: Swift.Int, token: Swift.String?) async throws -> (list: [DomainModels.PatchList], profile: DomainModels.UserProfile, pagination: DomainModels.PaginationV2?)
   #endif
 }
-public protocol FMService {
+public protocol LandmarkDataService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func fetchMosquePatch() async throws -> (famousSection: DomainModels.MosqueSection, countries: [DomainModels.Country], popularSection: DomainModels.MosqueSection)
+  nonisolated(nonsending) func patch() async throws -> (carouselSection: DomainModels.LandmarkSection, countries: [DomainModels.LocationInfo], gridSection: DomainModels.LandmarkSection)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func fetchMosqueList(countryID: Swift.Int?, page: Swift.Int, content: Swift.Int) async throws -> (list: [DomainModels.MosqueOverview], pagination: DomainModels.PaginationV2?, title: Swift.String?)
+  nonisolated(nonsending) func list(id: Swift.Int?, page: Swift.Int, content: Swift.Int) async throws -> (list: [DomainModels.LandmarkOverview], pagination: DomainModels.PaginationV2?, title: Swift.String?)
   #endif
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func fetchMosqueDetail(id: Swift.Int) async throws -> DomainModels.MosqueDetails
+  nonisolated(nonsending) func detail(id: Swift.Int) async throws -> DomainModels.LandmarkDetails
   #endif
+}
+
+public protocol IlmeService {
 }
 public struct PrayerTimeDataDTO : Swift.Codable {
   public let date: Swift.String
@@ -106,12 +109,13 @@ public enum NetworkEnvironment {
   }
 }
 public enum ServiceFactory {
-  public static func makeQLNetworkService(for environment: Networking.NetworkEnvironment = .productionEN) -> any Networking.QLService
-  public static func makeFMNetworkService(for environment: Networking.NetworkEnvironment = .productionEN) -> any Networking.FMService
-  public static func makeContentNetworkService(for environment: Networking.NetworkEnvironment = .productionEN) -> any Networking.ContentService
-  public static func makePTNetworkService(for environment: Networking.NetworkEnvironment = .productionEN) -> any Networking.PTService
-  public static func makeFTNetworkService(for environment: Networking.NetworkEnvironment = .productionEN) -> any Networking.FTService
-  public static func makeDashboardNetworkService(for environment: Networking.NetworkEnvironment = .productionEN) -> any Networking.DashboardService
+  public static func makeQLNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.QLService
+  public static func makeFMNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.LandmarkDataService
+  public static func makeHPNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.LandmarkDataService
+  public static func makeContentNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.ContentService
+  public static func makePTNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.PTService
+  public static func makeFTNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.FTService
+  public static func makeDashboardNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.DashboardService
 }
 extension Networking.NetworkEnvironment : Swift.Equatable {}
 extension Networking.NetworkEnvironment : Swift.Hashable {}

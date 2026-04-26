@@ -2750,10 +2750,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BrandV7brand507SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BrandV7brand507SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BrandV7brand507SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BrandV7brand507SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -2775,10 +2774,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BrandV7brand507SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BrandV7brand507SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BrandV7brand507SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BrandV7brand507SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -2797,10 +2795,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BrandV8brand1007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand1007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BrandV8brand1007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand1007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -2822,10 +2819,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BrandV8brand1007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand1007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BrandV8brand1007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand1007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -2844,10 +2840,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BrandV8brand2007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand2007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BrandV8brand2007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand2007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -2869,10 +2864,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BrandV8brand2007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand2007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BrandV8brand2007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand2007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -2891,10 +2885,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BrandV8brand3007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand3007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BrandV8brand3007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand3007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -2916,10 +2909,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BrandV8brand3007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand3007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BrandV8brand3007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand3007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -2938,10 +2930,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BrandV8brand4007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand4007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BrandV8brand4007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand4007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -2963,10 +2954,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BrandV8brand4007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand4007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BrandV8brand4007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand4007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -2985,10 +2975,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BrandV8brand5007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand5007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BrandV8brand5007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand5007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3010,10 +2999,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BrandV8brand5007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand5007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BrandV8brand5007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand5007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3032,10 +3020,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BrandV8brand6007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand6007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BrandV8brand6007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand6007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3057,10 +3044,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BrandV8brand6007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand6007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BrandV8brand6007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand6007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3079,10 +3065,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BrandV8brand7007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand7007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BrandV8brand7007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand7007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3104,10 +3089,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BrandV8brand7007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand7007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BrandV8brand7007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand7007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3126,10 +3110,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BrandV8brand8007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand8007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BrandV8brand8007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand8007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3151,10 +3134,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BrandV8brand8007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand8007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BrandV8brand8007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand8007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3173,10 +3155,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BrandV8brand9007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand9007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BrandV8brand9007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand9007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3198,10 +3179,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BrandV8brand9007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand9007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BrandV8brand9007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BrandV8brand9007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3220,10 +3200,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BrandV9brand10007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BrandV9brand10007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BrandV9brand10007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BrandV9brand10007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3245,10 +3224,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BrandV9brand10007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BrandV9brand10007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BrandV9brand10007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BrandV9brand10007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3319,10 +3297,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV11secondary507SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV11secondary507SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV11secondary507SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV11secondary507SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3344,10 +3321,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV11secondary507SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV11secondary507SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV11secondary507SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV11secondary507SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3366,10 +3342,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary1007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary1007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary1007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary1007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3391,10 +3366,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary1007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary1007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary1007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary1007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3413,10 +3387,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary2007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary2007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary2007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary2007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3438,10 +3411,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary2007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary2007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary2007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary2007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3460,10 +3432,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary3007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary3007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary3007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary3007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3485,10 +3456,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary3007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary3007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary3007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary3007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3507,10 +3477,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary4007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary4007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary4007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary4007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3532,10 +3501,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary4007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary4007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary4007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary4007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3554,10 +3522,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary5007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary5007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary5007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary5007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3579,10 +3546,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary5007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary5007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary5007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary5007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3601,10 +3567,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary6007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary6007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary6007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary6007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3626,10 +3591,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary6007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary6007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary6007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary6007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3648,10 +3612,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary7007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary7007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary7007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary7007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3673,10 +3636,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary7007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary7007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary7007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary7007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3695,10 +3657,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary8007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary8007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary8007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary8007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3720,10 +3681,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary8007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary8007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary8007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary8007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3742,10 +3702,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary9007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary9007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary9007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary9007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3767,10 +3726,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary9007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary9007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV12secondary9007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV12secondary9007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3789,10 +3747,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV13secondary10007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV13secondary10007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV13secondary10007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV13secondary10007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3814,10 +3771,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV13secondary10007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV13secondary10007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO14BrandSecondaryV13secondary10007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO14BrandSecondaryV13secondary10007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3888,10 +3844,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BlackV8black1007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BlackV8black1007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BlackV8black1007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BlackV8black1007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3913,10 +3868,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BlackV8black1007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BlackV8black1007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BlackV8black1007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BlackV8black1007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3935,10 +3889,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BlackV8black2007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BlackV8black2007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BlackV8black2007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BlackV8black2007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -3960,10 +3913,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BlackV8black2007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BlackV8black2007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BlackV8black2007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BlackV8black2007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -3982,10 +3934,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BlackV8black3007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BlackV8black3007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BlackV8black3007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BlackV8black3007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4007,10 +3958,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BlackV8black3007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BlackV8black3007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BlackV8black3007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BlackV8black3007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4029,10 +3979,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BlackV8black4007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BlackV8black4007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BlackV8black4007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BlackV8black4007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4054,10 +4003,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BlackV8black4007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BlackV8black4007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BlackV8black4007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BlackV8black4007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4076,10 +4024,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BlackV8black5007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BlackV8black5007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BlackV8black5007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BlackV8black5007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4101,10 +4048,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BlackV8black5007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BlackV8black5007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BlackV8black5007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BlackV8black5007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4123,10 +4069,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BlackV8black6007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BlackV8black6007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BlackV8black6007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BlackV8black6007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4148,10 +4093,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BlackV8black6007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BlackV8black6007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BlackV8black6007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BlackV8black6007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4170,10 +4114,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BlackV8black7007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BlackV8black7007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BlackV8black7007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BlackV8black7007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4195,10 +4138,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BlackV8black7007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BlackV8black7007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BlackV8black7007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BlackV8black7007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4217,10 +4159,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BlackV8black8007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BlackV8black8007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BlackV8black8007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BlackV8black8007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4242,10 +4183,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BlackV8black8007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BlackV8black8007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BlackV8black8007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BlackV8black8007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4264,10 +4204,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BlackV8black9007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BlackV8black9007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BlackV8black9007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BlackV8black9007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4289,10 +4228,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BlackV8black9007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BlackV8black9007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BlackV8black9007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BlackV8black9007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4311,10 +4249,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5BlackV9black10007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5BlackV9black10007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5BlackV9black10007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5BlackV9black10007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4336,10 +4273,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5BlackV9black10007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5BlackV9black10007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5BlackV9black10007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5BlackV9black10007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4410,10 +4346,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5WhiteV7white507SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5WhiteV7white507SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5WhiteV7white507SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5WhiteV7white507SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4435,10 +4370,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5WhiteV7white507SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV7white507SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5WhiteV7white507SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV7white507SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4457,10 +4391,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5WhiteV8white1007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white1007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5WhiteV8white1007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white1007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4482,10 +4415,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5WhiteV8white1007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white1007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5WhiteV8white1007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white1007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4504,10 +4436,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5WhiteV8white2007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white2007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5WhiteV8white2007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white2007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4529,10 +4460,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5WhiteV8white2007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white2007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5WhiteV8white2007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white2007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4551,10 +4481,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5WhiteV8white3007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white3007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5WhiteV8white3007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white3007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4576,10 +4505,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5WhiteV8white3007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white3007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5WhiteV8white3007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white3007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4598,10 +4526,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5WhiteV8white4007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white4007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5WhiteV8white4007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white4007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4623,10 +4550,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5WhiteV8white4007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white4007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5WhiteV8white4007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white4007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4645,10 +4571,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5WhiteV8white5007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white5007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5WhiteV8white5007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white5007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4670,10 +4595,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5WhiteV8white5007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white5007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5WhiteV8white5007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white5007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4692,10 +4616,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5WhiteV8white6007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white6007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5WhiteV8white6007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white6007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4717,10 +4640,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5WhiteV8white6007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white6007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5WhiteV8white6007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white6007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4739,10 +4661,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5WhiteV8white7007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white7007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5WhiteV8white7007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white7007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4764,10 +4685,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5WhiteV8white7007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white7007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5WhiteV8white7007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white7007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4786,10 +4706,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5WhiteV8white8007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white8007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5WhiteV8white8007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white8007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4811,10 +4730,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5WhiteV8white8007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white8007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5WhiteV8white8007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white8007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4833,10 +4751,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5WhiteV8white9007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white9007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5WhiteV8white9007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white9007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4858,10 +4775,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5WhiteV8white9007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white9007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5WhiteV8white9007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV8white9007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4880,10 +4796,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5WhiteV9white10007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5WhiteV9white10007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5WhiteV9white10007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5WhiteV9white10007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -4905,10 +4820,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5WhiteV9white10007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV9white10007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5WhiteV9white10007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5WhiteV9white10007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -4979,10 +4893,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO4GrayV6gray507SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO4GrayV6gray507SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO4GrayV6gray507SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO4GrayV6gray507SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5004,10 +4917,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO4GrayV6gray507SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO4GrayV6gray507SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO4GrayV6gray507SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO4GrayV6gray507SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5026,10 +4938,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO4GrayV7gray1007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray1007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO4GrayV7gray1007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray1007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5051,10 +4962,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO4GrayV7gray1007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray1007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO4GrayV7gray1007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray1007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5073,10 +4983,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO4GrayV7gray2007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray2007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO4GrayV7gray2007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray2007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5098,10 +5007,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO4GrayV7gray2007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray2007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO4GrayV7gray2007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray2007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5120,10 +5028,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO4GrayV7gray3007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray3007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO4GrayV7gray3007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray3007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5145,10 +5052,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO4GrayV7gray3007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray3007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO4GrayV7gray3007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray3007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5167,10 +5073,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO4GrayV7gray4007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray4007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO4GrayV7gray4007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray4007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5192,10 +5097,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO4GrayV7gray4007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray4007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO4GrayV7gray4007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray4007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5214,10 +5118,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO4GrayV7gray5007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray5007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO4GrayV7gray5007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray5007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5239,10 +5142,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO4GrayV7gray5007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray5007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO4GrayV7gray5007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray5007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5261,10 +5163,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO4GrayV7gray6007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray6007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO4GrayV7gray6007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray6007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5286,10 +5187,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO4GrayV7gray6007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray6007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO4GrayV7gray6007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray6007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5308,10 +5208,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO4GrayV7gray7007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray7007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO4GrayV7gray7007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray7007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5333,10 +5232,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO4GrayV7gray7007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray7007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO4GrayV7gray7007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray7007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5355,10 +5253,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO4GrayV7gray8007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray8007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO4GrayV7gray8007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray8007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5380,10 +5277,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO4GrayV7gray8007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray8007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO4GrayV7gray8007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray8007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5402,10 +5298,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO4GrayV7gray9007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray9007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO4GrayV7gray9007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray9007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5427,10 +5322,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO4GrayV7gray9007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray9007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO4GrayV7gray9007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO4GrayV7gray9007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5449,10 +5343,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO4GrayV8gray10007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO4GrayV8gray10007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO4GrayV8gray10007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO4GrayV8gray10007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5474,10 +5367,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO4GrayV8gray10007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO4GrayV8gray10007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO4GrayV8gray10007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO4GrayV8gray10007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5548,10 +5440,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5SlateV8slate1007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate1007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5SlateV8slate1007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate1007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5573,10 +5464,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5SlateV8slate1007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate1007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5SlateV8slate1007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate1007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5595,10 +5485,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5SlateV8slate2007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate2007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5SlateV8slate2007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate2007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5620,10 +5509,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5SlateV8slate2007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate2007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5SlateV8slate2007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate2007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5642,10 +5530,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5SlateV8slate3007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate3007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5SlateV8slate3007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate3007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5667,10 +5554,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5SlateV8slate3007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate3007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5SlateV8slate3007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate3007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5689,10 +5575,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5SlateV8slate4007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate4007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5SlateV8slate4007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate4007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5714,10 +5599,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5SlateV8slate4007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate4007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5SlateV8slate4007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate4007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5736,10 +5620,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5SlateV8slate5007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate5007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5SlateV8slate5007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate5007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5761,10 +5644,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5SlateV8slate5007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate5007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5SlateV8slate5007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate5007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5783,10 +5665,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5SlateV8slate6007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate6007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5SlateV8slate6007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate6007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5808,10 +5689,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5SlateV8slate6007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate6007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5SlateV8slate6007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate6007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5830,10 +5710,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5SlateV8slate7007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate7007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5SlateV8slate7007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate7007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5855,10 +5734,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5SlateV8slate7007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate7007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5SlateV8slate7007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate7007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5877,10 +5755,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5SlateV8slate8007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate8007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5SlateV8slate8007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate8007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5902,10 +5779,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5SlateV8slate8007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate8007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5SlateV8slate8007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate8007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5924,10 +5800,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5SlateV8slate9007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate9007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5SlateV8slate9007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate9007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5949,10 +5824,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5SlateV8slate9007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate9007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5SlateV8slate9007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5SlateV8slate9007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -5971,10 +5845,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO5SlateV9slate10007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO5SlateV9slate10007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO5SlateV9slate10007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO5SlateV9slate10007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -5996,10 +5869,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO5SlateV9slate10007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO5SlateV9slate10007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO5SlateV9slate10007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO5SlateV9slate10007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6070,10 +5942,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO3RedV5red507SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO3RedV5red507SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO3RedV5red507SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO3RedV5red507SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6095,10 +5966,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO3RedV5red507SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO3RedV5red507SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO3RedV5red507SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO3RedV5red507SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6117,10 +5987,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO3RedV6red1007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO3RedV6red1007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO3RedV6red1007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO3RedV6red1007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6142,10 +6011,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO3RedV6red1007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO3RedV6red1007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO3RedV6red1007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO3RedV6red1007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6164,10 +6032,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO3RedV6red2007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO3RedV6red2007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO3RedV6red2007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO3RedV6red2007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6189,10 +6056,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO3RedV6red2007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO3RedV6red2007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO3RedV6red2007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO3RedV6red2007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6211,10 +6077,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO3RedV6red3007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO3RedV6red3007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO3RedV6red3007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO3RedV6red3007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6236,10 +6101,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO3RedV6red3007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO3RedV6red3007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO3RedV6red3007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO3RedV6red3007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6258,10 +6122,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO3RedV6red4007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO3RedV6red4007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO3RedV6red4007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO3RedV6red4007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6283,10 +6146,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO3RedV6red4007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO3RedV6red4007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO3RedV6red4007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO3RedV6red4007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6305,10 +6167,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO3RedV6red5007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO3RedV6red5007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO3RedV6red5007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO3RedV6red5007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6330,10 +6191,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO3RedV6red5007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO3RedV6red5007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO3RedV6red5007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO3RedV6red5007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6352,10 +6212,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO3RedV6red6007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO3RedV6red6007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO3RedV6red6007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO3RedV6red6007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6377,10 +6236,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO3RedV6red6007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO3RedV6red6007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO3RedV6red6007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO3RedV6red6007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6399,10 +6257,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO3RedV6red7007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO3RedV6red7007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO3RedV6red7007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO3RedV6red7007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6424,10 +6281,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO3RedV6red7007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO3RedV6red7007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO3RedV6red7007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO3RedV6red7007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6446,10 +6302,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO3RedV6red8007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO3RedV6red8007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO3RedV6red8007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO3RedV6red8007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6471,10 +6326,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO3RedV6red8007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO3RedV6red8007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO3RedV6red8007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO3RedV6red8007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6493,10 +6347,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO3RedV6red9007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO3RedV6red9007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO3RedV6red9007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO3RedV6red9007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6518,10 +6371,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO3RedV6red9007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO3RedV6red9007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO3RedV6red9007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO3RedV6red9007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6540,10 +6392,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO3RedV7red10007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO3RedV7red10007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO3RedV7red10007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO3RedV7red10007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6565,10 +6416,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO3RedV7red10007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO3RedV7red10007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO3RedV7red10007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO3RedV7red10007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6639,10 +6489,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO6OrangeV8orange507SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO6OrangeV8orange507SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO6OrangeV8orange507SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO6OrangeV8orange507SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6664,10 +6513,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO6OrangeV8orange507SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV8orange507SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO6OrangeV8orange507SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV8orange507SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6686,10 +6534,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO6OrangeV9orange1007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange1007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO6OrangeV9orange1007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange1007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6711,10 +6558,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO6OrangeV9orange1007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange1007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO6OrangeV9orange1007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange1007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6733,10 +6579,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO6OrangeV9orange2007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange2007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO6OrangeV9orange2007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange2007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6758,10 +6603,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO6OrangeV9orange2007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange2007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO6OrangeV9orange2007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange2007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6780,10 +6624,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO6OrangeV9orange3007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange3007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO6OrangeV9orange3007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange3007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6805,10 +6648,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO6OrangeV9orange3007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange3007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO6OrangeV9orange3007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange3007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6827,10 +6669,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO6OrangeV9orange4007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange4007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO6OrangeV9orange4007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange4007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6852,10 +6693,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO6OrangeV9orange4007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange4007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO6OrangeV9orange4007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange4007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6874,10 +6714,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO6OrangeV9orange5007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange5007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO6OrangeV9orange5007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange5007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6899,10 +6738,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO6OrangeV9orange5007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange5007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO6OrangeV9orange5007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange5007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6921,10 +6759,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO6OrangeV9orange6007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange6007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO6OrangeV9orange6007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange6007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6946,10 +6783,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO6OrangeV9orange6007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange6007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO6OrangeV9orange6007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange6007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -6968,10 +6804,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO6OrangeV9orange7007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange7007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO6OrangeV9orange7007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange7007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -6993,10 +6828,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO6OrangeV9orange7007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange7007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO6OrangeV9orange7007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange7007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -7015,10 +6849,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO6OrangeV9orange8007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange8007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO6OrangeV9orange8007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange8007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -7040,10 +6873,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO6OrangeV9orange8007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange8007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO6OrangeV9orange8007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange8007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -7062,10 +6894,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO6OrangeV9orange9007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange9007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO6OrangeV9orange9007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange9007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -7087,10 +6918,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO6OrangeV9orange9007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange9007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO6OrangeV9orange9007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV9orange9007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -7109,10 +6939,9 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12DesignSystem6ColorsO6OrangeV10orange10007SwiftUI5ColorVvpZ",
-                "mangledName": "$s12DesignSystem6ColorsO6OrangeV10orange10007SwiftUI5ColorVvpZ",
+                "usr": "s:12DesignSystem6ColorsO6OrangeV10orange10007SwiftUI5ColorVvp",
+                "mangledName": "$s12DesignSystem6ColorsO6OrangeV10orange10007SwiftUI5ColorVvp",
                 "moduleName": "DesignSystem",
-                "static": true,
                 "declAttributes": [
                   "HasInitialValue",
                   "HasStorage",
@@ -7134,10 +6963,9 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12DesignSystem6ColorsO6OrangeV10orange10007SwiftUI5ColorVvgZ",
-                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV10orange10007SwiftUI5ColorVvgZ",
+                    "usr": "s:12DesignSystem6ColorsO6OrangeV10orange10007SwiftUI5ColorVvg",
+                    "mangledName": "$s12DesignSystem6ColorsO6OrangeV10orange10007SwiftUI5ColorVvg",
                     "moduleName": "DesignSystem",
-                    "static": true,
                     "implicit": true,
                     "accessorKind": "get"
                   }
@@ -7817,43 +7645,6 @@
                 "declKind": "EnumElement",
                 "usr": "s:12DesignSystem11DSResourcesO7DSImageO5xmarkyA2EmF",
                 "mangledName": "$s12DesignSystem11DSResourcesO7DSImageO5xmarkyA2EmF",
-                "moduleName": "DesignSystem"
-              },
-              {
-                "kind": "Var",
-                "name": "popupBG",
-                "printedName": "popupBG",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(DesignSystem.DSResources.DSImage.Type) -> DesignSystem.DSResources.DSImage",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DSImage",
-                        "printedName": "DesignSystem.DSResources.DSImage",
-                        "usr": "s:12DesignSystem11DSResourcesO7DSImageO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "DesignSystem.DSResources.DSImage.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "DSImage",
-                            "printedName": "DesignSystem.DSResources.DSImage",
-                            "usr": "s:12DesignSystem11DSResourcesO7DSImageO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:12DesignSystem11DSResourcesO7DSImageO7popupBGyA2EmF",
-                "mangledName": "$s12DesignSystem11DSResourcesO7DSImageO7popupBGyA2EmF",
                 "moduleName": "DesignSystem"
               },
               {
@@ -14561,735 +14352,735 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 193,
+      "offset": 186,
       "length": 9,
       "value": "\"#F2FBFA\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 252,
+      "offset": 238,
       "length": 9,
       "value": "\"#D2F5F1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 311,
+      "offset": 290,
       "length": 9,
       "value": "\"#A4EBE3\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 370,
+      "offset": 342,
       "length": 9,
       "value": "\"#6FD9D1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 429,
+      "offset": 394,
       "length": 9,
       "value": "\"#41C0BB\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 488,
+      "offset": 446,
       "length": 9,
       "value": "\"#28A4A2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 547,
+      "offset": 498,
       "length": 9,
       "value": "\"#1E8787\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 606,
+      "offset": 550,
       "length": 9,
       "value": "\"#1B696A\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 665,
+      "offset": 602,
       "length": 9,
       "value": "\"#1A5455\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 724,
+      "offset": 654,
       "length": 9,
       "value": "\"#1A4647\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 784,
+      "offset": 707,
       "length": 9,
       "value": "\"#051719\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 913,
+      "offset": 829,
       "length": 9,
       "value": "\"#EFFAF5\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 976,
+      "offset": 885,
       "length": 9,
       "value": "\"#D7F4E6\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 1039,
+      "offset": 941,
       "length": 9,
       "value": "\"#B2E8D1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 1102,
+      "offset": 997,
       "length": 9,
       "value": "\"#80D5B6\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 1165,
+      "offset": 1053,
       "length": 9,
       "value": "\"#4CBB97\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 1228,
+      "offset": 1109,
       "length": 9,
       "value": "\"#2FB68E\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 1291,
+      "offset": 1165,
       "length": 9,
       "value": "\"#1B8065\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 1354,
+      "offset": 1221,
       "length": 9,
       "value": "\"#156753\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 1417,
+      "offset": 1277,
       "length": 9,
       "value": "\"#135242\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 1480,
+      "offset": 1333,
       "length": 9,
       "value": "\"#114338\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 1544,
+      "offset": 1390,
       "length": 9,
       "value": "\"#082620\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 1661,
+      "offset": 1500,
       "length": 9,
       "value": "\"#0C0C0D\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 1680,
+      "offset": 1519,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 1734,
+      "offset": 1566,
       "length": 9,
       "value": "\"#0C0C0D\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 1753,
+      "offset": 1585,
       "length": 4,
       "value": "0.10"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 1807,
+      "offset": 1632,
       "length": 9,
       "value": "\"#0C0C0D\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 1826,
+      "offset": 1651,
       "length": 4,
       "value": "0.20"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 1880,
+      "offset": 1698,
       "length": 9,
       "value": "\"#0C0C0D\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 1899,
+      "offset": 1717,
       "length": 4,
       "value": "0.40"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 1953,
+      "offset": 1764,
       "length": 9,
       "value": "\"#0C0C0D\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 1972,
+      "offset": 1783,
       "length": 4,
       "value": "0.70"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 2026,
+      "offset": 1830,
       "length": 9,
       "value": "\"#0C0C0D\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 2045,
+      "offset": 1849,
       "length": 4,
       "value": "0.80"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 2099,
+      "offset": 1896,
       "length": 9,
       "value": "\"#0C0C0D\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 2118,
+      "offset": 1915,
       "length": 4,
       "value": "0.85"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 2172,
+      "offset": 1962,
       "length": 9,
       "value": "\"#0C0C0D\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 2191,
+      "offset": 1981,
       "length": 4,
       "value": "0.90"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 2245,
+      "offset": 2028,
       "length": 9,
       "value": "\"#0C0C0D\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 2264,
+      "offset": 2047,
       "length": 4,
       "value": "0.95"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 2319,
+      "offset": 2095,
       "length": 9,
       "value": "\"#0C0C0D\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 2435,
+      "offset": 2204,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 2454,
+      "offset": 2223,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 2508,
+      "offset": 2270,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 2527,
+      "offset": 2289,
       "length": 4,
       "value": "0.10"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 2581,
+      "offset": 2336,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 2600,
+      "offset": 2355,
       "length": 4,
       "value": "0.20"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 2654,
+      "offset": 2402,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 2673,
+      "offset": 2421,
       "length": 4,
       "value": "0.30"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 2727,
+      "offset": 2468,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 2746,
+      "offset": 2487,
       "length": 4,
       "value": "0.40"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 2800,
+      "offset": 2534,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 2819,
+      "offset": 2553,
       "length": 4,
       "value": "0.50"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 2873,
+      "offset": 2600,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 2892,
+      "offset": 2619,
       "length": 4,
       "value": "0.60"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 2946,
+      "offset": 2666,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 2965,
+      "offset": 2685,
       "length": 4,
       "value": "0.70"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 3019,
+      "offset": 2732,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 3038,
+      "offset": 2751,
       "length": 4,
       "value": "0.80"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 3092,
+      "offset": 2798,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "FloatLiteral",
-      "offset": 3111,
+      "offset": 2817,
       "length": 4,
       "value": "0.90"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 3166,
+      "offset": 2865,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 3280,
+      "offset": 2972,
       "length": 9,
       "value": "\"#F8F8F8\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 3338,
+      "offset": 3023,
       "length": 9,
       "value": "\"#E7E7E7\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 3396,
+      "offset": 3074,
       "length": 9,
       "value": "\"#D1D1D1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 3454,
+      "offset": 3125,
       "length": 9,
       "value": "\"#B0B0B0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 3512,
+      "offset": 3176,
       "length": 9,
       "value": "\"#888888\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 3570,
+      "offset": 3227,
       "length": 9,
       "value": "\"#6D6D6D\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 3628,
+      "offset": 3278,
       "length": 9,
       "value": "\"#5D5D5D\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 3686,
+      "offset": 3329,
       "length": 9,
       "value": "\"#4F4F4F\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 3744,
+      "offset": 3380,
       "length": 9,
       "value": "\"#454545\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 3802,
+      "offset": 3431,
       "length": 9,
       "value": "\"#222326\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 3861,
+      "offset": 3483,
       "length": 9,
       "value": "\"#141414\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 3978,
+      "offset": 3593,
       "length": 9,
       "value": "\"#F3F3F3\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 4037,
+      "offset": 3645,
       "length": 9,
       "value": "\"#E3E3E3\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 4096,
+      "offset": 3697,
       "length": 9,
       "value": "\"#CDCDCD\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 4155,
+      "offset": 3749,
       "length": 9,
       "value": "\"#B2B2B2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 4214,
+      "offset": 3801,
       "length": 9,
       "value": "\"#949494\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 4273,
+      "offset": 3853,
       "length": 9,
       "value": "\"#767676\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 4332,
+      "offset": 3905,
       "length": 9,
       "value": "\"#5A5A5A\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 4391,
+      "offset": 3957,
       "length": 9,
       "value": "\"#434343\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 4450,
+      "offset": 4009,
       "length": 9,
       "value": "\"#303030\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 4510,
+      "offset": 4062,
       "length": 9,
       "value": "\"#242424\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 4622,
+      "offset": 4167,
       "length": 9,
       "value": "\"#FFF0F0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 4679,
+      "offset": 4217,
       "length": 9,
       "value": "\"#FFDDDD\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 4736,
+      "offset": 4267,
       "length": 9,
       "value": "\"#FFC0C0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 4793,
+      "offset": 4317,
       "length": 9,
       "value": "\"#FF9494\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 4850,
+      "offset": 4367,
       "length": 9,
       "value": "\"#FF5757\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 4907,
+      "offset": 4417,
       "length": 9,
       "value": "\"#FF2323\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 4964,
+      "offset": 4467,
       "length": 9,
       "value": "\"#FF0000\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 5021,
+      "offset": 4517,
       "length": 9,
       "value": "\"#D70000\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 5078,
+      "offset": 4567,
       "length": 9,
       "value": "\"#B10303\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 5135,
+      "offset": 4617,
       "length": 9,
       "value": "\"#920A0A\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 5193,
+      "offset": 4668,
       "length": 9,
       "value": "\"#500000\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 5311,
+      "offset": 4780,
       "length": 9,
       "value": "\"#FFF8EB\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 5371,
+      "offset": 4834,
       "length": 9,
       "value": "\"#FFEAC6\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 5431,
+      "offset": 4888,
       "length": 9,
       "value": "\"#FFD388\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 5491,
+      "offset": 4942,
       "length": 9,
       "value": "\"#FFB64A\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 5551,
+      "offset": 4996,
       "length": 9,
       "value": "\"#FF9A1F\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 5611,
+      "offset": 5050,
       "length": 9,
       "value": "\"#F97507\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 5671,
+      "offset": 5104,
       "length": 9,
       "value": "\"#DD5102\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 5731,
+      "offset": 5158,
       "length": 9,
       "value": "\"#B73506\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 5791,
+      "offset": 5212,
       "length": 9,
       "value": "\"#94280C\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 5851,
+      "offset": 5266,
       "length": 9,
       "value": "\"#7A210D\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/Colors\/Colors+Primitives.swift",
       "kind": "StringLiteral",
-      "offset": 5912,
+      "offset": 5321,
       "length": 9,
       "value": "\"#460E02\""
     },
@@ -15366,42 +15157,35 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+DSImage.swift",
       "kind": "StringLiteral",
-      "offset": 652,
-      "length": 23,
-      "value": "\"deen_premium_popup_bg\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+DSImage.swift",
-      "kind": "StringLiteral",
-      "offset": 700,
+      "offset": 653,
       "length": 16,
       "value": "\"core_ads_click\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+DSImage.swift",
       "kind": "StringLiteral",
-      "offset": 741,
+      "offset": 694,
       "length": 15,
       "value": "\"core_download\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+DSImage.swift",
       "kind": "StringLiteral",
-      "offset": 781,
+      "offset": 734,
       "length": 15,
       "value": "\"core_favorite\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+DSImage.swift",
       "kind": "StringLiteral",
-      "offset": 824,
+      "offset": 777,
       "length": 19,
       "value": "\"core_live_podcast\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DesignSystem\/DSResources\/DSResources+DSImage.swift",
       "kind": "StringLiteral",
-      "offset": 866,
+      "offset": 819,
       "length": 13,
       "value": "\"core_avatar\""
     },

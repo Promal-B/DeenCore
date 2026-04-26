@@ -549,54 +549,54 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "FMService",
-        "printedName": "FMService",
+        "name": "LandmarkDataService",
+        "printedName": "LandmarkDataService",
         "children": [
           {
             "kind": "Function",
-            "name": "fetchMosquePatch",
-            "printedName": "fetchMosquePatch()",
+            "name": "patch",
+            "printedName": "patch()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Tuple",
-                "printedName": "(famousSection: DomainModels.MosqueSection, countries: [DomainModels.Country], popularSection: DomainModels.MosqueSection)",
+                "printedName": "(carouselSection: DomainModels.LandmarkSection, countries: [DomainModels.LocationInfo], gridSection: DomainModels.LandmarkSection)",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "MosqueSection",
-                    "printedName": "DomainModels.MosqueSection",
-                    "usr": "s:12DomainModels13MosqueSectionV"
+                    "name": "LandmarkSection",
+                    "printedName": "DomainModels.LandmarkSection",
+                    "usr": "s:12DomainModels15LandmarkSectionV"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[DomainModels.Country]",
+                    "printedName": "[DomainModels.LocationInfo]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Country",
-                        "printedName": "DomainModels.Country",
-                        "usr": "s:12DomainModels7CountryV"
+                        "name": "LocationInfo",
+                        "printedName": "DomainModels.LocationInfo",
+                        "usr": "s:12DomainModels12LocationInfoV"
                       }
                     ],
                     "usr": "s:Sa"
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "MosqueSection",
-                    "printedName": "DomainModels.MosqueSection",
-                    "usr": "s:12DomainModels13MosqueSectionV"
+                    "name": "LandmarkSection",
+                    "printedName": "DomainModels.LandmarkSection",
+                    "usr": "s:12DomainModels15LandmarkSectionV"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking9FMServiceP16fetchMosquePatch12DomainModels0D7SectionV06famousH0_SayAE7CountryVG9countriesAG07popularH0tyYaKF",
-            "mangledName": "$s10Networking9FMServiceP16fetchMosquePatch12DomainModels0D7SectionV06famousH0_SayAE7CountryVG9countriesAG07popularH0tyYaKF",
+            "usr": "s:10Networking19LandmarkDataServiceP5patch12DomainModels0B7SectionV08carouselH0_SayAE12LocationInfoVG9countriesAG04gridH0tyYaKF",
+            "mangledName": "$s10Networking19LandmarkDataServiceP5patch12DomainModels0B7SectionV08carouselH0_SayAE12LocationInfoVG9countriesAG04gridH0tyYaKF",
             "moduleName": "Networking",
-            "genericSig": "<τ_0_0 where τ_0_0 : Networking.FMService>",
-            "sugared_genericSig": "<Self where Self : Networking.FMService>",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.LandmarkDataService>",
+            "sugared_genericSig": "<Self where Self : Networking.LandmarkDataService>",
             "protocolReq": true,
             "declAttributes": [
               "Nonisolated",
@@ -608,24 +608,24 @@
           },
           {
             "kind": "Function",
-            "name": "fetchMosqueList",
-            "printedName": "fetchMosqueList(countryID:page:content:)",
+            "name": "list",
+            "printedName": "list(id:page:content:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Tuple",
-                "printedName": "(list: [DomainModels.MosqueOverview], pagination: DomainModels.PaginationV2?, title: Swift.String?)",
+                "printedName": "(list: [DomainModels.LandmarkOverview], pagination: DomainModels.PaginationV2?, title: Swift.String?)",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[DomainModels.MosqueOverview]",
+                    "printedName": "[DomainModels.LandmarkOverview]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "MosqueOverview",
-                        "printedName": "DomainModels.MosqueOverview",
-                        "usr": "s:12DomainModels14MosqueOverviewV"
+                        "name": "LandmarkOverview",
+                        "printedName": "DomainModels.LandmarkOverview",
+                        "usr": "s:12DomainModels16LandmarkOverviewV"
                       }
                     ],
                     "usr": "s:Sa"
@@ -688,11 +688,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking9FMServiceP15fetchMosqueList9countryID4page7contentSay12DomainModels0D8OverviewVG4list_AH12PaginationV2VSg10paginationSSSg5titletSiSg_S2itYaKF",
-            "mangledName": "$s10Networking9FMServiceP15fetchMosqueList9countryID4page7contentSay12DomainModels0D8OverviewVG4list_AH12PaginationV2VSg10paginationSSSg5titletSiSg_S2itYaKF",
+            "usr": "s:10Networking19LandmarkDataServiceP4list2id4page7contentSay12DomainModels0B8OverviewVGAD_AH12PaginationV2VSg10paginationSSSg5titletSiSg_S2itYaKF",
+            "mangledName": "$s10Networking19LandmarkDataServiceP4list2id4page7contentSay12DomainModels0B8OverviewVGAD_AH12PaginationV2VSg10paginationSSSg5titletSiSg_S2itYaKF",
             "moduleName": "Networking",
-            "genericSig": "<τ_0_0 where τ_0_0 : Networking.FMService>",
-            "sugared_genericSig": "<Self where Self : Networking.FMService>",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.LandmarkDataService>",
+            "sugared_genericSig": "<Self where Self : Networking.LandmarkDataService>",
             "protocolReq": true,
             "declAttributes": [
               "Nonisolated",
@@ -704,14 +704,14 @@
           },
           {
             "kind": "Function",
-            "name": "fetchMosqueDetail",
-            "printedName": "fetchMosqueDetail(id:)",
+            "name": "detail",
+            "printedName": "detail(id:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "MosqueDetails",
-                "printedName": "DomainModels.MosqueDetails",
-                "usr": "s:12DomainModels13MosqueDetailsV"
+                "name": "LandmarkDetails",
+                "printedName": "DomainModels.LandmarkDetails",
+                "usr": "s:12DomainModels15LandmarkDetailsV"
               },
               {
                 "kind": "TypeNominal",
@@ -721,11 +721,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking9FMServiceP17fetchMosqueDetail2id12DomainModels0D7DetailsVSi_tYaKF",
-            "mangledName": "$s10Networking9FMServiceP17fetchMosqueDetail2id12DomainModels0D7DetailsVSi_tYaKF",
+            "usr": "s:10Networking19LandmarkDataServiceP6detail2id12DomainModels0B7DetailsVSi_tYaKF",
+            "mangledName": "$s10Networking19LandmarkDataServiceP6detail2id12DomainModels0B7DetailsVSi_tYaKF",
             "moduleName": "Networking",
-            "genericSig": "<τ_0_0 where τ_0_0 : Networking.FMService>",
-            "sugared_genericSig": "<Self where Self : Networking.FMService>",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.LandmarkDataService>",
+            "sugared_genericSig": "<Self where Self : Networking.LandmarkDataService>",
             "protocolReq": true,
             "declAttributes": [
               "Nonisolated",
@@ -737,8 +737,64 @@
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:10Networking9FMServiceP",
-        "mangledName": "$s10Networking9FMServiceP",
+        "usr": "s:10Networking19LandmarkDataServiceP",
+        "mangledName": "$s10Networking19LandmarkDataServiceP",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Playgrounds",
+        "printedName": "Playgrounds",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IlmeService",
+        "printedName": "IlmeService",
+        "declKind": "Protocol",
+        "usr": "s:10Networking11IlmeServiceP",
+        "mangledName": "$s10Networking11IlmeServiceP",
         "moduleName": "Networking",
         "declAttributes": [
           "AccessControl",
@@ -2970,9 +3026,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "FMService",
-                "printedName": "any Networking.FMService",
-                "usr": "s:10Networking9FMServiceP"
+                "name": "LandmarkDataService",
+                "printedName": "any Networking.LandmarkDataService",
+                "usr": "s:10Networking19LandmarkDataServiceP"
               },
               {
                 "kind": "TypeNominal",
@@ -2983,8 +3039,38 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking14ServiceFactoryO013makeFMNetworkB03forAA9FMService_pAA18NetworkEnvironmentO_tFZ",
-            "mangledName": "$s10Networking14ServiceFactoryO013makeFMNetworkB03forAA9FMService_pAA18NetworkEnvironmentO_tFZ",
+            "usr": "s:10Networking14ServiceFactoryO013makeFMNetworkB03forAA012LandmarkDataB0_pAA18NetworkEnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO013makeFMNetworkB03forAA012LandmarkDataB0_pAA18NetworkEnvironmentO_tFZ",
+            "moduleName": "Networking",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeHPNetworkService",
+            "printedName": "makeHPNetworkService(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LandmarkDataService",
+                "printedName": "any Networking.LandmarkDataService",
+                "usr": "s:10Networking19LandmarkDataServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
+                "hasDefaultArg": true,
+                "usr": "s:10Networking18NetworkEnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking14ServiceFactoryO013makeHPNetworkB03forAA012LandmarkDataB0_pAA18NetworkEnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO013makeHPNetworkB03forAA012LandmarkDataB0_pAA18NetworkEnvironmentO_tFZ",
             "moduleName": "Networking",
             "static": true,
             "declAttributes": [
@@ -4249,6 +4335,34 @@
       "value": "\"api\/SeheriIftarTime\/ramadanCalander\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1269,
+      "length": 31,
+      "value": "\"api\/ilmeDeen\/GetIlmeDeenPatch\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1351,
+      "length": 30,
+      "value": "\"api\/Mosque\/GetHolyPlacePatch\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1407,
+      "length": 29,
+      "value": "\"api\/Mosque\/GetHolyPlaceList\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1465,
+      "length": 29,
+      "value": "\"api\/Mosque\/HolyPlaceDetails\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Auth\/Model\/LoginDataDTO.swift",
       "kind": "StringLiteral",
       "offset": 239,
@@ -4461,65 +4575,107 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Famous Mosque\/Model\/MosqueDetailDTO.swift",
       "kind": "StringLiteral",
-      "offset": 512,
+      "offset": 513,
       "length": 4,
       "value": "\"Id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Famous Mosque\/Model\/MosqueDetailDTO.swift",
       "kind": "StringLiteral",
-      "offset": 539,
+      "offset": 540,
       "length": 8,
       "value": "\"Banner\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Famous Mosque\/Model\/MosqueDetailDTO.swift",
       "kind": "StringLiteral",
-      "offset": 568,
+      "offset": 569,
       "length": 6,
       "value": "\"Name\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Famous Mosque\/Model\/MosqueDetailDTO.swift",
       "kind": "StringLiteral",
-      "offset": 595,
+      "offset": 596,
       "length": 6,
       "value": "\"City\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Famous Mosque\/Model\/MosqueDetailDTO.swift",
       "kind": "StringLiteral",
-      "offset": 626,
+      "offset": 627,
       "length": 10,
       "value": "\"Capacity\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Famous Mosque\/Model\/MosqueDetailDTO.swift",
       "kind": "StringLiteral",
-      "offset": 660,
+      "offset": 661,
       "length": 9,
       "value": "\"Country\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Famous Mosque\/Model\/MosqueDetailDTO.swift",
       "kind": "StringLiteral",
-      "offset": 697,
+      "offset": 698,
       "length": 13,
       "value": "\"Description\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Famous Mosque\/Model\/MosqueDetailDTO.swift",
       "kind": "StringLiteral",
-      "offset": 779,
+      "offset": 780,
       "length": 9,
       "value": "\"Gallery\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Famous Mosque\/Model\/MosqueDetailDTO.swift",
       "kind": "StringLiteral",
-      "offset": 956,
+      "offset": 1866,
       "length": 10,
       "value": "\"imageurl\""
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX36_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1893,
+      "length": 10,
+      "value": "0x706c6179"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX36_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1920,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX36_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2278,
+      "length": 2,
+      "value": "37"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX36_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2296,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX36_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2377,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX36_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2382,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
