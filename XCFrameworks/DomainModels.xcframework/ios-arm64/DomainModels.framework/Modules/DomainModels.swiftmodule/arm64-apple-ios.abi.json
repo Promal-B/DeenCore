@@ -3049,10 +3049,7 @@
             "declKind": "EnumElement",
             "usr": "s:12DomainModels9AppDesignO11recentQuranyA2CmF",
             "mangledName": "$s12DomainModels9AppDesignO11recentQuranyA2CmF",
-            "moduleName": "DomainModels",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "moduleName": "DomainModels"
           },
           {
             "kind": "Var",
@@ -3425,10 +3422,7 @@
             "declKind": "EnumElement",
             "usr": "s:12DomainModels9AppDesignO6deenAIyA2CmF",
             "mangledName": "$s12DomainModels9AppDesignO6deenAIyA2CmF",
-            "moduleName": "DomainModels",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "moduleName": "DomainModels"
           },
           {
             "kind": "Var",
@@ -3839,6 +3833,80 @@
           },
           {
             "kind": "Var",
+            "name": "qurbaniEidPatch",
+            "printedName": "qurbaniEidPatch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.AppDesign.Type) -> DomainModels.AppDesign",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppDesign",
+                    "printedName": "DomainModels.AppDesign",
+                    "usr": "s:12DomainModels9AppDesignO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.AppDesign.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppDesign",
+                        "printedName": "DomainModels.AppDesign",
+                        "usr": "s:12DomainModels9AppDesignO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels9AppDesignO15qurbaniEidPatchyA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO15qurbaniEidPatchyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "dualCommonCardList",
+            "printedName": "dualCommonCardList",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.AppDesign.Type) -> DomainModels.AppDesign",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppDesign",
+                    "printedName": "DomainModels.AppDesign",
+                    "usr": "s:12DomainModels9AppDesignO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.AppDesign.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppDesign",
+                        "printedName": "DomainModels.AppDesign",
+                        "usr": "s:12DomainModels9AppDesignO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels9AppDesignO18dualCommonCardListyA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO18dualCommonCardListyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
             "name": "unknown",
             "printedName": "unknown",
             "children": [
@@ -4148,8 +4216,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "du",
-            "printedName": "du",
+            "name": "ib",
+            "printedName": "ib",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -4179,8 +4247,341 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO2duyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO2duyA2CmF",
+            "usr": "s:12DomainModels11ContentTypeO2ibyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO2ibyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "pldp",
+            "printedName": "pldp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO4pldpyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO4pldpyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "pldd",
+            "printedName": "pldd",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO4plddyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO4plddyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "ptub",
+            "printedName": "ptub",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO4ptubyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO4ptubyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "ibook",
+            "printedName": "ibook",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO5ibookyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO5ibookyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "prakat",
+            "printedName": "prakat",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO6prakatyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO6prakatyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "ptrack",
+            "printedName": "ptrack",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO6ptrackyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO6ptrackyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "pvisual",
+            "printedName": "pvisual",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO7pvisualyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO7pvisualyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "ie",
+            "printedName": "ie",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO2ieyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO2ieyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "rot",
+            "printedName": "rot",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3rotyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3rotyA2CmF",
             "moduleName": "DomainModels"
           },
           {
@@ -4222,6 +4623,1190 @@
           },
           {
             "kind": "Var",
+            "name": "eem",
+            "printedName": "eem",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3eemyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3eemyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "du",
+            "printedName": "du",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO2duyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO2duyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "khq",
+            "printedName": "khq",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3khqyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3khqyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "ri",
+            "printedName": "ri",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO2riyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO2riyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "hd",
+            "printedName": "hd",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO2hdyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO2hdyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "imas",
+            "printedName": "imas",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO4imasyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO4imasyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "fnm",
+            "printedName": "fnm",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3fnmyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3fnmyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "ires",
+            "printedName": "ires",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO4iresyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO4iresyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "ies",
+            "printedName": "ies",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3iesyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3iesyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "iqz",
+            "printedName": "iqz",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3iqzyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3iqzyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "isc",
+            "printedName": "isc",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3iscyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3iscyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "diqc",
+            "printedName": "diqc",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO4diqcyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO4diqcyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "diq",
+            "printedName": "diq",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3diqyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3diqyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "qtc",
+            "printedName": "qtc",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3qtcyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3qtcyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "qr",
+            "printedName": "qr",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO2qryA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO2qryA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "wig",
+            "printedName": "wig",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3wigyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3wigyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "plfe",
+            "printedName": "plfe",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO4plfeyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO4plfeyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "utub",
+            "printedName": "utub",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO4utubyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO4utubyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "dqc",
+            "printedName": "dqc",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3dqcyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3dqcyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "hpr",
+            "printedName": "hpr",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3hpryA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3hpryA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "zk",
+            "printedName": "zk",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO2zkyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO2zkyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "qsa",
+            "printedName": "qsa",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3qsayA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3qsayA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "qic",
+            "printedName": "qic",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3qicyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3qicyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "map",
+            "printedName": "map",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3mapyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3mapyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "ijt",
+            "printedName": "ijt",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3ijtyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3ijtyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "rr",
+            "printedName": "rr",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO2rryA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO2rryA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "pt",
+            "printedName": "pt",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO2ptyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO2ptyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "asmaul",
+            "printedName": "asmaul",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO6asmaulyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO6asmaulyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "nm",
+            "printedName": "nm",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO2nmyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO2nmyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "pl",
+            "printedName": "pl",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO2plyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO2plyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "cp",
+            "printedName": "cp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO2cpyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO2cpyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "ej",
+            "printedName": "ej",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO2ejyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO2ejyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
             "name": "hau",
             "printedName": "hau",
             "children": [
@@ -4255,6 +5840,191 @@
             "declKind": "EnumElement",
             "usr": "s:12DomainModels11ContentTypeO3hauyA2CmF",
             "mangledName": "$s12DomainModels11ContentTypeO3hauyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "lmm",
+            "printedName": "lmm",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3lmmyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3lmmyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "tb",
+            "printedName": "tb",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO2tbyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO2tbyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "lp",
+            "printedName": "lp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO2lpyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO2lpyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO4nameyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO4nameyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "dij",
+            "printedName": "dij",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3dijyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3dijyA2CmF",
             "moduleName": "DomainModels"
           },
           {
@@ -4296,8 +6066,8 @@
           },
           {
             "kind": "Var",
-            "name": "ib",
-            "printedName": "ib",
+            "name": "irlq",
+            "printedName": "irlq",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -4327,14 +6097,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO2ibyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO2ibyA2CmF",
+            "usr": "s:12DomainModels11ContentTypeO4irlqyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO4irlqyA2CmF",
             "moduleName": "DomainModels"
           },
           {
             "kind": "Var",
-            "name": "qr",
-            "printedName": "qr",
+            "name": "hj",
+            "printedName": "hj",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -4364,8 +6134,156 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO2qryA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO2qryA2CmF",
+            "usr": "s:12DomainModels11ContentTypeO2hjyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO2hjyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "hll",
+            "printedName": "hll",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3hllyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3hllyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "ip",
+            "printedName": "ip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO2ipyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO2ipyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "qal",
+            "printedName": "qal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3qalyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3qalyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "fmq",
+            "printedName": "fmq",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3fmqyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3fmqyA2CmF",
             "moduleName": "DomainModels"
           },
           {
@@ -4440,80 +6358,6 @@
             "declKind": "EnumElement",
             "usr": "s:12DomainModels11ContentTypeO3dpsyA2CmF",
             "mangledName": "$s12DomainModels11ContentTypeO3dpsyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "tb",
-            "printedName": "tb",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO2tbyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO2tbyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "ibook",
-            "printedName": "ibook",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO5ibookyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO5ibookyA2CmF",
             "moduleName": "DomainModels"
           },
           {
@@ -4666,191 +6510,6 @@
           },
           {
             "kind": "Var",
-            "name": "khq",
-            "printedName": "khq",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO3khqyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO3khqyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "hj",
-            "printedName": "hj",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO2hjyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO2hjyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "hpr",
-            "printedName": "hpr",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO3hpryA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO3hpryA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "ie",
-            "printedName": "ie",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO2ieyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO2ieyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "zk",
-            "printedName": "zk",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO2zkyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO2zkyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
             "name": "odn",
             "printedName": "odn",
             "children": [
@@ -4884,80 +6543,6 @@
             "declKind": "EnumElement",
             "usr": "s:12DomainModels11ContentTypeO3odnyA2CmF",
             "mangledName": "$s12DomainModels11ContentTypeO3odnyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "ip",
-            "printedName": "ip",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO2ipyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO2ipyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "qtc",
-            "printedName": "qtc",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO3qtcyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO3qtcyA2CmF",
             "moduleName": "DomainModels"
           },
           {
@@ -4999,43 +6584,6 @@
           },
           {
             "kind": "Var",
-            "name": "diqc",
-            "printedName": "diqc",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO4diqcyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO4diqcyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
             "name": "diql",
             "printedName": "diql",
             "children": [
@@ -5069,80 +6617,6 @@
             "declKind": "EnumElement",
             "usr": "s:12DomainModels11ContentTypeO4diqlyA2CmF",
             "mangledName": "$s12DomainModels11ContentTypeO4diqlyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "rr",
-            "printedName": "rr",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO2rryA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO2rryA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "pvisual",
-            "printedName": "pvisual",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO7pvisualyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO7pvisualyA2CmF",
             "moduleName": "DomainModels"
           },
           {
@@ -5258,8 +6732,8 @@
           },
           {
             "kind": "Var",
-            "name": "ies",
-            "printedName": "ies",
+            "name": "holyPlace",
+            "printedName": "holyPlace",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -5289,14 +6763,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO3iesyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO3iesyA2CmF",
+            "usr": "s:12DomainModels11ContentTypeO9holyPlaceyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO9holyPlaceyA2CmF",
             "moduleName": "DomainModels"
           },
           {
             "kind": "Var",
-            "name": "rot",
-            "printedName": "rot",
+            "name": "hajjJatra",
+            "printedName": "hajjJatra",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -5326,14 +6800,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO3rotyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO3rotyA2CmF",
+            "usr": "s:12DomainModels11ContentTypeO9hajjJatrayA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO9hajjJatrayA2CmF",
             "moduleName": "DomainModels"
           },
           {
             "kind": "Var",
-            "name": "hd",
-            "printedName": "hd",
+            "name": "hajjMap",
+            "printedName": "hajjMap",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -5363,14 +6837,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO2hdyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO2hdyA2CmF",
+            "usr": "s:12DomainModels11ContentTypeO7hajjMapyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO7hajjMapyA2CmF",
             "moduleName": "DomainModels"
           },
           {
             "kind": "Var",
-            "name": "pt",
-            "printedName": "pt",
+            "name": "hajjGuide",
+            "printedName": "hajjGuide",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -5400,14 +6874,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO2ptyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO2ptyA2CmF",
+            "usr": "s:12DomainModels11ContentTypeO9hajjGuideyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO9hajjGuideyA2CmF",
             "moduleName": "DomainModels"
           },
           {
             "kind": "Var",
-            "name": "cp",
-            "printedName": "cp",
+            "name": "hajjUmrah",
+            "printedName": "hajjUmrah",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -5437,680 +6911,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO2cpyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO2cpyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO4nameyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO4nameyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "lp",
-            "printedName": "lp",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO2lpyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO2lpyA2CmF",
-            "moduleName": "DomainModels",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "asmaul",
-            "printedName": "asmaul",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO6asmaulyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO6asmaulyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "pl",
-            "printedName": "pl",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO2plyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO2plyA2CmF",
-            "moduleName": "DomainModels",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "lmm",
-            "printedName": "lmm",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO3lmmyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO3lmmyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "dij",
-            "printedName": "dij",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO3dijyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO3dijyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "iqz",
-            "printedName": "iqz",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO3iqzyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO3iqzyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "ej",
-            "printedName": "ej",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO2ejyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO2ejyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "nm",
-            "printedName": "nm",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO2nmyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO2nmyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "hll",
-            "printedName": "hll",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO3hllyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO3hllyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "eem",
-            "printedName": "eem",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO3eemyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO3eemyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "fmq",
-            "printedName": "fmq",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO3fmqyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO3fmqyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "qal",
-            "printedName": "qal",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO3qalyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO3qalyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "isc",
-            "printedName": "isc",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO3iscyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO3iscyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "ires",
-            "printedName": "ires",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO4iresyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO4iresyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "plfe",
-            "printedName": "plfe",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO4plfeyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO4plfeyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "wig",
-            "printedName": "wig",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO3wigyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO3wigyA2CmF",
-            "moduleName": "DomainModels"
-          },
-          {
-            "kind": "Var",
-            "name": "utub",
-            "printedName": "utub",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentType",
-                    "printedName": "DomainModels.ContentType",
-                    "usr": "s:12DomainModels11ContentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "DomainModels.ContentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ContentType",
-                        "printedName": "DomainModels.ContentType",
-                        "usr": "s:12DomainModels11ContentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12DomainModels11ContentTypeO4utubyA2CmF",
-            "mangledName": "$s12DomainModels11ContentTypeO4utubyA2CmF",
+            "usr": "s:12DomainModels11ContentTypeO9hajjUmrahyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO9hajjUmrahyA2CmF",
             "moduleName": "DomainModels"
           },
           {
@@ -6249,6 +7051,66 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.ContentType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels11ContentTypeO8allCasesSayACGvpZ",
+            "mangledName": "$s12DomainModels11ContentTypeO8allCasesSayACGvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DomainModels.ContentType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels11ContentTypeO8allCasesSayACGvgZ",
+                "mangledName": "$s12DomainModels11ContentTypeO8allCasesSayACGvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
@@ -6324,6 +7186,36 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DomainModels.ContentType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
           }
         ]
       },
@@ -7116,8 +8008,7 @@
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -8397,6 +9288,726 @@
           },
           {
             "kind": "Var",
+            "name": "textInput1",
+            "printedName": "textInput1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12PatchDetailsV10textInput1SSSgvp",
+            "mangledName": "$s12DomainModels12PatchDetailsV10textInput1SSSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12PatchDetailsV10textInput1SSSgvg",
+                "mangledName": "$s12DomainModels12PatchDetailsV10textInput1SSSgvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textInput2",
+            "printedName": "textInput2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12PatchDetailsV10textInput2SSSgvp",
+            "mangledName": "$s12DomainModels12PatchDetailsV10textInput2SSSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12PatchDetailsV10textInput2SSSgvg",
+                "mangledName": "$s12DomainModels12PatchDetailsV10textInput2SSSgvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textColor1",
+            "printedName": "textColor1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12PatchDetailsV10textColor1SSSgvp",
+            "mangledName": "$s12DomainModels12PatchDetailsV10textColor1SSSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12PatchDetailsV10textColor1SSSgvg",
+                "mangledName": "$s12DomainModels12PatchDetailsV10textColor1SSSgvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textColor2",
+            "printedName": "textColor2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12PatchDetailsV10textColor2SSSgvp",
+            "mangledName": "$s12DomainModels12PatchDetailsV10textColor2SSSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12PatchDetailsV10textColor2SSSgvg",
+                "mangledName": "$s12DomainModels12PatchDetailsV10textColor2SSSgvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fontSize1",
+            "printedName": "fontSize1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12PatchDetailsV9fontSize1SSSgvp",
+            "mangledName": "$s12DomainModels12PatchDetailsV9fontSize1SSSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12PatchDetailsV9fontSize1SSSgvg",
+                "mangledName": "$s12DomainModels12PatchDetailsV9fontSize1SSSgvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fontSize2",
+            "printedName": "fontSize2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12PatchDetailsV9fontSize2SSSgvp",
+            "mangledName": "$s12DomainModels12PatchDetailsV9fontSize2SSSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12PatchDetailsV9fontSize2SSSgvg",
+                "mangledName": "$s12DomainModels12PatchDetailsV9fontSize2SSSgvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textPosition1",
+            "printedName": "textPosition1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12PatchDetailsV13textPosition1SSSgvp",
+            "mangledName": "$s12DomainModels12PatchDetailsV13textPosition1SSSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12PatchDetailsV13textPosition1SSSgvg",
+                "mangledName": "$s12DomainModels12PatchDetailsV13textPosition1SSSgvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textPosition2",
+            "printedName": "textPosition2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12PatchDetailsV13textPosition2SSSgvp",
+            "mangledName": "$s12DomainModels12PatchDetailsV13textPosition2SSSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12PatchDetailsV13textPosition2SSSgvg",
+                "mangledName": "$s12DomainModels12PatchDetailsV13textPosition2SSSgvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textAreaDimensions1",
+            "printedName": "textAreaDimensions1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12PatchDetailsV19textAreaDimensions1SSSgvp",
+            "mangledName": "$s12DomainModels12PatchDetailsV19textAreaDimensions1SSSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12PatchDetailsV19textAreaDimensions1SSSgvg",
+                "mangledName": "$s12DomainModels12PatchDetailsV19textAreaDimensions1SSSgvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textAreaDimensions2",
+            "printedName": "textAreaDimensions2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12PatchDetailsV19textAreaDimensions2SSSgvp",
+            "mangledName": "$s12DomainModels12PatchDetailsV19textAreaDimensions2SSSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12PatchDetailsV19textAreaDimensions2SSSgvg",
+                "mangledName": "$s12DomainModels12PatchDetailsV19textAreaDimensions2SSSgvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textAlign1",
+            "printedName": "textAlign1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12PatchDetailsV10textAlign1SSSgvp",
+            "mangledName": "$s12DomainModels12PatchDetailsV10textAlign1SSSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12PatchDetailsV10textAlign1SSSgvg",
+                "mangledName": "$s12DomainModels12PatchDetailsV10textAlign1SSSgvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textAlign2",
+            "printedName": "textAlign2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels12PatchDetailsV10textAlign2SSSgvp",
+            "mangledName": "$s12DomainModels12PatchDetailsV10textAlign2SSSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels12PatchDetailsV10textAlign2SSSgvg",
+                "mangledName": "$s12DomainModels12PatchDetailsV10textAlign2SSSgvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "enableText1",
             "printedName": "enableText1",
             "children": [
@@ -8421,8 +10032,7 @@
             "moduleName": "DomainModels",
             "declAttributes": [
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -8759,7 +10369,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(id:featureID:featureName:featureTitle:title:text:arabicText:reference:imageurl1:imageurl2:imageurl3:imageurl4:imageurl5:isActive:language:sequence:contentType:featureType:surahID:juzID:verseID:hadithID:categoryID:subCategoryID:duaID:mText:meaning:eCount:featureDesign:featureLogo:featureButton:serial:isVideo:isLive:featureSize:enableText1:enableText2:boldText1:boldText2:isCustom:isPremium:)",
+            "printedName": "init(id:featureID:featureName:featureTitle:title:text:arabicText:reference:imageurl1:imageurl2:imageurl3:imageurl4:imageurl5:isActive:language:sequence:contentType:featureType:surahID:juzID:verseID:hadithID:categoryID:subCategoryID:duaID:mText:meaning:eCount:featureDesign:featureLogo:featureButton:serial:isVideo:isLive:featureSize:textInput1:textInput2:textColor1:textColor2:fontSize1:fontSize2:textPosition1:textPosition2:textAreaDimensions1:textAreaDimensions2:textAlign1:textAlign2:enableText1:enableText2:boldText1:boldText2:isCustom:isPremium:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9236,6 +10846,174 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "Swift.Bool?",
                 "children": [
                   {
@@ -9319,8 +11097,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12DomainModels12PatchDetailsV2id9featureID0F4Name0F5Title5title4text10arabicText9reference9imageurl19imageurl29imageurl39imageurl49imageurl58isActive8language8sequence11contentType0fY005surahG003juzG005verseG006hadithG008categoryG0011subCategoryG003duaG001mM07meaning6eCount0F6Design0F4Logo0F6Button6serial0T5Video0T4Live0F4Size11enableText111enableText29boldText19boldText20T6Custom0T7PremiumACSi_SiSSSgA17_A17_A17_A17_A17_10Foundation3URLVSgA21_A21_A21_A21_SbSgA17_SiSgAA07ContentY0OA17_A23_A23_A23_A23_A23_A23_A23_A17_A17_A17_A17_A21_A17_A23_A22_A22_A17_A22_A22_A22_A22_A22_A22_tcfc",
-            "mangledName": "$s12DomainModels12PatchDetailsV2id9featureID0F4Name0F5Title5title4text10arabicText9reference9imageurl19imageurl29imageurl39imageurl49imageurl58isActive8language8sequence11contentType0fY005surahG003juzG005verseG006hadithG008categoryG0011subCategoryG003duaG001mM07meaning6eCount0F6Design0F4Logo0F6Button6serial0T5Video0T4Live0F4Size11enableText111enableText29boldText19boldText20T6Custom0T7PremiumACSi_SiSSSgA17_A17_A17_A17_A17_10Foundation3URLVSgA21_A21_A21_A21_SbSgA17_SiSgAA07ContentY0OA17_A23_A23_A23_A23_A23_A23_A23_A17_A17_A17_A17_A21_A17_A23_A22_A22_A17_A22_A22_A22_A22_A22_A22_tcfc",
+            "usr": "s:12DomainModels12PatchDetailsV2id9featureID0F4Name0F5Title5title4text10arabicText9reference9imageurl19imageurl29imageurl39imageurl49imageurl58isActive8language8sequence11contentType0fY005surahG003juzG005verseG006hadithG008categoryG0011subCategoryG003duaG001mM07meaning6eCount0F6Design0F4Logo0F6Button6serial0T5Video0T4Live0F4Size0K6Input10K6Input20K6Color10K6Color29fontSize19fontSize20K9Position10K9Position20K15AreaDimensions10K15AreaDimensions20K6Align10K6Align211enableText111enableText29boldText19boldText20T6Custom0T7PremiumACSi_SiSSSgA29_A29_A29_A29_A29_10Foundation3URLVSgA33_A33_A33_A33_SbSgA29_SiSgAA07ContentY0OA29_A35_A35_A35_A35_A35_A35_A35_A29_A29_A29_A29_A33_A29_A35_A34_A34_A29_A29_A29_A29_A29_A29_A29_A29_A29_A29_A29_A29_A29_A34_A34_A34_A34_A34_A34_tcfc",
+            "mangledName": "$s12DomainModels12PatchDetailsV2id9featureID0F4Name0F5Title5title4text10arabicText9reference9imageurl19imageurl29imageurl39imageurl49imageurl58isActive8language8sequence11contentType0fY005surahG003juzG005verseG006hadithG008categoryG0011subCategoryG003duaG001mM07meaning6eCount0F6Design0F4Logo0F6Button6serial0T5Video0T4Live0F4Size0K6Input10K6Input20K6Color10K6Color29fontSize19fontSize20K9Position10K9Position20K15AreaDimensions10K15AreaDimensions20K6Align10K6Align211enableText111enableText29boldText19boldText20T6Custom0T7PremiumACSi_SiSSSgA29_A29_A29_A29_A29_10Foundation3URLVSgA33_A33_A33_A33_SbSgA29_SiSgAA07ContentY0OA29_A35_A35_A35_A35_A35_A35_A35_A29_A29_A29_A29_A33_A29_A35_A34_A34_A29_A29_A29_A29_A29_A29_A29_A29_A29_A29_A29_A29_A29_A34_A34_A34_A34_A34_A34_tcfc",
             "moduleName": "DomainModels",
             "declAttributes": [
               "AccessControl"
@@ -28266,170 +30044,219 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 541,
+      "offset": 533,
       "length": 13,
       "value": "\"RecentQuran\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 577,
+      "offset": 569,
       "length": 12,
       "value": "\"HajjPreReg\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 623,
+      "offset": 615,
       "length": 23,
       "value": "\"SeriesQuranLearnPatch\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 704,
+      "offset": 688,
       "length": 16,
       "value": "\"DigitalTasbeeh\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 743,
+      "offset": 727,
       "length": 12,
       "value": "\"Favcontent\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 778,
+      "offset": 762,
       "length": 12,
       "value": "\"SingleCard\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 817,
+      "offset": 801,
       "length": 16,
       "value": "\"CommonCardList\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 857,
+      "offset": 841,
       "length": 13,
       "value": "\"SingleImage\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 894,
+      "offset": 878,
       "length": 13,
       "value": "\"Leaderboard\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 931,
+      "offset": 915,
       "length": 13,
       "value": "\"ramadancard\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 971,
+      "offset": 947,
       "length": 8,
       "value": "\"deenAI\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1009,
+      "offset": 985,
       "length": 19,
       "value": "\"qiratParticipants\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1052,
+      "offset": 1028,
       "length": 13,
       "value": "\"qiratVidoes\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1092,
+      "offset": 1068,
       "length": 16,
       "value": "\"ramadanPlanner\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1140,
+      "offset": 1116,
       "length": 21,
       "value": "\"CommonAudioCardList\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1185,
+      "offset": 1161,
       "length": 13,
       "value": "\"TrackerCard\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1221,
+      "offset": 1197,
       "length": 12,
       "value": "\"ordhekdeen\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1257,
+      "offset": 1233,
       "length": 13,
       "value": "\"widgetPatch\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1298,
+      "offset": 1274,
       "length": 17,
       "value": "\"sohojquranpatch\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1344,
+      "offset": 1320,
       "length": 18,
       "value": "\"responsibilities\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1387,
+      "offset": 1363,
       "length": 14,
       "value": "\"subscription\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
       "kind": "StringLiteral",
-      "offset": 1430,
+      "offset": 1406,
       "length": 18,
       "value": "\"ramadanamolpatch\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
+      "kind": "StringLiteral",
+      "offset": 1452,
+      "length": 17,
+      "value": "\"QurbaniEidPatch\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
+      "kind": "StringLiteral",
+      "offset": 1500,
+      "length": 20,
+      "value": "\"DualCommonCardList\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
       "kind": "StringLiteral",
-      "offset": 603,
+      "offset": 668,
+      "length": 7,
+      "value": "\"99noa\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
+      "kind": "StringLiteral",
+      "offset": 790,
       "length": 4,
       "value": "\"in\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
       "kind": "StringLiteral",
-      "offset": 674,
-      "length": 7,
-      "value": "\"99noa\""
+      "offset": 1081,
+      "length": 12,
+      "value": "\"holy_place\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
+      "kind": "StringLiteral",
+      "offset": 1115,
+      "length": 12,
+      "value": "\"hajj_jatra\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
+      "kind": "StringLiteral",
+      "offset": 1147,
+      "length": 10,
+      "value": "\"hajj_map\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
+      "kind": "StringLiteral",
+      "offset": 1179,
+      "length": 12,
+      "value": "\"hajj_guide\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
+      "kind": "StringLiteral",
+      "offset": 1213,
+      "length": 12,
+      "value": "\"hajj_umrah\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/LandmarkDetails.swift",

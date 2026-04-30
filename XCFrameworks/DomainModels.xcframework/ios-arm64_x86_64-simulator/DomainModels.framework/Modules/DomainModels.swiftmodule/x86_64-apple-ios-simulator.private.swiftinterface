@@ -119,6 +119,8 @@ public enum AppDesign : Swift.String, Swift.CaseIterable, Swift.Codable {
   case responsibilities
   case subscription
   case ramadanamolpatch
+  case qurbaniEidPatch
+  case dualCommonCardList
   case unknown
   public init(from decoder: any Swift.Decoder) throws
   #if compiler(>=5.3) && $NonescapableTypes
@@ -133,66 +135,90 @@ public enum AppDesign : Swift.String, Swift.CaseIterable, Swift.Codable {
     get
   }
 }
-public enum ContentType : Swift.String, Swift.Codable {
-  case du
-  case qurb
-  case hau
-  case qc
+public enum ContentType : Swift.String, Swift.Codable, Swift.CaseIterable {
   case ib
+  case pldp
+  case pldd
+  case ptub
+  case ibook
+  case prakat
+  case ptrack
+  case pvisual
+  case ie
+  case rot
+  case qurb
+  case eem
+  case du
+  case khq
+  case ri
+  case hd
+  case imas
+  case fnm
+  case ires
+  case ies
+  case iqz
+  case isc
+  case diqc
+  case diq
+  case qtc
   case qr
+  case wig
+  case plfe
+  case utub
+  case dqc
+  case hpr
+  case zk
+  case qsa
+  case qic
+  case map
+  case ijt
+  case rr
+  case pt
+  case asmaul
+  case nm
+  case pl
+  case cp
+  case ej
+  case hau
+  case lmm
+  case tb
+  case lp
+  case name
+  case dij
+  case qc
+  case irlq
+  case hj
+  case hll
+  case ip
+  case qal
+  case fmq
   case deenAI
   case dps
-  case tb
-  case ibook
   case fhdd
   case fdu
   case fqrs
   case fin
-  case khq
-  case hj
-  case hpr
-  case ie
-  case zk
   case odn
-  case ip
-  case qtc
   case qrtv
-  case diqc
   case diql
-  case rr
-  case pvisual
   case blnk
   case sd
   case qld
-  case ies
-  case rot
-  case hd
-  case pt
-  case cp
-  case name
-  case lp
-  case asmaul
-  case pl
-  case lmm
-  case dij
-  case iqz
-  case ej
-  case nm
-  case hll
-  case eem
-  case fmq
-  case qal
-  case isc
-  case ires
-  case plfe
-  case wig
-  case utub
+  case holyPlace
+  case hajjJatra
+  case hajjMap
+  case hajjGuide
+  case hajjUmrah
   case unknown
   public init(from decoder: any Swift.Decoder) throws
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
+  public typealias AllCases = [DomainModels.ContentType]
   public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [DomainModels.ContentType] {
+    get
+  }
   public var rawValue: Swift.String {
     get
   }
@@ -233,6 +259,18 @@ public struct PatchDetails : Swift.Codable, Swift.Identifiable, Swift.Hashable {
   public let isVideo: Swift.Bool?
   public let isLive: Swift.Bool?
   public let featureSize: Swift.String?
+  public let textInput1: Swift.String?
+  public let textInput2: Swift.String?
+  public let textColor1: Swift.String?
+  public let textColor2: Swift.String?
+  public let fontSize1: Swift.String?
+  public let fontSize2: Swift.String?
+  public let textPosition1: Swift.String?
+  public let textPosition2: Swift.String?
+  public let textAreaDimensions1: Swift.String?
+  public let textAreaDimensions2: Swift.String?
+  public let textAlign1: Swift.String?
+  public let textAlign2: Swift.String?
   public let enableText1: Swift.Bool?
   public let enableText2: Swift.Bool?
   public let boldText1: Swift.Bool?
@@ -240,7 +278,7 @@ public struct PatchDetails : Swift.Codable, Swift.Identifiable, Swift.Hashable {
   public let isCustom: Swift.Bool?
   public let isPremium: Swift.Bool?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(id: Swift.Int, featureID: Swift.Int, featureName: Swift.String?, featureTitle: Swift.String?, title: Swift.String?, text: Swift.String?, arabicText: Swift.String?, reference: Swift.String?, imageurl1: Foundation.URL?, imageurl2: Foundation.URL?, imageurl3: Foundation.URL?, imageurl4: Foundation.URL?, imageurl5: Foundation.URL?, isActive: Swift.Bool?, language: Swift.String?, sequence: Swift.Int?, contentType: DomainModels.ContentType, featureType: Swift.String?, surahID: Swift.Int?, juzID: Swift.Int?, verseID: Swift.Int?, hadithID: Swift.Int?, categoryID: Swift.Int?, subCategoryID: Swift.Int?, duaID: Swift.Int?, mText: Swift.String?, meaning: Swift.String?, eCount: Swift.String?, featureDesign: Swift.String?, featureLogo: Foundation.URL?, featureButton: Swift.String?, serial: Swift.Int?, isVideo: Swift.Bool?, isLive: Swift.Bool?, featureSize: Swift.String?, enableText1: Swift.Bool?, enableText2: Swift.Bool?, boldText1: Swift.Bool?, boldText2: Swift.Bool?, isCustom: Swift.Bool?, isPremium: Swift.Bool?)
+  public init(id: Swift.Int, featureID: Swift.Int, featureName: Swift.String?, featureTitle: Swift.String?, title: Swift.String?, text: Swift.String?, arabicText: Swift.String?, reference: Swift.String?, imageurl1: Foundation.URL?, imageurl2: Foundation.URL?, imageurl3: Foundation.URL?, imageurl4: Foundation.URL?, imageurl5: Foundation.URL?, isActive: Swift.Bool?, language: Swift.String?, sequence: Swift.Int?, contentType: DomainModels.ContentType, featureType: Swift.String?, surahID: Swift.Int?, juzID: Swift.Int?, verseID: Swift.Int?, hadithID: Swift.Int?, categoryID: Swift.Int?, subCategoryID: Swift.Int?, duaID: Swift.Int?, mText: Swift.String?, meaning: Swift.String?, eCount: Swift.String?, featureDesign: Swift.String?, featureLogo: Foundation.URL?, featureButton: Swift.String?, serial: Swift.Int?, isVideo: Swift.Bool?, isLive: Swift.Bool?, featureSize: Swift.String?, textInput1: Swift.String?, textInput2: Swift.String?, textColor1: Swift.String?, textColor2: Swift.String?, fontSize1: Swift.String?, fontSize2: Swift.String?, textPosition1: Swift.String?, textPosition2: Swift.String?, textAreaDimensions1: Swift.String?, textAreaDimensions2: Swift.String?, textAlign1: Swift.String?, textAlign2: Swift.String?, enableText1: Swift.Bool?, enableText2: Swift.Bool?, boldText1: Swift.Bool?, boldText2: Swift.Bool?, isCustom: Swift.Bool?, isPremium: Swift.Bool?)
   #endif
   public static func == (a: DomainModels.PatchDetails, b: DomainModels.PatchDetails) -> Swift.Bool
   public typealias ID = Swift.Int

@@ -4,7 +4,6 @@
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import DomainModels
 import Foundation
-import Playgrounds
 import Swift
 import SwiftUI
 import _Concurrency
@@ -13,7 +12,6 @@ import _SwiftConcurrencyShims
 extension Swift.String {
   public func to12HourFormat() -> Swift.String
 }
-
 public protocol ContentService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func getRichTextTopics(by categoryID: Swift.Int, token: Swift.String) async throws -> [DomainModels.IslamicEvent]
@@ -35,8 +33,10 @@ public protocol LandmarkDataService {
   nonisolated(nonsending) func detail(id: Swift.Int) async throws -> DomainModels.LandmarkDetails
   #endif
 }
-
 public protocol IlmeService {
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchPatch() async throws -> [DomainModels.PatchList]
+  #endif
 }
 public struct PrayerTimeDataDTO : Swift.Codable {
   public let date: Swift.String
@@ -116,6 +116,7 @@ public enum ServiceFactory {
   public static func makePTNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.PTService
   public static func makeFTNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.FTService
   public static func makeDashboardNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.DashboardService
+  public static func makeIlmeNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.IlmeService
 }
 extension Networking.NetworkEnvironment : Swift.Equatable {}
 extension Networking.NetworkEnvironment : Swift.Hashable {}

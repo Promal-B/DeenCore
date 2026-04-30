@@ -134,13 +134,6 @@
       },
       {
         "kind": "Import",
-        "name": "Playgrounds",
-        "printedName": "Playgrounds",
-        "declKind": "Import",
-        "moduleName": "Networking"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -783,22 +776,60 @@
       },
       {
         "kind": "Import",
-        "name": "Playgrounds",
-        "printedName": "Playgrounds",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
         "declKind": "Import",
-        "moduleName": "Networking"
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "TypeDecl",
         "name": "IlmeService",
         "printedName": "IlmeService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fetchPatch",
+            "printedName": "fetchPatch()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.PatchList]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PatchList",
+                    "printedName": "DomainModels.PatchList",
+                    "usr": "s:12DomainModels9PatchListV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking11IlmeServiceP10fetchPatchSay12DomainModels0E4ListVGyYaKF",
+            "mangledName": "$s10Networking11IlmeServiceP10fetchPatchSay12DomainModels0E4ListVGyYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.IlmeService>",
+            "sugared_genericSig": "<Self where Self : Networking.IlmeService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
         "declKind": "Protocol",
         "usr": "s:10Networking11IlmeServiceP",
         "mangledName": "$s10Networking11IlmeServiceP",
         "moduleName": "Networking",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -3197,6 +3228,35 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeIlmeNetworkService",
+            "printedName": "makeIlmeNetworkService(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IlmeService",
+                "printedName": "any Networking.IlmeService",
+                "usr": "s:10Networking11IlmeServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
+                "hasDefaultArg": true,
+                "usr": "s:10Networking18NetworkEnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking14ServiceFactoryO015makeIlmeNetworkB03forAA0eB0_pAA0F11EnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO015makeIlmeNetworkB03forAA0eB0_pAA0F11EnvironmentO_tFZ",
+            "moduleName": "Networking",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -4337,28 +4397,28 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
       "kind": "StringLiteral",
-      "offset": 1269,
+      "offset": 1271,
       "length": 31,
       "value": "\"api\/ilmeDeen\/GetIlmeDeenPatch\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
       "kind": "StringLiteral",
-      "offset": 1351,
+      "offset": 1355,
       "length": 30,
       "value": "\"api\/Mosque\/GetHolyPlacePatch\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
       "kind": "StringLiteral",
-      "offset": 1407,
+      "offset": 1411,
       "length": 29,
       "value": "\"api\/Mosque\/GetHolyPlaceList\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
       "kind": "StringLiteral",
-      "offset": 1465,
+      "offset": 1469,
       "length": 29,
       "value": "\"api\/Mosque\/HolyPlaceDetails\""
     },
@@ -4396,69 +4456,6 @@
       "offset": 323,
       "length": 9,
       "value": "\"Expires\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Auth\/AuthNetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 1649,
-      "length": 239,
-      "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBsaWNhdGlvbiI6IkRlZW4gSXNsYW0iLCJuYW1lIjoiODgwMTczODQzOTIzNiIsInJvbGUiOiJBZG1pbiIsIm5iZiI6MTc3MTkwOTMzMiwiZXhwIjoxNzcxOTk1NzMyLCJpYXQiOjE3NzE5MDkzMzJ9.CuMzSrfsBpSk3dOhgTUlmo9Np4PDqZVxJIPywUPDElw\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Auth\/AuthNetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 1956,
-      "length": 15,
-      "value": "\"8801738439232\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Auth\/AuthNetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 1983,
-      "length": 8,
-      "value": "\"123456\""
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0029AuthNetworkServiceswift_tAFJhfMX57_0_33_F3D48C3CD3D21D52D471E1DBA1EB1FBELl10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2209,
-      "length": 10,
-      "value": "0x706c6179"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0029AuthNetworkServiceswift_tAFJhfMX57_0_33_F3D48C3CD3D21D52D471E1DBA1EB1FBELl10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2236,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0029AuthNetworkServiceswift_tAFJhfMX57_0_33_F3D48C3CD3D21D52D471E1DBA1EB1FBELl10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2594,
-      "length": 2,
-      "value": "58"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0029AuthNetworkServiceswift_tAFJhfMX57_0_33_F3D48C3CD3D21D52D471E1DBA1EB1FBELl10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2612,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0029AuthNetworkServiceswift_tAFJhfMX57_0_33_F3D48C3CD3D21D52D471E1DBA1EB1FBELl10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2693,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0029AuthNetworkServiceswift_tAFJhfMX57_0_33_F3D48C3CD3D21D52D471E1DBA1EB1FBELl10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2698,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/ContentService\/Model\/EventDetailDTO.swift",
@@ -4634,48 +4631,6 @@
       "offset": 1866,
       "length": 10,
       "value": "\"imageurl\""
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX36_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1893,
-      "length": 10,
-      "value": "0x706c6179"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX36_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1920,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX36_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2278,
-      "length": 2,
-      "value": "37"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX36_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2296,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX36_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2377,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX36_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2382,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
