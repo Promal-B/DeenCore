@@ -209,6 +209,7 @@ public enum ContentType : Swift.String, Swift.Codable, Swift.CaseIterable {
   case hajjMap
   case hajjGuide
   case hajjUmrah
+  case banners
   case unknown
   public init(from decoder: any Swift.Decoder) throws
   #if compiler(>=5.3) && $NonescapableTypes
@@ -222,90 +223,6 @@ public enum ContentType : Swift.String, Swift.Codable, Swift.CaseIterable {
   public var rawValue: Swift.String {
     get
   }
-}
-public struct PatchDetails : Swift.Codable, Swift.Identifiable, Swift.Hashable {
-  public let id: Swift.Int
-  public let featureID: Swift.Int
-  public let featureName: Swift.String?
-  public let featureTitle: Swift.String?
-  public let title: Swift.String?
-  public let text: Swift.String?
-  public let arabicText: Swift.String?
-  public let reference: Swift.String?
-  public let imageurl1: Foundation.URL?
-  public let imageurl2: Foundation.URL?
-  public let imageurl3: Foundation.URL?
-  public let imageurl4: Foundation.URL?
-  public let imageurl5: Foundation.URL?
-  public let isActive: Swift.Bool?
-  public let language: Swift.String?
-  public let sequence: Swift.Int?
-  public let contentType: DomainModels.ContentType
-  public let featureType: Swift.String?
-  public let surahID: Swift.Int?
-  public let juzID: Swift.Int?
-  public let verseID: Swift.Int?
-  public let hadithID: Swift.Int?
-  public let categoryID: Swift.Int?
-  public let subCategoryID: Swift.Int?
-  public let duaID: Swift.Int?
-  public let mText: Swift.String?
-  public let meaning: Swift.String?
-  public let eCount: Swift.String?
-  public let featureDesign: Swift.String?
-  public let featureLogo: Foundation.URL?
-  public let featureButton: Swift.String?
-  public let serial: Swift.Int?
-  public let isVideo: Swift.Bool?
-  public let isLive: Swift.Bool?
-  public let featureSize: Swift.String?
-  public let textInput1: Swift.String?
-  public let textInput2: Swift.String?
-  public let textColor1: Swift.String?
-  public let textColor2: Swift.String?
-  public let fontSize1: Swift.String?
-  public let fontSize2: Swift.String?
-  public let textPosition1: Swift.String?
-  public let textPosition2: Swift.String?
-  public let textAreaDimensions1: Swift.String?
-  public let textAreaDimensions2: Swift.String?
-  public let textAlign1: Swift.String?
-  public let textAlign2: Swift.String?
-  public let enableText1: Swift.Bool?
-  public let enableText2: Swift.Bool?
-  public let boldText1: Swift.Bool?
-  public let boldText2: Swift.Bool?
-  public let isCustom: Swift.Bool?
-  public let isPremium: Swift.Bool?
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(id: Swift.Int, featureID: Swift.Int, featureName: Swift.String?, featureTitle: Swift.String?, title: Swift.String?, text: Swift.String?, arabicText: Swift.String?, reference: Swift.String?, imageurl1: Foundation.URL?, imageurl2: Foundation.URL?, imageurl3: Foundation.URL?, imageurl4: Foundation.URL?, imageurl5: Foundation.URL?, isActive: Swift.Bool?, language: Swift.String?, sequence: Swift.Int?, contentType: DomainModels.ContentType, featureType: Swift.String?, surahID: Swift.Int?, juzID: Swift.Int?, verseID: Swift.Int?, hadithID: Swift.Int?, categoryID: Swift.Int?, subCategoryID: Swift.Int?, duaID: Swift.Int?, mText: Swift.String?, meaning: Swift.String?, eCount: Swift.String?, featureDesign: Swift.String?, featureLogo: Foundation.URL?, featureButton: Swift.String?, serial: Swift.Int?, isVideo: Swift.Bool?, isLive: Swift.Bool?, featureSize: Swift.String?, textInput1: Swift.String?, textInput2: Swift.String?, textColor1: Swift.String?, textColor2: Swift.String?, fontSize1: Swift.String?, fontSize2: Swift.String?, textPosition1: Swift.String?, textPosition2: Swift.String?, textAreaDimensions1: Swift.String?, textAreaDimensions2: Swift.String?, textAlign1: Swift.String?, textAlign2: Swift.String?, enableText1: Swift.Bool?, enableText2: Swift.Bool?, boldText1: Swift.Bool?, boldText2: Swift.Bool?, isCustom: Swift.Bool?, isPremium: Swift.Bool?)
-  #endif
-  public static func == (a: DomainModels.PatchDetails, b: DomainModels.PatchDetails) -> Swift.Bool
-  public typealias ID = Swift.Int
-  public func encode(to encoder: any Swift.Encoder) throws
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct PatchList : Swift.Codable, Swift.Identifiable {
-  public let id: Swift.Int
-  public let title: Swift.String
-  public let design: Swift.String?
-  public let appDesign: DomainModels.AppDesign
-  public let logo: Foundation.URL?
-  public let buttonText: Swift.String?
-  public let sequence: Swift.Int?
-  public let featureSize: Swift.String?
-  public let featureType: Swift.String?
-  public let items: [DomainModels.PatchDetails]
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(id: Swift.Int, title: Swift.String, design: Swift.String?, appDesign: DomainModels.AppDesign, logo: Foundation.URL?, buttonText: Swift.String?, sequence: Swift.Int?, featureSize: Swift.String?, featureType: Swift.String?, items: [DomainModels.PatchDetails])
-  #endif
-  public typealias ID = Swift.Int
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
 }
 public enum AppError : Foundation.LocalizedError {
   case invalidInput

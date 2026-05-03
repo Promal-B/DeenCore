@@ -9,6 +9,139 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct MenuItemDTO : Swift.Codable, Swift.Identifiable, Swift.Hashable {
+  public let id: Swift.Int
+  public let text: Swift.String
+  public let imageURL: Swift.String
+  public let contentType: DomainModels.ResponseContentType
+  public static func == (a: Networking.MenuItemDTO, b: Networking.MenuItemDTO) -> Swift.Bool
+  public typealias ID = Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PatchDetailsDTO : Swift.Codable, Swift.Identifiable, Swift.Hashable {
+  public let id: Swift.Int
+  public let featureID: Swift.Int
+  public let featureName: Swift.String?
+  public let featureTitle: Swift.String?
+  public let title: Swift.String?
+  public let text: Swift.String?
+  public let arabicText: Swift.String?
+  public let reference: Swift.String?
+  public let imageurl1: Swift.String?
+  public let imageurl2: Swift.String?
+  public let imageurl3: Swift.String?
+  public let imageurl4: Swift.String?
+  public let imageurl5: Swift.String?
+  public let contentBaseURL: Swift.String?
+  public let isActive: Swift.Bool?
+  public let language: Swift.String?
+  public let sequence: Swift.Int?
+  public let contentType: Swift.String?
+  public let featureType: Swift.String?
+  public let surahID: Swift.Int?
+  public let juzID: Swift.Int?
+  public let verseID: Swift.Int?
+  public let hadithID: Swift.Int?
+  public let categoryID: Swift.Int?
+  public let subCategoryID: Swift.Int?
+  public let duaID: Swift.Int?
+  public let mText: Swift.String?
+  public let meaning: Swift.String?
+  public let eCount: Swift.String?
+  public let featureDesign: Swift.String?
+  public let featureLogo: Swift.String?
+  public let featureButton: Swift.String?
+  public let serial: Swift.Int?
+  public let isVideo: Swift.Bool?
+  public let isLive: Swift.Bool?
+  public let featureSize: Swift.String?
+  public let textInput1: Swift.String?
+  public let textInput2: Swift.String?
+  public let textColor1: Swift.String?
+  public let textColor2: Swift.String?
+  public let fontSize1: Swift.String?
+  public let fontSize2: Swift.String?
+  public let textPosition1: Swift.String?
+  public let textPosition2: Swift.String?
+  public let textAreaDimensions1: Swift.String?
+  public let textAreaDimensions2: Swift.String?
+  public let textAlign1: Swift.String?
+  public let textAlign2: Swift.String?
+  public let enableText1: Swift.Bool?
+  public let enableText2: Swift.Bool?
+  public let boldText1: Swift.Bool?
+  public let boldText2: Swift.Bool?
+  public let isCustom: Swift.Bool?
+  public let isPremium: Swift.Bool?
+  public static func == (a: Networking.PatchDetailsDTO, b: Networking.PatchDetailsDTO) -> Swift.Bool
+  public typealias ID = Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PatchListDTO : Swift.Codable, Swift.Identifiable {
+  public let id: Swift.Int
+  public let title: Swift.String
+  public let design: Swift.String?
+  public let appDesign: DomainModels.AppDesign
+  public let logo: Swift.String?
+  public let buttonText: Swift.String?
+  public let sequence: Swift.Int?
+  public let featureSize: Swift.String?
+  public let featureType: Swift.String?
+  public let items: [Networking.PatchDetailsDTO]?
+  public typealias ID = Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum APIEndPoints : Swift.String {
+  case dashboard
+  case register
+  case login
+  case varifyJWTToken
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ServiceEndPoints : Swift.String {
+  case qlHomePatch
+  case qlQuizQuestions
+  case qlQaidaFeature
+  case qlQaidaFeatureDetails
+  case qlSohojQuranQuizPatch
+  case fmMosquePatch
+  case fmMosqueDetails
+  case fmMosqueList
+  case rAmalContent
+  case prayerTimeDateWise
+  case addFastTrackingInfo
+  case addFastTrackingInfoDateWise
+  case getFastTrackingInfo
+  case ramadanCalander
+  case ilmePatch
+  case holyPlacePatch
+  case holyPlaceList
+  case holyPlaceDetails
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 extension Swift.String {
   public func to12HourFormat() -> Swift.String
 }
@@ -19,7 +152,7 @@ public protocol ContentService {
 }
 public protocol DashboardService {
   #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func loadContent(content: Swift.Int, page: Swift.Int, token: Swift.String?) async throws -> (list: [DomainModels.PatchList], profile: DomainModels.UserProfile, pagination: DomainModels.PaginationV2?)
+  nonisolated(nonsending) func loadContent(content: Swift.Int, page: Swift.Int, token: Swift.String?) async throws -> (list: [Networking.PatchListDTO], profile: DomainModels.UserProfile, pagination: DomainModels.PaginationV2?)
   #endif
 }
 public protocol LandmarkDataService {
@@ -35,7 +168,7 @@ public protocol LandmarkDataService {
 }
 public protocol IlmeService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func fetchPatch() async throws -> [DomainModels.PatchList]
+  nonisolated(nonsending) func fetchPatch() async throws -> [Networking.PatchListDTO]
   #endif
 }
 public struct PrayerTimeDataDTO : Swift.Codable {
@@ -98,6 +231,19 @@ public protocol FTService {
   nonisolated(nonsending) func fetchTrackingDetails(token: Swift.String, date: Swift.String, language: Swift.String) async throws -> DomainModels.MonthlyFastingCalendar
   #endif
 }
+public enum APIEnvironment {
+  case productionEN
+  case productionBN
+  case android
+  public func serviceURL(for path: Networking.ServiceEndPoints) -> Foundation.URL
+  public func contentURL(for path: Swift.String) -> Foundation.URL
+  public func apiURL(for path: Networking.APIEndPoints) -> Foundation.URL
+  public static func == (a: Networking.APIEnvironment, b: Networking.APIEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public enum NetworkEnvironment {
   case productionEN
   case productionBN
@@ -109,14 +255,22 @@ public enum NetworkEnvironment {
   }
 }
 public enum ServiceFactory {
-  public static func makeQLNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.QLService
-  public static func makeFMNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.LandmarkDataService
-  public static func makeHPNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.LandmarkDataService
-  public static func makeContentNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.ContentService
-  public static func makePTNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.PTService
-  public static func makeFTNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.FTService
-  public static func makeDashboardNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.DashboardService
-  public static func makeIlmeNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.IlmeService
+  public static func makeQLNetworkService(for environment: Networking.APIEnvironment = .productionBN) -> any Networking.QLService
+  public static func makeFMNetworkService(for environment: Networking.APIEnvironment = .productionBN) -> any Networking.LandmarkDataService
+  public static func makeHPNetworkService(for environment: Networking.APIEnvironment = .productionBN) -> any Networking.LandmarkDataService
+  public static func makeContentNetworkService(for environment: Networking.APIEnvironment = .productionBN) -> any Networking.ContentService
+  public static func makePTNetworkService(for environment: Networking.APIEnvironment = .productionBN) -> any Networking.PTService
+  public static func makeFTNetworkService(for environment: Networking.APIEnvironment = .productionBN) -> any Networking.FTService
+  public static func makeDashboardNetworkService(for environment: Networking.APIEnvironment = .productionBN) -> any Networking.DashboardService
+  public static func makeIlmeNetworkService(for environment: Networking.APIEnvironment = .productionBN) -> any Networking.IlmeService
 }
+extension Networking.APIEndPoints : Swift.Equatable {}
+extension Networking.APIEndPoints : Swift.Hashable {}
+extension Networking.APIEndPoints : Swift.RawRepresentable {}
+extension Networking.ServiceEndPoints : Swift.Equatable {}
+extension Networking.ServiceEndPoints : Swift.Hashable {}
+extension Networking.ServiceEndPoints : Swift.RawRepresentable {}
+extension Networking.APIEnvironment : Swift.Equatable {}
+extension Networking.APIEnvironment : Swift.Hashable {}
 extension Networking.NetworkEnvironment : Swift.Equatable {}
 extension Networking.NetworkEnvironment : Swift.Hashable {}
