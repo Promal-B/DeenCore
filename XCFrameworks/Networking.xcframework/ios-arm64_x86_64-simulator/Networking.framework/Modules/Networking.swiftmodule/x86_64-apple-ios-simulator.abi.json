@@ -1754,21 +1754,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Bool?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10Networking15PatchDetailsDTOV8isActiveSbSgvp",
-            "mangledName": "$s10Networking15PatchDetailsDTOV8isActiveSbSgvp",
+            "usr": "s:10Networking15PatchDetailsDTOV8isActiveSSSgvp",
+            "mangledName": "$s10Networking15PatchDetailsDTOV8isActiveSSSgvp",
             "moduleName": "Networking",
             "declAttributes": [
               "HasStorage",
@@ -1785,21 +1785,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Bool?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10Networking15PatchDetailsDTOV8isActiveSbSgvg",
-                "mangledName": "$s10Networking15PatchDetailsDTOV8isActiveSbSgvg",
+                "usr": "s:10Networking15PatchDetailsDTOV8isActiveSSSgvg",
+                "mangledName": "$s10Networking15PatchDetailsDTOV8isActiveSSSgvg",
                 "moduleName": "Networking",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5975,6 +5975,80 @@
           },
           {
             "kind": "Var",
+            "name": "ilmeAudioByContentType",
+            "printedName": "ilmeAudioByContentType",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Networking.ServiceEndPoints.Type) -> Networking.ServiceEndPoints",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceEndPoints",
+                    "printedName": "Networking.ServiceEndPoints",
+                    "usr": "s:10Networking16ServiceEndPointsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Networking.ServiceEndPoints.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceEndPoints",
+                        "printedName": "Networking.ServiceEndPoints",
+                        "usr": "s:10Networking16ServiceEndPointsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Networking16ServiceEndPointsO22ilmeAudioByContentTypeyA2CmF",
+            "mangledName": "$s10Networking16ServiceEndPointsO22ilmeAudioByContentTypeyA2CmF",
+            "moduleName": "Networking"
+          },
+          {
+            "kind": "Var",
+            "name": "ilmeAudioByCategory",
+            "printedName": "ilmeAudioByCategory",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Networking.ServiceEndPoints.Type) -> Networking.ServiceEndPoints",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceEndPoints",
+                    "printedName": "Networking.ServiceEndPoints",
+                    "usr": "s:10Networking16ServiceEndPointsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Networking.ServiceEndPoints.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceEndPoints",
+                        "printedName": "Networking.ServiceEndPoints",
+                        "usr": "s:10Networking16ServiceEndPointsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Networking16ServiceEndPointsO19ilmeAudioByCategoryyA2CmF",
+            "mangledName": "$s10Networking16ServiceEndPointsO19ilmeAudioByCategoryyA2CmF",
+            "moduleName": "Networking"
+          },
+          {
+            "kind": "Var",
             "name": "holyPlacePatch",
             "printedName": "holyPlacePatch",
             "children": [
@@ -6915,6 +6989,120 @@
             "declKind": "Func",
             "usr": "s:10Networking11IlmeServiceP10fetchPatchSayAA0E7ListDTOVGyYaKF",
             "mangledName": "$s10Networking11IlmeServiceP10fetchPatchSayAA0E7ListDTOVGyYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.IlmeService>",
+            "sugared_genericSig": "<Self where Self : Networking.IlmeService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchCategories",
+            "printedName": "fetchCategories()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Networking.IlmeCategory]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IlmeCategory",
+                    "printedName": "Networking.IlmeCategory",
+                    "usr": "s:10Networking12IlmeCategoryV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking11IlmeServiceP15fetchCategoriesSayAA0B8CategoryVGyYaKF",
+            "mangledName": "$s10Networking11IlmeServiceP15fetchCategoriesSayAA0B8CategoryVGyYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.IlmeService>",
+            "sugared_genericSig": "<Self where Self : Networking.IlmeService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchAudio",
+            "printedName": "fetchAudio(by:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Networking.PatchDetailsDTO]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PatchDetailsDTO",
+                    "printedName": "Networking.PatchDetailsDTO",
+                    "usr": "s:10Networking15PatchDetailsDTOV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContentType",
+                "printedName": "DomainModels.ContentType",
+                "usr": "s:12DomainModels11ContentTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking11IlmeServiceP10fetchAudio2bySayAA15PatchDetailsDTOVG12DomainModels11ContentTypeO_tYaKF",
+            "mangledName": "$s10Networking11IlmeServiceP10fetchAudio2bySayAA15PatchDetailsDTOVG12DomainModels11ContentTypeO_tYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.IlmeService>",
+            "sugared_genericSig": "<Self where Self : Networking.IlmeService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchAudio",
+            "printedName": "fetchAudio(by:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Networking.PatchDetailsDTO]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PatchDetailsDTO",
+                    "printedName": "Networking.PatchDetailsDTO",
+                    "usr": "s:10Networking15PatchDetailsDTOV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking11IlmeServiceP10fetchAudio2bySayAA15PatchDetailsDTOVGSi_tYaKF",
+            "mangledName": "$s10Networking11IlmeServiceP10fetchAudio2bySayAA15PatchDetailsDTOVGSi_tYaKF",
             "moduleName": "Networking",
             "genericSig": "<τ_0_0 where τ_0_0 : Networking.IlmeService>",
             "sugared_genericSig": "<Self where Self : Networking.IlmeService>",
@@ -10488,203 +10676,203 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2072,
+      "offset": 2074,
       "length": 4,
       "value": "\"Id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2102,
+      "offset": 2104,
       "length": 11,
       "value": "\"FeatureID\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2141,
+      "offset": 2143,
       "length": 13,
       "value": "\"FeatureName\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2183,
+      "offset": 2185,
       "length": 14,
       "value": "\"FeatureTitle\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2219,
+      "offset": 2221,
       "length": 7,
       "value": "\"Title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2247,
+      "offset": 2249,
       "length": 6,
       "value": "\"Text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2280,
+      "offset": 2282,
       "length": 12,
       "value": "\"ArabicText\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2318,
+      "offset": 2320,
       "length": 11,
       "value": "\"Reference\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2475,
+      "offset": 2477,
       "length": 16,
       "value": "\"contentBaseUrl\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2516,
+      "offset": 2518,
       "length": 10,
       "value": "\"IsActive\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2551,
+      "offset": 2553,
       "length": 10,
       "value": "\"Language\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2586,
+      "offset": 2588,
       "length": 10,
       "value": "\"Sequence\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2624,
+      "offset": 2626,
       "length": 13,
       "value": "\"ContentType\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2665,
+      "offset": 2667,
       "length": 13,
       "value": "\"FeatureType\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2702,
+      "offset": 2704,
       "length": 9,
       "value": "\"SurahId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2733,
+      "offset": 2735,
       "length": 7,
       "value": "\"JuzId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2764,
+      "offset": 2766,
       "length": 9,
       "value": "\"VerseId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2798,
+      "offset": 2800,
       "length": 10,
       "value": "\"HadithId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2835,
+      "offset": 2837,
       "length": 12,
       "value": "\"CategoryId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2877,
+      "offset": 2879,
       "length": 15,
       "value": "\"SubCategoryId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2914,
+      "offset": 2916,
       "length": 7,
       "value": "\"DuaId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2943,
+      "offset": 2945,
       "length": 7,
       "value": "\"MText\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2974,
+      "offset": 2976,
       "length": 9,
       "value": "\"Meaning\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 3006,
+      "offset": 3008,
       "length": 8,
       "value": "\"ECount\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 3044,
+      "offset": 3046,
       "length": 15,
       "value": "\"FeatureDesign\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 3087,
+      "offset": 3089,
       "length": 13,
       "value": "\"FeatureLogo\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 3130,
+      "offset": 3132,
       "length": 15,
       "value": "\"FeatureButton\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 3168,
+      "offset": 3170,
       "length": 8,
       "value": "\"Serial\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
       "kind": "StringLiteral",
-      "offset": 3245,
+      "offset": 3247,
       "length": 13,
       "value": "\"FeatureSize\""
     },
@@ -10901,21 +11089,35 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
       "kind": "StringLiteral",
-      "offset": 1420,
+      "offset": 1402,
+      "length": 41,
+      "value": "\"api\/ilmeDeen\/IlmeDeenAudioByContentType\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1475,
+      "length": 38,
+      "value": "\"api\/ilmeDeen\/IlmeDeenAudioByCategory\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1566,
       "length": 30,
       "value": "\"api\/Mosque\/GetHolyPlacePatch\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
       "kind": "StringLiteral",
-      "offset": 1476,
+      "offset": 1622,
       "length": 29,
       "value": "\"api\/Mosque\/GetHolyPlaceList\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
       "kind": "StringLiteral",
-      "offset": 1534,
+      "offset": 1680,
       "length": 29,
       "value": "\"api\/Mosque\/HolyPlaceDetails\""
     },

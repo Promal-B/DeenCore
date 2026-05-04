@@ -49,7 +49,7 @@ public struct PatchDetailsDTO : Swift.Codable, Swift.Identifiable, Swift.Hashabl
   public let imageurl4: Swift.String?
   public let imageurl5: Swift.String?
   public let contentBaseURL: Swift.String?
-  public let isActive: Swift.Bool?
+  public let isActive: Swift.String?
   public let language: Swift.String?
   public let sequence: Swift.Int?
   public let contentType: Swift.String?
@@ -143,6 +143,8 @@ public enum ServiceEndPoints : Swift.String {
   case ramadanCalander
   case ilmePatch
   case ilmeCategories
+  case ilmeAudioByContentType
+  case ilmeAudioByCategory
   case holyPlacePatch
   case holyPlaceList
   case holyPlaceDetails
@@ -181,6 +183,15 @@ public protocol LandmarkDataService {
 public protocol IlmeService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func fetchPatch() async throws -> [Networking.PatchListDTO]
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchCategories() async throws -> [Networking.IlmeCategory]
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchAudio(by contentType: DomainModels.ContentType) async throws -> [Networking.PatchDetailsDTO]
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchAudio(by categoryID: Swift.Int) async throws -> [Networking.PatchDetailsDTO]
   #endif
 }
 public struct PrayerTimeDataDTO : Swift.Codable {

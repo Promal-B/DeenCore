@@ -6954,6 +6954,191 @@
           },
           {
             "kind": "Var",
+            "name": "audiobook",
+            "printedName": "audiobook",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO9audiobookyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO9audiobookyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "forkids",
+            "printedName": "forkids",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO7forkidsyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO7forkidsyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "islamiceducationvideo",
+            "printedName": "islamiceducationvideo",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO21islamiceducationvideoyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO21islamiceducationvideoyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "historyofislam",
+            "printedName": "historyofislam",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO14historyofislamyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO14historyofislamyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "nasheed",
+            "printedName": "nasheed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO7nasheedyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO7nasheedyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
             "name": "unknown",
             "printedName": "unknown",
             "children": [
@@ -25377,6 +25562,41 @@
       "offset": 1245,
       "length": 9,
       "value": "\"Banners\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
+      "kind": "StringLiteral",
+      "offset": 1276,
+      "length": 11,
+      "value": "\"audiobook\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
+      "kind": "StringLiteral",
+      "offset": 1307,
+      "length": 9,
+      "value": "\"forkids\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
+      "kind": "StringLiteral",
+      "offset": 1350,
+      "length": 23,
+      "value": "\"islamiceducationvideo\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
+      "kind": "StringLiteral",
+      "offset": 1400,
+      "length": 16,
+      "value": "\"historyofislam\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
+      "kind": "StringLiteral",
+      "offset": 1436,
+      "length": 9,
+      "value": "\"nasheed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/FamousMosque\/LandmarkDetails.swift",
