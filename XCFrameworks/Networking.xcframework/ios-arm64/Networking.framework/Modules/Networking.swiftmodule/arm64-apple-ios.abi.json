@@ -42,6 +42,468 @@
         "moduleName": "Networking"
       },
       {
+        "kind": "TypeDecl",
+        "name": "IlmeCategory",
+        "printedName": "IlmeCategory",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking12IlmeCategoryV2idSivp",
+            "mangledName": "$s10Networking12IlmeCategoryV2idSivp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking12IlmeCategoryV2idSivg",
+                "mangledName": "$s10Networking12IlmeCategoryV2idSivg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking12IlmeCategoryV4typeSSSgvp",
+            "mangledName": "$s10Networking12IlmeCategoryV4typeSSSgvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking12IlmeCategoryV4typeSSSgvg",
+                "mangledName": "$s10Networking12IlmeCategoryV4typeSSSgvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "category",
+            "printedName": "category",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking12IlmeCategoryV8categorySSSgvp",
+            "mangledName": "$s10Networking12IlmeCategoryV8categorySSSgvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking12IlmeCategoryV8categorySSSgvg",
+                "mangledName": "$s10Networking12IlmeCategoryV8categorySSSgvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageurl",
+            "printedName": "imageurl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking12IlmeCategoryV8imageurlSSSgvp",
+            "mangledName": "$s10Networking12IlmeCategoryV8imageurlSSSgvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking12IlmeCategoryV8imageurlSSSgvg",
+                "mangledName": "$s10Networking12IlmeCategoryV8imageurlSSSgvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contentBaseUrl",
+            "printedName": "contentBaseUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking12IlmeCategoryV14contentBaseUrlSSSgvp",
+            "mangledName": "$s10Networking12IlmeCategoryV14contentBaseUrlSSSgvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking12IlmeCategoryV14contentBaseUrlSSSgvg",
+                "mangledName": "$s10Networking12IlmeCategoryV14contentBaseUrlSSSgvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contentType",
+            "printedName": "contentType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking12IlmeCategoryV11contentTypeSSSgvp",
+            "mangledName": "$s10Networking12IlmeCategoryV11contentTypeSSSgvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking12IlmeCategoryV11contentTypeSSSgvg",
+                "mangledName": "$s10Networking12IlmeCategoryV11contentTypeSSSgvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IlmeCategory",
+                "printedName": "Networking.IlmeCategory",
+                "usr": "s:10Networking12IlmeCategoryV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10Networking12IlmeCategoryV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10Networking12IlmeCategoryV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Networking",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking12IlmeCategoryV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10Networking12IlmeCategoryV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Networking",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Networking12IlmeCategoryV",
+        "mangledName": "$s10Networking12IlmeCategoryV",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -5476,6 +5938,43 @@
           },
           {
             "kind": "Var",
+            "name": "ilmeCategories",
+            "printedName": "ilmeCategories",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Networking.ServiceEndPoints.Type) -> Networking.ServiceEndPoints",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceEndPoints",
+                    "printedName": "Networking.ServiceEndPoints",
+                    "usr": "s:10Networking16ServiceEndPointsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Networking.ServiceEndPoints.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceEndPoints",
+                        "printedName": "Networking.ServiceEndPoints",
+                        "usr": "s:10Networking16ServiceEndPointsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Networking16ServiceEndPointsO14ilmeCategoriesyA2CmF",
+            "mangledName": "$s10Networking16ServiceEndPointsO14ilmeCategoriesyA2CmF",
+            "moduleName": "Networking"
+          },
+          {
+            "kind": "Var",
             "name": "holyPlacePatch",
             "printedName": "holyPlacePatch",
             "children": [
@@ -9917,6 +10416,48 @@
       "value": "\"ProfileUrl\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/IlmeCategory.swift",
+      "kind": "StringLiteral",
+      "offset": 420,
+      "length": 4,
+      "value": "\"Id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/IlmeCategory.swift",
+      "kind": "StringLiteral",
+      "offset": 445,
+      "length": 6,
+      "value": "\"Type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/IlmeCategory.swift",
+      "kind": "StringLiteral",
+      "offset": 476,
+      "length": 10,
+      "value": "\"Category\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/IlmeCategory.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 10,
+      "value": "\"ImageUrl\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/IlmeCategory.swift",
+      "kind": "StringLiteral",
+      "offset": 552,
+      "length": 16,
+      "value": "\"ContentBaseUrl\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/IlmeCategory.swift",
+      "kind": "StringLiteral",
+      "offset": 596,
+      "length": 13,
+      "value": "\"ContentType\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/MenuItemDTO.swift",
       "kind": "StringLiteral",
       "offset": 402,
@@ -10353,21 +10894,28 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
       "kind": "StringLiteral",
-      "offset": 1362,
+      "offset": 1336,
+      "length": 31,
+      "value": "\"api\/ilmeDeen\/IlmeDeenCategory\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1420,
       "length": 30,
       "value": "\"api\/Mosque\/GetHolyPlacePatch\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
       "kind": "StringLiteral",
-      "offset": 1418,
+      "offset": 1476,
       "length": 29,
       "value": "\"api\/Mosque\/GetHolyPlaceList\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
       "kind": "StringLiteral",
-      "offset": 1476,
+      "offset": 1534,
       "length": 29,
       "value": "\"api\/Mosque\/HolyPlaceDetails\""
     },
