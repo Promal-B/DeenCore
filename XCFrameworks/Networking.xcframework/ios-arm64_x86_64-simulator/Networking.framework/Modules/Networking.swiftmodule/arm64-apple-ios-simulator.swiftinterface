@@ -9,17 +9,6 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct IlmeCategory : Swift.Codable, Swift.Identifiable {
-  public let id: Swift.Int
-  public let type: Swift.String?
-  public let category: Swift.String?
-  public let imageurl: Swift.String?
-  public let contentBaseUrl: Swift.String?
-  public let contentType: Swift.String?
-  public typealias ID = Swift.Int
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
 public struct MenuItemDTO : Swift.Codable, Swift.Identifiable, Swift.Hashable {
   public let id: Swift.Int
   public let text: Swift.String
@@ -163,6 +152,17 @@ public protocol ContentService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func getRichTextTopics(by categoryID: Swift.Int, token: Swift.String) async throws -> [DomainModels.IslamicEvent]
   #endif
+}
+public struct IlmeCategory : Swift.Codable, Swift.Identifiable {
+  public let id: Swift.Int
+  public let type: Swift.String?
+  public let category: Swift.String?
+  public let imageurl: Swift.String?
+  public let contentBaseUrl: Swift.String?
+  public let contentType: Swift.String?
+  public typealias ID = Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public protocol DashboardService {
   #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes

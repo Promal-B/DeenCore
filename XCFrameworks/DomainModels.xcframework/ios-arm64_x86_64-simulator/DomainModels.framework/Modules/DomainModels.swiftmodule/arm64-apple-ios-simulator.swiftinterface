@@ -190,6 +190,7 @@ public enum ContentType : Swift.String, Swift.Codable, Swift.CaseIterable {
   case hj
   case hll
   case ip
+  case ipd
   case qal
   case fmq
   case deenAI
@@ -210,11 +211,9 @@ public enum ContentType : Swift.String, Swift.Codable, Swift.CaseIterable {
   case hajjGuide
   case hajjUmrah
   case banners
-  case audiobook
-  case forkids
-  case islamiceducationvideo
-  case historyofislam
-  case nasheed
+  case ab
+  case idvp
+  case nsd
   case unknown
   public init(from decoder: any Swift.Decoder) throws
   #if compiler(>=5.3) && $NonescapableTypes
