@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import DomainModels
 import Foundation
+import Playgrounds
 import Swift
 import SwiftUI
 import _Concurrency
@@ -159,6 +160,7 @@ public struct IlmeCategory : Swift.Codable, Swift.Identifiable {
   public let id: Swift.Int
   public let type: Swift.String?
   public let category: Swift.String?
+  public let categoryID: Swift.Int?
   public let imageurl: Swift.String?
   public let contentBaseUrl: Swift.String?
   public let contentType: Swift.String?
@@ -182,6 +184,7 @@ public protocol LandmarkDataService {
   nonisolated(nonsending) func detail(id: Swift.Int) async throws -> DomainModels.LandmarkDetails
   #endif
 }
+
 public protocol IlmeService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func fetchPatch() async throws -> [Networking.PatchListDTO]

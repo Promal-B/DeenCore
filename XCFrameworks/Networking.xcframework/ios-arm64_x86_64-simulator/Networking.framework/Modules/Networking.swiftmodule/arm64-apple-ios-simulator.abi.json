@@ -6248,6 +6248,66 @@
           },
           {
             "kind": "Var",
+            "name": "categoryID",
+            "printedName": "categoryID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking12IlmeCategoryV10categoryIDSiSgvp",
+            "mangledName": "$s10Networking12IlmeCategoryV10categoryIDSiSgvp",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking12IlmeCategoryV10categoryIDSiSgvg",
+                "mangledName": "$s10Networking12IlmeCategoryV10categoryIDSiSgvg",
+                "moduleName": "Networking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "imageurl",
             "printedName": "imageurl",
             "children": [
@@ -7029,6 +7089,13 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
+        "name": "Playgrounds",
+        "printedName": "Playgrounds",
         "declKind": "Import",
         "moduleName": "Networking"
       },
@@ -11415,42 +11482,49 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
       "kind": "StringLiteral",
-      "offset": 420,
+      "offset": 452,
       "length": 4,
       "value": "\"Id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
       "kind": "StringLiteral",
-      "offset": 445,
+      "offset": 477,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
       "kind": "StringLiteral",
-      "offset": 476,
+      "offset": 508,
       "length": 10,
       "value": "\"Category\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
       "kind": "StringLiteral",
-      "offset": 511,
+      "offset": 545,
+      "length": 12,
+      "value": "\"CategoryId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
+      "kind": "StringLiteral",
+      "offset": 582,
       "length": 10,
       "value": "\"ImageUrl\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
       "kind": "StringLiteral",
-      "offset": 552,
+      "offset": 623,
       "length": 16,
       "value": "\"ContentBaseUrl\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
       "kind": "StringLiteral",
-      "offset": 596,
+      "offset": 667,
       "length": 13,
       "value": "\"ContentType\""
     },
@@ -11516,6 +11590,48 @@
       "offset": 1866,
       "length": 10,
       "value": "\"imageurl\""
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX137_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1925,
+      "length": 10,
+      "value": "0x706c6179"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX137_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1952,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX137_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2312,
+      "length": 3,
+      "value": "138"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX137_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2331,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX137_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2412,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX137_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2417,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Prayer Time\/Model\/PrayerTimeDataDTO.swift",
