@@ -456,6 +456,29 @@ public struct MonthlyFastingCalendar : Swift.Codable {
 extension DomainModels.MonthlyFastingCalendar {
   public static let preview: DomainModels.MonthlyFastingCalendar
 }
+public struct IlmeVideo : Swift.Codable, Swift.Identifiable {
+  public let id: Swift.Int
+  public let categoryID: Swift.Int
+  public let category: Swift.String
+  public let title: Swift.String
+  public let reference: Swift.String
+  public let duration: Swift.String
+  public let referenceURL: Swift.String
+  public var imageURL: Swift.String
+  public var videoURL: Swift.String
+  public let isFavorite: Swift.Bool
+  public let durationInSec: Swift.Int
+  public let durationWatched: Swift.Int
+  public let isCompleted: Swift.Bool
+  public func copy(videoURL: Swift.String) -> DomainModels.IlmeVideo
+  public typealias ID = Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension DomainModels.IlmeVideo {
+  public static let preview: DomainModels.IlmeVideo
+  public static let previewList: [DomainModels.IlmeVideo]
+}
 public struct PrayerTimeData : Swift.Codable {
   public let date: Swift.String
   public let islamicDate: Swift.String

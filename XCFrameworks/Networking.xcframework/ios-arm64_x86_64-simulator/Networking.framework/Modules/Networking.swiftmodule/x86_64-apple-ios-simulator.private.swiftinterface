@@ -107,6 +107,7 @@ public enum APIEndPoints : Swift.String {
   case register
   case login
   case varifyJWTToken
+  case encodedURL
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
@@ -134,6 +135,7 @@ public enum ServiceEndPoints : Swift.String {
   case ilmeCategories
   case ilmeAudioByContentType
   case ilmeAudioByCategory
+  case partnerVideoByCategory
   case holyPlacePatch
   case holyPlaceList
   case holyPlaceDetails
@@ -192,6 +194,12 @@ public protocol IlmeService {
   #endif
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func fetchAudio(by categoryID: Swift.Int) async throws -> [Networking.PatchDetailsDTO]
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchPartnerVideoByCategory(id: Swift.Int, page: Swift.Int, content: Swift.Int) async throws -> [DomainModels.IlmeVideo]
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchSecureURL(for videoURL: Swift.String) async throws -> Foundation.URL
   #endif
 }
 public struct PrayerTimeDataDTO : Swift.Codable {

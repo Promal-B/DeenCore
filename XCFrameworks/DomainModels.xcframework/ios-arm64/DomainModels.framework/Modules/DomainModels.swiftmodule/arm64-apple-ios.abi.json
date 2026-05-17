@@ -14314,6 +14314,917 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "IlmeVideo",
+        "printedName": "IlmeVideo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9IlmeVideoV2idSivp",
+            "mangledName": "$s12DomainModels9IlmeVideoV2idSivp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV2idSivg",
+                "mangledName": "$s12DomainModels9IlmeVideoV2idSivg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "categoryID",
+            "printedName": "categoryID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9IlmeVideoV10categoryIDSivp",
+            "mangledName": "$s12DomainModels9IlmeVideoV10categoryIDSivp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV10categoryIDSivg",
+                "mangledName": "$s12DomainModels9IlmeVideoV10categoryIDSivg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "category",
+            "printedName": "category",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9IlmeVideoV8categorySSvp",
+            "mangledName": "$s12DomainModels9IlmeVideoV8categorySSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV8categorySSvg",
+                "mangledName": "$s12DomainModels9IlmeVideoV8categorySSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9IlmeVideoV5titleSSvp",
+            "mangledName": "$s12DomainModels9IlmeVideoV5titleSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV5titleSSvg",
+                "mangledName": "$s12DomainModels9IlmeVideoV5titleSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reference",
+            "printedName": "reference",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9IlmeVideoV9referenceSSvp",
+            "mangledName": "$s12DomainModels9IlmeVideoV9referenceSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV9referenceSSvg",
+                "mangledName": "$s12DomainModels9IlmeVideoV9referenceSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "duration",
+            "printedName": "duration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9IlmeVideoV8durationSSvp",
+            "mangledName": "$s12DomainModels9IlmeVideoV8durationSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV8durationSSvg",
+                "mangledName": "$s12DomainModels9IlmeVideoV8durationSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "referenceURL",
+            "printedName": "referenceURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9IlmeVideoV12referenceURLSSvp",
+            "mangledName": "$s12DomainModels9IlmeVideoV12referenceURLSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV12referenceURLSSvg",
+                "mangledName": "$s12DomainModels9IlmeVideoV12referenceURLSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageURL",
+            "printedName": "imageURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9IlmeVideoV8imageURLSSvp",
+            "mangledName": "$s12DomainModels9IlmeVideoV8imageURLSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV8imageURLSSvg",
+                "mangledName": "$s12DomainModels9IlmeVideoV8imageURLSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV8imageURLSSvs",
+                "mangledName": "$s12DomainModels9IlmeVideoV8imageURLSSvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV8imageURLSSvM",
+                "mangledName": "$s12DomainModels9IlmeVideoV8imageURLSSvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoURL",
+            "printedName": "videoURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9IlmeVideoV8videoURLSSvp",
+            "mangledName": "$s12DomainModels9IlmeVideoV8videoURLSSvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV8videoURLSSvg",
+                "mangledName": "$s12DomainModels9IlmeVideoV8videoURLSSvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV8videoURLSSvs",
+                "mangledName": "$s12DomainModels9IlmeVideoV8videoURLSSvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV8videoURLSSvM",
+                "mangledName": "$s12DomainModels9IlmeVideoV8videoURLSSvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFavorite",
+            "printedName": "isFavorite",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9IlmeVideoV10isFavoriteSbvp",
+            "mangledName": "$s12DomainModels9IlmeVideoV10isFavoriteSbvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV10isFavoriteSbvg",
+                "mangledName": "$s12DomainModels9IlmeVideoV10isFavoriteSbvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "durationInSec",
+            "printedName": "durationInSec",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9IlmeVideoV13durationInSecSivp",
+            "mangledName": "$s12DomainModels9IlmeVideoV13durationInSecSivp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV13durationInSecSivg",
+                "mangledName": "$s12DomainModels9IlmeVideoV13durationInSecSivg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "durationWatched",
+            "printedName": "durationWatched",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9IlmeVideoV15durationWatchedSivp",
+            "mangledName": "$s12DomainModels9IlmeVideoV15durationWatchedSivp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV15durationWatchedSivg",
+                "mangledName": "$s12DomainModels9IlmeVideoV15durationWatchedSivg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isCompleted",
+            "printedName": "isCompleted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9IlmeVideoV11isCompletedSbvp",
+            "mangledName": "$s12DomainModels9IlmeVideoV11isCompletedSbvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV11isCompletedSbvg",
+                "mangledName": "$s12DomainModels9IlmeVideoV11isCompletedSbvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "copy",
+            "printedName": "copy(videoURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IlmeVideo",
+                "printedName": "DomainModels.IlmeVideo",
+                "usr": "s:12DomainModels9IlmeVideoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DomainModels9IlmeVideoV4copy8videoURLACSS_tF",
+            "mangledName": "$s12DomainModels9IlmeVideoV4copy8videoURLACSS_tF",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IlmeVideo",
+                "printedName": "DomainModels.IlmeVideo",
+                "usr": "s:12DomainModels9IlmeVideoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DomainModels9IlmeVideoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12DomainModels9IlmeVideoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DomainModels9IlmeVideoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12DomainModels9IlmeVideoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "preview",
+            "printedName": "preview",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IlmeVideo",
+                "printedName": "DomainModels.IlmeVideo",
+                "usr": "s:12DomainModels9IlmeVideoV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9IlmeVideoV7previewACvpZ",
+            "mangledName": "$s12DomainModels9IlmeVideoV7previewACvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IlmeVideo",
+                    "printedName": "DomainModels.IlmeVideo",
+                    "usr": "s:12DomainModels9IlmeVideoV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV7previewACvgZ",
+                "mangledName": "$s12DomainModels9IlmeVideoV7previewACvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previewList",
+            "printedName": "previewList",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.IlmeVideo]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IlmeVideo",
+                    "printedName": "DomainModels.IlmeVideo",
+                    "usr": "s:12DomainModels9IlmeVideoV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels9IlmeVideoV11previewListSayACGvpZ",
+            "mangledName": "$s12DomainModels9IlmeVideoV11previewListSayACGvpZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[DomainModels.IlmeVideo]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IlmeVideo",
+                        "printedName": "DomainModels.IlmeVideo",
+                        "usr": "s:12DomainModels9IlmeVideoV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels9IlmeVideoV11previewListSayACGvgZ",
+                "mangledName": "$s12DomainModels9IlmeVideoV11previewListSayACGvgZ",
+                "moduleName": "DomainModels",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12DomainModels9IlmeVideoV",
+        "mangledName": "$s12DomainModels9IlmeVideoV",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -26470,6 +27381,426 @@
       "offset": 1001,
       "length": 54,
       "value": "\"১১ শাবান, ১৪৪৭ হিজরী\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 614,
+      "length": 4,
+      "value": "\"Id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 757,
+      "length": 14,
+      "value": "\"referenceurl\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 796,
+      "length": 10,
+      "value": "\"imageurl\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 831,
+      "length": 10,
+      "value": "\"videourl\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 868,
+      "length": 12,
+      "value": "\"IsFavorite\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 910,
+      "length": 15,
+      "value": "\"DurationInSec\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 957,
+      "length": 17,
+      "value": "\"DurationWatched\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 1002,
+      "length": 13,
+      "value": "\"IsCompleted\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1244,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1268,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 1289,
+      "length": 36,
+      "value": "\"কানিজ ফাতিমা\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 1342,
+      "length": 34,
+      "value": "\"কে হবে টিচার\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 1397,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 1419,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 1445,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 1467,
+      "length": 67,
+      "value": "\"Content\/Videos\/madanibangla\/ArtWork\/KeHobeTeacher_KanizFatima.jpg\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 1554,
+      "length": 65,
+      "value": "\"Content\/Videos\/madanibangla\/Video\/KeHobeTeacher_KanizFatima.mp4\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1641,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1671,
+      "length": 3,
+      "value": "565"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1701,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1725,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1817,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1845,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 1870,
+      "length": 36,
+      "value": "\"কানিজ ফাতিমা\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 1927,
+      "length": 34,
+      "value": "\"কে হবে টিচার\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 1986,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 2012,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 2042,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 2068,
+      "length": 67,
+      "value": "\"Content\/Videos\/madanibangla\/ArtWork\/KeHobeTeacher_KanizFatima.jpg\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 2159,
+      "length": 65,
+      "value": "\"Content\/Videos\/madanibangla\/Video\/KeHobeTeacher_KanizFatima.mp4\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2250,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2284,
+      "length": 3,
+      "value": "565"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2318,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2346,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2398,
+      "length": 2,
+      "value": "91"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2426,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 2451,
+      "length": 36,
+      "value": "\"কানিজ ফাতিমা\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 2508,
+      "length": 75,
+      "value": "\"রায়কা থেকে গ্লাস ভেঙে গেলো\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 2608,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 2634,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 2664,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 2690,
+      "length": 78,
+      "value": "\"Content\/Videos\/madanibangla\/ArtWork\/RaikaThekeGlassVengegelo_KanizFatima.jpg\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 2792,
+      "length": 76,
+      "value": "\"Content\/Videos\/madanibangla\/Video\/RaikaThekeGlassVengegelo_KanizFatima.mp4\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2894,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2927,
+      "length": 3,
+      "value": "320"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2961,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2991,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3043,
+      "length": 2,
+      "value": "92"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3071,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 3096,
+      "length": 36,
+      "value": "\"কানিজ ফাতিমা\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 3153,
+      "length": 33,
+      "value": "\"ইসলামের আলো\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 3211,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 3237,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 3267,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 3293,
+      "length": 64,
+      "value": "\"Content\/Videos\/madanibangla\/ArtWork\/IslamErAlo_KanizFatima.jpg\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 3381,
+      "length": 62,
+      "value": "\"Content\/Videos\/madanibangla\/Video\/IslamErAlo_KanizFatima.mp4\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3469,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3503,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3537,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeVideo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3567,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Prayer Time\/PrayerTimeData.swift",

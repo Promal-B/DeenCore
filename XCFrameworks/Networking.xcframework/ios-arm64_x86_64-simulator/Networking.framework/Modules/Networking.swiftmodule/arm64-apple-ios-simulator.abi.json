@@ -4762,6 +4762,43 @@
             "moduleName": "Networking"
           },
           {
+            "kind": "Var",
+            "name": "encodedURL",
+            "printedName": "encodedURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Networking.APIEndPoints.Type) -> Networking.APIEndPoints",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIEndPoints",
+                    "printedName": "Networking.APIEndPoints",
+                    "usr": "s:10Networking12APIEndPointsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Networking.APIEndPoints.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIEndPoints",
+                        "printedName": "Networking.APIEndPoints",
+                        "usr": "s:10Networking12APIEndPointsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Networking12APIEndPointsO10encodedURLyA2CmF",
+            "mangledName": "$s10Networking12APIEndPointsO10encodedURLyA2CmF",
+            "moduleName": "Networking"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -5583,6 +5620,43 @@
             "declKind": "EnumElement",
             "usr": "s:10Networking16ServiceEndPointsO19ilmeAudioByCategoryyA2CmF",
             "mangledName": "$s10Networking16ServiceEndPointsO19ilmeAudioByCategoryyA2CmF",
+            "moduleName": "Networking"
+          },
+          {
+            "kind": "Var",
+            "name": "partnerVideoByCategory",
+            "printedName": "partnerVideoByCategory",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Networking.ServiceEndPoints.Type) -> Networking.ServiceEndPoints",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceEndPoints",
+                    "printedName": "Networking.ServiceEndPoints",
+                    "usr": "s:10Networking16ServiceEndPointsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Networking.ServiceEndPoints.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceEndPoints",
+                        "printedName": "Networking.ServiceEndPoints",
+                        "usr": "s:10Networking16ServiceEndPointsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Networking16ServiceEndPointsO22partnerVideoByCategoryyA2CmF",
+            "mangledName": "$s10Networking16ServiceEndPointsO22partnerVideoByCategoryyA2CmF",
             "moduleName": "Networking"
           },
           {
@@ -6953,6 +7027,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
         "name": "DomainModels",
         "printedName": "DomainModels",
         "declKind": "Import",
@@ -6960,6 +7041,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking"
       },
       {
         "kind": "TypeDecl",
@@ -7103,6 +7191,90 @@
             "declKind": "Func",
             "usr": "s:10Networking11IlmeServiceP10fetchAudio2bySayAA15PatchDetailsDTOVGSi_tYaKF",
             "mangledName": "$s10Networking11IlmeServiceP10fetchAudio2bySayAA15PatchDetailsDTOVGSi_tYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.IlmeService>",
+            "sugared_genericSig": "<Self where Self : Networking.IlmeService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchPartnerVideoByCategory",
+            "printedName": "fetchPartnerVideoByCategory(id:page:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.IlmeVideo]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IlmeVideo",
+                    "printedName": "DomainModels.IlmeVideo",
+                    "usr": "s:12DomainModels9IlmeVideoV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking11IlmeServiceP27fetchPartnerVideoByCategory2id4page7contentSay12DomainModels0bF0VGSi_S2itYaKF",
+            "mangledName": "$s10Networking11IlmeServiceP27fetchPartnerVideoByCategory2id4page7contentSay12DomainModels0bF0VGSi_S2itYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.IlmeService>",
+            "sugared_genericSig": "<Self where Self : Networking.IlmeService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchSecureURL",
+            "printedName": "fetchSecureURL(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking11IlmeServiceP14fetchSecureURL3for10Foundation0F0VSS_tYaKF",
+            "mangledName": "$s10Networking11IlmeServiceP14fetchSecureURL3for10Foundation0F0VSS_tYaKF",
             "moduleName": "Networking",
             "genericSig": "<τ_0_0 where τ_0_0 : Networking.IlmeService>",
             "sugared_genericSig": "<Self where Self : Networking.IlmeService>",
@@ -10933,6 +11105,13 @@
       "value": "\"api\/User\/VerifyLoginToken\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/APIEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 27,
+      "value": "\"api\/Profile\/GetEncodedUrl\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
       "kind": "StringLiteral",
       "offset": 247,
@@ -11061,21 +11240,28 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
       "kind": "StringLiteral",
-      "offset": 1566,
+      "offset": 1548,
+      "length": 42,
+      "value": "\"api\/IslamicVideos\/PartnerVideoByCategory\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1643,
       "length": 30,
       "value": "\"api\/Mosque\/GetHolyPlacePatch\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
       "kind": "StringLiteral",
-      "offset": 1622,
+      "offset": 1699,
       "length": 29,
       "value": "\"api\/Mosque\/GetHolyPlaceList\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
       "kind": "StringLiteral",
-      "offset": 1680,
+      "offset": 1757,
       "length": 29,
       "value": "\"api\/Mosque\/HolyPlaceDetails\""
     },
