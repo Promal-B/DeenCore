@@ -1933,6 +1933,291 @@
           },
           {
             "kind": "Var",
+            "name": "playbackSpeed",
+            "printedName": "playbackSpeed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Services18MediaPlayerManagerC13playbackSpeedSfvp",
+            "mangledName": "$s8Services18MediaPlayerManagerC13playbackSpeedSfvp",
+            "moduleName": "Services",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Services18MediaPlayerManagerC13playbackSpeedSfvg",
+                "mangledName": "$s8Services18MediaPlayerManagerC13playbackSpeedSfvg",
+                "moduleName": "Services",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$playbackSpeed",
+            "printedName": "$playbackSpeed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Float>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Services18MediaPlayerManagerC14$playbackSpeed7Combine9PublishedV9PublisherVySf_Gvp",
+            "mangledName": "$s8Services18MediaPlayerManagerC14$playbackSpeed7Combine9PublishedV9PublisherVySf_Gvp",
+            "moduleName": "Services",
+            "implicit": true,
+            "declAttributes": [
+              "Final",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Float>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Services18MediaPlayerManagerC14$playbackSpeed7Combine9PublishedV9PublisherVySf_Gvg",
+                "mangledName": "$s8Services18MediaPlayerManagerC14$playbackSpeed7Combine9PublishedV9PublisherVySf_Gvg",
+                "moduleName": "Services",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentTime",
+            "printedName": "currentTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Services18MediaPlayerManagerC11currentTimeSdvp",
+            "mangledName": "$s8Services18MediaPlayerManagerC11currentTimeSdvp",
+            "moduleName": "Services",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Services18MediaPlayerManagerC11currentTimeSdvg",
+                "mangledName": "$s8Services18MediaPlayerManagerC11currentTimeSdvg",
+                "moduleName": "Services",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$currentTime",
+            "printedName": "$currentTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Double>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Services18MediaPlayerManagerC12$currentTime7Combine9PublishedV9PublisherVySd_Gvp",
+            "mangledName": "$s8Services18MediaPlayerManagerC12$currentTime7Combine9PublishedV9PublisherVySd_Gvp",
+            "moduleName": "Services",
+            "implicit": true,
+            "declAttributes": [
+              "Final",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Double>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Services18MediaPlayerManagerC12$currentTime7Combine9PublishedV9PublisherVySd_Gvg",
+                "mangledName": "$s8Services18MediaPlayerManagerC12$currentTime7Combine9PublishedV9PublisherVySd_Gvg",
+                "moduleName": "Services",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "duration",
+            "printedName": "duration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Services18MediaPlayerManagerC8durationSdvp",
+            "mangledName": "$s8Services18MediaPlayerManagerC8durationSdvp",
+            "moduleName": "Services",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Services18MediaPlayerManagerC8durationSdvg",
+                "mangledName": "$s8Services18MediaPlayerManagerC8durationSdvg",
+                "moduleName": "Services",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$duration",
+            "printedName": "$duration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Double>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Services18MediaPlayerManagerC9$duration7Combine9PublishedV9PublisherVySd_Gvp",
+            "mangledName": "$s8Services18MediaPlayerManagerC9$duration7Combine9PublishedV9PublisherVySd_Gvp",
+            "moduleName": "Services",
+            "implicit": true,
+            "declAttributes": [
+              "Final",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Double>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Services18MediaPlayerManagerC9$duration7Combine9PublishedV9PublisherVySd_Gvg",
+                "mangledName": "$s8Services18MediaPlayerManagerC9$duration7Combine9PublishedV9PublisherVySd_Gvg",
+                "moduleName": "Services",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "isLooping",
             "printedName": "isLooping",
             "children": [
@@ -2281,6 +2566,122 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPlaybackSpeed",
+            "printedName": "setPlaybackSpeed(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Services18MediaPlayerManagerC16setPlaybackSpeedyySfF",
+            "mangledName": "$s8Services18MediaPlayerManagerC16setPlaybackSpeedyySfF",
+            "moduleName": "Services",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "seek",
+            "printedName": "seek(by:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Services18MediaPlayerManagerC4seek2byySd_tF",
+            "mangledName": "$s8Services18MediaPlayerManagerC4seek2byySd_tF",
+            "moduleName": "Services",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "seek",
+            "printedName": "seek(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Services18MediaPlayerManagerC4seek2toySd_tF",
+            "mangledName": "$s8Services18MediaPlayerManagerC4seek2toySd_tF",
+            "moduleName": "Services",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrubbingPreview",
+            "printedName": "scrubbingPreview(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Services18MediaPlayerManagerC16scrubbingPreview2toySd_tF",
+            "mangledName": "$s8Services18MediaPlayerManagerC16scrubbingPreview2toySd_tF",
+            "moduleName": "Services",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -2542,28 +2943,56 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Services\/MediaPlayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 371,
+      "offset": 374,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Services\/MediaPlayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 429,
+      "offset": 435,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Services\/MediaPlayerManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 503,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Services\/MediaPlayerManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 568,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Services\/MediaPlayerManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 628,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Services\/MediaPlayerManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 674,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Services\/MediaPlayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 479,
+      "offset": 1001,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Services\/MediaPlayerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1043,
+      "offset": 1375,
       "length": 5,
       "value": "false"
     }

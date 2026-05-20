@@ -118,6 +118,24 @@ extension Services.Utilities {
   @_Concurrency.MainActor final public var $isMuted: Combine.Published<Swift.Bool>.Publisher {
     get
   }
+  @Combine.Published @_projectedValueProperty($playbackSpeed) @_Concurrency.MainActor final public var playbackSpeed: Swift.Float {
+    get
+  }
+  @_Concurrency.MainActor final public var $playbackSpeed: Combine.Published<Swift.Float>.Publisher {
+    get
+  }
+  @Combine.Published @_projectedValueProperty($currentTime) @_Concurrency.MainActor final public var currentTime: Swift.Double {
+    get
+  }
+  @_Concurrency.MainActor final public var $currentTime: Combine.Published<Swift.Double>.Publisher {
+    get
+  }
+  @Combine.Published @_projectedValueProperty($duration) @_Concurrency.MainActor final public var duration: Swift.Double {
+    get
+  }
+  @_Concurrency.MainActor final public var $duration: Combine.Published<Swift.Double>.Publisher {
+    get
+  }
   @Combine.Published @_projectedValueProperty($isLooping) @_Concurrency.MainActor final public var isLooping: Swift.Bool {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
@@ -135,6 +153,10 @@ extension Services.Utilities {
   @_Concurrency.MainActor final public func stop()
   @_Concurrency.MainActor final public func toggleMute()
   @_Concurrency.MainActor final public func setMuted(_ muted: Swift.Bool)
+  @_Concurrency.MainActor final public func setPlaybackSpeed(_ speed: Swift.Float)
+  @_Concurrency.MainActor final public func seek(by seconds: Swift.Double)
+  @_Concurrency.MainActor final public func seek(to seconds: Swift.Double)
+  @_Concurrency.MainActor final public func scrubbingPreview(to seconds: Swift.Double)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
