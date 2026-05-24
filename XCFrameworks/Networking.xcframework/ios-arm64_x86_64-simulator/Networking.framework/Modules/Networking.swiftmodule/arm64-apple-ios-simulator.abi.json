@@ -6,16 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "Networking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "DomainModels",
         "printedName": "DomainModels",
         "declKind": "Import",
@@ -5774,6 +5764,83 @@
             "moduleName": "Networking"
           },
           {
+            "kind": "Var",
+            "name": "umrahPackagePatch",
+            "printedName": "umrahPackagePatch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Networking.ServiceEndPoints.Type) -> Networking.ServiceEndPoints",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceEndPoints",
+                    "printedName": "Networking.ServiceEndPoints",
+                    "usr": "s:10Networking16ServiceEndPointsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Networking.ServiceEndPoints.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceEndPoints",
+                        "printedName": "Networking.ServiceEndPoints",
+                        "usr": "s:10Networking16ServiceEndPointsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Networking16ServiceEndPointsO17umrahPackagePatchyA2CmF",
+            "mangledName": "$s10Networking16ServiceEndPointsO17umrahPackagePatchyA2CmF",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "umrahPatch",
+            "printedName": "umrahPatch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Networking.ServiceEndPoints.Type) -> Networking.ServiceEndPoints",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceEndPoints",
+                    "printedName": "Networking.ServiceEndPoints",
+                    "usr": "s:10Networking16ServiceEndPointsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Networking.ServiceEndPoints.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceEndPoints",
+                        "printedName": "Networking.ServiceEndPoints",
+                        "usr": "s:10Networking16ServiceEndPointsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Networking16ServiceEndPointsO10umrahPatchyA2CmF",
+            "mangledName": "$s10Networking16ServiceEndPointsO10umrahPatchyA2CmF",
+            "moduleName": "Networking"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -5953,128 +6020,6 @@
         "moduleName": "Networking",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Networking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "DomainModels",
-        "printedName": "DomainModels",
-        "declKind": "Import",
-        "moduleName": "Networking"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Networking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "DomainModels",
-        "printedName": "DomainModels",
-        "declKind": "Import",
-        "moduleName": "Networking"
-      },
-      {
-        "kind": "Import",
-        "name": "DomainModels",
-        "printedName": "DomainModels",
-        "declKind": "Import",
-        "moduleName": "Networking",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ContentService",
-        "printedName": "ContentService",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "getRichTextTopics",
-            "printedName": "getRichTextTopics(by:token:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[DomainModels.IslamicEvent]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IslamicEvent",
-                    "printedName": "DomainModels.IslamicEvent",
-                    "usr": "s:12DomainModels12IslamicEventV"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Networking14ContentServiceP17getRichTextTopics2by5tokenSay12DomainModels12IslamicEventVGSi_SStYaKF",
-            "mangledName": "$s10Networking14ContentServiceP17getRichTextTopics2by5tokenSay12DomainModels12IslamicEventVGSi_SStYaKF",
-            "moduleName": "Networking",
-            "genericSig": "<τ_0_0 where τ_0_0 : Networking.ContentService>",
-            "sugared_genericSig": "<Self where Self : Networking.ContentService>",
-            "protocolReq": true,
-            "declAttributes": [
-              "Nonisolated",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:10Networking14ContentServiceP",
-        "mangledName": "$s10Networking14ContentServiceP",
-        "moduleName": "Networking",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
         ]
       },
       {
@@ -6596,6 +6541,128 @@
             ],
             "usr": "s:s12IdentifiableP",
             "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ContentService",
+        "printedName": "ContentService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getRichTextTopics",
+            "printedName": "getRichTextTopics(by:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.IslamicEvent]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IslamicEvent",
+                    "printedName": "DomainModels.IslamicEvent",
+                    "usr": "s:12DomainModels12IslamicEventV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking14ContentServiceP17getRichTextTopics2by5tokenSay12DomainModels12IslamicEventVGSi_SStYaKF",
+            "mangledName": "$s10Networking14ContentServiceP17getRichTextTopics2by5tokenSay12DomainModels12IslamicEventVGSi_SStYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.ContentService>",
+            "sugared_genericSig": "<Self where Self : Networking.ContentService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10Networking14ContentServiceP",
+        "mangledName": "$s10Networking14ContentServiceP",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           }
         ]
       },
@@ -9268,6 +9335,135 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "Import",
+        "name": "Playgrounds",
+        "printedName": "Playgrounds",
+        "declKind": "Import",
+        "moduleName": "Networking"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UPService",
+        "printedName": "UPService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fetchUmrahPatch",
+            "printedName": "fetchUmrahPatch()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Networking.PatchListDTO]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PatchListDTO",
+                    "printedName": "Networking.PatchListDTO",
+                    "usr": "s:10Networking12PatchListDTOV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking9UPServiceP15fetchUmrahPatchSayAA0E7ListDTOVGyYaKF",
+            "mangledName": "$s10Networking9UPServiceP15fetchUmrahPatchSayAA0E7ListDTOVGyYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.UPService>",
+            "sugared_genericSig": "<Self where Self : Networking.UPService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchUmrahPackage",
+            "printedName": "fetchUmrahPackage(patch:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Networking.PatchListDTO]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PatchListDTO",
+                    "printedName": "Networking.PatchListDTO",
+                    "usr": "s:10Networking12PatchListDTOV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking9UPServiceP17fetchUmrahPackage5patchSayAA12PatchListDTOVGSS_tYaKF",
+            "mangledName": "$s10Networking9UPServiceP17fetchUmrahPackage5patchSayAA12PatchListDTOVGSS_tYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.UPService>",
+            "sugared_genericSig": "<Self where Self : Networking.UPService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10Networking9UPServiceP",
+        "mangledName": "$s10Networking9UPServiceP",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "DomainModels",
         "printedName": "DomainModels",
         "declKind": "Import",
@@ -10132,6 +10328,35 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUPNetworkService",
+            "printedName": "makeUPNetworkService(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UPService",
+                "printedName": "any Networking.UPService",
+                "usr": "s:10Networking9UPServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APIEnvironment",
+                "printedName": "Networking.APIEnvironment",
+                "hasDefaultArg": true,
+                "usr": "s:10Networking14APIEnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking14ServiceFactoryO013makeUPNetworkB03forAA9UPService_pAA14APIEnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO013makeUPNetworkB03forAA9UPService_pAA14APIEnvironmentO_tFZ",
+            "moduleName": "Networking",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -10157,6 +10382,16 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -11333,6 +11568,20 @@
       "value": "\"api\/Mosque\/HolyPlaceDetails\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1845,
+      "length": 42,
+      "value": "\"api\/PreRegistration\/GetUmrahPackagePatch\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1910,
+      "length": 35,
+      "value": "\"api\/PreRegistration\/GetUmrahPatch\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Auth\/Model\/LoginDataDTO.swift",
       "kind": "StringLiteral",
       "offset": 239,
@@ -11366,6 +11615,55 @@
       "offset": 323,
       "length": 9,
       "value": "\"Expires\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
+      "kind": "StringLiteral",
+      "offset": 452,
+      "length": 4,
+      "value": "\"Id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
+      "kind": "StringLiteral",
+      "offset": 477,
+      "length": 6,
+      "value": "\"Type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
+      "kind": "StringLiteral",
+      "offset": 508,
+      "length": 10,
+      "value": "\"Category\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 12,
+      "value": "\"CategoryId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
+      "kind": "StringLiteral",
+      "offset": 582,
+      "length": 10,
+      "value": "\"ImageUrl\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
+      "kind": "StringLiteral",
+      "offset": 623,
+      "length": 16,
+      "value": "\"ContentBaseUrl\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
+      "kind": "StringLiteral",
+      "offset": 667,
+      "length": 13,
+      "value": "\"ContentType\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/ContentService\/Model\/EventDetailDTO.swift",
@@ -11478,55 +11776,6 @@
       "offset": 889,
       "length": 8,
       "value": "\"Serial\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
-      "kind": "StringLiteral",
-      "offset": 452,
-      "length": 4,
-      "value": "\"Id\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
-      "kind": "StringLiteral",
-      "offset": 477,
-      "length": 6,
-      "value": "\"Type\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
-      "kind": "StringLiteral",
-      "offset": 508,
-      "length": 10,
-      "value": "\"Category\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
-      "kind": "StringLiteral",
-      "offset": 545,
-      "length": 12,
-      "value": "\"CategoryId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
-      "kind": "StringLiteral",
-      "offset": 582,
-      "length": 10,
-      "value": "\"ImageUrl\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
-      "kind": "StringLiteral",
-      "offset": 623,
-      "length": 16,
-      "value": "\"ContentBaseUrl\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/IlmeDeen\/IlmeCategory.swift",
-      "kind": "StringLiteral",
-      "offset": 667,
-      "length": 13,
-      "value": "\"ContentType\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Famous Mosque\/Model\/MosqueDetailDTO.swift",
@@ -11947,6 +12196,55 @@
       "offset": 1320,
       "length": 4,
       "value": "\"bn\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Umrah Package\/UPNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 1559,
+      "length": 21,
+      "value": "\"umrahEconomyPackage\""
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027UPNetworkServiceswift_ovFAhfMX51_0_33_DF4B7B5B64743F659CBD454F0FD60A30Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1968,
+      "length": 10,
+      "value": "0x706c6179"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027UPNetworkServiceswift_ovFAhfMX51_0_33_DF4B7B5B64743F659CBD454F0FD60A30Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1995,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027UPNetworkServiceswift_ovFAhfMX51_0_33_DF4B7B5B64743F659CBD454F0FD60A30Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2349,
+      "length": 2,
+      "value": "52"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027UPNetworkServiceswift_ovFAhfMX51_0_33_DF4B7B5B64743F659CBD454F0FD60A30Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2367,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027UPNetworkServiceswift_ovFAhfMX51_0_33_DF4B7B5B64743F659CBD454F0FD60A30Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2448,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027UPNetworkServiceswift_ovFAhfMX51_0_33_DF4B7B5B64743F659CBD454F0FD60A30Ll10PlaygroundfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2453,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/APIClient.swift",

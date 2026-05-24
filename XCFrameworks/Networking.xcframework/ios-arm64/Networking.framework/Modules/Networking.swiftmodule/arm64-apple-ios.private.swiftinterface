@@ -140,6 +140,8 @@ public enum ServiceEndPoints : Swift.String {
   case holyPlacePatch
   case holyPlaceList
   case holyPlaceDetails
+  case umrahPackagePatch
+  case umrahPatch
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
@@ -150,11 +152,6 @@ public enum ServiceEndPoints : Swift.String {
 }
 extension Swift.String {
   public func to12HourFormat() -> Swift.String
-}
-public protocol ContentService {
-  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func getRichTextTopics(by categoryID: Swift.Int, token: Swift.String) async throws -> [DomainModels.IslamicEvent]
-  #endif
 }
 public struct IlmeCategory : Swift.Codable, Swift.Identifiable {
   public let id: Swift.Int
@@ -167,6 +164,11 @@ public struct IlmeCategory : Swift.Codable, Swift.Identifiable {
   public typealias ID = Swift.Int
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public protocol ContentService {
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func getRichTextTopics(by categoryID: Swift.Int, token: Swift.String) async throws -> [DomainModels.IslamicEvent]
+  #endif
 }
 public protocol DashboardService {
   #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
@@ -265,6 +267,15 @@ public protocol FTService {
   nonisolated(nonsending) func fetchTrackingDetails(token: Swift.String, date: Swift.String, language: Swift.String) async throws -> DomainModels.MonthlyFastingCalendar
   #endif
 }
+
+public protocol UPService {
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchUmrahPatch() async throws -> [Networking.PatchListDTO]
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchUmrahPackage(patch: Swift.String) async throws -> [Networking.PatchListDTO]
+  #endif
+}
 public enum APIEnvironment {
   case productionEN
   case productionBN
@@ -297,6 +308,7 @@ public enum ServiceFactory {
   public static func makeFTNetworkService(for environment: Networking.APIEnvironment = .productionBN) -> any Networking.FTService
   public static func makeDashboardNetworkService(for environment: Networking.APIEnvironment = .productionBN) -> any Networking.DashboardService
   public static func makeIlmeNetworkService(for environment: Networking.APIEnvironment = .productionBN) -> any Networking.IlmeService
+  public static func makeUPNetworkService(for environment: Networking.APIEnvironment = .productionBN) -> any Networking.UPService
 }
 extension Networking.APIEndPoints : Swift.Equatable {}
 extension Networking.APIEndPoints : Swift.Hashable {}
