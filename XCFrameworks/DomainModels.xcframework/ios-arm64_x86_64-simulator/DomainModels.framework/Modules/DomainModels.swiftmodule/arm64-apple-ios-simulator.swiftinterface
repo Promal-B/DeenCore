@@ -121,6 +121,13 @@ public enum AppDesign : Swift.String, Swift.CaseIterable, Swift.Codable {
   case ramadanamolpatch
   case qurbaniEidPatch
   case dualCommonCardList
+  case greetings
+  case features
+  case packages
+  case gallery
+  case details
+  case faq
+  case footer
   case unknown
   public init(from decoder: any Swift.Decoder) throws
   #if compiler(>=5.3) && $NonescapableTypes

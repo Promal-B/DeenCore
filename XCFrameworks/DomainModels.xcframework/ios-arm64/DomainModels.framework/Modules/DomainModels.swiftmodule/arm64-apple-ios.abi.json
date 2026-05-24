@@ -3907,6 +3907,268 @@
           },
           {
             "kind": "Var",
+            "name": "greetings",
+            "printedName": "greetings",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.AppDesign.Type) -> DomainModels.AppDesign",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppDesign",
+                    "printedName": "DomainModels.AppDesign",
+                    "usr": "s:12DomainModels9AppDesignO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.AppDesign.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppDesign",
+                        "printedName": "DomainModels.AppDesign",
+                        "usr": "s:12DomainModels9AppDesignO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels9AppDesignO9greetingsyA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO9greetingsyA2CmF",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "features",
+            "printedName": "features",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.AppDesign.Type) -> DomainModels.AppDesign",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppDesign",
+                    "printedName": "DomainModels.AppDesign",
+                    "usr": "s:12DomainModels9AppDesignO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.AppDesign.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppDesign",
+                        "printedName": "DomainModels.AppDesign",
+                        "usr": "s:12DomainModels9AppDesignO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels9AppDesignO8featuresyA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO8featuresyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "packages",
+            "printedName": "packages",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.AppDesign.Type) -> DomainModels.AppDesign",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppDesign",
+                    "printedName": "DomainModels.AppDesign",
+                    "usr": "s:12DomainModels9AppDesignO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.AppDesign.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppDesign",
+                        "printedName": "DomainModels.AppDesign",
+                        "usr": "s:12DomainModels9AppDesignO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels9AppDesignO8packagesyA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO8packagesyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "gallery",
+            "printedName": "gallery",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.AppDesign.Type) -> DomainModels.AppDesign",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppDesign",
+                    "printedName": "DomainModels.AppDesign",
+                    "usr": "s:12DomainModels9AppDesignO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.AppDesign.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppDesign",
+                        "printedName": "DomainModels.AppDesign",
+                        "usr": "s:12DomainModels9AppDesignO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels9AppDesignO7galleryyA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO7galleryyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "details",
+            "printedName": "details",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.AppDesign.Type) -> DomainModels.AppDesign",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppDesign",
+                    "printedName": "DomainModels.AppDesign",
+                    "usr": "s:12DomainModels9AppDesignO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.AppDesign.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppDesign",
+                        "printedName": "DomainModels.AppDesign",
+                        "usr": "s:12DomainModels9AppDesignO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels9AppDesignO7detailsyA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO7detailsyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "faq",
+            "printedName": "faq",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.AppDesign.Type) -> DomainModels.AppDesign",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppDesign",
+                    "printedName": "DomainModels.AppDesign",
+                    "usr": "s:12DomainModels9AppDesignO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.AppDesign.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppDesign",
+                        "printedName": "DomainModels.AppDesign",
+                        "usr": "s:12DomainModels9AppDesignO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels9AppDesignO3faqyA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO3faqyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "footer",
+            "printedName": "footer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.AppDesign.Type) -> DomainModels.AppDesign",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppDesign",
+                    "printedName": "DomainModels.AppDesign",
+                    "usr": "s:12DomainModels9AppDesignO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.AppDesign.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppDesign",
+                        "printedName": "DomainModels.AppDesign",
+                        "usr": "s:12DomainModels9AppDesignO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels9AppDesignO6footeryA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO6footeryA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
             "name": "unknown",
             "printedName": "unknown",
             "children": [
@@ -26417,6 +26679,55 @@
       "offset": 1500,
       "length": 20,
       "value": "\"DualCommonCardList\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
+      "kind": "StringLiteral",
+      "offset": 1571,
+      "length": 11,
+      "value": "\"Greetings\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
+      "kind": "StringLiteral",
+      "offset": 1603,
+      "length": 10,
+      "value": "\"Features\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
+      "kind": "StringLiteral",
+      "offset": 1634,
+      "length": 10,
+      "value": "\"Packages\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
+      "kind": "StringLiteral",
+      "offset": 1664,
+      "length": 9,
+      "value": "\"Gallery\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
+      "kind": "StringLiteral",
+      "offset": 1693,
+      "length": 9,
+      "value": "\"Details\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
+      "kind": "StringLiteral",
+      "offset": 1718,
+      "length": 5,
+      "value": "\"faq\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
+      "kind": "StringLiteral",
+      "offset": 1742,
+      "length": 8,
+      "value": "\"footer\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
