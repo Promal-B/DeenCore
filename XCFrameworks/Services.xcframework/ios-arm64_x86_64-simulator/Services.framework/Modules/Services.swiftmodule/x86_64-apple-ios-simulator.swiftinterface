@@ -88,8 +88,8 @@ extension Services.Utilities {
   #endif
 }
 extension Services.Utilities {
-  final public func localizeNumber(_ number: Swift.Int, locale: Swift.String = "en-US", minimumDigits: Swift.Int = 1) -> Swift.String
-  final public func localizeNumber(_ value: Swift.String, locale: Swift.String = "en-US", minimumDigits: Swift.Int = 1) -> Swift.String
+  final public func localizeNumber(_ number: Swift.Int, locale: Swift.String = "en-US", minimumDigits: Swift.Int = 1, useCommas: Swift.Bool = false) -> Swift.String
+  final public func localizeNumber(_ value: Swift.String, locale: Swift.String = "en-US", minimumDigits: Swift.Int = 1, useCommas: Swift.Bool = false) -> Swift.String
 }
 extension Services.Utilities {
   final public func shareImage(_ image: UIKit.UIImage, title: Swift.String = "Share")

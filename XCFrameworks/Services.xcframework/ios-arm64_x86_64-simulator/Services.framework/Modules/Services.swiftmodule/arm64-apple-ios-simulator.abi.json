@@ -1371,7 +1371,7 @@
           {
             "kind": "Function",
             "name": "localizeNumber",
-            "printedName": "localizeNumber(_:locale:minimumDigits:)",
+            "printedName": "localizeNumber(_:locale:minimumDigits:useCommas:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1398,11 +1398,18 @@
                 "printedName": "Swift.Int",
                 "hasDefaultArg": true,
                 "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8Services9UtilitiesC14localizeNumber_6locale13minimumDigitsSSSi_SSSitF",
-            "mangledName": "$s8Services9UtilitiesC14localizeNumber_6locale13minimumDigitsSSSi_SSSitF",
+            "usr": "s:8Services9UtilitiesC14localizeNumber_6locale13minimumDigits9useCommasSSSi_SSSiSbtF",
+            "mangledName": "$s8Services9UtilitiesC14localizeNumber_6locale13minimumDigits9useCommasSSSi_SSSiSbtF",
             "moduleName": "Services",
             "declAttributes": [
               "Final",
@@ -1415,7 +1422,7 @@
           {
             "kind": "Function",
             "name": "localizeNumber",
-            "printedName": "localizeNumber(_:locale:minimumDigits:)",
+            "printedName": "localizeNumber(_:locale:minimumDigits:useCommas:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1442,11 +1449,18 @@
                 "printedName": "Swift.Int",
                 "hasDefaultArg": true,
                 "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8Services9UtilitiesC14localizeNumber_6locale13minimumDigitsS2S_SSSitF",
-            "mangledName": "$s8Services9UtilitiesC14localizeNumber_6locale13minimumDigitsS2S_SSSitF",
+            "usr": "s:8Services9UtilitiesC14localizeNumber_6locale13minimumDigits9useCommasS2S_SSSiSbtF",
+            "mangledName": "$s8Services9UtilitiesC14localizeNumber_6locale13minimumDigits9useCommasS2S_SSSiSbtF",
             "moduleName": "Services",
             "declAttributes": [
               "Final",
@@ -2921,17 +2935,31 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Services\/Utilities\/Utilities+localizeNumber.swift",
+      "kind": "BooleanLiteral",
+      "offset": 719,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Services\/Utilities\/Utilities+localizeNumber.swift",
       "kind": "StringLiteral",
-      "offset": 1571,
+      "offset": 1916,
       "length": 7,
       "value": "\"en-US\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Services\/Utilities\/Utilities+localizeNumber.swift",
       "kind": "IntegerLiteral",
-      "offset": 1609,
+      "offset": 1954,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Services\/Utilities\/Utilities+localizeNumber.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1983,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Services\/Utilities\/Utilities+shareImage.swift",

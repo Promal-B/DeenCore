@@ -12908,6 +12908,41 @@
         "printedName": "Color",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI5ColorV12DesignSystemEyA2C_ACtcfc",
+            "mangledName": "$s7SwiftUI5ColorV12DesignSystemEyA2C_ACtcfc",
+            "moduleName": "DesignSystem",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Var",
             "name": "inverse",
             "printedName": "inverse",

@@ -13,6 +13,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 extension SwiftUICore.Color {
+  public init(_ light: SwiftUICore.Color, _ dark: SwiftUICore.Color)
   public var inverse: SwiftUICore.Color {
     get
   }
