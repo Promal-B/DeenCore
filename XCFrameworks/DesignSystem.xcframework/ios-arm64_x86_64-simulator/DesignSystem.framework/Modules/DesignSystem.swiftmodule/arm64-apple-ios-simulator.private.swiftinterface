@@ -399,6 +399,7 @@ extension SwiftUICore.Font {
   public static func inter(size: DesignSystem.FontSizes = .bodyDefault, weight: SwiftUICore.Font.Weight = .regular, italic: Swift.Bool = false) -> SwiftUICore.Font
   public static func unBangla(size: DesignSystem.FontSizes = .bodyDefault, weight: SwiftUICore.Font.Weight = .regular, italic: Swift.Bool = false) -> SwiftUICore.Font
   public static func unBanglaOutline(size: DesignSystem.FontSizes = .bodyDefault) -> SwiftUICore.Font
+  public static func appFont(locale: Swift.String, size: DesignSystem.FontSizes = .bodyDefault) -> SwiftUICore.Font
 }
 public enum FontProvider {
   public static func registerFonts()

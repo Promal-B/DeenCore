@@ -13530,6 +13530,42 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "appFont",
+            "printedName": "appFont(locale:size:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Font",
+                "printedName": "SwiftUI.Font",
+                "usr": "s:7SwiftUI4FontV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FontSizes",
+                "printedName": "DesignSystem.FontSizes",
+                "hasDefaultArg": true,
+                "usr": "s:12DesignSystem9FontSizesO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4FontV12DesignSystemE03appC06locale4sizeACSS_AD0C5SizesOtFZ",
+            "mangledName": "$s7SwiftUI4FontV12DesignSystemE03appC06locale4sizeACSS_AD0C5SizesOtFZ",
+            "moduleName": "DesignSystem",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
