@@ -223,6 +223,7 @@ public enum ContentType : Swift.String, Swift.Codable, Swift.CaseIterable {
   case idvp
   case nsd
   case ild
+  case uhp
   case unknown
   public init(from decoder: any Swift.Decoder) throws
   #if compiler(>=5.3) && $NonescapableTypes
