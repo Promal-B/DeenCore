@@ -26325,6 +26325,187 @@
           },
           {
             "kind": "Var",
+            "name": "packageReference",
+            "printedName": "packageReference",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels17UmrahRegistrationV16packageReferenceSSSgvp",
+            "mangledName": "$s12DomainModels17UmrahRegistrationV16packageReferenceSSSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV16packageReferenceSSSgvg",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV16packageReferenceSSSgvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serviceID",
+            "printedName": "serviceID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels17UmrahRegistrationV9serviceIDSiSgvp",
+            "mangledName": "$s12DomainModels17UmrahRegistrationV9serviceIDSiSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV9serviceIDSiSgvg",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV9serviceIDSiSgvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "amount",
+            "printedName": "amount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels17UmrahRegistrationV6amountSiSgvp",
+            "mangledName": "$s12DomainModels17UmrahRegistrationV6amountSiSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV6amountSiSgvg",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV6amountSiSgvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "isActive",
             "printedName": "isActive",
             "children": [
@@ -27131,6 +27312,117 @@
               },
               {
                 "kind": "Var",
+                "name": "packageReference",
+                "printedName": "packageReference",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DomainModels.UmrahRegistration.CodingKeys.Type) -> DomainModels.UmrahRegistration.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DomainModels.UmrahRegistration.CodingKeys",
+                        "usr": "s:12DomainModels17UmrahRegistrationV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DomainModels.UmrahRegistration.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DomainModels.UmrahRegistration.CodingKeys",
+                            "usr": "s:12DomainModels17UmrahRegistrationV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12DomainModels17UmrahRegistrationV10CodingKeysO16packageReferenceyA2EmF",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV10CodingKeysO16packageReferenceyA2EmF",
+                "moduleName": "DomainModels"
+              },
+              {
+                "kind": "Var",
+                "name": "serviceID",
+                "printedName": "serviceID",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DomainModels.UmrahRegistration.CodingKeys.Type) -> DomainModels.UmrahRegistration.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DomainModels.UmrahRegistration.CodingKeys",
+                        "usr": "s:12DomainModels17UmrahRegistrationV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DomainModels.UmrahRegistration.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DomainModels.UmrahRegistration.CodingKeys",
+                            "usr": "s:12DomainModels17UmrahRegistrationV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12DomainModels17UmrahRegistrationV10CodingKeysO9serviceIDyA2EmF",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV10CodingKeysO9serviceIDyA2EmF",
+                "moduleName": "DomainModels"
+              },
+              {
+                "kind": "Var",
+                "name": "amount",
+                "printedName": "amount",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DomainModels.UmrahRegistration.CodingKeys.Type) -> DomainModels.UmrahRegistration.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DomainModels.UmrahRegistration.CodingKeys",
+                        "usr": "s:12DomainModels17UmrahRegistrationV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DomainModels.UmrahRegistration.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DomainModels.UmrahRegistration.CodingKeys",
+                            "usr": "s:12DomainModels17UmrahRegistrationV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12DomainModels17UmrahRegistrationV10CodingKeysO6amountyA2EmF",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV10CodingKeysO6amountyA2EmF",
+                "moduleName": "DomainModels"
+              },
+              {
+                "kind": "Var",
                 "name": "isPaid",
                 "printedName": "isPaid",
                 "children": [
@@ -27694,6 +27986,102 @@
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels17UmrahRegistrationV9hashValueSivp",
+            "mangledName": "$s12DomainModels17UmrahRegistrationV9hashValueSivp",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV9hashValueSivg",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV9hashValueSivg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DomainModels17UmrahRegistrationV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12DomainModels17UmrahRegistrationV4hash4intoys6HasherVz_tF",
+            "moduleName": "DomainModels",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UmrahRegistration",
+                "printedName": "DomainModels.UmrahRegistration",
+                "usr": "s:12DomainModels17UmrahRegistrationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UmrahRegistration",
+                "printedName": "DomainModels.UmrahRegistration",
+                "usr": "s:12DomainModels17UmrahRegistrationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DomainModels17UmrahRegistrationV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12DomainModels17UmrahRegistrationV2eeoiySbAC_ACtFZ",
+            "moduleName": "DomainModels",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -27732,6 +28120,50 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -32406,91 +32838,112 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1309,
+      "offset": 1471,
       "length": 4,
       "value": "\"Id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1349,
+      "offset": 1511,
       "length": 10,
       "value": "\"fullname\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1492,
+      "offset": 1654,
       "length": 19,
       "value": "\"identityimagePath\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1547,
+      "offset": 1709,
       "length": 11,
       "value": "\"ImageFile\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1614,
+      "offset": 1776,
       "length": 14,
       "value": "\"mobilenumber\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1705,
+      "offset": 1867,
       "length": 18,
       "value": "\"permanentaddress\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1759,
+      "offset": 1921,
       "length": 16,
       "value": "\"presentaddress\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1811,
+      "offset": 1973,
       "length": 15,
       "value": "\"maritalstatus\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1862,
+      "offset": 2024,
       "length": 12,
       "value": "\"spousename\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1934,
+      "offset": 2096,
       "length": 12,
       "value": "\"prtracking\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1982,
+      "offset": 2144,
       "length": 20,
       "value": "\"hajjtrackingstatus\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 2038,
+      "offset": 2200,
       "length": 11,
       "value": "\"TimeStamp\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 2186,
+      "offset": 2247,
+      "length": 18,
+      "value": "\"PackageReference\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
+      "kind": "StringLiteral",
+      "offset": 2301,
+      "length": 11,
+      "value": "\"ServiceID\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
+      "kind": "StringLiteral",
+      "offset": 2348,
+      "length": 8,
+      "value": "\"Amount\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
+      "kind": "StringLiteral",
+      "offset": 2493,
       "length": 10,
       "value": "\"isactive\""
     }

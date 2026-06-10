@@ -741,7 +741,7 @@ extension DomainModels.ResponseContentType {
   public init(from string: Swift.String?) throws
   #endif
 }
-public struct UmrahRegistration : Swift.Codable {
+public struct UmrahRegistration : Swift.Codable, Swift.Identifiable, Swift.Hashable {
   public let id: Swift.Int?
   public let fullName: Swift.String?
   public let birthDate: Swift.Int?
@@ -766,6 +766,9 @@ public struct UmrahRegistration : Swift.Codable {
   public let paymentMethod: Swift.String?
   public let paymentAmount: Swift.String?
   public let paymentRemark: Swift.String?
+  public let packageReference: Swift.String?
+  public let serviceID: Swift.Int?
+  public let amount: Swift.Int?
   public let isActive: Swift.Bool?
   public enum CodingKeys : Swift.String, Swift.CodingKey {
     case id
@@ -788,6 +791,9 @@ public struct UmrahRegistration : Swift.Codable {
     case prTracking
     case hajjTrackingStatus
     case timeStamp
+    case packageReference
+    case serviceID
+    case amount
     case isPaid
     case paymentMethod
     case paymentAmount
@@ -815,7 +821,13 @@ public struct UmrahRegistration : Swift.Codable {
       get
     }
   }
+  public static func == (a: DomainModels.UmrahRegistration, b: DomainModels.UmrahRegistration) -> Swift.Bool
+  public typealias ID = Swift.Int?
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct PaginationV2 : Swift.Codable {
