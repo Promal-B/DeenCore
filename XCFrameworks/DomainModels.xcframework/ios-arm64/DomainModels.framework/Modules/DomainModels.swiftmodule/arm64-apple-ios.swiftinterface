@@ -741,6 +741,83 @@ extension DomainModels.ResponseContentType {
   public init(from string: Swift.String?) throws
   #endif
 }
+public struct UmrahRegistration : Swift.Codable {
+  public let id: Swift.Int?
+  public let fullName: Swift.String?
+  public let birthDate: Swift.Int?
+  public let gender: Swift.String?
+  public let identityFlag: Swift.String?
+  public let identityNumber: Swift.String?
+  public let identityImagePath: Swift.String?
+  public let imageFile: Swift.String?
+  public let msisdn: Swift.String?
+  public let mobileNumber: Swift.String?
+  public let email: Swift.String?
+  public let district: Swift.String?
+  public let permanentAddress: Swift.String?
+  public let presentAddress: Swift.String?
+  public let maritalStatus: Swift.String?
+  public let spouseName: Swift.String?
+  public let occupation: Swift.String?
+  public let prTracking: Swift.String?
+  public let hajjTrackingStatus: Swift.String?
+  public let timeStamp: Swift.String?
+  public let isPaid: Swift.Bool?
+  public let paymentMethod: Swift.String?
+  public let paymentAmount: Swift.String?
+  public let paymentRemark: Swift.String?
+  public let isActive: Swift.Bool?
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case id
+    case fullName
+    case birthDate
+    case gender
+    case identityFlag
+    case identityNumber
+    case identityImagePath
+    case imageFile
+    case msisdn
+    case mobileNumber
+    case email
+    case district
+    case permanentAddress
+    case presentAddress
+    case maritalStatus
+    case spouseName
+    case occupation
+    case prTracking
+    case hajjTrackingStatus
+    case timeStamp
+    case isPaid
+    case paymentMethod
+    case paymentAmount
+    case paymentRemark
+    case isActive
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.String)
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(stringValue: Swift.String)
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(intValue: Swift.Int)
+    #endif
+    public typealias RawValue = Swift.String
+    #if compiler(>=5.3) && $NonescapableTypes
+    public var intValue: Swift.Int? {
+      get
+    }
+    #endif
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct PaginationV2 : Swift.Codable {
   public let hasPrevious: Swift.Bool
   public let hasNext: Swift.Bool
@@ -778,3 +855,6 @@ extension DomainModels.ContentDesign : Swift.Equatable {}
 extension DomainModels.ContentDesign : Swift.Hashable {}
 extension DomainModels.ContentDesign : Swift.RawRepresentable {}
 extension DomainModels.ResponseContentType : Swift.RawRepresentable {}
+extension DomainModels.UmrahRegistration.CodingKeys : Swift.Equatable {}
+extension DomainModels.UmrahRegistration.CodingKeys : Swift.Hashable {}
+extension DomainModels.UmrahRegistration.CodingKeys : Swift.RawRepresentable {}

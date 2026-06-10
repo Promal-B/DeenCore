@@ -5841,6 +5841,43 @@
             "moduleName": "Networking"
           },
           {
+            "kind": "Var",
+            "name": "umrahPreRegistrationList",
+            "printedName": "umrahPreRegistrationList",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Networking.ServiceEndPoints.Type) -> Networking.ServiceEndPoints",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceEndPoints",
+                    "printedName": "Networking.ServiceEndPoints",
+                    "usr": "s:10Networking16ServiceEndPointsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Networking.ServiceEndPoints.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceEndPoints",
+                        "printedName": "Networking.ServiceEndPoints",
+                        "usr": "s:10Networking16ServiceEndPointsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Networking16ServiceEndPointsO24umrahPreRegistrationListyA2CmF",
+            "mangledName": "$s10Networking16ServiceEndPointsO24umrahPreRegistrationListyA2CmF",
+            "moduleName": "Networking"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -9358,6 +9395,16 @@
         "moduleName": "Networking"
       },
       {
+        "kind": "Import",
+        "name": "DomainModels",
+        "printedName": "DomainModels",
+        "declKind": "Import",
+        "moduleName": "Networking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "UPService",
         "printedName": "UPService",
@@ -9435,6 +9482,46 @@
             "throwing": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchUserPreRegistrationList",
+            "printedName": "fetchUserPreRegistrationList(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[DomainModels.UmrahRegistration]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UmrahRegistration",
+                    "printedName": "DomainModels.UmrahRegistration",
+                    "usr": "s:12DomainModels17UmrahRegistrationV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking9UPServiceP28fetchUserPreRegistrationList5tokenSay12DomainModels05UmrahF0VGSS_tYaKF",
+            "mangledName": "$s10Networking9UPServiceP28fetchUserPreRegistrationList5tokenSay12DomainModels05UmrahF0VGSS_tYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.UPService>",
+            "sugared_genericSig": "<Self where Self : Networking.UPService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -9442,8 +9529,7 @@
         "mangledName": "$s10Networking9UPServiceP",
         "moduleName": "Networking",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -11582,6 +11668,13 @@
       "value": "\"api\/PreRegistration\/GetUmrahPatch\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1982,
+      "length": 48,
+      "value": "\"api\/PreRegistration\/getUserPreRegistrationList\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Auth\/Model\/LoginDataDTO.swift",
       "kind": "StringLiteral",
       "offset": 239,
@@ -12200,49 +12293,56 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Umrah Package\/UPNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 1559,
+      "offset": 2217,
       "length": 21,
       "value": "\"umrahEconomyPackage\""
     },
     {
-      "filePath": "@__swiftmacro_10Networking0027UPNetworkServiceswift_ovFAhfMX51_0_33_DF4B7B5B64743F659CBD454F0FD60A30Ll10PlaygroundfMf_.swift",
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Umrah Package\/UPNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 2306,
+      "length": 242,
+      "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBsaWNhdGlvbiI6IkRlZW4gSXNsYW0iLCJuYW1lIjoiODgwMTUyMTQ1MzE5NSIsInJvbGUiOiJEZWZhdWx0IiwibmJmIjoxNzgxMDgzOTYwLCJleHAiOjE3ODExNzAzNjAsImlhdCI6MTc4MTA4Mzk2MH0.z3MMy72zh0rgDfYF5OUI8U0rHrfF2YORW-yj2dtMRqU\""
+    },
+    {
+      "filePath": "@__swiftmacro_10Networking0027UPNetworkServiceswift_ovFAhfMX70_0_33_DF4B7B5B64743F659CBD454F0FD60A30Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 1968,
+      "offset": 2278,
       "length": 10,
       "value": "0x706c6179"
     },
     {
-      "filePath": "@__swiftmacro_10Networking0027UPNetworkServiceswift_ovFAhfMX51_0_33_DF4B7B5B64743F659CBD454F0FD60A30Ll10PlaygroundfMf_.swift",
+      "filePath": "@__swiftmacro_10Networking0027UPNetworkServiceswift_ovFAhfMX70_0_33_DF4B7B5B64743F659CBD454F0FD60A30Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 1995,
+      "offset": 2305,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "@__swiftmacro_10Networking0027UPNetworkServiceswift_ovFAhfMX51_0_33_DF4B7B5B64743F659CBD454F0FD60A30Ll10PlaygroundfMf_.swift",
+      "filePath": "@__swiftmacro_10Networking0027UPNetworkServiceswift_ovFAhfMX70_0_33_DF4B7B5B64743F659CBD454F0FD60A30Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2349,
+      "offset": 2659,
       "length": 2,
-      "value": "52"
+      "value": "71"
     },
     {
-      "filePath": "@__swiftmacro_10Networking0027UPNetworkServiceswift_ovFAhfMX51_0_33_DF4B7B5B64743F659CBD454F0FD60A30Ll10PlaygroundfMf_.swift",
+      "filePath": "@__swiftmacro_10Networking0027UPNetworkServiceswift_ovFAhfMX70_0_33_DF4B7B5B64743F659CBD454F0FD60A30Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2367,
+      "offset": 2677,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "@__swiftmacro_10Networking0027UPNetworkServiceswift_ovFAhfMX51_0_33_DF4B7B5B64743F659CBD454F0FD60A30Ll10PlaygroundfMf_.swift",
+      "filePath": "@__swiftmacro_10Networking0027UPNetworkServiceswift_ovFAhfMX70_0_33_DF4B7B5B64743F659CBD454F0FD60A30Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2448,
+      "offset": 2758,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "@__swiftmacro_10Networking0027UPNetworkServiceswift_ovFAhfMX51_0_33_DF4B7B5B64743F659CBD454F0FD60A30Ll10PlaygroundfMf_.swift",
+      "filePath": "@__swiftmacro_10Networking0027UPNetworkServiceswift_ovFAhfMX70_0_33_DF4B7B5B64743F659CBD454F0FD60A30Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2453,
+      "offset": 2763,
       "length": 1,
       "value": "0"
     },

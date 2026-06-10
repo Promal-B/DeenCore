@@ -142,6 +142,7 @@ public enum ServiceEndPoints : Swift.String {
   case holyPlaceDetails
   case umrahPackagePatch
   case umrahPatch
+  case umrahPreRegistrationList
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
@@ -274,6 +275,9 @@ public protocol UPService {
   #endif
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func fetchUmrahPackage(patch: Swift.String) async throws -> [Networking.PatchListDTO]
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchUserPreRegistrationList(token: Swift.String) async throws -> [DomainModels.UmrahRegistration]
   #endif
 }
 public enum APIEnvironment {
