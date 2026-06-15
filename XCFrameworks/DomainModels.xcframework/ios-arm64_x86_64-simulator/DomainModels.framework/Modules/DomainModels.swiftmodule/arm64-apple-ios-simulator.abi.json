@@ -24873,6 +24873,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DomainModels",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "UmrahRegistration",
         "printedName": "UmrahRegistration",
@@ -24902,11 +24912,11 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV2idSiSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -24935,6 +24945,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV2idSiSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV2idSiSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV2idSiSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV2idSiSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -24963,10 +25023,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV8fullNameSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -24995,6 +25055,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV8fullNameSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV8fullNameSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV8fullNameSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV8fullNameSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25023,10 +25133,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV9birthDateSiSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25055,6 +25165,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV9birthDateSiSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV9birthDateSiSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV9birthDateSiSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV9birthDateSiSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25083,10 +25243,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV6genderSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25115,6 +25275,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV6genderSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV6genderSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV6genderSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV6genderSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25143,10 +25353,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV12identityFlagSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25175,6 +25385,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV12identityFlagSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV12identityFlagSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV12identityFlagSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV12identityFlagSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25203,10 +25463,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV14identityNumberSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25235,6 +25495,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV14identityNumberSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV14identityNumberSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV14identityNumberSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV14identityNumberSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25263,10 +25573,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV17identityImagePathSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25295,45 +25605,17 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "imageFile",
-            "printedName": "imageFile",
-            "children": [
+              },
               {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12DomainModels17UmrahRegistrationV9imageFileSSSgvp",
-            "mangledName": "$s12DomainModels17UmrahRegistrationV9imageFileSSSgvp",
-            "moduleName": "DomainModels",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
+                    "name": "Void",
+                    "printedName": "()"
+                  },
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
@@ -25350,11 +25632,139 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12DomainModels17UmrahRegistrationV9imageFileSSSgvg",
-                "mangledName": "$s12DomainModels17UmrahRegistrationV9imageFileSSSgvg",
+                "usr": "s:12DomainModels17UmrahRegistrationV17identityImagePathSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV17identityImagePathSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV17identityImagePathSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV17identityImagePathSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageFile",
+            "printedName": "imageFile",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels17UmrahRegistrationV9imageFile10Foundation4DataVSgvp",
+            "mangledName": "$s12DomainModels17UmrahRegistrationV9imageFile10Foundation4DataVSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV9imageFile10Foundation4DataVSgvg",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV9imageFile10Foundation4DataVSgvg",
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV9imageFile10Foundation4DataVSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV9imageFile10Foundation4DataVSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV9imageFile10Foundation4DataVSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV9imageFile10Foundation4DataVSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25383,11 +25793,11 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV6msisdnSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25416,6 +25826,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV6msisdnSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV6msisdnSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV6msisdnSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV6msisdnSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25444,10 +25904,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV12mobileNumberSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25476,6 +25936,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV12mobileNumberSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV12mobileNumberSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV12mobileNumberSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV12mobileNumberSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25504,10 +26014,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV5emailSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25536,6 +26046,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV5emailSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV5emailSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV5emailSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV5emailSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25564,11 +26124,11 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV8districtSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25597,6 +26157,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV8districtSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV8districtSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV8districtSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV8districtSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25625,10 +26235,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV16permanentAddressSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25657,6 +26267,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV16permanentAddressSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV16permanentAddressSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV16permanentAddressSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV16permanentAddressSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25685,10 +26345,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV14presentAddressSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25717,6 +26377,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV14presentAddressSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV14presentAddressSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV14presentAddressSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV14presentAddressSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25745,11 +26455,11 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV13maritalStatusSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25778,6 +26488,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV13maritalStatusSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV13maritalStatusSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV13maritalStatusSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV13maritalStatusSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25806,10 +26566,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV10spouseNameSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25838,6 +26598,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV10spouseNameSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV10spouseNameSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV10spouseNameSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV10spouseNameSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25866,10 +26676,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV10occupationSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25898,6 +26708,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV10occupationSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV10occupationSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV10occupationSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV10occupationSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25926,11 +26786,11 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV10prTrackingSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -25959,6 +26819,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV10prTrackingSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV10prTrackingSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV10prTrackingSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV10prTrackingSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -25987,10 +26897,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV18hajjTrackingStatusSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -26019,6 +26929,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV18hajjTrackingStatusSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV18hajjTrackingStatusSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV18hajjTrackingStatusSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV18hajjTrackingStatusSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -26047,10 +27007,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV9timeStampSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -26079,6 +27039,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV9timeStampSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV9timeStampSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV9timeStampSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV9timeStampSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -26107,11 +27117,11 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV6isPaidSbSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -26140,6 +27150,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV6isPaidSbSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV6isPaidSbSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV6isPaidSbSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV6isPaidSbSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -26168,10 +27228,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV13paymentMethodSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -26200,6 +27260,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV13paymentMethodSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV13paymentMethodSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV13paymentMethodSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV13paymentMethodSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -26228,10 +27338,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV13paymentAmountSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -26260,6 +27370,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV13paymentAmountSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV13paymentAmountSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV13paymentAmountSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV13paymentAmountSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -26288,10 +27448,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV13paymentRemarkSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -26320,6 +27480,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV13paymentRemarkSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV13paymentRemarkSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV13paymentRemarkSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV13paymentRemarkSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -26348,11 +27558,11 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV16packageReferenceSSSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -26381,6 +27591,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV16packageReferenceSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV16packageReferenceSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV16packageReferenceSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV16packageReferenceSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -26409,10 +27669,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV9serviceIDSiSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -26441,6 +27701,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV9serviceIDSiSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV9serviceIDSiSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV9serviceIDSiSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV9serviceIDSiSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -26469,10 +27779,10 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV6amountSiSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -26501,6 +27811,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV6amountSiSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV6amountSiSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV6amountSiSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV6amountSiSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -26529,11 +27889,11 @@
             "mangledName": "$s12DomainModels17UmrahRegistrationV8isActiveSbSgvp",
             "moduleName": "DomainModels",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -26562,6 +27922,56 @@
                 "moduleName": "DomainModels",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV8isActiveSbSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV8isActiveSbSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV8isActiveSbSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV8isActiveSbSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -27939,6 +29349,447 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(id:fullName:birthDate:gender:identityFlag:identityNumber:identityImagePath:imageFile:msisdn:mobileNumber:email:district:permanentAddress:presentAddress:maritalStatus:spouseName:occupation:prTracking:hajjTrackingStatus:timeStamp:isPaid:paymentMethod:paymentAmount:paymentRemark:packageReference:serviceID:amount:isActive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UmrahRegistration",
+                "printedName": "DomainModels.UmrahRegistration",
+                "usr": "s:12DomainModels17UmrahRegistrationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DomainModels17UmrahRegistrationV2id8fullName9birthDate6gender12identityFlag0K6Number0K9ImagePath9imageFile6msisdn06mobileM05email8district16permanentAddress07presentW013maritalStatus06spouseG010occupation10prTracking012hajjTrackingZ09timeStamp6isPaid13paymentMethod13paymentAmount13paymentRemark16packageReference9serviceID6amount8isActiveACSiSg_SSSgA4_A5_A5_A5_A5_10Foundation4DataVSgA5_A5_A5_A5_A5_A5_A5_A5_A5_A5_A5_A5_SbSgA5_A5_A5_A5_A4_A4_A10_tcfc",
+            "mangledName": "$s12DomainModels17UmrahRegistrationV2id8fullName9birthDate6gender12identityFlag0K6Number0K9ImagePath9imageFile6msisdn06mobileM05email8district16permanentAddress07presentW013maritalStatus06spouseG010occupation10prTracking012hajjTrackingZ09timeStamp6isPaid13paymentMethod13paymentAmount13paymentRemark16packageReference9serviceID6amount8isActiveACSiSg_SSSgA4_A5_A5_A5_A5_10Foundation4DataVSgA5_A5_A5_A5_A5_A5_A5_A5_A5_A5_A5_A5_SbSgA5_A5_A5_A5_A4_A4_A10_tcfc",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -28089,8 +29940,7 @@
         "mangledName": "$s12DomainModels17UmrahRegistrationV",
         "moduleName": "DomainModels",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -32838,112 +34688,112 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1471,
+      "offset": 1488,
       "length": 4,
       "value": "\"Id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1511,
+      "offset": 1528,
       "length": 10,
       "value": "\"fullname\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1654,
+      "offset": 1671,
       "length": 19,
       "value": "\"identityimagePath\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1709,
+      "offset": 1726,
       "length": 11,
       "value": "\"ImageFile\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1776,
+      "offset": 1793,
       "length": 14,
       "value": "\"mobilenumber\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1867,
+      "offset": 1884,
       "length": 18,
       "value": "\"permanentaddress\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1921,
+      "offset": 1938,
       "length": 16,
       "value": "\"presentaddress\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1973,
+      "offset": 1990,
       "length": 15,
       "value": "\"maritalstatus\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 2024,
+      "offset": 2041,
       "length": 12,
       "value": "\"spousename\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 2096,
+      "offset": 2113,
       "length": 12,
       "value": "\"prtracking\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 2144,
+      "offset": 2161,
       "length": 20,
       "value": "\"hajjtrackingstatus\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 2200,
+      "offset": 2217,
       "length": 11,
       "value": "\"TimeStamp\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 2247,
+      "offset": 2264,
       "length": 18,
       "value": "\"PackageReference\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 2301,
+      "offset": 2318,
       "length": 11,
       "value": "\"ServiceID\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 2348,
+      "offset": 2365,
       "length": 8,
       "value": "\"Amount\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 2493,
+      "offset": 2510,
       "length": 10,
       "value": "\"isactive\""
     }

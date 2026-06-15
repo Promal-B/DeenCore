@@ -143,6 +143,8 @@ public enum ServiceEndPoints : Swift.String {
   case umrahPackagePatch
   case umrahPatch
   case umrahPreRegistrationList
+  case umrahRegistration
+  case umrahRegistrationUpdate
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
@@ -268,7 +270,6 @@ public protocol FTService {
   nonisolated(nonsending) func fetchTrackingDetails(token: Swift.String, date: Swift.String, language: Swift.String) async throws -> DomainModels.MonthlyFastingCalendar
   #endif
 }
-
 public protocol UPService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func fetchUmrahPatch() async throws -> [Networking.PatchListDTO]
@@ -278,6 +279,12 @@ public protocol UPService {
   #endif
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func fetchUserPreRegistrationList(token: Swift.String) async throws -> [DomainModels.UmrahRegistration]
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func uploadRegistrationData(token: Swift.String, payload: DomainModels.UmrahRegistration) async throws -> DomainModels.UmrahRegistration
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func updateRegistrationData(token: Swift.String, payload: DomainModels.UmrahRegistration) async throws -> DomainModels.UmrahRegistration
   #endif
 }
 public enum APIEnvironment {

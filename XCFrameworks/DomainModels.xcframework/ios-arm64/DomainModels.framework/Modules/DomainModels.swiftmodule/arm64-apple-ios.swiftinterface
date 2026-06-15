@@ -742,34 +742,34 @@ extension DomainModels.ResponseContentType {
   #endif
 }
 public struct UmrahRegistration : Swift.Codable, Swift.Identifiable, Swift.Hashable {
-  public let id: Swift.Int?
-  public let fullName: Swift.String?
-  public let birthDate: Swift.Int?
-  public let gender: Swift.String?
-  public let identityFlag: Swift.String?
-  public let identityNumber: Swift.String?
-  public let identityImagePath: Swift.String?
-  public let imageFile: Swift.String?
-  public let msisdn: Swift.String?
-  public let mobileNumber: Swift.String?
-  public let email: Swift.String?
-  public let district: Swift.String?
-  public let permanentAddress: Swift.String?
-  public let presentAddress: Swift.String?
-  public let maritalStatus: Swift.String?
-  public let spouseName: Swift.String?
-  public let occupation: Swift.String?
-  public let prTracking: Swift.String?
-  public let hajjTrackingStatus: Swift.String?
-  public let timeStamp: Swift.String?
-  public let isPaid: Swift.Bool?
-  public let paymentMethod: Swift.String?
-  public let paymentAmount: Swift.String?
-  public let paymentRemark: Swift.String?
-  public let packageReference: Swift.String?
-  public let serviceID: Swift.Int?
-  public let amount: Swift.Int?
-  public let isActive: Swift.Bool?
+  public var id: Swift.Int?
+  public var fullName: Swift.String?
+  public var birthDate: Swift.Int?
+  public var gender: Swift.String?
+  public var identityFlag: Swift.String?
+  public var identityNumber: Swift.String?
+  public var identityImagePath: Swift.String?
+  public var imageFile: Foundation.Data?
+  public var msisdn: Swift.String?
+  public var mobileNumber: Swift.String?
+  public var email: Swift.String?
+  public var district: Swift.String?
+  public var permanentAddress: Swift.String?
+  public var presentAddress: Swift.String?
+  public var maritalStatus: Swift.String?
+  public var spouseName: Swift.String?
+  public var occupation: Swift.String?
+  public var prTracking: Swift.String?
+  public var hajjTrackingStatus: Swift.String?
+  public var timeStamp: Swift.String?
+  public var isPaid: Swift.Bool?
+  public var paymentMethod: Swift.String?
+  public var paymentAmount: Swift.String?
+  public var paymentRemark: Swift.String?
+  public var packageReference: Swift.String?
+  public var serviceID: Swift.Int?
+  public var amount: Swift.Int?
+  public var isActive: Swift.Bool?
   public enum CodingKeys : Swift.String, Swift.CodingKey {
     case id
     case fullName
@@ -821,6 +821,9 @@ public struct UmrahRegistration : Swift.Codable, Swift.Identifiable, Swift.Hasha
       get
     }
   }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(id: Swift.Int? = nil, fullName: Swift.String? = nil, birthDate: Swift.Int? = nil, gender: Swift.String? = nil, identityFlag: Swift.String? = nil, identityNumber: Swift.String? = nil, identityImagePath: Swift.String? = nil, imageFile: Foundation.Data? = nil, msisdn: Swift.String? = nil, mobileNumber: Swift.String? = nil, email: Swift.String? = nil, district: Swift.String? = nil, permanentAddress: Swift.String? = nil, presentAddress: Swift.String? = nil, maritalStatus: Swift.String? = nil, spouseName: Swift.String? = nil, occupation: Swift.String? = nil, prTracking: Swift.String? = nil, hajjTrackingStatus: Swift.String? = nil, timeStamp: Swift.String? = nil, isPaid: Swift.Bool? = nil, paymentMethod: Swift.String? = nil, paymentAmount: Swift.String? = nil, paymentRemark: Swift.String? = nil, packageReference: Swift.String? = nil, serviceID: Swift.Int? = nil, amount: Swift.Int? = nil, isActive: Swift.Bool? = nil)
+  #endif
   public static func == (a: DomainModels.UmrahRegistration, b: DomainModels.UmrahRegistration) -> Swift.Bool
   public typealias ID = Swift.Int?
   public func encode(to encoder: any Swift.Encoder) throws
