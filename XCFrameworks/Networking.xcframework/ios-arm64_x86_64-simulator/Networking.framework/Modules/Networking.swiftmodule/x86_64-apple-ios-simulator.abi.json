@@ -5952,6 +5952,120 @@
             "moduleName": "Networking"
           },
           {
+            "kind": "Var",
+            "name": "hajjPreRegistrationList",
+            "printedName": "hajjPreRegistrationList",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Networking.ServiceEndPoints.Type) -> Networking.ServiceEndPoints",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceEndPoints",
+                    "printedName": "Networking.ServiceEndPoints",
+                    "usr": "s:10Networking16ServiceEndPointsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Networking.ServiceEndPoints.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceEndPoints",
+                        "printedName": "Networking.ServiceEndPoints",
+                        "usr": "s:10Networking16ServiceEndPointsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Networking16ServiceEndPointsO23hajjPreRegistrationListyA2CmF",
+            "mangledName": "$s10Networking16ServiceEndPointsO23hajjPreRegistrationListyA2CmF",
+            "moduleName": "Networking",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hajjRegistration",
+            "printedName": "hajjRegistration",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Networking.ServiceEndPoints.Type) -> Networking.ServiceEndPoints",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceEndPoints",
+                    "printedName": "Networking.ServiceEndPoints",
+                    "usr": "s:10Networking16ServiceEndPointsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Networking.ServiceEndPoints.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceEndPoints",
+                        "printedName": "Networking.ServiceEndPoints",
+                        "usr": "s:10Networking16ServiceEndPointsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Networking16ServiceEndPointsO16hajjRegistrationyA2CmF",
+            "mangledName": "$s10Networking16ServiceEndPointsO16hajjRegistrationyA2CmF",
+            "moduleName": "Networking"
+          },
+          {
+            "kind": "Var",
+            "name": "hajjRegistrationUpdate",
+            "printedName": "hajjRegistrationUpdate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Networking.ServiceEndPoints.Type) -> Networking.ServiceEndPoints",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceEndPoints",
+                    "printedName": "Networking.ServiceEndPoints",
+                    "usr": "s:10Networking16ServiceEndPointsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Networking.ServiceEndPoints.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceEndPoints",
+                        "printedName": "Networking.ServiceEndPoints",
+                        "usr": "s:10Networking16ServiceEndPointsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Networking16ServiceEndPointsO22hajjRegistrationUpdateyA2CmF",
+            "mangledName": "$s10Networking16ServiceEndPointsO22hajjRegistrationUpdateyA2CmF",
+            "moduleName": "Networking"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -9553,7 +9667,7 @@
           {
             "kind": "Function",
             "name": "fetchUserPreRegistrationList",
-            "printedName": "fetchUserPreRegistrationList(token:)",
+            "printedName": "fetchUserPreRegistrationList(token:isHPR:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9574,11 +9688,17 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking9UPServiceP28fetchUserPreRegistrationList5tokenSay12DomainModels05UmrahF0VGSS_tYaKF",
-            "mangledName": "$s10Networking9UPServiceP28fetchUserPreRegistrationList5tokenSay12DomainModels05UmrahF0VGSS_tYaKF",
+            "usr": "s:10Networking9UPServiceP28fetchUserPreRegistrationList5token5isHPRSay12DomainModels05UmrahF0VGSS_SbtYaKF",
+            "mangledName": "$s10Networking9UPServiceP28fetchUserPreRegistrationList5token5isHPRSay12DomainModels05UmrahF0VGSS_SbtYaKF",
             "moduleName": "Networking",
             "genericSig": "<τ_0_0 where τ_0_0 : Networking.UPService>",
             "sugared_genericSig": "<Self where Self : Networking.UPService>",
@@ -9593,7 +9713,7 @@
           {
             "kind": "Function",
             "name": "uploadRegistrationData",
-            "printedName": "uploadRegistrationData(token:payload:)",
+            "printedName": "uploadRegistrationData(token:payload:isHPR:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9612,11 +9732,17 @@
                 "name": "UmrahRegistration",
                 "printedName": "DomainModels.UmrahRegistration",
                 "usr": "s:12DomainModels17UmrahRegistrationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking9UPServiceP22uploadRegistrationData5token7payload12DomainModels05UmrahD0VSS_AItYaKF",
-            "mangledName": "$s10Networking9UPServiceP22uploadRegistrationData5token7payload12DomainModels05UmrahD0VSS_AItYaKF",
+            "usr": "s:10Networking9UPServiceP22uploadRegistrationData5token7payload5isHPR12DomainModels05UmrahD0VSS_AJSbtYaKF",
+            "mangledName": "$s10Networking9UPServiceP22uploadRegistrationData5token7payload5isHPR12DomainModels05UmrahD0VSS_AJSbtYaKF",
             "moduleName": "Networking",
             "genericSig": "<τ_0_0 where τ_0_0 : Networking.UPService>",
             "sugared_genericSig": "<Self where Self : Networking.UPService>",
@@ -9631,7 +9757,7 @@
           {
             "kind": "Function",
             "name": "updateRegistrationData",
-            "printedName": "updateRegistrationData(token:payload:)",
+            "printedName": "updateRegistrationData(token:payload:isHPR:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9650,11 +9776,17 @@
                 "name": "UmrahRegistration",
                 "printedName": "DomainModels.UmrahRegistration",
                 "usr": "s:12DomainModels17UmrahRegistrationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking9UPServiceP22updateRegistrationData5token7payload12DomainModels05UmrahD0VSS_AItYaKF",
-            "mangledName": "$s10Networking9UPServiceP22updateRegistrationData5token7payload12DomainModels05UmrahD0VSS_AItYaKF",
+            "usr": "s:10Networking9UPServiceP22updateRegistrationData5token7payload5isHPR12DomainModels05UmrahD0VSS_AJSbtYaKF",
+            "mangledName": "$s10Networking9UPServiceP22updateRegistrationData5token7payload5isHPR12DomainModels05UmrahD0VSS_AJSbtYaKF",
             "moduleName": "Networking",
             "genericSig": "<τ_0_0 where τ_0_0 : Networking.UPService>",
             "sugared_genericSig": "<Self where Self : Networking.UPService>",
@@ -11814,22 +11946,43 @@
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
       "kind": "StringLiteral",
       "offset": 1982,
-      "length": 48,
-      "value": "\"api\/PreRegistration\/getUserPreRegistrationList\""
+      "length": 37,
+      "value": "\"api\/Hajj\/getUserUmrahPackageRegList\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
       "kind": "StringLiteral",
-      "offset": 2060,
-      "length": 24,
-      "value": "\"api\/Hajj\/PreRegProfile\""
+      "offset": 2049,
+      "length": 33,
+      "value": "\"api\/Hajj\/UmrahPackageRegProfile\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
       "kind": "StringLiteral",
-      "offset": 2120,
-      "length": 30,
-      "value": "\"api\/Hajj\/UpdatePreRegProfile\""
+      "offset": 2118,
+      "length": 39,
+      "value": "\"api\/Hajj\/UpdateUmrahPackageRegProfile\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 2230,
+      "length": 41,
+      "value": "\"api\/Hajj\/getUserHajjPreRegistrationList\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 2300,
+      "length": 28,
+      "value": "\"api\/Hajj\/HajjPreRegProfile\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 2363,
+      "length": 34,
+      "value": "\"api\/Hajj\/UpdateHajjPreRegProfile\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Auth\/Model\/LoginDataDTO.swift",

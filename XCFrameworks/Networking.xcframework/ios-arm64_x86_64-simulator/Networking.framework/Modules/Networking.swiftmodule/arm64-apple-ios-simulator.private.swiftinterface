@@ -145,6 +145,9 @@ public enum ServiceEndPoints : Swift.String {
   case umrahPreRegistrationList
   case umrahRegistration
   case umrahRegistrationUpdate
+  case hajjPreRegistrationList
+  case hajjRegistration
+  case hajjRegistrationUpdate
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
@@ -278,13 +281,13 @@ public protocol UPService {
   nonisolated(nonsending) func fetchUmrahPackage(patch: Swift.String) async throws -> [Networking.PatchListDTO]
   #endif
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func fetchUserPreRegistrationList(token: Swift.String) async throws -> [DomainModels.UmrahRegistration]
+  nonisolated(nonsending) func fetchUserPreRegistrationList(token: Swift.String, isHPR: Swift.Bool) async throws -> [DomainModels.UmrahRegistration]
   #endif
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func uploadRegistrationData(token: Swift.String, payload: DomainModels.UmrahRegistration) async throws -> DomainModels.UmrahRegistration
+  nonisolated(nonsending) func uploadRegistrationData(token: Swift.String, payload: DomainModels.UmrahRegistration, isHPR: Swift.Bool) async throws -> DomainModels.UmrahRegistration
   #endif
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func updateRegistrationData(token: Swift.String, payload: DomainModels.UmrahRegistration) async throws -> DomainModels.UmrahRegistration
+  nonisolated(nonsending) func updateRegistrationData(token: Swift.String, payload: DomainModels.UmrahRegistration, isHPR: Swift.Bool) async throws -> DomainModels.UmrahRegistration
   #endif
 }
 public enum APIEnvironment {
