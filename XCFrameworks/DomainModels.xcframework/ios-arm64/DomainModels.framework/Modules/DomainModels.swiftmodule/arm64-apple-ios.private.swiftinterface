@@ -762,6 +762,7 @@ public struct UmrahRegistration : Swift.Codable, Swift.Identifiable, Swift.Hasha
   public var prTracking: Swift.String?
   public var hajjTrackingStatus: Swift.String?
   public var timeStamp: Swift.String?
+  public var trackingID: Swift.String?
   public var isPaid: Swift.Bool?
   public var paymentMethod: Swift.String?
   public var paymentAmount: Swift.String?
@@ -791,6 +792,7 @@ public struct UmrahRegistration : Swift.Codable, Swift.Identifiable, Swift.Hasha
     case prTracking
     case hajjTrackingStatus
     case timeStamp
+    case trackingID
     case packageReference
     case serviceID
     case amount
@@ -822,7 +824,7 @@ public struct UmrahRegistration : Swift.Codable, Swift.Identifiable, Swift.Hasha
     }
   }
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(id: Swift.Int? = nil, fullName: Swift.String? = nil, birthDate: Swift.Int? = nil, gender: Swift.String? = nil, identityFlag: Swift.String? = nil, identityNumber: Swift.String? = nil, identityImagePath: Swift.String? = nil, imageFile: Foundation.Data? = nil, msisdn: Swift.String? = nil, mobileNumber: Swift.String? = nil, email: Swift.String? = nil, district: Swift.String? = nil, permanentAddress: Swift.String? = nil, presentAddress: Swift.String? = nil, maritalStatus: Swift.String? = nil, spouseName: Swift.String? = nil, occupation: Swift.String? = nil, prTracking: Swift.String? = nil, hajjTrackingStatus: Swift.String? = nil, timeStamp: Swift.String? = nil, isPaid: Swift.Bool? = nil, paymentMethod: Swift.String? = nil, paymentAmount: Swift.String? = nil, paymentRemark: Swift.String? = nil, packageReference: Swift.String? = nil, serviceID: Swift.Int? = nil, amount: Swift.Int? = nil, isActive: Swift.Bool? = nil)
+  public init(id: Swift.Int? = nil, fullName: Swift.String? = nil, birthDate: Swift.Int? = nil, gender: Swift.String? = nil, identityFlag: Swift.String? = nil, identityNumber: Swift.String? = nil, identityImagePath: Swift.String? = nil, imageFile: Foundation.Data? = nil, msisdn: Swift.String? = nil, mobileNumber: Swift.String? = nil, email: Swift.String? = nil, district: Swift.String? = nil, permanentAddress: Swift.String? = nil, presentAddress: Swift.String? = nil, maritalStatus: Swift.String? = nil, spouseName: Swift.String? = nil, occupation: Swift.String? = nil, prTracking: Swift.String? = nil, hajjTrackingStatus: Swift.String? = nil, timeStamp: Swift.String? = nil, trackingID: Swift.String? = nil, isPaid: Swift.Bool? = nil, paymentMethod: Swift.String? = nil, paymentAmount: Swift.String? = nil, paymentRemark: Swift.String? = nil, packageReference: Swift.String? = nil, serviceID: Swift.Int? = nil, amount: Swift.Int? = nil, isActive: Swift.Bool? = nil)
   #endif
   public static func == (a: DomainModels.UmrahRegistration, b: DomainModels.UmrahRegistration) -> Swift.Bool
   public typealias ID = Swift.Int?

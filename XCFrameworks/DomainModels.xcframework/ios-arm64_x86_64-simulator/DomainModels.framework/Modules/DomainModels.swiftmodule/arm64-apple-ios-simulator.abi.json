@@ -27094,6 +27094,116 @@
           },
           {
             "kind": "Var",
+            "name": "trackingID",
+            "printedName": "trackingID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DomainModels17UmrahRegistrationV10trackingIDSSSgvp",
+            "mangledName": "$s12DomainModels17UmrahRegistrationV10trackingIDSSSgvp",
+            "moduleName": "DomainModels",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV10trackingIDSSSgvg",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV10trackingIDSSSgvg",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV10trackingIDSSSgvs",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV10trackingIDSSSgvs",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DomainModels17UmrahRegistrationV10trackingIDSSSgvM",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV10trackingIDSSSgvM",
+                "moduleName": "DomainModels",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "isPaid",
             "printedName": "isPaid",
             "children": [
@@ -28722,6 +28832,43 @@
               },
               {
                 "kind": "Var",
+                "name": "trackingID",
+                "printedName": "trackingID",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DomainModels.UmrahRegistration.CodingKeys.Type) -> DomainModels.UmrahRegistration.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DomainModels.UmrahRegistration.CodingKeys",
+                        "usr": "s:12DomainModels17UmrahRegistrationV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DomainModels.UmrahRegistration.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DomainModels.UmrahRegistration.CodingKeys",
+                            "usr": "s:12DomainModels17UmrahRegistrationV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12DomainModels17UmrahRegistrationV10CodingKeysO10trackingIDyA2EmF",
+                "mangledName": "$s12DomainModels17UmrahRegistrationV10CodingKeysO10trackingIDyA2EmF",
+                "moduleName": "DomainModels"
+              },
+              {
+                "kind": "Var",
                 "name": "packageReference",
                 "printedName": "packageReference",
                 "children": [
@@ -29349,7 +29496,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(id:fullName:birthDate:gender:identityFlag:identityNumber:identityImagePath:imageFile:msisdn:mobileNumber:email:district:permanentAddress:presentAddress:maritalStatus:spouseName:occupation:prTracking:hajjTrackingStatus:timeStamp:isPaid:paymentMethod:paymentAmount:paymentRemark:packageReference:serviceID:amount:isActive:)",
+            "printedName": "init(id:fullName:birthDate:gender:identityFlag:identityNumber:identityImagePath:imageFile:msisdn:mobileNumber:email:district:permanentAddress:presentAddress:maritalStatus:spouseName:occupation:prTracking:hajjTrackingStatus:timeStamp:trackingID:isPaid:paymentMethod:paymentAmount:paymentRemark:packageReference:serviceID:amount:isActive:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -29660,6 +29807,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "Swift.Bool?",
                 "children": [
                   {
@@ -29779,8 +29941,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12DomainModels17UmrahRegistrationV2id8fullName9birthDate6gender12identityFlag0K6Number0K9ImagePath9imageFile6msisdn06mobileM05email8district16permanentAddress07presentW013maritalStatus06spouseG010occupation10prTracking012hajjTrackingZ09timeStamp6isPaid13paymentMethod13paymentAmount13paymentRemark16packageReference9serviceID6amount8isActiveACSiSg_SSSgA4_A5_A5_A5_A5_10Foundation4DataVSgA5_A5_A5_A5_A5_A5_A5_A5_A5_A5_A5_A5_SbSgA5_A5_A5_A5_A4_A4_A10_tcfc",
-            "mangledName": "$s12DomainModels17UmrahRegistrationV2id8fullName9birthDate6gender12identityFlag0K6Number0K9ImagePath9imageFile6msisdn06mobileM05email8district16permanentAddress07presentW013maritalStatus06spouseG010occupation10prTracking012hajjTrackingZ09timeStamp6isPaid13paymentMethod13paymentAmount13paymentRemark16packageReference9serviceID6amount8isActiveACSiSg_SSSgA4_A5_A5_A5_A5_10Foundation4DataVSgA5_A5_A5_A5_A5_A5_A5_A5_A5_A5_A5_A5_SbSgA5_A5_A5_A5_A4_A4_A10_tcfc",
+            "usr": "s:12DomainModels17UmrahRegistrationV2id8fullName9birthDate6gender12identityFlag0K6Number0K9ImagePath9imageFile6msisdn06mobileM05email8district16permanentAddress07presentW013maritalStatus06spouseG010occupation10prTracking012hajjTrackingZ09timeStamp10trackingID6isPaid13paymentMethod13paymentAmount13paymentRemark16packageReference9serviceID6amount8isActiveACSiSg_SSSgA5_A6_A6_A6_A6_10Foundation4DataVSgA6_A6_A6_A6_A6_A6_A6_A6_A6_A6_A6_A6_A6_SbSgA6_A6_A6_A6_A5_A5_A11_tcfc",
+            "mangledName": "$s12DomainModels17UmrahRegistrationV2id8fullName9birthDate6gender12identityFlag0K6Number0K9ImagePath9imageFile6msisdn06mobileM05email8district16permanentAddress07presentW013maritalStatus06spouseG010occupation10prTracking012hajjTrackingZ09timeStamp10trackingID6isPaid13paymentMethod13paymentAmount13paymentRemark16packageReference9serviceID6amount8isActiveACSiSg_SSSgA5_A6_A6_A6_A6_10Foundation4DataVSgA6_A6_A6_A6_A6_A6_A6_A6_A6_A6_A6_A6_A6_SbSgA6_A6_A6_A6_A5_A5_A11_tcfc",
             "moduleName": "DomainModels",
             "declAttributes": [
               "AccessControl"
@@ -34688,112 +34850,119 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1488,
+      "offset": 1502,
       "length": 4,
       "value": "\"Id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1528,
+      "offset": 1531,
       "length": 10,
       "value": "\"fullname\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1671,
+      "offset": 1672,
       "length": 19,
       "value": "\"identityimagePath\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1726,
+      "offset": 1717,
       "length": 11,
       "value": "\"ImageFile\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1793,
+      "offset": 1777,
       "length": 14,
       "value": "\"mobilenumber\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1884,
+      "offset": 1865,
       "length": 18,
       "value": "\"permanentaddress\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1938,
+      "offset": 1914,
       "length": 16,
       "value": "\"presentaddress\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 1990,
+      "offset": 1960,
       "length": 15,
       "value": "\"maritalstatus\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 2041,
+      "offset": 2002,
       "length": 12,
       "value": "\"spousename\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 2113,
+      "offset": 2065,
       "length": 12,
       "value": "\"prtracking\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 2161,
+      "offset": 2112,
       "length": 20,
       "value": "\"hajjtrackingstatus\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 2217,
+      "offset": 2158,
       "length": 11,
       "value": "\"TimeStamp\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 2264,
+      "offset": 2196,
+      "length": 12,
+      "value": "\"TrackingNo\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
+      "kind": "StringLiteral",
+      "offset": 2241,
       "length": 18,
       "value": "\"PackageReference\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 2318,
+      "offset": 2285,
       "length": 11,
       "value": "\"ServiceID\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 2365,
+      "offset": 2319,
       "length": 8,
       "value": "\"Amount\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Umrah Package\/UmrahRegistration.swift",
       "kind": "StringLiteral",
-      "offset": 2510,
+      "offset": 2453,
       "length": 10,
       "value": "\"isactive\""
     }
