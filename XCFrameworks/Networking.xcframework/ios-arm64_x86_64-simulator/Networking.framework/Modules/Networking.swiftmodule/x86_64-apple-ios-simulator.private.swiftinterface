@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Networking
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Networking
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 import DomainModels
 import Foundation
 import Playgrounds
@@ -109,9 +109,7 @@ public enum APIEndPoints : Swift.String {
   case login
   case varifyJWTToken
   case encodedURL
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -148,9 +146,7 @@ public enum ServiceEndPoints : Swift.String {
   case hajjPreRegistrationList
   case hajjRegistration
   case hajjRegistrationUpdate
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -177,7 +173,7 @@ public protocol ContentService {
   #endif
 }
 public protocol DashboardService {
-  #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func loadContent(content: Swift.Int, page: Swift.Int, token: Swift.String?) async throws -> (list: [Networking.PatchListDTO], profile: DomainModels.UserProfile, pagination: DomainModels.PaginationV2?)
   #endif
 }
@@ -185,7 +181,7 @@ public protocol LandmarkDataService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func patch() async throws -> (carouselSection: DomainModels.LandmarkSection, countries: [DomainModels.LocationInfo], gridSection: DomainModels.LandmarkSection)
   #endif
-  #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func list(id: Swift.Int?, page: Swift.Int, content: Swift.Int) async throws -> (list: [DomainModels.LandmarkOverview], pagination: DomainModels.PaginationV2?, title: Swift.String?)
   #endif
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
@@ -263,7 +259,7 @@ public protocol QLService {
   #endif
 }
 public protocol FTService {
-  #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func addFastTrackingInfo(token: Swift.String, date: Swift.String?, suhoor: Swift.Bool, iftaar: Swift.Bool, language: Swift.String) async throws -> Swift.Bool
   #endif
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes

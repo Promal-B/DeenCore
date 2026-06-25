@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target arm64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name UIComponents
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name UIComponents
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 import Combine
 import Darwin
 import Foundation
@@ -12,9 +12,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_Concurrency.MainActor @preconcurrency public struct ChipButtonStyle : SwiftUI.ButtonStyle {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(color: SwiftUICore.Color, horizontalPadding: CoreFoundation.CGFloat = 16, verticalPadding: CoreFoundation.CGFloat = 6, cornerRadius: CoreFoundation.CGFloat = 20, background: SwiftUICore.Color? = nil)
-  #endif
   @_Concurrency.MainActor @preconcurrency public func makeBody(configuration: UIComponents.ChipButtonStyle.Configuration) -> some SwiftUICore.View
   
   public typealias Body = @_opaqueReturnTypeOf("$s12UIComponents15ChipButtonStyleV8makeBody13configurationQr7SwiftUI0cD13ConfigurationV_tF", 0) __
@@ -60,33 +58,25 @@ public struct FullScreenPopupDismissKey : SwiftUICore.EnvironmentKey {
   public typealias Value = (() -> Swift.Void)?
 }
 extension SwiftUICore.EnvironmentValues {
-  #if compiler(>=5.3) && $NonescapableTypes
   public var fullScreenPopupDismiss: (() -> Swift.Void)? {
     get
     set
   }
-  #endif
 }
 extension SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func fullScreenPopup<Content>(isPresented: SwiftUICore.Binding<Swift.Bool>, backdropColor: SwiftUICore.Color = .black.opacity(0.4), transition: SwiftUICore.AnyTransition = .scale(scale: 0.92).combined(with: .opacity), onDismiss: (() -> Swift.Void)? = nil, @SwiftUICore.ViewBuilder content: @escaping () -> Content) -> some SwiftUICore.View where Content : SwiftUICore.View
   
-  #endif
 }
 public enum SVGPhase {
   case empty
   case success(SwiftUICore.Image)
   case failure(any Swift.Error)
-  #if compiler(>=5.3) && $NonescapableTypes
   public var image: SwiftUICore.Image? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var error: (any Swift.Error)? {
     get
   }
-  #endif
 }
 @_Concurrency.MainActor @preconcurrency public struct SVGImage : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(url: Foundation.URL)
@@ -113,9 +103,7 @@ public enum SVGError : Swift.Error {
 }
 public class SVG {
   @objc deinit
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(_ data: Foundation.Data)
-  #endif
   public var size: CoreFoundation.CGSize {
     get
   }
