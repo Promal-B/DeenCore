@@ -12617,42 +12617,42 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/APIClient.swift",
       "kind": "Dictionary",
-      "offset": 2654,
+      "offset": 2708,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 5439,
+      "offset": 5547,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 5461,
+      "offset": 5569,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 5483,
+      "offset": 5591,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 5506,
+      "offset": 5614,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 5532,
+      "offset": 5640,
       "length": 8,
       "value": "\"DELETE\""
     }
