@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DomainModels
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DomainModels
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 import Foundation
 import Swift
 import SwiftUI
@@ -18,9 +18,7 @@ public struct EventDetail : Swift.Codable, Swift.Identifiable {
   public let contenturl: Swift.String
   public let serial: Swift.Int
   public let reference: Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(title: Swift.String, text: Swift.String, textInArabic: Swift.String, pronunciation: Swift.String, imageUrl: Foundation.URL?, contenturl: Swift.String, serial: Swift.Int, reference: Swift.String)
-  #endif
   public typealias ID = Foundation.UUID
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -44,9 +42,7 @@ public struct IslamicEvent : Swift.Codable, Swift.Identifiable {
   public var idValue: Swift.Int {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(categoryID: Swift.Int, category: Swift.String, id: Swift.Int, title: Swift.String, text: Swift.String, textInArabic: Swift.String, pronunciation: Swift.String, imageUrl: Foundation.URL?, language: Swift.String, serial: Swift.Int, reference: Swift.String, details: [DomainModels.EventDetail])
-  #endif
   public typealias ID = Swift.Int
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -75,9 +71,7 @@ public struct UserProfile : Swift.Codable {
   public let isPersonalMenu: Swift.Bool
   public let isPremium: Swift.String
   public let profileURl: Foundation.URL?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(username: Swift.String, isPersonalMenu: Swift.Bool, isPremium: Swift.String, profileURl: Foundation.URL?)
-  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -131,9 +125,7 @@ public enum AppDesign : Swift.String, Swift.CaseIterable, Swift.Codable {
   case disclaimer
   case unknown
   public init(from decoder: any Swift.Decoder) throws
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [DomainModels.AppDesign]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [DomainModels.AppDesign] {
@@ -226,9 +218,7 @@ public enum ContentType : Swift.String, Swift.Codable, Swift.CaseIterable {
   case uhp
   case unknown
   public init(from decoder: any Swift.Decoder) throws
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [DomainModels.ContentType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [DomainModels.ContentType] {
@@ -244,11 +234,9 @@ public enum AppError : Foundation.LocalizedError {
   case featureUnavailable
   case stateMismatch
   case unknown
-  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
-  #endif
   public static func == (a: DomainModels.AppError, b: DomainModels.AppError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -260,11 +248,9 @@ public enum AuthError : Foundation.LocalizedError {
   case tokenExpired
   case accountLocked
   case notLoggedIn
-  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
-  #endif
   public static func == (a: DomainModels.AuthError, b: DomainModels.AuthError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -275,11 +261,9 @@ public enum FileError : Foundation.LocalizedError {
   case notFound
   case accessDenied
   case corrupted
-  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
-  #endif
   public static func == (a: DomainModels.FileError, b: DomainModels.FileError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -299,21 +283,17 @@ public enum NetworkError : Foundation.LocalizedError {
   case decodingFailed
   case invalidResponse
   case unknown(Swift.String)
-  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
-  #endif
 }
 public enum PermissionError : Foundation.LocalizedError {
   case cameraDenied
   case locationDenied
   case notificationDenied
-  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
-  #endif
   public static func == (a: DomainModels.PermissionError, b: DomainModels.PermissionError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -325,11 +305,9 @@ public enum PersistenceError : Foundation.LocalizedError {
   case writeFailed
   case deleteFailed
   case migrationFailed
-  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
-  #endif
   public static func == (a: DomainModels.PersistenceError, b: DomainModels.PersistenceError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -340,11 +318,9 @@ public enum ThirdPartyError : Foundation.LocalizedError {
   case notInitialized
   case failure
   case incompatibleVersion
-  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
-  #endif
   public static func == (a: DomainModels.ThirdPartyError, b: DomainModels.ThirdPartyError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -356,11 +332,9 @@ public enum ValidationError : Foundation.LocalizedError {
   case invalidEmail
   case invalidPassword
   case outOfRange
-  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
-  #endif
 }
 public struct LandmarkDetails : Swift.Codable, Swift.Identifiable {
   public let id: Swift.Int
@@ -373,9 +347,7 @@ public struct LandmarkDetails : Swift.Codable, Swift.Identifiable {
   public let latitude: Swift.Double
   public let longitude: Swift.Double
   public let gallery: [Foundation.URL?]
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(id: Swift.Int, banner: Foundation.URL?, name: Swift.String, city: Swift.String, capacity: Swift.String, country: Swift.String, description: Swift.String, latitude: Swift.Double, longitude: Swift.Double, gallery: [Foundation.URL?])
-  #endif
   public typealias ID = Swift.Int
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -388,9 +360,7 @@ public struct LandmarkOverview : Swift.Identifiable, Swift.Equatable {
   public var title: Swift.String
   public var location: Swift.String
   public var imageURL: Foundation.URL?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(id: Swift.Int, title: Swift.String, location: Swift.String, imageURL: Foundation.URL? = nil)
-  #endif
   public static func == (a: DomainModels.LandmarkOverview, b: DomainModels.LandmarkOverview) -> Swift.Bool
   public typealias ID = Swift.Int
 }
@@ -444,9 +414,7 @@ public struct FastingTrackingSummary : Swift.Codable {
   public let isFasting: Swift.Bool
   public let totalTracked: Swift.Int
   public let totalDays: Swift.Int
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(date: Swift.String?, islamicDate: Swift.String?, banglaDate: Swift.String?, suhoor: Swift.String?, iftaar: Swift.String?, isFasting: Swift.Bool, totalTracked: Swift.Int, totalDays: Swift.Int)
-  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -509,9 +477,7 @@ public struct PrayerTimeData : Swift.Codable {
   public let wish: Swift.String
   public let moment: Foundation.URL?
   public let waktTracker: [DomainModels.WaktStatus]
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(date: Swift.String, islamicDate: Swift.String, banglaDate: Swift.String, day: Swift.Int, sehri: Swift.String, fajr: Swift.String, sunrise: Swift.String, noon: Swift.String, juhr: Swift.String, asr: Swift.String, sunset: Swift.String, iftar: Swift.String, magrib: Swift.String, isha: Swift.String, tahajjut: Swift.String, ishrak: Swift.String, wish: Swift.String, moment: Foundation.URL?, waktTracker: [DomainModels.WaktStatus])
-  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -531,9 +497,7 @@ public struct QuizOptionV2 : Swift.Codable, Swift.Hashable {
   public let optionID: Swift.Int?
   public let description: Swift.String?
   public let isCorrect: Swift.Bool?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(optionID: Swift.Int?, description: Swift.String?, isCorrect: Swift.Bool?)
-  #endif
   public static func == (a: DomainModels.QuizOptionV2, b: DomainModels.QuizOptionV2) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public func hash(into hasher: inout Swift.Hasher)
@@ -555,9 +519,7 @@ public struct QuizQuestionV2 : Swift.Codable, Swift.Identifiable {
   public let questionImage: Foundation.URL?
   public let isActive: Swift.Bool?
   public let options: [DomainModels.QuizOptionV2]?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(id: Swift.String = UUID().uuidString, questionID: Swift.Int?, questionTitle: Swift.String?, categoryID: Swift.Int?, levelID: Swift.Int?, quizType: Swift.Int?, onTime: Swift.String?, questionScore: Swift.Int?, questionPlaytime: Swift.Int?, questionImage: Foundation.URL?, isActive: Swift.Bool?, options: [DomainModels.QuizOptionV2]?)
-  #endif
   public typealias ID = Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -571,9 +533,7 @@ public struct CommonCardModel : Swift.Identifiable {
   public var text: Swift.String
   public var imageURL: Foundation.URL?
   public var coloredText: [Swift.String]
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(id: Foundation.UUID = UUID(), featureTitle: Swift.String, text: Swift.String, imageURL: Foundation.URL?, coloredText: [Swift.String])
-  #endif
   public typealias ID = Foundation.UUID
 }
 extension DomainModels.CommonCardModel {
@@ -582,9 +542,7 @@ extension DomainModels.CommonCardModel {
 public enum ContentDesign : Swift.String, Swift.Codable {
   case alphabetSlide
   case fullPageAyat
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -592,9 +550,7 @@ public enum ContentDesign : Swift.String, Swift.Codable {
 }
 extension DomainModels.ContentDesign {
   public init(from decoder: any Swift.Decoder) throws
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(from string: Swift.String?) throws
-  #endif
 }
 public struct IntroData : Swift.Identifiable, Swift.Hashable {
   public let id: Swift.String
@@ -629,9 +585,7 @@ public struct LessonContent : Swift.Identifiable, Swift.Codable {
   public let textInArabic: Swift.String?
   public let imageURL: Foundation.URL?
   public let audioURL: Foundation.URL?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(id: Swift.String = UUID().uuidString, title: Swift.String, text: Swift.String, textInArabic: Swift.String? = nil, imageURL: Foundation.URL?, audioURL: Foundation.URL?)
-  #endif
   public typealias ID = Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -661,9 +615,7 @@ public struct MenuItem : Swift.Codable, Swift.Identifiable, Swift.Hashable {
   public let text: Swift.String
   public let imageURL: Foundation.URL?
   public let contentType: DomainModels.ResponseContentType
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(id: Swift.Int, text: Swift.String, imageURL: Foundation.URL?, contentType: DomainModels.ResponseContentType)
-  #endif
   public static func == (a: DomainModels.MenuItem, b: DomainModels.MenuItem) -> Swift.Bool
   public typealias ID = Swift.Int
   public func encode(to encoder: any Swift.Encoder) throws
@@ -688,9 +640,7 @@ public struct Module : Swift.Identifiable, Swift.Hashable {
   public var buttonBackground: SwiftUICore.Color
   public var gradientColor: SwiftUICore.Color
   public var shapeColor: SwiftUICore.Color
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(id: Swift.Int, title: Swift.String, subTitle: Swift.String? = nil, iconURL: Foundation.URL?, contentType: DomainModels.ResponseContentType, categoryID: Swift.Int? = nil, buttonTextColor: SwiftUICore.Color, buttonBackground: SwiftUICore.Color, gradientColor: SwiftUICore.Color, shapeColor: SwiftUICore.Color)
-  #endif
   public static func == (a: DomainModels.Module, b: DomainModels.Module) -> Swift.Bool
   public typealias ID = Swift.Int
   public func hash(into hasher: inout Swift.Hasher)
@@ -709,9 +659,7 @@ public struct QuizCategory : Swift.Identifiable, Swift.Hashable {
   public var totalQuestions: Swift.Int
   public var categoryID: Swift.Int
   public var subCategoryId: Swift.Int
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(title: Swift.String, symbolURL: Foundation.URL?, totalQuestions: Swift.Int, categoryID: Swift.Int, subCategoryId: Swift.Int)
-  #endif
   public static func == (a: DomainModels.QuizCategory, b: DomainModels.QuizCategory) -> Swift.Bool
   public typealias ID = Swift.String
   public func hash(into hasher: inout Swift.Hasher)
@@ -727,9 +675,7 @@ public enum ResponseContentType : Swift.String, Swift.Hashable, Swift.Codable {
   case gtm
   case gtd
   case gtdrt
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -737,9 +683,7 @@ public enum ResponseContentType : Swift.String, Swift.Hashable, Swift.Codable {
 }
 extension DomainModels.ResponseContentType {
   public init(from decoder: any Swift.Decoder) throws
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(from string: Swift.String?) throws
-  #endif
 }
 public struct UmrahRegistration : Swift.Codable, Swift.Identifiable, Swift.Hashable {
   public var id: Swift.Int?
@@ -801,21 +745,13 @@ public struct UmrahRegistration : Swift.Codable, Swift.Identifiable, Swift.Hasha
     case paymentAmount
     case paymentRemark
     case isActive
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(stringValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(intValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.String
-    #if compiler(>=5.3) && $NonescapableTypes
     public var intValue: Swift.Int? {
       get
     }
-    #endif
     public var rawValue: Swift.String {
       get
     }
@@ -823,9 +759,7 @@ public struct UmrahRegistration : Swift.Codable, Swift.Identifiable, Swift.Hasha
       get
     }
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(id: Swift.Int? = nil, fullName: Swift.String? = nil, birthDate: Swift.Int? = nil, gender: Swift.String? = nil, identityFlag: Swift.String? = nil, identityNumber: Swift.String? = nil, identityImagePath: Swift.String? = nil, imageFile: Foundation.Data? = nil, msisdn: Swift.String? = nil, mobileNumber: Swift.String? = nil, email: Swift.String? = nil, district: Swift.String? = nil, permanentAddress: Swift.String? = nil, presentAddress: Swift.String? = nil, maritalStatus: Swift.String? = nil, spouseName: Swift.String? = nil, occupation: Swift.String? = nil, prTracking: Swift.String? = nil, hajjTrackingStatus: Swift.String? = nil, timeStamp: Swift.String? = nil, trackingID: Swift.String? = nil, isPaid: Swift.Bool? = nil, paymentMethod: Swift.String? = nil, paymentAmount: Swift.String? = nil, paymentRemark: Swift.String? = nil, packageReference: Swift.String? = nil, serviceID: Swift.Int? = nil, amount: Swift.Int? = nil, isActive: Swift.Bool? = nil)
-  #endif
   public static func == (a: DomainModels.UmrahRegistration, b: DomainModels.UmrahRegistration) -> Swift.Bool
   public typealias ID = Swift.Int?
   public func encode(to encoder: any Swift.Encoder) throws
