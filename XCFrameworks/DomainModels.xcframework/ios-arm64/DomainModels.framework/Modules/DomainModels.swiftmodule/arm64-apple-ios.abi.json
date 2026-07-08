@@ -5662,6 +5662,80 @@
           },
           {
             "kind": "Var",
+            "name": "hprl",
+            "printedName": "hprl",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO4hprlyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO4hprlyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "hprfaq",
+            "printedName": "hprfaq",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO6hprfaqyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO6hprfaqyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
             "name": "zk",
             "printedName": "zk",
             "children": [
@@ -7471,6 +7545,117 @@
             "declKind": "EnumElement",
             "usr": "s:12DomainModels11ContentTypeO3uhpyA2CmF",
             "mangledName": "$s12DomainModels11ContentTypeO3uhpyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "gtm",
+            "printedName": "gtm",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3gtmyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3gtmyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "gtd",
+            "printedName": "gtd",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO3gtdyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO3gtdyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
+            "name": "gtdrt",
+            "printedName": "gtdrt",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.ContentType.Type) -> DomainModels.ContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentType",
+                    "printedName": "DomainModels.ContentType",
+                    "usr": "s:12DomainModels11ContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.ContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentType",
+                        "printedName": "DomainModels.ContentType",
+                        "usr": "s:12DomainModels11ContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels11ContentTypeO5gtdrtyA2CmF",
+            "mangledName": "$s12DomainModels11ContentTypeO5gtdrtyA2CmF",
             "moduleName": "DomainModels"
           },
           {
@@ -32120,56 +32305,56 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
       "kind": "StringLiteral",
-      "offset": 668,
+      "offset": 698,
       "length": 7,
       "value": "\"99noa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
       "kind": "StringLiteral",
-      "offset": 790,
+      "offset": 820,
       "length": 4,
       "value": "\"in\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
       "kind": "StringLiteral",
-      "offset": 1094,
+      "offset": 1124,
       "length": 12,
       "value": "\"holy_place\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
       "kind": "StringLiteral",
-      "offset": 1128,
+      "offset": 1158,
       "length": 12,
       "value": "\"hajj_jatra\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
       "kind": "StringLiteral",
-      "offset": 1160,
+      "offset": 1190,
       "length": 10,
       "value": "\"hajj_map\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
       "kind": "StringLiteral",
-      "offset": 1192,
+      "offset": 1222,
       "length": 12,
       "value": "\"hajj_guide\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
       "kind": "StringLiteral",
-      "offset": 1226,
+      "offset": 1256,
       "length": 12,
       "value": "\"hajj_umrah\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
       "kind": "StringLiteral",
-      "offset": 1258,
+      "offset": 1288,
       "length": 9,
       "value": "\"Banners\""
     },

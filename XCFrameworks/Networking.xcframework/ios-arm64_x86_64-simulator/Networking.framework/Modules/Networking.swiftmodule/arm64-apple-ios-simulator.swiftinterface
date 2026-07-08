@@ -42,7 +42,7 @@ public struct PatchDetailsDTO : Swift.Codable, Swift.Identifiable, Swift.Hashabl
   public let isActive: Swift.String?
   public let language: Swift.String?
   public let sequence: Swift.Int?
-  public let contentType: Swift.String?
+  public let contentType: DomainModels.ContentType?
   public let featureType: Swift.String?
   public let surahID: Swift.Int?
   public let juzID: Swift.Int?

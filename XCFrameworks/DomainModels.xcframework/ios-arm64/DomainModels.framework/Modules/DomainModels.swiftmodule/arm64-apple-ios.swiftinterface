@@ -167,6 +167,8 @@ public enum ContentType : Swift.String, Swift.Codable, Swift.CaseIterable {
   case utub
   case dqc
   case hpr
+  case hprl
+  case hprfaq
   case zk
   case qsa
   case qic
@@ -216,6 +218,9 @@ public enum ContentType : Swift.String, Swift.Codable, Swift.CaseIterable {
   case nsd
   case ild
   case uhp
+  case gtm
+  case gtd
+  case gtdrt
   case unknown
   public init(from decoder: any Swift.Decoder) throws
   public init?(rawValue: Swift.String)
