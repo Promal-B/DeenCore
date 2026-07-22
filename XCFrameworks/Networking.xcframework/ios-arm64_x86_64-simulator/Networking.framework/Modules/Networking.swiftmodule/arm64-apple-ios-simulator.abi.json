@@ -9930,351 +9930,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "APIEnvironment",
-        "printedName": "APIEnvironment",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "productionEN",
-            "printedName": "productionEN",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Networking.APIEnvironment.Type) -> Networking.APIEnvironment",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "APIEnvironment",
-                    "printedName": "Networking.APIEnvironment",
-                    "usr": "s:10Networking14APIEnvironmentO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Networking.APIEnvironment.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "APIEnvironment",
-                        "printedName": "Networking.APIEnvironment",
-                        "usr": "s:10Networking14APIEnvironmentO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10Networking14APIEnvironmentO12productionENyA2CmF",
-            "mangledName": "$s10Networking14APIEnvironmentO12productionENyA2CmF",
-            "moduleName": "Networking",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "productionBN",
-            "printedName": "productionBN",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Networking.APIEnvironment.Type) -> Networking.APIEnvironment",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "APIEnvironment",
-                    "printedName": "Networking.APIEnvironment",
-                    "usr": "s:10Networking14APIEnvironmentO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Networking.APIEnvironment.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "APIEnvironment",
-                        "printedName": "Networking.APIEnvironment",
-                        "usr": "s:10Networking14APIEnvironmentO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10Networking14APIEnvironmentO12productionBNyA2CmF",
-            "mangledName": "$s10Networking14APIEnvironmentO12productionBNyA2CmF",
-            "moduleName": "Networking",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "android",
-            "printedName": "android",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Networking.APIEnvironment.Type) -> Networking.APIEnvironment",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "APIEnvironment",
-                    "printedName": "Networking.APIEnvironment",
-                    "usr": "s:10Networking14APIEnvironmentO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Networking.APIEnvironment.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "APIEnvironment",
-                        "printedName": "Networking.APIEnvironment",
-                        "usr": "s:10Networking14APIEnvironmentO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:10Networking14APIEnvironmentO7androidyA2CmF",
-            "mangledName": "$s10Networking14APIEnvironmentO7androidyA2CmF",
-            "moduleName": "Networking",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "serviceURL",
-            "printedName": "serviceURL(for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ServiceEndPoints",
-                "printedName": "Networking.ServiceEndPoints",
-                "usr": "s:10Networking16ServiceEndPointsO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Networking14APIEnvironmentO10serviceURL3for10Foundation0D0VAA16ServiceEndPointsO_tF",
-            "mangledName": "$s10Networking14APIEnvironmentO10serviceURL3for10Foundation0D0VAA16ServiceEndPointsO_tF",
-            "moduleName": "Networking",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "contentURL",
-            "printedName": "contentURL(for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Networking14APIEnvironmentO10contentURL3for10Foundation0D0VSS_tF",
-            "mangledName": "$s10Networking14APIEnvironmentO10contentURL3for10Foundation0D0VSS_tF",
-            "moduleName": "Networking",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "apiURL",
-            "printedName": "apiURL(for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "APIEndPoints",
-                "printedName": "Networking.APIEndPoints",
-                "usr": "s:10Networking12APIEndPointsO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Networking14APIEnvironmentO6apiURL3for10Foundation0D0VAA12APIEndPointsO_tF",
-            "mangledName": "$s10Networking14APIEnvironmentO6apiURL3for10Foundation0D0VAA12APIEndPointsO_tF",
-            "moduleName": "Networking",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "APIEnvironment",
-                "printedName": "Networking.APIEnvironment",
-                "usr": "s:10Networking14APIEnvironmentO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "APIEnvironment",
-                "printedName": "Networking.APIEnvironment",
-                "usr": "s:10Networking14APIEnvironmentO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Networking14APIEnvironmentO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s10Networking14APIEnvironmentO2eeoiySbAC_ACtFZ",
-            "moduleName": "Networking",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10Networking14APIEnvironmentO9hashValueSivp",
-            "mangledName": "$s10Networking14APIEnvironmentO9hashValueSivp",
-            "moduleName": "Networking",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10Networking14APIEnvironmentO9hashValueSivg",
-                "mangledName": "$s10Networking14APIEnvironmentO9hashValueSivg",
-                "moduleName": "Networking",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10Networking14APIEnvironmentO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s10Networking14APIEnvironmentO4hash4intoys6HasherVz_tF",
-            "moduleName": "Networking",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:10Networking14APIEnvironmentO",
-        "mangledName": "$s10Networking14APIEnvironmentO",
-        "moduleName": "Networking",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "NetworkEnvironment",
         "printedName": "NetworkEnvironment",
         "children": [
@@ -10387,6 +10042,43 @@
             "declKind": "EnumElement",
             "usr": "s:10Networking18NetworkEnvironmentO7androidyA2CmF",
             "mangledName": "$s10Networking18NetworkEnvironmentO7androidyA2CmF",
+            "moduleName": "Networking"
+          },
+          {
+            "kind": "Var",
+            "name": "dev",
+            "printedName": "dev",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Networking.NetworkEnvironment.Type) -> Networking.NetworkEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkEnvironment",
+                    "printedName": "Networking.NetworkEnvironment",
+                    "usr": "s:10Networking18NetworkEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Networking.NetworkEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkEnvironment",
+                        "printedName": "Networking.NetworkEnvironment",
+                        "usr": "s:10Networking18NetworkEnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Networking18NetworkEnvironmentO3devyA2CmF",
+            "mangledName": "$s10Networking18NetworkEnvironmentO3devyA2CmF",
             "moduleName": "Networking"
           },
           {
@@ -10543,15 +10235,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "APIEnvironment",
-                "printedName": "Networking.APIEnvironment",
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
                 "hasDefaultArg": true,
-                "usr": "s:10Networking14APIEnvironmentO"
+                "usr": "s:10Networking18NetworkEnvironmentO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking14ServiceFactoryO013makeQLNetworkB03forAA9QLService_pAA14APIEnvironmentO_tFZ",
-            "mangledName": "$s10Networking14ServiceFactoryO013makeQLNetworkB03forAA9QLService_pAA14APIEnvironmentO_tFZ",
+            "usr": "s:10Networking14ServiceFactoryO013makeQLNetworkB03forAA9QLService_pAA18NetworkEnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO013makeQLNetworkB03forAA9QLService_pAA18NetworkEnvironmentO_tFZ",
             "moduleName": "Networking",
             "static": true,
             "declAttributes": [
@@ -10573,15 +10265,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "APIEnvironment",
-                "printedName": "Networking.APIEnvironment",
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
                 "hasDefaultArg": true,
-                "usr": "s:10Networking14APIEnvironmentO"
+                "usr": "s:10Networking18NetworkEnvironmentO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking14ServiceFactoryO013makeFMNetworkB03forAA012LandmarkDataB0_pAA14APIEnvironmentO_tFZ",
-            "mangledName": "$s10Networking14ServiceFactoryO013makeFMNetworkB03forAA012LandmarkDataB0_pAA14APIEnvironmentO_tFZ",
+            "usr": "s:10Networking14ServiceFactoryO013makeFMNetworkB03forAA012LandmarkDataB0_pAA18NetworkEnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO013makeFMNetworkB03forAA012LandmarkDataB0_pAA18NetworkEnvironmentO_tFZ",
             "moduleName": "Networking",
             "static": true,
             "declAttributes": [
@@ -10603,15 +10295,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "APIEnvironment",
-                "printedName": "Networking.APIEnvironment",
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
                 "hasDefaultArg": true,
-                "usr": "s:10Networking14APIEnvironmentO"
+                "usr": "s:10Networking18NetworkEnvironmentO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking14ServiceFactoryO013makeHPNetworkB03forAA012LandmarkDataB0_pAA14APIEnvironmentO_tFZ",
-            "mangledName": "$s10Networking14ServiceFactoryO013makeHPNetworkB03forAA012LandmarkDataB0_pAA14APIEnvironmentO_tFZ",
+            "usr": "s:10Networking14ServiceFactoryO013makeHPNetworkB03forAA012LandmarkDataB0_pAA18NetworkEnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO013makeHPNetworkB03forAA012LandmarkDataB0_pAA18NetworkEnvironmentO_tFZ",
             "moduleName": "Networking",
             "static": true,
             "declAttributes": [
@@ -10633,15 +10325,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "APIEnvironment",
-                "printedName": "Networking.APIEnvironment",
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
                 "hasDefaultArg": true,
-                "usr": "s:10Networking14APIEnvironmentO"
+                "usr": "s:10Networking18NetworkEnvironmentO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking14ServiceFactoryO018makeContentNetworkB03forAA0eB0_pAA14APIEnvironmentO_tFZ",
-            "mangledName": "$s10Networking14ServiceFactoryO018makeContentNetworkB03forAA0eB0_pAA14APIEnvironmentO_tFZ",
+            "usr": "s:10Networking14ServiceFactoryO018makeContentNetworkB03forAA0eB0_pAA0F11EnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO018makeContentNetworkB03forAA0eB0_pAA0F11EnvironmentO_tFZ",
             "moduleName": "Networking",
             "static": true,
             "declAttributes": [
@@ -10663,15 +10355,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "APIEnvironment",
-                "printedName": "Networking.APIEnvironment",
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
                 "hasDefaultArg": true,
-                "usr": "s:10Networking14APIEnvironmentO"
+                "usr": "s:10Networking18NetworkEnvironmentO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking14ServiceFactoryO013makePTNetworkB03forAA9PTService_pAA14APIEnvironmentO_tFZ",
-            "mangledName": "$s10Networking14ServiceFactoryO013makePTNetworkB03forAA9PTService_pAA14APIEnvironmentO_tFZ",
+            "usr": "s:10Networking14ServiceFactoryO013makePTNetworkB03forAA9PTService_pAA18NetworkEnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO013makePTNetworkB03forAA9PTService_pAA18NetworkEnvironmentO_tFZ",
             "moduleName": "Networking",
             "static": true,
             "declAttributes": [
@@ -10693,15 +10385,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "APIEnvironment",
-                "printedName": "Networking.APIEnvironment",
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
                 "hasDefaultArg": true,
-                "usr": "s:10Networking14APIEnvironmentO"
+                "usr": "s:10Networking18NetworkEnvironmentO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking14ServiceFactoryO013makeFTNetworkB03forAA9FTService_pAA14APIEnvironmentO_tFZ",
-            "mangledName": "$s10Networking14ServiceFactoryO013makeFTNetworkB03forAA9FTService_pAA14APIEnvironmentO_tFZ",
+            "usr": "s:10Networking14ServiceFactoryO013makeFTNetworkB03forAA9FTService_pAA18NetworkEnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO013makeFTNetworkB03forAA9FTService_pAA18NetworkEnvironmentO_tFZ",
             "moduleName": "Networking",
             "static": true,
             "declAttributes": [
@@ -10723,15 +10415,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "APIEnvironment",
-                "printedName": "Networking.APIEnvironment",
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
                 "hasDefaultArg": true,
-                "usr": "s:10Networking14APIEnvironmentO"
+                "usr": "s:10Networking18NetworkEnvironmentO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking14ServiceFactoryO020makeDashboardNetworkB03forAA0eB0_pAA14APIEnvironmentO_tFZ",
-            "mangledName": "$s10Networking14ServiceFactoryO020makeDashboardNetworkB03forAA0eB0_pAA14APIEnvironmentO_tFZ",
+            "usr": "s:10Networking14ServiceFactoryO020makeDashboardNetworkB03forAA0eB0_pAA0F11EnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO020makeDashboardNetworkB03forAA0eB0_pAA0F11EnvironmentO_tFZ",
             "moduleName": "Networking",
             "static": true,
             "declAttributes": [
@@ -10752,15 +10444,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "APIEnvironment",
-                "printedName": "Networking.APIEnvironment",
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
                 "hasDefaultArg": true,
-                "usr": "s:10Networking14APIEnvironmentO"
+                "usr": "s:10Networking18NetworkEnvironmentO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking14ServiceFactoryO015makeIlmeNetworkB03forAA0eB0_pAA14APIEnvironmentO_tFZ",
-            "mangledName": "$s10Networking14ServiceFactoryO015makeIlmeNetworkB03forAA0eB0_pAA14APIEnvironmentO_tFZ",
+            "usr": "s:10Networking14ServiceFactoryO015makeIlmeNetworkB03forAA0eB0_pAA0F11EnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO015makeIlmeNetworkB03forAA0eB0_pAA0F11EnvironmentO_tFZ",
             "moduleName": "Networking",
             "static": true,
             "declAttributes": [
@@ -10781,15 +10473,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "APIEnvironment",
-                "printedName": "Networking.APIEnvironment",
+                "name": "NetworkEnvironment",
+                "printedName": "Networking.NetworkEnvironment",
                 "hasDefaultArg": true,
-                "usr": "s:10Networking14APIEnvironmentO"
+                "usr": "s:10Networking18NetworkEnvironmentO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking14ServiceFactoryO013makeUPNetworkB03forAA9UPService_pAA14APIEnvironmentO_tFZ",
-            "mangledName": "$s10Networking14ServiceFactoryO013makeUPNetworkB03forAA9UPService_pAA14APIEnvironmentO_tFZ",
+            "usr": "s:10Networking14ServiceFactoryO013makeUPNetworkB03forAA9UPService_pAA18NetworkEnvironmentO_tFZ",
+            "mangledName": "$s10Networking14ServiceFactoryO013makeUPNetworkB03forAA9UPService_pAA18NetworkEnvironmentO_tFZ",
             "moduleName": "Networking",
             "static": true,
             "declAttributes": [
