@@ -42,7 +42,7 @@ import _SwiftConcurrencyShims
   public typealias Body = @_opaqueReturnTypeOf("$s12UIComponents20CenteredSnapCarouselV4bodyQrvp", 0) __<Item, Content>
 }
 @_Concurrency.MainActor @preconcurrency public struct DatePickerCalendar : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(currentDate: Foundation.Date = Date(), foreground: SwiftUICore.Color = .green, background: SwiftUICore.Color = .gray.opacity(0.2), onTapAction: @escaping (Foundation.Date) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public init(currentDate: Foundation.Date = Date(), foreground: SwiftUICore.Color = .green, background: SwiftUICore.Color = .gray.opacity(0.2), locale: Swift.String = "en", onTapAction: @escaping (Foundation.Date) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
