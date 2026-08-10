@@ -3707,56 +3707,56 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DatePickerCalendar.swift",
       "kind": "StringLiteral",
-      "offset": 4619,
+      "offset": 4465,
       "length": 7,
       "value": "\"bn-BD\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DatePickerCalendar.swift",
       "kind": "Dictionary",
-      "offset": 4776,
+      "offset": 4622,
       "length": 142,
       "value": "[(\"0\", \"০\"), (\"1\", \"১\"), (\"2\", \"২\"), (\"3\", \"৩\"), (\"4\", \"৪\"), (\"5\", \"৫\"), (\"6\", \"৬\"), (\"7\", \"৭\"), (\"8\", \"৮\"), (\"9\", \"৯\")]"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DatePickerCalendar.swift",
       "kind": "StringLiteral",
-      "offset": 5454,
+      "offset": 5300,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DatePickerCalendar.swift",
       "kind": "IntegerLiteral",
-      "offset": 5489,
+      "offset": 5335,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DatePickerCalendar.swift",
       "kind": "BooleanLiteral",
-      "offset": 5518,
+      "offset": 5364,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DatePickerCalendar.swift",
       "kind": "StringLiteral",
-      "offset": 6715,
+      "offset": 6561,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DatePickerCalendar.swift",
       "kind": "IntegerLiteral",
-      "offset": 6750,
+      "offset": 6596,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/UIComponents\/DateSelection\/DatePickerCalendar.swift",
       "kind": "BooleanLiteral",
-      "offset": 6779,
+      "offset": 6625,
       "length": 5,
       "value": "false"
     },
