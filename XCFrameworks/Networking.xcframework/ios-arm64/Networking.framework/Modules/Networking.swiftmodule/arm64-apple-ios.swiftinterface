@@ -10,6 +10,27 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct QuranHistory : Swift.Codable {
+  public var page: Swift.Int
+  public var paraID: Swift.Int
+  public var surahID: Swift.Int
+  public var ayathID: Swift.Int
+  public init(page: Swift.Int, paraID: Swift.Int, surahID: Swift.Int, ayathID: Swift.Int)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct IlmeCategory : Swift.Codable, Swift.Identifiable {
+  public let id: Swift.Int
+  public let type: Swift.String?
+  public let category: Swift.String?
+  public let categoryID: Swift.Int?
+  public let imageurl: Swift.String?
+  public let contentBaseUrl: Swift.String?
+  public let contentType: Swift.String?
+  public typealias ID = Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct MenuItemDTO : Swift.Codable, Swift.Identifiable, Swift.Hashable {
   public let id: Swift.Int
   public let text: Swift.String
@@ -147,6 +168,10 @@ public enum ServiceEndPoints : Swift.String {
   case hajjPreRegistrationList
   case hajjRegistration
   case hajjRegistrationUpdate
+  case quranChallengePatch
+  case saveQuranChallengeScheduler
+  case ayathforParaChallenge
+  case saveQuranChallengeProgression
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -155,18 +180,6 @@ public enum ServiceEndPoints : Swift.String {
 }
 extension Swift.String {
   public func to12HourFormat() -> Swift.String
-}
-public struct IlmeCategory : Swift.Codable, Swift.Identifiable {
-  public let id: Swift.Int
-  public let type: Swift.String?
-  public let category: Swift.String?
-  public let categoryID: Swift.Int?
-  public let imageurl: Swift.String?
-  public let contentBaseUrl: Swift.String?
-  public let contentType: Swift.String?
-  public typealias ID = Swift.Int
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
 }
 public protocol ContentService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
@@ -209,6 +222,105 @@ public protocol IlmeService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func fetchSecureURL(for videoURL: Swift.String) async throws -> Foundation.URL
   #endif
+}
+
+public protocol KHQCService {
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchQuranChallengePatch(token: Swift.String) async throws -> [Networking.PatchListDTO]
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func saveQuranChallengeScheduler(token: Swift.String, challengeType: Swift.String, scheduleTime: Swift.String, scheduleDayList: Swift.String) async throws -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func fetchAyathforParaChallenge(token: Swift.String, day: Swift.Int, page: Swift.Int) async throws -> (suraDetailsData: Networking.SuraDetailsData, pagination: DomainModels.PaginationV2, quranHistory: Networking.QuranHistory)
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func saveQuranChallengeProgression(token: Swift.String, challengeID: Swift.String, challengeDay: Swift.Int, lastPageRead: Swift.Int, lastSurahId: Swift.Int, lastVerseId: Swift.Int, lastJuzId: Swift.Int, startTime: Foundation.Date) async throws -> Swift.Bool
+  #endif
+}
+public struct SuraDetailsData : Swift.Codable {
+  public let ayaths: [Networking.Ayath]?
+  public let qaris: [Networking.Qaris]?
+  public let translators: [Networking.Qaris]?
+  public let tafsirs: [Networking.Qaris]?
+  public let surahInfo: Networking.SurahInfo?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Ayath : Swift.Codable, Swift.Identifiable {
+  public let id: Swift.Int?
+  public let surahID: Swift.Int?
+  public let surahName: Swift.String?
+  public let surahNameMeaning: Swift.String?
+  public let surahNameInArabic: Swift.String?
+  public let surahOrigin: Swift.String?
+  public let verseID: Swift.Int?
+  public let verseKey: Swift.String?
+  public let juzID: Swift.Int?
+  public let pageQCID: Swift.Int?
+  public let rubElHizbNumber: Swift.Int?
+  public let rukuNumber: Swift.Int?
+  public let manzilNumber: Swift.Int?
+  public let sajdahNumber: Swift.Int?
+  public let arabicIndopak: Swift.String?
+  public let arabicUthmani: Swift.String?
+  public let arabicCustom: Swift.String?
+  public let transliterationEn: Swift.String?
+  public let transliterationBn: Swift.String?
+  public let serial: Swift.Int?
+  public let audioURL: Swift.String?
+  public let isFavorite: Swift.Bool?
+  public let translations: [Networking.Translation]?
+  public typealias ID = Swift.Int?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Translation : Swift.Codable, Swift.Identifiable {
+  public let id: Swift.Int?
+  public let surahID: Swift.Int?
+  public let verseID: Swift.Int?
+  public let juzID: Swift.Int?
+  public let translatorID: Swift.Int?
+  public let translation: Swift.String?
+  public let language: Swift.String?
+  public typealias ID = Swift.Int?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Qaris : Swift.Codable, Swift.Identifiable {
+  public let id: Foundation.UUID
+  public let translatorID: Swift.Int?
+  public let category: Networking.Category?
+  public let title: Swift.String?
+  public let text: Swift.String?
+  public let textEnglish: Swift.String?
+  public let reference: Swift.String?
+  public let contentFolder: Swift.String?
+  public let language: Swift.String?
+  public let imageUrl: Swift.String?
+  public typealias ID = Foundation.UUID
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum Category : Swift.String, Swift.Codable {
+  case qari
+  case tafsir
+  case transliteration
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct SurahInfo : Swift.Codable {
+  public let surahName: Swift.String?
+  public let surahNameInArabic: Swift.String?
+  public let surahNameMeaning: Swift.String?
+  public let surahOrigin: Swift.String?
+  public let totalAyat: Swift.String?
+  public let rukuNumber: Swift.Int?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct PrayerTimeDataDTO : Swift.Codable {
   public let date: Swift.String
@@ -311,6 +423,7 @@ public enum ServiceFactory {
   public static func makeDashboardNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.DashboardService
   public static func makeIlmeNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.IlmeService
   public static func makeUPNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.UPService
+  public static func makeKHQCNetworkService(for environment: Networking.NetworkEnvironment = .productionBN) -> any Networking.KHQCService
 }
 extension Networking.APIEndPoints : Swift.Equatable {}
 extension Networking.APIEndPoints : Swift.Hashable {}
@@ -318,5 +431,8 @@ extension Networking.APIEndPoints : Swift.RawRepresentable {}
 extension Networking.ServiceEndPoints : Swift.Equatable {}
 extension Networking.ServiceEndPoints : Swift.Hashable {}
 extension Networking.ServiceEndPoints : Swift.RawRepresentable {}
+extension Networking.Category : Swift.Equatable {}
+extension Networking.Category : Swift.Hashable {}
+extension Networking.Category : Swift.RawRepresentable {}
 extension Networking.NetworkEnvironment : Swift.Equatable {}
 extension Networking.NetworkEnvironment : Swift.Hashable {}

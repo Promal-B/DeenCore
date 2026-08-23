@@ -123,6 +123,14 @@ public enum AppDesign : Swift.String, Swift.CaseIterable, Swift.Codable {
   case faq
   case footer
   case disclaimer
+  case overview
+  case yourGoal
+  case allset
+  case preview
+  case dayView
+  case streak
+  case graph
+  case overAll
   case unknown
   public init(from decoder: any Swift.Decoder) throws
   public init?(rawValue: Swift.String)
@@ -221,6 +229,8 @@ public enum ContentType : Swift.String, Swift.Codable, Swift.CaseIterable {
   case gtm
   case gtd
   case gtdrt
+  case qcpv
+  case khqc
   case unknown
   public init(from decoder: any Swift.Decoder) throws
   public init?(rawValue: Swift.String)
