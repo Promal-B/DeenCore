@@ -4829,6 +4829,120 @@
             "static": true,
             "implicit": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "previewData",
+            "printedName": "previewData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PatchDetailsDTO",
+                "printedName": "Networking.PatchDetailsDTO",
+                "usr": "s:10Networking15PatchDetailsDTOV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking15PatchDetailsDTOV11previewDataACvpZ",
+            "mangledName": "$s10Networking15PatchDetailsDTOV11previewDataACvpZ",
+            "moduleName": "Networking",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PatchDetailsDTO",
+                    "printedName": "Networking.PatchDetailsDTO",
+                    "usr": "s:10Networking15PatchDetailsDTOV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking15PatchDetailsDTOV11previewDataACvgZ",
+                "mangledName": "$s10Networking15PatchDetailsDTOV11previewDataACvgZ",
+                "moduleName": "Networking",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previewDataArray",
+            "printedName": "previewDataArray",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Networking.PatchDetailsDTO]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PatchDetailsDTO",
+                    "printedName": "Networking.PatchDetailsDTO",
+                    "usr": "s:10Networking15PatchDetailsDTOV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking15PatchDetailsDTOV16previewDataArraySayACGvpZ",
+            "mangledName": "$s10Networking15PatchDetailsDTOV16previewDataArraySayACGvpZ",
+            "moduleName": "Networking",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Networking.PatchDetailsDTO]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PatchDetailsDTO",
+                        "printedName": "Networking.PatchDetailsDTO",
+                        "usr": "s:10Networking15PatchDetailsDTOV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking15PatchDetailsDTOV16previewDataArraySayACGvgZ",
+                "mangledName": "$s10Networking15PatchDetailsDTOV16previewDataArraySayACGvgZ",
+                "moduleName": "Networking",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -5545,6 +5659,120 @@
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "previewDataArray",
+            "printedName": "previewDataArray",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Networking.PatchListDTO]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PatchListDTO",
+                    "printedName": "Networking.PatchListDTO",
+                    "usr": "s:10Networking12PatchListDTOV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking12PatchListDTOV16previewDataArraySayACGvpZ",
+            "mangledName": "$s10Networking12PatchListDTOV16previewDataArraySayACGvpZ",
+            "moduleName": "Networking",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Networking.PatchListDTO]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PatchListDTO",
+                        "printedName": "Networking.PatchListDTO",
+                        "usr": "s:10Networking12PatchListDTOV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking12PatchListDTOV16previewDataArraySayACGvgZ",
+                "mangledName": "$s10Networking12PatchListDTOV16previewDataArraySayACGvgZ",
+                "moduleName": "Networking",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previewData",
+            "printedName": "previewData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PatchListDTO",
+                "printedName": "Networking.PatchListDTO",
+                "usr": "s:10Networking12PatchListDTOV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Networking12PatchListDTOV11previewDataACvpZ",
+            "mangledName": "$s10Networking12PatchListDTOV11previewDataACvpZ",
+            "moduleName": "Networking",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PatchListDTO",
+                    "printedName": "Networking.PatchListDTO",
+                    "usr": "s:10Networking12PatchListDTOV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Networking12PatchListDTOV11previewDataACvgZ",
+                "mangledName": "$s10Networking12PatchListDTOV11previewDataACvgZ",
+                "moduleName": "Networking",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -16451,74 +16679,620 @@
       "value": "\"FeatureSize\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3827,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3892,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3896,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3986,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4024,
+      "length": 18,
+      "value": "\"Feature \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4041,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4070,
+      "length": 24,
+      "value": "\"Feature Title \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4093,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4115,
+      "length": 16,
+      "value": "\"Title \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4130,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4151,
+      "length": 49,
+      "value": "\"This is a sample description for item \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4198,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4226,
+      "length": 21,
+      "value": "\"arabicText \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4246,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4272,
+      "length": 20,
+      "value": "\"Reference \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4291,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4317,
+      "length": 21,
+      "value": "\"image\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4331,
+      "length": 2,
+      "value": "\"_1.jpg\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4363,
+      "length": 21,
+      "value": "\"image\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4377,
+      "length": 2,
+      "value": "\"_2.jpg\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4409,
+      "length": 21,
+      "value": "\"image\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4423,
+      "length": 2,
+      "value": "\"_3.jpg\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4455,
+      "length": 21,
+      "value": "\"image\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4469,
+      "length": 2,
+      "value": "\"_4.jpg\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4501,
+      "length": 21,
+      "value": "\"image\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4515,
+      "length": 2,
+      "value": "\"_5.jpg\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4552,
+      "length": 30,
+      "value": "\"https:\/\/example.com\/content\/\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4606,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4633,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4725,
+      "length": 9,
+      "value": "\"General\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4957,
+      "length": 22,
+      "value": "\"Sample Text \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4978,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5002,
+      "length": 35,
+      "value": "\"Sample meaning for item \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5035,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5059,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5068,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5098,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5134,
+      "length": 18,
+      "value": "\"logo\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5147,
+      "length": 1,
+      "value": "\".png\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5181,
+      "length": 6,
+      "value": "\"View\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5245,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5250,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5281,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5286,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5314,
+      "length": 8,
+      "value": "\"medium\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5348,
+      "length": 16,
+      "value": "\"Title \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5363,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5390,
+      "length": 22,
+      "value": "\"Description \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5411,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5438,
+      "length": 9,
+      "value": "\"#000000\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5473,
+      "length": 9,
+      "value": "\"#666666\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5507,
+      "length": 4,
+      "value": "\"20\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5536,
+      "length": 4,
+      "value": "\"16\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5569,
+      "length": 8,
+      "value": "\"center\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5606,
+      "length": 8,
+      "value": "\"bottom\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5649,
+      "length": 9,
+      "value": "\"100x100\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5693,
+      "length": 8,
+      "value": "\"100x50\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5727,
+      "length": 8,
+      "value": "\"center\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 5761,
+      "length": 8,
+      "value": "\"center\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5796,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5827,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5856,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5885,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5922,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5927,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5961,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchDetailsDTO.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5966,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
       "kind": "StringLiteral",
-      "offset": 588,
+      "offset": 565,
       "length": 4,
       "value": "\"Id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
       "kind": "StringLiteral",
-      "offset": 614,
+      "offset": 591,
       "length": 7,
       "value": "\"Title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
       "kind": "StringLiteral",
-      "offset": 644,
+      "offset": 621,
       "length": 8,
       "value": "\"Design\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
       "kind": "StringLiteral",
-      "offset": 678,
+      "offset": 655,
       "length": 11,
       "value": "\"AppDesign\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
       "kind": "StringLiteral",
-      "offset": 710,
+      "offset": 687,
       "length": 6,
       "value": "\"Logo\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
       "kind": "StringLiteral",
-      "offset": 743,
+      "offset": 720,
       "length": 12,
       "value": "\"ButtonText\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
       "kind": "StringLiteral",
-      "offset": 780,
+      "offset": 757,
       "length": 10,
       "value": "\"Sequence\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
       "kind": "StringLiteral",
-      "offset": 818,
+      "offset": 795,
       "length": 13,
       "value": "\"FeatureSize\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
       "kind": "StringLiteral",
-      "offset": 859,
+      "offset": 836,
       "length": 13,
       "value": "\"FeatureType\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
       "kind": "StringLiteral",
-      "offset": 894,
+      "offset": 871,
       "length": 7,
       "value": "\"Items\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
+      "kind": "IntegerLiteral",
+      "offset": 971,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
+      "kind": "IntegerLiteral",
+      "offset": 975,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1058,
+      "length": 21,
+      "value": "\"Patch List \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1078,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1101,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1163,
+      "length": 18,
+      "value": "\"logo\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1176,
+      "length": 1,
+      "value": "\".png\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1207,
+      "length": 10,
+      "value": "\"View All\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1273,
+      "length": 8,
+      "value": "\"medium\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 1308,
+      "length": 9,
+      "value": "\"General\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/DTO\/PatchListDTO.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1441,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/APIEndPoints.swift",

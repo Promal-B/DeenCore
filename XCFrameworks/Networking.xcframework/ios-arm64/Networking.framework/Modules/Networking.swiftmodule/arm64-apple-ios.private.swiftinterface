@@ -109,6 +109,10 @@ public struct PatchDetailsDTO : Swift.Codable, Swift.Identifiable, Swift.Hashabl
   }
   public init(from decoder: any Swift.Decoder) throws
 }
+extension Networking.PatchDetailsDTO {
+  public static let previewData: Networking.PatchDetailsDTO
+  public static let previewDataArray: [Networking.PatchDetailsDTO]
+}
 public struct PatchListDTO : Swift.Codable, Swift.Identifiable {
   public let id: Swift.Int
   public let title: Swift.String
@@ -123,6 +127,10 @@ public struct PatchListDTO : Swift.Codable, Swift.Identifiable {
   public typealias ID = Swift.Int
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+extension Networking.PatchListDTO {
+  public static let previewDataArray: [Networking.PatchListDTO]
+  public static let previewData: Networking.PatchListDTO
 }
 public enum APIEndPoints : Swift.String {
   case dashboard
