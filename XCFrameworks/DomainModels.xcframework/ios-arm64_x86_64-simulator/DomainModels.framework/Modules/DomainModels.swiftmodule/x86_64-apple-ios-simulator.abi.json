@@ -4505,6 +4505,43 @@
           },
           {
             "kind": "Var",
+            "name": "record",
+            "printedName": "record",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.AppDesign.Type) -> DomainModels.AppDesign",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppDesign",
+                    "printedName": "DomainModels.AppDesign",
+                    "usr": "s:12DomainModels9AppDesignO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.AppDesign.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppDesign",
+                        "printedName": "DomainModels.AppDesign",
+                        "usr": "s:12DomainModels9AppDesignO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels9AppDesignO6recordyA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO6recordyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
             "name": "unknown",
             "printedName": "unknown",
             "children": [
@@ -32730,6 +32767,13 @@
       "offset": 2044,
       "length": 9,
       "value": "\"Overall\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
+      "kind": "StringLiteral",
+      "offset": 2072,
+      "length": 8,
+      "value": "\"Record\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
