@@ -240,7 +240,7 @@ public protocol KHQCService {
   nonisolated(nonsending) func saveQuranChallengeScheduler(token: Swift.String, challengeType: Swift.String, scheduleTime: Swift.String, scheduleDayList: Swift.String) async throws -> Swift.Bool
   #endif
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func fetchAyathforParaChallenge(token: Swift.String, day: Swift.Int, page: Swift.Int) async throws -> (suraDetailsData: Networking.SuraDetailsData, pagination: DomainModels.PaginationV2, quranHistory: Networking.QuranHistory)
+  nonisolated(nonsending) func fetchAyathforParaChallenge(token: Swift.String, day: Swift.Int, page: Swift.Int) async throws -> (suraDetailsData: Networking.SuraDetailsData, pagination: DomainModels.PaginationV2, quranHistory: Networking.QuranHistory, responseMessage: Swift.String)
   #endif
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func saveQuranChallengeProgression(token: Swift.String, challengeID: Swift.String, challengeDay: Swift.Int, lastPageRead: Swift.Int, lastSurahId: Swift.Int, lastVerseId: Swift.Int, lastJuzId: Swift.Int, startTime: Foundation.Date) async throws -> Swift.Bool

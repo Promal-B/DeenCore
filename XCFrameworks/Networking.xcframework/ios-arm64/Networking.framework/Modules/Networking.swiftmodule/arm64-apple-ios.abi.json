@@ -8717,7 +8717,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Tuple",
-                "printedName": "(suraDetailsData: Networking.SuraDetailsData, pagination: DomainModels.PaginationV2, quranHistory: Networking.QuranHistory)",
+                "printedName": "(suraDetailsData: Networking.SuraDetailsData, pagination: DomainModels.PaginationV2, quranHistory: Networking.QuranHistory, responseMessage: Swift.String)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -8736,6 +8736,12 @@
                     "name": "QuranHistory",
                     "printedName": "Networking.QuranHistory",
                     "usr": "s:10Networking12QuranHistoryV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ]
               },
@@ -8759,8 +8765,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking11KHQCServiceP26fetchAyathforParaChallenge5token3day4pageAA15SuraDetailsDataV04surakL0_12DomainModels12PaginationV2V10paginationAA12QuranHistoryV05quranT0tSS_S2itYaKF",
-            "mangledName": "$s10Networking11KHQCServiceP26fetchAyathforParaChallenge5token3day4pageAA15SuraDetailsDataV04surakL0_12DomainModels12PaginationV2V10paginationAA12QuranHistoryV05quranT0tSS_S2itYaKF",
+            "usr": "s:10Networking11KHQCServiceP26fetchAyathforParaChallenge5token3day4pageAA15SuraDetailsDataV04surakL0_12DomainModels12PaginationV2V10paginationAA12QuranHistoryV05quranT0SS15responseMessagetSS_S2itYaKF",
+            "mangledName": "$s10Networking11KHQCServiceP26fetchAyathforParaChallenge5token3day4pageAA15SuraDetailsDataV04surakL0_12DomainModels12PaginationV2V10paginationAA12QuranHistoryV05quranT0SS15responseMessagetSS_S2itYaKF",
             "moduleName": "Networking",
             "genericSig": "<τ_0_0 where τ_0_0 : Networking.KHQCService>",
             "sugared_genericSig": "<Self where Self : Networking.KHQCService>",
@@ -17829,131 +17835,131 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Khatam E Quran Challenge\/KHQCNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 4106,
+      "offset": 4179,
       "length": 247,
-      "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBsaWNhdGlvbiI6IkRlZW4gSXNsYW0iLCJuYW1lIjoiODgwMTczODQzOTI1MSIsInJvbGUiOiJTREstRGVmYXVsdCIsIm5iZiI6MTc4NzQ2MDI4NywiZXhwIjoxNzg3NjMzMDg3LCJpYXQiOjE3ODc0NjAyODd9.1S_7aJsGHT_o-XwWi1IGYBUkd2OUtnzz0K_QbjO1W34\""
+      "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBsaWNhdGlvbiI6IkRlZW4gSXNsYW0iLCJuYW1lIjoiODgwMTczODQzMDAwMCIsInJvbGUiOiJTREstRGVmYXVsdCIsIm5iZiI6MTc4OTAxNzYzNCwiZXhwIjoxNzg5MTkwNDM0LCJpYXQiOjE3ODkwMTc2MzR9.9sjEjnK1mCcRDtI1sJCbrYqIpAnL5x-inyNQuro9diM\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Khatam E Quran Challenge\/KHQCNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 4625,
+      "offset": 4698,
       "length": 8,
       "value": "\"7 Days\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Khatam E Quran Challenge\/KHQCNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 4661,
+      "offset": 4734,
       "length": 10,
       "value": "\"16:30:05\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Khatam E Quran Challenge\/KHQCNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 4702,
+      "offset": 4775,
       "length": 10,
       "value": "\"Everyday\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Khatam E Quran Challenge\/KHQCNetworkService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4824,
+      "offset": 4897,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Khatam E Quran Challenge\/KHQCNetworkService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4845,
+      "offset": 4918,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Khatam E Quran Challenge\/KHQCNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 4969,
+      "offset": 5042,
       "length": 19,
       "value": "\"20260816160340324\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Khatam E Quran Challenge\/KHQCNetworkService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5016,
+      "offset": 5089,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Khatam E Quran Challenge\/KHQCNetworkService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5045,
+      "offset": 5118,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Khatam E Quran Challenge\/KHQCNetworkService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5073,
+      "offset": 5146,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Khatam E Quran Challenge\/KHQCNetworkService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5101,
+      "offset": 5174,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Khatam E Quran Challenge\/KHQCNetworkService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5127,
+      "offset": 5200,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Khatam E Quran Challenge\/KHQCNetworkService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5179,
+      "offset": 5252,
       "length": 5,
       "value": "-1000"
     },
     {
-      "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX134_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
+      "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX135_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
       "offset": 2835,
       "length": 10,
       "value": "0x706c6179"
     },
     {
-      "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX134_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
+      "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX135_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
       "offset": 2862,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX134_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
+      "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX135_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
       "offset": 3222,
       "length": 3,
-      "value": "135"
+      "value": "136"
     },
     {
-      "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX134_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
+      "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX135_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
       "offset": 3241,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX134_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
+      "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX135_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
       "offset": 3322,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX134_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
+      "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX135_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
       "offset": 3327,
       "length": 1,
