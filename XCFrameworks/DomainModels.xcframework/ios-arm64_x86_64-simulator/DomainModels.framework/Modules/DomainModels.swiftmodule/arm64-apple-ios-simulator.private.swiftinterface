@@ -133,6 +133,7 @@ public enum AppDesign : Swift.String, Swift.CaseIterable, Swift.Codable {
   case overAll
   case record
   case popup
+  case history
   case unknown
   public init(from decoder: any Swift.Decoder) throws
   public init?(rawValue: Swift.String)

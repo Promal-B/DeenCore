@@ -4579,6 +4579,43 @@
           },
           {
             "kind": "Var",
+            "name": "history",
+            "printedName": "history",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DomainModels.AppDesign.Type) -> DomainModels.AppDesign",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppDesign",
+                    "printedName": "DomainModels.AppDesign",
+                    "usr": "s:12DomainModels9AppDesignO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DomainModels.AppDesign.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppDesign",
+                        "printedName": "DomainModels.AppDesign",
+                        "usr": "s:12DomainModels9AppDesignO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12DomainModels9AppDesignO7historyyA2CmF",
+            "mangledName": "$s12DomainModels9AppDesignO7historyyA2CmF",
+            "moduleName": "DomainModels"
+          },
+          {
+            "kind": "Var",
             "name": "unknown",
             "printedName": "unknown",
             "children": [
@@ -32818,6 +32855,13 @@
       "offset": 2098,
       "length": 7,
       "value": "\"popup\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/AppDesign.swift",
+      "kind": "StringLiteral",
+      "offset": 2125,
+      "length": 9,
+      "value": "\"History\""
     },
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/DomainModels\/Dashboard\/ContentType.swift",
