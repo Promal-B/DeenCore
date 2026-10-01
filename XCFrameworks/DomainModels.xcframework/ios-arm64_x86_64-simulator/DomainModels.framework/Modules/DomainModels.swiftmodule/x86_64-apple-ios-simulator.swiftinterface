@@ -134,6 +134,8 @@ public enum AppDesign : Swift.String, Swift.CaseIterable, Swift.Codable {
   case record
   case popup
   case history
+  case completePreview
+  case challengeSummery
   case unknown
   public init(from decoder: any Swift.Decoder) throws
   public init?(rawValue: Swift.String)
