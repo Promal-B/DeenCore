@@ -8622,7 +8622,7 @@
           {
             "kind": "Function",
             "name": "fetchQuranChallengePatch",
-            "printedName": "fetchQuranChallengePatch(token:)",
+            "printedName": "fetchQuranChallengePatch(token:challengeID:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8643,11 +8643,17 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Networking11KHQCServiceP24fetchQuranChallengePatch5tokenSayAA0F7ListDTOVGSS_tYaKF",
-            "mangledName": "$s10Networking11KHQCServiceP24fetchQuranChallengePatch5tokenSayAA0F7ListDTOVGSS_tYaKF",
+            "usr": "s:10Networking11KHQCServiceP24fetchQuranChallengePatch5token11challengeIDSayAA0F7ListDTOVGSS_SStYaKF",
+            "mangledName": "$s10Networking11KHQCServiceP24fetchQuranChallengePatch5token11challengeIDSayAA0F7ListDTOVGSS_SStYaKF",
             "moduleName": "Networking",
             "genericSig": "<τ_0_0 where τ_0_0 : Networking.KHQCService>",
             "sugared_genericSig": "<Self where Self : Networking.KHQCService>",
@@ -17835,49 +17841,56 @@
     {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Khatam E Quran Challenge\/KHQCNetworkService.swift",
       "kind": "StringLiteral",
-      "offset": 4179,
+      "offset": 4200,
       "length": 242,
       "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBsaWNhdGlvbiI6IkRlZW4gSXNsYW0iLCJuYW1lIjoiODgwMTUyMTQ1MzE5NSIsInJvbGUiOiJEZWZhdWx0IiwibmJmIjoxNzkwMDU1OTQxLCJleHAiOjE3OTAxNDIzNDEsImlhdCI6MTc5MDA1NTk0MX0.dkWrPRBwFfQl8HhDSclPPYKmSVwOEWs0MN3ki814RKg\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Khatam E Quran Challenge\/KHQCNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 4615,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX135_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2872,
+      "offset": 2889,
       "length": 10,
       "value": "0x706c6179"
     },
     {
       "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX135_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 2899,
+      "offset": 2916,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX135_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 3259,
+      "offset": 3276,
       "length": 3,
       "value": "136"
     },
     {
       "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX135_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 3278,
+      "offset": 3295,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX135_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 3359,
+      "offset": 3376,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX135_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
-      "offset": 3364,
+      "offset": 3381,
       "length": 1,
       "value": "0"
     },

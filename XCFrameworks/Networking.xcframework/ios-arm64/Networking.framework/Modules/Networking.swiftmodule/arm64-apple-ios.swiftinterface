@@ -234,7 +234,7 @@ public protocol IlmeService {
 
 public protocol KHQCService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
-  nonisolated(nonsending) func fetchQuranChallengePatch(token: Swift.String) async throws -> [Networking.PatchListDTO]
+  nonisolated(nonsending) func fetchQuranChallengePatch(token: Swift.String, challengeID: Swift.String) async throws -> [Networking.PatchListDTO]
   #endif
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func saveQuranChallengeScheduler(token: Swift.String, challengeType: Swift.String, scheduleTime: Swift.String, scheduleDayList: Swift.String) async throws -> Swift.Bool
