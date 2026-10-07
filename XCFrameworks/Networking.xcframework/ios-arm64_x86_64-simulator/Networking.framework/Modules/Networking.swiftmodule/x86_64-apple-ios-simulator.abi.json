@@ -7491,6 +7491,43 @@
             "moduleName": "Networking"
           },
           {
+            "kind": "Var",
+            "name": "deleteQuranChallengeScheduler",
+            "printedName": "deleteQuranChallengeScheduler",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Networking.ServiceEndPoints.Type) -> Networking.ServiceEndPoints",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServiceEndPoints",
+                    "printedName": "Networking.ServiceEndPoints",
+                    "usr": "s:10Networking16ServiceEndPointsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Networking.ServiceEndPoints.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServiceEndPoints",
+                        "printedName": "Networking.ServiceEndPoints",
+                        "usr": "s:10Networking16ServiceEndPointsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10Networking16ServiceEndPointsO29deleteQuranChallengeScheduleryA2CmF",
+            "mangledName": "$s10Networking16ServiceEndPointsO29deleteQuranChallengeScheduleryA2CmF",
+            "moduleName": "Networking"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -8847,6 +8884,52 @@
             "declKind": "Func",
             "usr": "s:10Networking11KHQCServiceP29saveQuranChallengeProgression5token11challengeID0H3Day12lastPageRead0K7SurahId0k5VerseO00k3JuzO09startTimeSbSS_SSS5i10Foundation4DateVtYaKF",
             "mangledName": "$s10Networking11KHQCServiceP29saveQuranChallengeProgression5token11challengeID0H3Day12lastPageRead0K7SurahId0k5VerseO00k3JuzO09startTimeSbSS_SSS5i10Foundation4DateVtYaKF",
+            "moduleName": "Networking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Networking.KHQCService>",
+            "sugared_genericSig": "<Self where Self : Networking.KHQCService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteQuranChallenge",
+            "printedName": "deleteQuranChallenge(token:challengeID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Networking.PatchListDTO]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PatchListDTO",
+                    "printedName": "Networking.PatchListDTO",
+                    "usr": "s:10Networking12PatchListDTOV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Networking11KHQCServiceP20deleteQuranChallenge5token11challengeIDSayAA12PatchListDTOVGSS_SStYaKF",
+            "mangledName": "$s10Networking11KHQCServiceP20deleteQuranChallenge5token11challengeIDSayAA12PatchListDTOVGSS_SStYaKF",
             "moduleName": "Networking",
             "genericSig": "<τ_0_0 where τ_0_0 : Networking.KHQCService>",
             "sugared_genericSig": "<Self where Self : Networking.KHQCService>",
@@ -17587,6 +17670,13 @@
       "value": "\"api\/Quran\/QuranChallengeProgression\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Endpoints\/ServiceEndPoints.swift",
+      "kind": "StringLiteral",
+      "offset": 2847,
+      "length": 41,
+      "value": "\"api\/Quran\/DeleteQuranChallengeScheduler\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Auth\/Model\/LoginDataDTO.swift",
       "kind": "StringLiteral",
       "offset": 239,
@@ -17835,62 +17925,6 @@
       "filePath": "@__swiftmacro_10Networking0029IlmeNetworkServiceswift_tAFJhfMX137_0_33_F2192B4DEE2A76025B2961952971E201Ll10PlaygroundfMf_.swift",
       "kind": "IntegerLiteral",
       "offset": 2369,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Khatam E Quran Challenge\/KHQCNetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 4242,
-      "length": 242,
-      "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBsaWNhdGlvbiI6IkRlZW4gSXNsYW0iLCJuYW1lIjoiODgwMTUyMTQ1MzE5NSIsInJvbGUiOiJEZWZhdWx0IiwibmJmIjoxNzkwMDU1OTQxLCJleHAiOjE3OTAxNDIzNDEsImlhdCI6MTc5MDA1NTk0MX0.dkWrPRBwFfQl8HhDSclPPYKmSVwOEWs0MN3ki814RKg\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/DeenCoreFramework\/DeenCoreFramework\/Networking\/Feature\/Khatam E Quran Challenge\/KHQCNetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 4657,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX136_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2889,
-      "length": 10,
-      "value": "0x706c6179"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX136_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2916,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX136_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3276,
-      "length": 3,
-      "value": "137"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX136_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3295,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX136_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3376,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "@__swiftmacro_10Networking0029KHQCNetworkServiceswift_tAFJhfMX136_0_33_578FEB84F90AB780E35E0C651C022595Ll10PlaygroundfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3381,
       "length": 1,
       "value": "0"
     },

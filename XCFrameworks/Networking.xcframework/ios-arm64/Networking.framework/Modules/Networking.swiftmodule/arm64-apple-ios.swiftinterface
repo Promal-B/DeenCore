@@ -180,6 +180,7 @@ public enum ServiceEndPoints : Swift.String {
   case saveQuranChallengeScheduler
   case ayathforParaChallenge
   case saveQuranChallengeProgression
+  case deleteQuranChallengeScheduler
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -231,7 +232,6 @@ public protocol IlmeService {
   nonisolated(nonsending) func fetchSecureURL(for videoURL: Swift.String) async throws -> Foundation.URL
   #endif
 }
-
 public protocol KHQCService {
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func fetchQuranChallengePatch(token: Swift.String, challengeID: Swift.String) async throws -> [Networking.PatchListDTO]
@@ -244,6 +244,9 @@ public protocol KHQCService {
   #endif
   #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
   nonisolated(nonsending) func saveQuranChallengeProgression(token: Swift.String, challengeID: Swift.String, challengeDay: Swift.Int, lastPageRead: Swift.Int, lastSurahId: Swift.Int, lastVerseId: Swift.Int, lastJuzId: Swift.Int, startTime: Foundation.Date) async throws -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func deleteQuranChallenge(token: Swift.String, challengeID: Swift.String) async throws -> [Networking.PatchListDTO]
   #endif
 }
 public struct SuraDetailsData : Swift.Codable {
