@@ -63,6 +63,12 @@ extension SwiftUICore.EnvironmentValues {
     set
   }
 }
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func fullScreenPopup<PopupContent, Backdrop>(isPresented: SwiftUICore.Binding<Swift.Bool>, transition: SwiftUICore.AnyTransition = .scale.combined(with: .opacity), onDismiss: (() -> Swift.Void)? = nil, @SwiftUICore.ViewBuilder backdrop: @escaping () -> Backdrop, @SwiftUICore.ViewBuilder content: @escaping () -> PopupContent) -> some SwiftUICore.View where PopupContent : SwiftUICore.View, Backdrop : SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public func fullScreenPopup<PopupContent>(isPresented: SwiftUICore.Binding<Swift.Bool>, backdropColor: SwiftUICore.Color = .black.opacity(0.4), transition: SwiftUICore.AnyTransition = .scale.combined(with: .opacity), onDismiss: (() -> Swift.Void)? = nil, @SwiftUICore.ViewBuilder content: @escaping () -> PopupContent) -> some SwiftUICore.View where PopupContent : SwiftUICore.View
+  
+}
 public enum SVGPhase {
   case empty
   case success(SwiftUICore.Image)
