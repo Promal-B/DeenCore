@@ -63,10 +63,6 @@ extension SwiftUICore.EnvironmentValues {
     set
   }
 }
-extension SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public func fullScreenPopup<Content>(isPresented: SwiftUICore.Binding<Swift.Bool>, backdropColor: SwiftUICore.Color = .black.opacity(0.4), transition: SwiftUICore.AnyTransition = .scale(scale: 0.92).combined(with: .opacity), onDismiss: (() -> Swift.Void)? = nil, @SwiftUICore.ViewBuilder content: @escaping () -> Content) -> some SwiftUICore.View where Content : SwiftUICore.View
-  
-}
 public enum SVGPhase {
   case empty
   case success(SwiftUICore.Image)
